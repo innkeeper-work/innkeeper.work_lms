@@ -1,0 +1,15 @@
+@use "./customdes" as *;
+
+.signinbtn {
+	@include signin;
+}
+.signinbtn:hover {
+	color: $btnText !important;
+}
+.callToAction {
+	@include callToActionBtn;
+}
+
+.callToAction:hover {
+	color: $btnText !important;
+}
