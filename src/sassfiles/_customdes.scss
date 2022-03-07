@@ -1,5 +1,5 @@
 $heroFooter2Color: #e6f4f1;
-$textColor: #27aae1;
+$btnBgColor: #27aae1;
 $callToActionBtn: linear-gradient(112.74deg, #00d8cf 23.84%, #27aae1 79.07%);
 $sectionColor: #2c6a84;
 $offWhite: #f6f6f6;
@@ -7,9 +7,10 @@ $btnText: #fff;
 
 @mixin signin {
 	color: $btnText;
-	background-color: $callToActionBtn;
+	background: $btnBgColor;
+	// background: $callToActionBtn;
 }
 @mixin callToActionBtn {
 	color: $btnText;
-	background-color: $callToActionBtn;
+	background: $callToActionBtn;
 }

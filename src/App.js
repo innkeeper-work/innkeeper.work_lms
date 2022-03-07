@@ -1,15 +1,40 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import "./sassfiles/app.css";
-// revisit, buttons have not achieved gradient in design
-// import { SignInButton } from "./components/Buttons";
-// import { GetStartedButton } from "./components/Buttons";
-// import { LearnMoreButton } from "./components/Buttons";
-// import { BeginCoursesButton } from "./components/Buttons";
-// import { ForwardButton } from "./components/Buttons";
+import { CourseCards } from "./components/Card";
+import { BlogCards } from "./components/Card";
+import { TechCards } from "./components/Card";
+import { InstructorCards } from "./components/Card";
+import techacademy from "./data/tech_academy_details/techacademy.json";
 
 function App() {
-	return <div className="App"></div>;
+	return (
+		<div className="App">
+			<TechCards />
+		</div>
+	);
 }
 
 export default App;
+
+// function App() {
+// 	return (
+// 		<div className="App">
+// 			<h3>Programming and Web Dev</h3>
+// 			<div className="row">
+// 				{techacademy.webdev.map((singleweb) => {
+// 					return (
+// 						<div className="col-4" key={singleweb.id}>
+// 							<TechCards {...singleweb}></TechCards>
+// 						</div>
+// 					);
+// 				})}
+// 			</div>
+// 			<CourseCards />
+// 			<BlogCards />
+
+// 			<TechCards />
+// 			<InstructorCards />
+// 		</div>
+// 	);
+// }

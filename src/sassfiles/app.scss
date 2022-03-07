@@ -3,13 +3,13 @@
 .signinbtn {
 	@include signin;
 }
-.signinbtn:hover {
-	color: $btnText !important;
-}
+// .signinbtn:hover {
+// 	@extend .signinbtn;
+// }
 .callToAction {
 	@include callToActionBtn;
 }
 
-.callToAction:hover {
-	color: $btnText !important;
-}
+// .callToAction:hover {
+// 	@extend .signinbtn;
+// }
