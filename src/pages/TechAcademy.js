@@ -1,4 +1,5 @@
 import React from "react";
+
 import { TechCards } from "../components/Card";
 import { OurInstructors } from "../components/Ourinstructors";
 import techacademy from "../data/tech_academy_details/techacademy.json";
@@ -80,6 +81,10 @@ let BigData = () => {
       </div>
     </div>
   );
+
+const TechAcademy = () => {
+	return <div>TechAcademy</div>;
+
 };
 
 export default TechAcademy;

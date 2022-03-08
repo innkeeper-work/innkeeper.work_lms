@@ -1,5 +1,10 @@
+
 .signinbtn {
   color: #ffffff;
+
+.signinbtnapply {
+  color: #fff;
+
   background: #27aae1;
 }
 
@@ -29,5 +34,9 @@
   background: #2c6a84;
   color: #ffffff;
   max-width: 97%;
+
+.iconCol {
+  color: #27aae1;
+
 }
 /*# sourceMappingURL=app.css.map */

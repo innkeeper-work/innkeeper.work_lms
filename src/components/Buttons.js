@@ -2,7 +2,7 @@ import React from "react";
 
 export const SignInButton = () => {
 	return (
-		<button type="button" className="btn signinbtn">
+		<button type="button" className="btn signinbtnapply">
 			Sign In
 		</button>
 	);
@@ -37,7 +37,7 @@ export const ForwardButton = () => {
 };
 export const ApplyNowButton = () => {
 	return (
-		<button type="button" className="btn callToAction">
+		<button type="button" className="btn signinbtnapply">
 			Apply Now
 		</button>
 	);
