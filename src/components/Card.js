@@ -1,5 +1,7 @@
 import React from "react";
+import { ApplyNowButton } from "./Buttons";
 
+<<<<<<< HEAD
 export const CourseCategoryCards = (props) => {
 	const { herotitle, techimg, description } = props;
 	return (
@@ -15,25 +17,35 @@ export const CourseCategoryCards = (props) => {
 			</div>
 		</div>
 	);
+=======
+
+export const CourseCards = () => {
+  return <div>CoursesCard</div>;
+  
+export const CourseCategoryCards = () => {
+	return <h1>Hi</h1>;
+
+>>>>>>> d76e7ff58bbdd658de9005f0bd3d7062f5ed7d94
 };
 export const BlogCards = () => {
-	return <div>CoursesCard</div>;
+  return <div>CoursesCard</div>;
 };
 export const TechCards = (props) => {
-	const { techimg, techtitle, techdescription } = props;
-	return (
-		<div className="card">
-			<img src={techimg} className="card-img-top" alt={techtitle} />
-			<div className="card-body">
-				<h5 className="card-title">{techtitle}</h5>
-				<p className="card-text">{techdescription}</p>
-				<a href="#" className="btn signinbtnapply">
-					Apply Now
-				</a>
-			</div>
-		</div>
-	);
+  const { techimg, techtitle, techdescription } = props;
+  return (
+    <div className="card techCards mx-4  " style={{ width: "" }}>
+      <div className="mx-4 my-4 ">
+        <img src={techimg} className="card-img-top techImages" alt="..." />
+      </div>
+      <div className="card-body">
+        <h5 className="card-title">{techtitle}</h5>
+        <p className="card-text">{techdescription}</p>
+        <ApplyNowButton />
+      </div>
+    </div>
+  );
 };
+
 
 export const InstructorCards = (props) => {
 	const { techimg, instructorname, role, linkedinprofile } = props;

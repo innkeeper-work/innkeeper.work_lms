@@ -60,3 +60,5 @@ function App() {
 	);
 }
 export default App;
+
+// {"version":3,"sources":["app.scss","_customdes.scss","app.css"],"names":[],"mappings":"AAEA;ECMC,WAHS;EAIT,mBARY;ACEb;;AFKA;ECKC,WARS;EAST,sEAZiB;ACMlB;;AFQA;EACC,cChBY;ACWb","file":"app.css"}
