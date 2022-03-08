@@ -1,7 +1,20 @@
 import React from "react";
 
-export const CourseCategoryCards = () => {
-	return <h1>Hi</h1>;
+export const CourseCategoryCards = (props) => {
+	const { herotitle, techimg, description } = props;
+	return (
+		<div className="row row-cols-1 row-cols-md-2 g-4">
+			<div class="col">
+				<div class="card">
+					<img src={techimg} class="card-img-top" alt="..." />
+					<div class="card-body">
+						<h5 class="card-title">{herotitle}</h5>
+						<p class="card-text">{description}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
 };
 export const BlogCards = () => {
 	return <div>CoursesCard</div>;
