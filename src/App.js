@@ -20,7 +20,7 @@ function App() {
 				<Route path="entrepreneurship" element={<Entrepreneurship />} />
 				<Route path="contact" element={<Contact />} />
 				<Route path="*" element={<Error404 />} />
-			</Routes>
+			</Routes> 
 		</div>
 	);
 }

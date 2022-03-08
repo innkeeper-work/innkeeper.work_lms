@@ -4,13 +4,13 @@
 	@include signin;
 }
 .signinbtnapply {
-	@include signin;
+  @include signin;
 }
 // .signinbtn:hover {
 // 	@extend .signinbtn;
 // }
 .callToAction {
-	@include callToActionBtn;
+  @include callToActionBtn;
 }
 
 .webDev {
@@ -32,38 +32,35 @@
 // 	@extend .signinbtn;
 // }
 
+.inst {
+  position: relative;
+}
+// home page
+.btnColor {
+  background-color: $btnBgColor;
+}
+.btnText {
+  color: $btnText;
+}
+.herotextWhite {
+  color: $btnText;
+}
+.herotextColored {
+  color: $btnBgColor;
+}
+.heroBg {
+  background-image: url("../images/herobg.png");
+}
+.ctaColor {
+  background-color: $callToActionBtn;
+}
+.bgSoft {
+  background-color: $sectionColor;
+}
+.testBg {
+  background-image: url("../images/success.png");
+}
+
 .iconCol {
 	color: $btnBgColor;
 }
-// .form {
-// 	background: var(--clr-white);
-// 	max-width: var(--fixed-width);
-// 	margin: 0 auto;
-// 	margin-bottom: 4rem;
-// 	padding: 1rem 2rem;
-// 	border-radius: var(--radius);
-// }
-// .form input {
-// 	background: var(--clr-grey-10);
-// 	border-color: transparent;
-// 	border-radius: var(--radius);
-// 	padding: 0.25rem 0.5rem;
-// }
-// .form-control {
-// 	margin: 0.5rem 0;
-// 	display: grid;
-// 	grid-template-columns: 100px 1fr;
-// 	align-items: center;
-// }
-// .form button {
-// 	display: inline-block;
-// 	background: var(--clr-black);
-// 	color: var(--clr-white);
-// 	border-color: transparent;
-// 	margin-top: 1rem;
-// 	letter-spacing: var(--spacing);
-// 	padding: 0.15rem 0.25rem;
-// 	text-transform: capitalize;
-// 	border-radius: var(--radius);
-// 	cursor: pointer;
-// }
