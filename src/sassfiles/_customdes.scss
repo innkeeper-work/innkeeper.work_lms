@@ -3,14 +3,33 @@ $btnBgColor: #27aae1;
 $callToActionBtn: linear-gradient(112.74deg, #00d8cf 23.84%, #27aae1 79.07%);
 $sectionColor: #2c6a84;
 $offWhite: #f6f6f6;
-$btnText: #fff;
+$btnText: #ffffff;
+$techBg: #f9feff;
 
 @mixin signin {
-	color: $btnText;
-	background: $btnBgColor;
-	// background: $callToActionBtn;
+  color: $btnText;
+  background: $btnBgColor;
+  // background: $callToActionBtn;
 }
 @mixin callToActionBtn {
-	color: $btnText;
-	background: $callToActionBtn;
+  color: $btnText;
+  background: $callToActionBtn;
+}
+@mixin webDev {
+  background: $techBg;
+  box-shadow: inset;
+}
+@mixin techCards {
+  border-radius: 1rem;
+}
+@mixin techHead {
+  text-align: start;
+}
+@mixin techImages {
+  border-radius: 1rem;
+}
+@mixin ourInstructor {
+  background: $sectionColor;
+  color: $btnText;
+  max-width: 97%;
 }

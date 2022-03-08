@@ -12,7 +12,7 @@ import { CourseCategoryCards, TechCards } from "./components/Card";
 import { CourseCategoriesCards } from "./components/Card";
 import { BlogCards } from "./components/Card";
 import { InstructorCards } from "./components/Card";
-import techacademy from "./data/tech_academy_details/techacademy.json";
+import techacademy from "./data/tech_academy_details/techacademy.json";  
 import categories from "./data/categories.json";
 
 // function App() {
