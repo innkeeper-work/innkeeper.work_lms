@@ -1,5 +1,8 @@
 @use "./customdes" as *;
 
+.signinbtn {
+	@include signin;
+}
 .signinbtnapply {
   @include signin;
 }
@@ -10,6 +13,21 @@
   @include callToActionBtn;
 }
 
+.webDev {
+	@include webDev;
+}
+.techHead {
+	@include techHead;
+}
+.techCards {
+	@include techCards;
+}
+.techImages {
+	@include techImages;
+}
+.ourInstructor {
+	@include ourInstructor;
+}
 // .callToAction:hover {
 // 	@extend .signinbtn;
 // }
@@ -43,4 +61,6 @@
   background-image: url("../images/success.png");
 }
 
-//home page
+.iconCol {
+	color: $btnBgColor;
+}
