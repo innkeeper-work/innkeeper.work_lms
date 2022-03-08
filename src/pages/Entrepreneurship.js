@@ -1,7 +1,9 @@
-import React from "react";
+import React from 'react'
 
 const Entrepreneurship = () => {
-	return <div>Entrepreneurship</div>;
-};
+  return (
+	<div>Entrepreneurship</div>
+  )
+}
 
-export default Entrepreneurship;
+export default Entrepreneurship
