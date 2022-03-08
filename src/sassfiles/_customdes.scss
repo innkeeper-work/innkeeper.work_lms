@@ -6,11 +6,11 @@ $offWhite: #f6f6f6;
 $btnText: #fff;
 
 @mixin signin {
-	color: $btnText;
-	background: $btnBgColor;
-	// background: $callToActionBtn;
+  color: $btnText;
+  background: $btnBgColor;
+  // background: $callToActionBtn;
 }
 @mixin callToActionBtn {
-	color: $btnText;
-	background: $callToActionBtn;
+  color: $btnText;
+  background: $callToActionBtn;
 }

@@ -20,9 +20,8 @@ import techacademy from "./data/tech_academy_details/techacademy.json";
 function App() {
 	return (
 		<div className="App">
-			<InstructorCards />
-			{/* <CoursepageHero /> */}
-			{/* <Routes>
+			 <CoursepageHero />
+			 <Routes>
 				<Route path="/" element={<Homepage />} />
 				<Route path="techacademy" element={<TechAcademy />} />
 				<Route path="business" element={<BusinessSupportAcademy />} />
@@ -30,7 +29,7 @@ function App() {
 				<Route path="entrepreneurship" element={<Entrepreneurship />} />
 				<Route path="contact" element={<Contact />} />
 				<Route path="*" element={<Error404 />} />
-			</Routes> */}
+			</Routes> 
 		</div>
 	);
 }
