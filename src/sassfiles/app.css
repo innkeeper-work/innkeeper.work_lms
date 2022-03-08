@@ -1,4 +1,4 @@
-.signinbtn {
+.signinbtnapply {
   color: #fff;
   background: #27aae1;
 }
@@ -6,5 +6,9 @@
 .callToAction {
   color: #fff;
   background: linear-gradient(112.74deg, #00d8cf 23.84%, #27aae1 79.07%);
+}
+
+.inst {
+  position: relative;
 }
 /*# sourceMappingURL=app.css.map */

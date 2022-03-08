@@ -1,6 +1,6 @@
 @use "./customdes" as *;
 
-.signinbtn {
+.signinbtnapply {
 	@include signin;
 }
 // .signinbtn:hover {
@@ -13,3 +13,7 @@
 // .callToAction:hover {
 // 	@extend .signinbtn;
 // }
+
+.inst {
+	position: relative;
+}
