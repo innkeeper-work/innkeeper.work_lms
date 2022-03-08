@@ -2,24 +2,27 @@
 	"coursecategories": [
 		{
 			"id": 1,
-			"herotitle": "Tech Academy",
-			"techimg": "../../images/barter.jpg",
-			"Descriptiton": "The world of business presents a variety of roles and opportunities,and with the advent of technology.,"
+			"img": "../../images/barter.jpg",
+			"title": "Tech Academy",
+			"description": "The world of business presents a variety of roles and opportunities,and with the advent of technology."
 		},
 		{
 			"id": 2,
-			"herotitle": "Business Support Academy",
-			"Descriptiton": "Want to learn what it takes to manage a business? you are considering a career change,."
+			"img": "../../images/barter.jpg",
+			"title": "Business Support Academy",
+			"description": "Want to learn what it takes to manage a business? you are considering a career change."
 		},
 		{
 			"id": 3,
-			"herotitle": "Employability/Soft Skills",
-			"Descriptiton": "Use industry-leading tools to build innovative design projects "
+			"img": "../../images/barter.jpg",
+			"title": "Employability/Soft Skills",
+			"description": "Use industry-leading tools to build innovative design projects"
 		},
 		{
 			"id": 4,
-			"herotitle": "Entreneurship",
-			"Descriptiton": "This course teaches Solutions Architects how to translate business requirements into solutions."
+			"img": "../../images/barter.jpg",
+			"title": "Entreneurship",
+			"description": "This course teaches Solutions Architects how to translate business requirements into solutions."
 		}
 	]
 }

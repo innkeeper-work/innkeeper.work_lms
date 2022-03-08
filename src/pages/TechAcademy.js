@@ -1,6 +1,6 @@
 import React from "react";
 
-import { TechCards } from "../components/Card";
+import { CourseCards } from "../components/Card";
 import { OurInstructors } from "../components/Ourinstructors";
 import techacademy from "../data/tech_academy_details/techacademy.json";
 
@@ -26,7 +26,7 @@ let WebDev = () => {
 				{techacademy.webdev.map((singleweb) => {
 					return (
 						<div className="col-4" key={singleweb.id}>
-							<TechCards {...singleweb}></TechCards>
+							<CourseCards {...singleweb}></CourseCards>
 						</div>
 					);
 				})}
@@ -42,7 +42,7 @@ let CloudComputing = () => {
 				{techacademy.cloudcomputing.map((singlecloud) => {
 					return (
 						<div className="col-4" key={singlecloud.id}>
-							<TechCards {...singlecloud}></TechCards>
+							<CourseCards {...singlecloud}></CourseCards>
 						</div>
 					);
 				})}
@@ -58,7 +58,7 @@ let CyberSecurity = () => {
 				{techacademy.cybersecurity.map((singlecyber) => {
 					return (
 						<div className="col-4" key={singlecyber.id}>
-							<TechCards {...singlecyber}></TechCards>
+							<CourseCards {...singlecyber}></CourseCards>
 						</div>
 					);
 				})}
@@ -74,7 +74,7 @@ let BigData = () => {
 				{techacademy.bigdata.map((singlebig) => {
 					return (
 						<div className="col-4" key={singlebig.id}>
-							<TechCards {...singlebig}></TechCards>
+							<CourseCards {...singlebig}></CourseCards>
 						</div>
 					);
 				})}

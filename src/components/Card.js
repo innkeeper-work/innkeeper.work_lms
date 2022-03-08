@@ -1,17 +1,18 @@
 import React from "react";
 import { ApplyNowButton } from "./Buttons";
+import img from "../images/barter.jpg";
 
+//homepage cards
 export const CourseCategoryCards = (props) => {
-	const { herotitle, techimg, description } = props;
+	const { title, img, description } = props;
 	return (
-		<div className="row row-cols-1 row-cols-md-2 g-4">
-			<div class="col">
-				<div class="card">
-					<img src={techimg} class="card-img-top" alt="..." />
-					<div class="card-body">
-						<h5 class="card-title">{herotitle}</h5>
-						<p class="card-text">{description}</p>
-					</div>
+		<div className="row p-3 m-0 g-0">
+			<div className="card">
+				<img src={img} alt="" />
+
+				<div className="card-body">
+					<h5 className="card-title">{title}</h5>
+					<p className="card-text">{description}</p>
 				</div>
 			</div>
 		</div>
@@ -19,22 +20,42 @@ export const CourseCategoryCards = (props) => {
 };
 
 export const BlogCards = () => {
-	return <div>CoursesCard</div>;
-};
-export const TechCards = (props) => {
-	const { techimg, techtitle, techdescription } = props;
 	return (
-		<div className="card techCards mx-4  " style={{ width: "" }}>
+		<div class="card m-3" style={{ maxWidth: "540px" }}>
+			<div class="row g-0">
+				<div class="col-md-4">
+					<img src={img} className="img-fluid rounded-start h-100" alt="..." />
+				</div>
+				<div class="col-md-8">
+					<div class="card-body">
+						<h5 class="card-title">Blog title</h5>
+						<p class="card-text">
+							This is a wider card with supporting text below as a natural
+							lead-in to additional content. This content is a little bit
+							longer.
+						</p>
+						<p class="card-text">
+							<i class="fa fa-map-marker m-1" aria-hidden="true"></i>
+							<small class="text-muted">Magodo, Lagos</small>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
+};
+
+//courses cards
+export const CourseCards = (props) => {
+	const { img, title, description } = props;
+	return (
+		<div className="card techCards mx-4" style={{ maxWidth: "540px" }}>
 			<div className="mx-4 my-4 ">
-				<img
-					src={techimg}
-					className="card-img-top techImages"
-					alt={techtitle}
-				/>
+				<img src={img} className="card-img-top techImages" alt={title} />
 			</div>
 			<div className="card-body">
-				<h5 className="card-title">{techtitle}</h5>
-				<p className="card-text">{techdescription}</p>
+				<h5 className="card-title">{title}</h5>
+				<p className="card-text">{description}</p>
 				<ApplyNowButton />
 			</div>
 		</div>
@@ -42,14 +63,14 @@ export const TechCards = (props) => {
 };
 
 export const InstructorCards = (props) => {
-	const { techimg, instructorname, role, linkedinprofile } = props;
+	const { img, instructorname, role, linkedinprofile } = props;
 	return (
 		<>
 			<div className="card mb-3">
 				<div className="row g-0">
 					<div className="col-md-4">
 						<img
-							src={techimg}
+							src={img}
 							className="img-fluid rounded-start h-100"
 							alt="..."
 						/>
