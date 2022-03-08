@@ -1,15 +1,30 @@
 @use "./customdes" as *;
 
 .signinbtn {
-	@include signin;
+  @include signin;
 }
 // .signinbtn:hover {
 // 	@extend .signinbtn;
 // }
 .callToAction {
-	@include callToActionBtn;
+  @include callToActionBtn;
 }
 
+.webDev {
+  @include webDev;
+}
+.techHead {
+  @include techHead;
+}
+.techCards {
+  @include techCards;
+}
+.techImages {
+  @include techImages;
+}
+.ourInstructor {
+  @include ourInstructor;
+}
 // .callToAction:hover {
 // 	@extend .signinbtn;
 // }

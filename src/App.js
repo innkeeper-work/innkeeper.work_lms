@@ -3,18 +3,17 @@ import "bootstrap/dist/js/bootstrap.bundle";
 import "./sassfiles/app.css";
 import { CourseCards } from "./components/Card";
 import { BlogCards } from "./components/Card";
-import { TechCards } from "./components/Card";
 import { InstructorCards } from "./components/Card";
 import techacademy from "./data/tech_academy_details/techacademy.json";
+import TechAcademy from "./pages/TechAcademy.js";
 
 function App() {
-	return (
-		<div className="App">
-			<TechCards />
-		</div>
-	);
+  return (
+    <div className="App">
+      <TechAcademy />
+    </div>
+  );
 }
-
 export default App;
 
 // function App() {
