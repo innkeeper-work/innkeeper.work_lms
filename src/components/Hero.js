@@ -1,4 +1,7 @@
 import React from "react";
+
+// import barter from "../images/barter.jpg";
+
 import heroimage from "../images/heroimage.png";
 import Navbar from "./Navbar";
 import { GetStartedButton } from "../components/Buttons";

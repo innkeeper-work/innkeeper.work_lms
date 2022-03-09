@@ -5,6 +5,7 @@ $sectionColor: #2c6a84;
 $offWhite: #f6f6f6;
 $btnText: #ffffff;
 $techBg: #f9feff;
+$coursepagesectionBg: #e4fbff;
 
 @mixin signin {
   color: $btnText;
@@ -16,20 +17,21 @@ $techBg: #f9feff;
   background: $callToActionBtn;
 }
 @mixin webDev {
-  background: $techBg;
-  box-shadow: inset;
+  background: $coursepagesectionBg;
+  box-shadow: 4px 4px 4px 4px rgb(179, 174, 174, 0.25);
+  border-radius: 15px;
 }
 @mixin techCards {
-  border-radius: 1rem;
+  border-radius: 10px;
 }
 @mixin techHead {
   text-align: start;
 }
 @mixin techImages {
-  border-radius: 1rem;
+  // border-radius: 1rem;
 }
 @mixin ourInstructor {
   background: $sectionColor;
   color: $btnText;
-  max-width: 97%;
+  // max-width: 97%;
 }

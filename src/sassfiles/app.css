@@ -14,8 +14,9 @@
 }
 
 .webDev {
-  background: #f9feff;
-  box-shadow: inset;
+  background: #e4fbff;
+  box-shadow: 4px 4px 4px 4px rgba(179, 174, 174, 0.25);
+  border-radius: 15px;
 }
 
 .techHead {
@@ -23,17 +24,12 @@
 }
 
 .techCards {
-  border-radius: 1rem;
-}
-
-.techImages {
-  border-radius: 1rem;
+  border-radius: 10px;
 }
 
 .ourInstructor {
   background: #2c6a84;
   color: #ffffff;
-  max-width: 97%;
 }
 
 .inst {
