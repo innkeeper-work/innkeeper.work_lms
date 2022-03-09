@@ -15,50 +15,43 @@ import { InstructorCards } from "./components/Card";
 import techacademy from "./data/tech_academy_details/techacademy.json";
 import categories from "./data/categories.json";
 
-// function App() {
-// 	return (
-// 		<div className="App">
-{
-	/* <CoursepageHero /> */
-}
-{
-	/* <Routes>
-				<Route path="/" element={<Homepage />} />
-				<Route path="techacademy" element={<TechAcademy />} />
-				<Route path="business" element={<BusinessSupportAcademy />} />
-				<Route path="employability" element={<Employability />} />
-				<Route path="entrepreneurship" element={<Entrepreneurship />} />
-				<Route path="contact" element={<Contact />} />
-				<Route path="*" element={<Error404 />} />
-			</Routes> */
-}
-{
-	/* </div>
-	);
-} */
-}
-
 function App() {
-	return (
-		<div className="App">
-			<h3>Programming and Web Dev</h3>
-			<div className="row">
-				{categories.coursecategories.map((singleweb) => {
-					return (
-						<div className="col-4" key={singleweb.id}>
-							<CourseCategoryCards {...singleweb}></CourseCategoryCards>
-						</div>
-					);
-				})}
-			</div>
-			{/* <CourseCards />
-			<BlogCards />
-
-			<TechCards />
-			<InstructorCards /> */}
-		</div>
-	);
+  return (
+    <div className="App">
+      <CoursepageHero />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="techacademy" element={<TechAcademy />} />
+        <Route path="business" element={<BusinessSupportAcademy />} />
+        <Route path="employability" element={<Employability />} />
+        <Route path="entrepreneurship" element={<Entrepreneurship />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="*" element={<Error404 />} />
+      </Routes>
+    </div>
+  );
 }
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <h3>Programming and Web Dev</h3>
+//       <div className="row">
+//         {categories.coursecategories.map((singleweb) => {
+//           return (
+//             <div className="col-4" key={singleweb.id}>
+//               <CourseCategoryCards {...singleweb}></CourseCategoryCards>
+//             </div>
+//           );
+//         })}
+//       </div>
+//       {<CourseCards />}
+//       {<BlogCards />}
+//       {<TechCards />}
+//       {<InstructorCards />}
+//     </div>
+//   );
+// }
 export default App;
 
 // {"version":3,"sources":["app.scss","_customdes.scss","app.css"],"names":[],"mappings":"AAEA;ECMC,WAHS;EAIT,mBARY;ACEb;;AFKA;ECKC,WARS;EAST,sEAZiB;ACMlB;;AFQA;EACC,cChBY;ACWb","file":"app.css"}

@@ -27,27 +27,7 @@
       "techdescription": "Full stack web developers can create full-fledged web applications and websites."
     }
   ],
-  
-	"webdev": [
-		{
-			"id": 1,
-			"techimg": "../../images/barter.jpg",
-			"techtitle": "Frontend Development",
-			"techdescription": "Frontend programming often develops interfaces through which the application interacts with users."
-		},
-		{
-			"id": 2,
-			"techimg": "../../images/barter.jpg",
-			"techtitle": "Backend Development",
-			"techdescription": "The backend code communicates with the server and distributes information or data to the users."
-		},
-		{
-			"id": 3,
-			"techimg": "../../images/barter.jpg",
-			"techtitle": "Fullstack Development",
-			"techdescription": "Full stack web developers can create full-fledged web applications and websites."
-		}
-	],
+
 
 
   "cloudcomputing": [
