@@ -53,7 +53,8 @@
 }
 
 .heroBg {
-  background-image: url("../images/herobg.png");
+  background-image: url("../images/homehero3.png");
+  background-repeat: no-repeat;
 }
 
 .ctaColor {
