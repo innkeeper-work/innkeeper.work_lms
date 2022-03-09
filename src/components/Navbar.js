@@ -1,15 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import innkeeperlogo from "../images/innkeeperlogo.png";
+import { SignInButton } from "../components/Buttons";
 const Navbar = () => {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-light">
 			<div className="container-fluid">
-				<a className="navbar-brand ms-2" href="#">
-					<img src={innkeeperlogo} class="" alt="" />
-				</a>
+				<Link to="" className="navbar-brand ms-2">
+					{" "}
+					<img src={innkeeperlogo} className="" alt="" />
+				</Link>
+
 				<button
-					className="navbar-toggler"
+					className="navbar-toggler bg-white"
 					type="button"
 					data-bs-toggle="collapse"
 					data-bs-target="#navbarNavAltMarkup"
@@ -22,46 +25,42 @@ const Navbar = () => {
 					className="collapse navbar-collapse justify-content-end"
 					id="navbarNavAltMarkup">
 					<div className="navbar-nav navText">
-						<a
+						<Link
+							to="/"
 							className="nav-link active mx-3"
 							style={{ color: "#fff" }}
-							aria-current="page"
-							href="#">
+							aria-current="page">
 							Home
-						</a>
-						<a
+						</Link>
+						<Link
+							to="/courses"
 							className="nav-link mx-3 navText"
-							style={{ color: "#fff" }}
-							href="#">
-							About
-						</a>
-						<a
-							className="nav-link mx-3 navText"
-							style={{ color: "#fff" }}
-							href="#">
+							style={{ color: "#fff" }}>
 							Courses
-						</a>
-						<a
+						</Link>
+
+						<Link
+							to="/blog"
 							className="nav-link mx-3 navText"
-							style={{ color: "#fff" }}
-							href="#">
+							style={{ color: "#fff" }}>
 							Blog
-						</a>
-						<a
+						</Link>
+						<Link
+							to="/community"
 							className="nav-link mx-3 navText"
-							style={{ color: "#fff" }}
-							href="#">
+							style={{ color: "#fff" }}>
+							{" "}
 							Community
-						</a>
-						<a
+						</Link>
+						<Link
+							to="/contact"
 							className="nav-link mx-3 navText"
-							style={{ color: "#fff" }}
-							href="#">
+							style={{ color: "#fff" }}>
+							{" "}
 							Contact
-						</a>
-						<button type="button" class="btn w-100 btnText btnColor">
-							Login
-						</button>
+						</Link>
+
+						<SignInButton />
 					</div>
 				</div>
 			</div>

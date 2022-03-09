@@ -1,7 +1,7 @@
 @use "./customdes" as *;
 
 .signinbtn {
-	@include signin;
+  @include signin;
 }
 .signinbtnapply {
   @include signin;
@@ -14,19 +14,19 @@
 }
 
 .webDev {
-	@include webDev;
+  @include webDev;
 }
 .techHead {
-	@include techHead;
+  @include techHead;
 }
 .techCards {
-	@include techCards;
+  @include techCards;
 }
 .techImages {
-	@include techImages;
+  @include techImages;
 }
 .ourInstructor {
-	@include ourInstructor;
+  @include ourInstructor;
 }
 // .callToAction:hover {
 // 	@extend .signinbtn;
@@ -49,7 +49,8 @@
   color: $btnBgColor;
 }
 .heroBg {
-  background-image: url("../images/herobg.png");
+  background-image: url("../images/homehero3.png");
+  background-repeat: no-repeat;
 }
 .ctaColor {
   background-color: $callToActionBtn;
@@ -62,5 +63,5 @@
 }
 
 .iconCol {
-	color: $btnBgColor;
+  color: $btnBgColor;
 }
