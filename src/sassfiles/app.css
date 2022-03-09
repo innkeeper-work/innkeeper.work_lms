@@ -36,8 +36,8 @@
   max-width: 97%;
 }
 
-.iconCol {
-  color: #27aae1;
+.inst {
+  position: relative;
 }
 
 .btnColor {
@@ -45,11 +45,11 @@
 }
 
 .btnText {
-  color: #fff;
+  color: #ffffff;
 }
 
 .herotextWhite {
-  color: #fff;
+  color: #ffffff;
 }
 
 .herotextColored {
@@ -57,7 +57,8 @@
 }
 
 .heroBg {
-  background-image: url("../images/herobg.png");
+  background-image: url("../images/homehero3.png");
+  background-repeat: no-repeat;
 }
 
 .ctaColor {
@@ -70,5 +71,9 @@
 
 .testBg {
   background-image: url("../images/success.png");
+}
+
+.iconCol {
+  color: #27aae1;
 }
 /*# sourceMappingURL=app.css.map */
