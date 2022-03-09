@@ -1,26 +1,26 @@
-import React from 'react'
+import React from "react";
 
 import { CourseCards } from "../components/Card";
 import { InstructorCards } from "../components/Card";
-import cvwrite from '../data/employability_softskills/cvwriting.json'
+import empsoftskill from "../data/employability_softskills/employability_softskills.json";
 
 const Employability = () => {
 	return (
 		<div>
-			<CVWriting />
+			<EmpSoftSkills />
 			<OurInstructors />
 		</div>
 	);
 };
 
-let CVWriting = () => {
+let EmpSoftSkills = () => {
 	return (
 		<div className="webDev mx-5 px-5 my-5 pb-5">
 			<div className="row">
-				{cvwrite.cvwriting.map((singlecv) => {
+				{empsoftskill.empsoftskills.map((singleEmp) => {
 					return (
-						<div className="col-4" key={singlecv.id}>
-							<CourseCards {...singlecv}></CourseCards>
+						<div className="col-4" key={singleEmp.id}>
+							<CourseCards {...singleEmp}></CourseCards>
 						</div>
 					);
 				})}
@@ -30,21 +30,19 @@ let CVWriting = () => {
 };
 
 let OurInstructors = () => {
-  return (
-    <div className="webDev mx-5 px-5 my-5 pb-5">
-      <div className="row">
-        {cvwrite.instructors.map((singlecv) => {
-          return (
-            <div className="col-4" key={singlecv.id}>
-              <InstructorCards {...singlecv}></InstructorCards>
-            </div>
-          );
-        })} 
-      </div>  
-    </div>  
-  )
-}
-
-
+	return (
+		<div className="webDev mx-5 px-5 my-5 pb-5">
+			<div className="row">
+				{empsoftskill.instructors.map((singlecv) => {
+					return (
+						<div className="col-4" key={singlecv.id}>
+							<InstructorCards {...singlecv}></InstructorCards>
+						</div>
+					);
+				})}
+			</div>
+		</div>
+	);
+};
 
 export default Employability;
