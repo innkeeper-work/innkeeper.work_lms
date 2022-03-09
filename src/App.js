@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 // pages
 import Homepage from "./pages/Homepage";
-import { CoursepageHero } from "./components/Hero";
+// import { CoursepageHero } from "./components/Hero";
 import TechAcademy from "./pages/TechAcademy";
 import BusinessSupportAcademy from "./pages/BusinessSupportAcademy";
 import Employability from "./pages/Employability";
