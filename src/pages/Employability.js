@@ -1,5 +1,6 @@
 import React from "react";
 
+import { CoursepageHero } from "../components/Hero";
 import { CourseCards } from "../components/Card";
 import { InstructorCards } from "../components/Card";
 import empsoftskill from "../data/employability_softskills/employability_softskills.json";
@@ -8,6 +9,7 @@ import { OurInstructors } from "../components/Ourinstructors";
 const Employability = () => {
 	return (
 		<div>
+			<CoursepageHero />
 			<EmpSoftSkills />
 			<OurInstructors />
 			<Instructors />
