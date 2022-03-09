@@ -5,13 +5,11 @@ import blogimage1 from "../images/blogimage1.png";
 
 //homepage cards
 export const CourseCategoryCards = (props) => {
-
-	const { title, img, description } = props;
-	return (
-		<div className="row p-3 m-0 g-0">
-			<div className="card rounded">
-				<img src={img} alt="" />
-
+  const { title, img, description } = props;
+  return (
+    <div className="row p-3 m-0 g-0">
+      <div className="card rounded">
+        <img src={img} alt="" />
 
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
@@ -20,7 +18,7 @@ export const CourseCategoryCards = (props) => {
       </div>
     </div>
   );
-
+};
 
 export const BlogCards = (props) => {
   return (
@@ -44,24 +42,21 @@ export const BlogCards = (props) => {
   );
 };
 
-
 //courses cards
 export const CourseCards = (props) => {
-
-	const { img, title, description } = props;
-	return (
-		<div className="card techCards">
-			<div className="m-3">
-				<img src={img} className="card-img-top techImages" alt={title} />
-			</div>
-			<div className="card-body">
-				<h5 className="card-title">{title}</h5>
-				<p className="card-text">{description}</p>
-				<ApplyNowButton />
-			</div>
-		</div>
-	);
-
+  const { img, title, description } = props;
+  return (
+    <div className="card techCards">
+      <div className="m-3">
+        <img src={img} className="card-img-top techImages" alt={title} />
+      </div>
+      <div className="card-body">
+        <h5 className="card-title">{title}</h5>
+        <p className="card-text">{description}</p>
+        <ApplyNowButton />
+      </div>
+    </div>
+  );
 };
 
 export const InstructorCards = (props) => {
@@ -82,9 +77,7 @@ export const InstructorCards = (props) => {
               <h5 className="card-title">{instructorname}</h5>
               <p className="card-text">{role}</p>
               <div className="card-text d-flex justify-content-end">
-
                 <a href={linkedinprofile} target="_blank" rel="noreferrer">
-
                   <i className="fa fa-linkedin iconCol" aria-hidden="true"></i>
                 </a>
               </div>
