@@ -28,44 +28,23 @@
 	"instructors": [
 		{
 			"id": 1,
-			"img": "../../images/barter.jpg",
-			"instructorname": "Gbolabo Awelewa",
-			"role": "Technology Strategist",
+			"img": "../../images/facilitators/daramola.jpg",
+			"instructorname": "Olabode Daramola",
+			"role": "Clinical Psychologist",
 			"linkedinprofile": "get linkedin profile"
 		},
 		{
 			"id": 2,
-			"img": "../../images/barter.jpg",
-			"instructorname": "Sosoo Sydney",
-			"role": "Cloud Computing",
+			"img": "../../images/facilitators/temitayo samson-grace.png",
+			"instructorname": "Temitayo Samson-Grace",
+			"role": "HR Compliance and Risk Management",
 			"linkedinprofile": "get linkedin profile"
 		},
 		{
 			"id": 3,
-			"img": "../../images/barter.jpg",
-			"instructorname": "AbdulRahman Adamu",
-			"role": "Front-End Developer || Drone Pilot",
-			"linkedinprofile": "get linkedin profile"
-		},
-		{
-			"id": 4,
-			"img": "../../images/barter.jpg",
-			"instructorname": "Niyi Osibeluwo",
-			"role": "Cloud and Enterprise Solutions Architect",
-			"linkedinprofile": "get linkedin profile"
-		},
-		{
-			"id": 5,
-			"img": "../../images/barter.jpg",
-			"instructorname": "Kenny Noah",
-			"role": "IT Professional",
-			"linkedinprofile": "get linkedin profile"
-		},
-		{
-			"id": 6,
-			"img": "../../images/barter.jpg",
-			"instructorname": "Lydia Robert-Edia",
-			"role": "Software Engineer",
+			"img": "../../images/facilitators/amaka-ezeh.png",
+			"instructorname": "Amaka Ezeh",
+			"role": "HR Business Partner",
 			"linkedinprofile": "get linkedin profile"
 		}
 	]
