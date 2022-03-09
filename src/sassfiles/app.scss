@@ -4,13 +4,13 @@
 	@include signin;
 }
 .signinbtnapply {
-	@include signin;
+  @include signin;
 }
 // .signinbtn:hover {
 // 	@extend .signinbtn;
 // }
 .callToAction {
-	@include callToActionBtn;
+  @include callToActionBtn;
 }
 
 .webDev {
@@ -31,6 +31,35 @@
 // .callToAction:hover {
 // 	@extend .signinbtn;
 // }
+
+.inst {
+  position: relative;
+}
+// home page
+.btnColor {
+  background-color: $btnBgColor;
+}
+.btnText {
+  color: $btnText;
+}
+.herotextWhite {
+  color: $btnText;
+}
+.herotextColored {
+  color: $btnBgColor;
+}
+.heroBg {
+  background-image: url("../images/herobg.png");
+}
+.ctaColor {
+  background-color: $callToActionBtn;
+}
+.bgSoft {
+  background-color: $sectionColor;
+}
+.testBg {
+  background-image: url("../images/success.png");
+}
 
 .iconCol {
 	color: $btnBgColor;
