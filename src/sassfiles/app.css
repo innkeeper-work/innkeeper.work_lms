@@ -14,8 +14,9 @@
 }
 
 .webDev {
-  background: #f9feff;
-  box-shadow: inset;
+  background: #e4fbff;
+  box-shadow: 4px 4px 4px 4px rgba(179, 174, 174, 0.25);
+  border-radius: 15px;
 }
 
 .techHead {
@@ -23,21 +24,16 @@
 }
 
 .techCards {
-  border-radius: 1rem;
-}
-
-.techImages {
-  border-radius: 1rem;
+  border-radius: 10px;
 }
 
 .ourInstructor {
   background: #2c6a84;
   color: #ffffff;
-  max-width: 97%;
 }
 
-.iconCol {
-  color: #27aae1;
+.inst {
+  position: relative;
 }
 
 .btnColor {
@@ -45,11 +41,11 @@
 }
 
 .btnText {
-  color: #fff;
+  color: #ffffff;
 }
 
 .herotextWhite {
-  color: #fff;
+  color: #ffffff;
 }
 
 .herotextColored {
@@ -70,5 +66,9 @@
 
 .testBg {
   background-image: url("../images/success.png");
+}
+
+.iconCol {
+  color: #27aae1;
 }
 /*# sourceMappingURL=app.css.map */

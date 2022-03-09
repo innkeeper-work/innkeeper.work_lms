@@ -7,7 +7,7 @@ export const CourseCategoryCards = (props) => {
 	const { title, img, description } = props;
 	return (
 		<div className="row p-3 m-0 g-0">
-			<div className="card">
+			<div className="card rounded">
 				<img src={img} alt="" />
 
 				<div className="card-body">
@@ -49,8 +49,8 @@ export const BlogCards = () => {
 export const CourseCards = (props) => {
 	const { img, title, description } = props;
 	return (
-		<div className="card techCards mx-4" style={{ maxWidth: "540px" }}>
-			<div className="mx-4 my-4 ">
+		<div className="card techCards">
+			<div className="m-3">
 				<img src={img} className="card-img-top techImages" alt={title} />
 			</div>
 			<div className="card-body">

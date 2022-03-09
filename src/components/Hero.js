@@ -1,17 +1,12 @@
 import React from "react";
 // import barter from "../images/barter.jpg";
-import innkeeperlogo from "../images/innkeeperlogo.png";
 import heroimage from "../images/heroimage.png";
 import Navbar from "./Navbar";
 
-export const HomepageHero = () => {
-	return <div>
-	<img src={barter} alt=''/>
-	</div>;
-
 export let HomepageHero = () => {
   return (
-    <div className="col-xxl-8 px-4 py-2 heroBg">
+    // <div className="col-xxl-8 px-4 py-2 heroBg">
+    <div className="px-4 py-2 heroBg">
       <Navbar />
       <div className="row flex-lg-row-reverse align-items-center g-5">
         <div className="col-lg-6 col-sm-12">
