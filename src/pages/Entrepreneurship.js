@@ -34,10 +34,10 @@ let Enterpreneur = () => {
 let Instructors = () => {
   return (
     <div className="webDev m-5 p-5">
-	<div className="row p-1 d-flex justify-content-around">
+	<div className="row d-flex justify-content-around">
         {entskills.instructors.map((singleEnt) => {
           return (
-            <div className="col-4" key={singleEnt.id}>
+            <div className="col-lg-4 col-sm-4 col-md-4" key={singleEnt.id}>
               <InstructorCards {...singleEnt}></InstructorCards>
             </div>
           );
