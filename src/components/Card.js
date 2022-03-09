@@ -20,7 +20,7 @@ export const CourseCategoryCards = (props) => {
       </div>
     </div>
   );
-};
+
 
 export const BlogCards = (props) => {
   return (
@@ -43,6 +43,7 @@ export const BlogCards = (props) => {
     </div>
   );
 };
+
 
 //courses cards
 export const CourseCards = (props) => {
@@ -81,7 +82,9 @@ export const InstructorCards = (props) => {
               <h5 className="card-title">{instructorname}</h5>
               <p className="card-text">{role}</p>
               <div className="card-text d-flex justify-content-end">
+
                 <a href={linkedinprofile} target="_blank" rel="noreferrer">
+
                   <i className="fa fa-linkedin iconCol" aria-hidden="true"></i>
                 </a>
               </div>
