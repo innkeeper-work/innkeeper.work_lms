@@ -28,16 +28,16 @@
 	"instructors": [
 		{
 			"id": 1,
-			"img": "../../images/facilitators/daramola.jpg",
-			"instructorname": "Olabode Daramola",
-			"role": "Clinical Psychologist",
+			"img": "../../images/facilitators/biodun_lawal.png",
+			"instructorname": "Biodun Lawal",
+			"role": "Technology Entrepreneur",
 			"linkedinprofile": "get linkedin profile"
 		},
 		{
 			"id": 2,
 			"img": "../../images/facilitators/temitayo samson-grace.png",
 			"instructorname": "Temitayo Samson-Grace",
-			"role": "HR Compliance and Risk Management",
+			"role": "HR Professional",
 			"linkedinprofile": "get linkedin profile"
 		},
 		{
