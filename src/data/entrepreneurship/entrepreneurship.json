@@ -24,5 +24,28 @@
 			"title": "Financing and Profitability",
 			"description": "When your business begins to generate revenue (and the initial delight wears off), owners are faced with a new financial problem: how should this money be spent?"
 		}
+	],
+	"instructors": [
+		{
+			"id": 1,
+			"img": "../../images/facilitators/daramola.jpg",
+			"instructorname": "Olabode Daramola",
+			"role": "Clinical Psychologist",
+			"linkedinprofile": "get linkedin profile"
+		},
+		{
+			"id": 2,
+			"img": "../../images/facilitators/temitayo samson-grace.png",
+			"instructorname": "Temitayo Samson-Grace",
+			"role": "HR Compliance and Risk Management",
+			"linkedinprofile": "get linkedin profile"
+		},
+		{
+			"id": 3,
+			"img": "../../images/facilitators/amaka-ezeh.png",
+			"instructorname": "Amaka Ezeh",
+			"role": "HR Business Partner",
+			"linkedinprofile": "get linkedin profile"
+		}
 	]
 }

@@ -4,6 +4,11 @@ import innkeeperlogo from "../images/innkeeperlogo.png";
 import heroimage from "../images/heroimage.png";
 import Navbar from "./Navbar";
 
+export const HomepageHero = () => {
+	return <div>
+	<img src={barter} alt=''/>
+	</div>;
+
 export let HomepageHero = () => {
   return (
     <div className="col-xxl-8 px-4 py-2 heroBg">
