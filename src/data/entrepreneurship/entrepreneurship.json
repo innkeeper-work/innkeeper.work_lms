@@ -1,26 +1,34 @@
 {
+	"entrepreneurheroinfo": [
+		{
+			"id": 1,
+			"herotitle": "Entrepreneurship",
+			"Description": "The world of business presents a variety of roles and opportunities, and with the advent of technology. Our range of courses includes Cyber Security, Big data & IoT, Cloud Computing, and Web Development; which will equip you with the required skills in the tech world."
+		}
+	],
+
 	"entrepreneur": [
 		{
 			"id": 1,
-			"img": "../../images/barter.jpg",
+			"img": "../../images/courses/dev_opp.png",
 			"title": "Developing the Opportunity",
 			"description": "A successful entrepreneur is constantly on the lookout for new opportunities. A vital skill to learn is the capacity to enhance and exploit these commercial prospects."
 		},
 		{
 			"id": 2,
-			"img": "../../images/barter.jpg",
+			"img": "../../images/courses/lauch_biz.png",
 			"title": "Launching Your Business",
 			"description": "Having a dynamic system of presentation to catch more audience and customers is essential to setting up your business for greater earnings and popularity."
 		},
 		{
 			"id": 3,
-			"img": "../../images/barter.jpg",
+			"img": "../../images/courses/growth_strategy.png",
 			"title": "Growth Strategy",
 			"description": "You must develop growth strategies in order to achieve a target of overall growth. Growth strategies can simply be defined as the methods through which a company can develop or grow."
 		},
 		{
 			"id": 4,
-			"img": "../../images/barter.jpg",
+			"img": "../../images/courses/fin_prof.png",
 			"title": "Financing and Profitability",
 			"description": "When your business begins to generate revenue (and the initial delight wears off), owners are faced with a new financial problem: how should this money be spent?"
 		}
@@ -28,16 +36,16 @@
 	"instructors": [
 		{
 			"id": 1,
-			"img": "../../images/facilitators/daramola.jpg",
-			"instructorname": "Olabode Daramola",
-			"role": "Clinical Psychologist",
+			"img": "../../images/facilitators/biodun_lawal.png",
+			"instructorname": "Biodun Lawal",
+			"role": "Technology Entrepreneur",
 			"linkedinprofile": "get linkedin profile"
 		},
 		{
 			"id": 2,
 			"img": "../../images/facilitators/temitayo samson-grace.png",
 			"instructorname": "Temitayo Samson-Grace",
-			"role": "HR Compliance and Risk Management",
+			"role": "HR Professional",
 			"linkedinprofile": "get linkedin profile"
 		},
 		{

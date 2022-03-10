@@ -1,4 +1,11 @@
 {
+	"empsoftskillsheroinfo": [
+		{
+			"id": 1,
+			"herotitle": "Tech Academy",
+			"Descriptiton": "Our range of courses includes Managing self & personal development, Working in highly successful team, Employability skills workshop, and Critical thinking- Creativity."
+		}
+	],
 	"empsoftskills": [
 		{
 			"id": 1,

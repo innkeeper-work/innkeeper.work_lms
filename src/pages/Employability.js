@@ -1,13 +1,15 @@
-import React from 'react'
+import React from "react";
 
+import { CoursepageHero } from "../components/Hero";
 import { CourseCards } from "../components/Card";
 import { InstructorCards } from "../components/Card";
-import empsoftskill from '../data/employability_softskills/employability_softskills.json'
-import { OurInstructors } from '../components/Ourinstructors';
+import empsoftskill from "../data/employability_softskills/employability_softskills.json";
+import { OurInstructors } from "../components/Ourinstructors";
 
 const Employability = () => {
 	return (
 		<div>
+			<CoursepageHero />
 			<EmpSoftSkills />
 			<OurInstructors />
 			<Instructors />
@@ -32,21 +34,19 @@ let EmpSoftSkills = () => {
 };
 
 let Instructors = () => {
-  return (
-    <div className="webDev m-5 p-5">
-      <div className="row p-1 d-flex justify-content-around">
-        {empsoftskill.instructors.map((singlecv) => {
-          return (
-            <div className="col-md-4 col-sm-6" key={singlecv.id}>
-              <InstructorCards {...singlecv}></InstructorCards>
-            </div>
-          );
-        })} 
-      </div>  
-    </div>  
-  )
-}
-
-
+	return (
+		<div className="webDev m-5 p-5">
+			<div className="row p-1 d-flex justify-content-around">
+				{empsoftskill.instructors.map((singlecv) => {
+					return (
+						<div className="col-md-4 col-sm-6" key={singlecv.id}>
+							<InstructorCards {...singlecv}></InstructorCards>
+						</div>
+					);
+				})}
+			</div>
+		</div>
+	);
+};
 
 export default Employability;
