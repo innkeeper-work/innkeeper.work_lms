@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import { CoursepageHero } from "../components/Hero";
 import { CourseCards } from "../components/Card";
