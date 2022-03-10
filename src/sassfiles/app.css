@@ -67,9 +67,26 @@
 
 .testBg {
   background-image: url("../images/success.png");
+  background-repeat: no-repeat;
+}
+
+.testTextBg {
+  background-color: #e4fbff;
 }
 
 .iconCol {
   color: #27aae1;
+}
+
+.category {
+  background-color: #e4fbff;
+}
+
+.sectiontwoBg {
+  background-color: #e4fbff;
+}
+
+.mainBg {
+  background-color: #e4fbff;
 }
 /*# sourceMappingURL=app.css.map */
