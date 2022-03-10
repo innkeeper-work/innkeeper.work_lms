@@ -3,6 +3,7 @@ import { CourseCards } from "../components/Card";
 import { OurInstructors } from "../components/Ourinstructors";
 import techacademy from "../data/tech_academy_details/techacademy.json";
 import { CoursepageHero } from "../components/Hero";
+import { InstructorCards } from "../components/Card";
 
 const TechAcademy = () => {
   return (
@@ -13,6 +14,7 @@ const TechAcademy = () => {
       <CyberSecurity />
       <BigData />
       <OurInstructors />
+      <Instructors />
     </div>
   );
 };
@@ -76,6 +78,21 @@ let BigData = () => {
           return (
             <div className="col-4" key={singlebig.id}>
               <CourseCards {...singlebig}></CourseCards>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+let Instructors = () => {
+  return (
+    <div className="webDev m-5 p-5">
+      <div className="row d-flex justify-content-around">
+        {techacademy.instructors.map((singleInstr) => {
+          return (
+            <div className="col-lg-4 col-sm-4 col-md-4" key={singleInstr.id}>
+              <InstructorCards {...singleInstr}></InstructorCards>
             </div>
           );
         })}

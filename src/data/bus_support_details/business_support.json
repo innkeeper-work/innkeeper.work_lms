@@ -1,53 +1,53 @@
 {
-	"businessheroinfo": [
-		{
-			"id": 1,
-			"herotitle": "Tech Academy",
-			"Descriptiton": "Our range of courses includes Managing self & personal development, Working in highly successful team, Employability skills workshop, and Critical thinking- Creativity."
-		}
-	],
-	"business": [
-		{
-			"id": 1,
-			"img": "../../images/barter.jpg",
-			"title": "Sales",
-			"description": "Find out what makes sales people effective, and learn specific strategies for prospecting and product positioning, and developing a sales process"
-		},
-		{
-			"id": 2,
-			"img": "../../images/barter.jpg",
-			"title": "Customer Experience",
-			"description": "Find out what makes sales people effective, and learn specific strategies for prospecting and product positioning, and developing a sales process"
-		},
-		{
-			"id": 3,
-			"img": "../../images/barter.jpg",
-			"title": "Digital Marketing",
-			"description": "Learn today's online marketing techniques and find out how to build a successful online marketing campaign for all digital channels: search, video, social, email, and display."
-		},
-		{
-			"id": 4,
-			"img": "../../images/barter.jpg",
-			"title": "Video Editing",
-			"description": "Video editing skills enable you to arrange and alter video shots in order to create a cohesive structure."
-		},
-		{
-			"id": 5,
-			"img": "../../images/barter.jpg",
-			"title": "Motion & Still Graphics ",
-			"description": "The use of diverse visual effects, animation, and other cinematic techniques to bring life to their creations."
-		},
-		{
-			"id": 6,
-			"img": "../../images/barter.jpg",
-			"title": "Content Management",
-			"description": "Video editing skills enable you to arrange and alter video shots in order to create a cohesive structure."
-		},
-		{
-			"id": 7,
-			"img": "../../images/barter.jpg",
-			"title": "Administration Digital Tools",
-			"description": "Video editing skills enable you to arrange and alter video shots in order to create a cohesive structure."
-		}
-	]
+  "businessheroinfo": [
+    {
+      "id": 1,
+      "herotitle": "Tech Academy",
+      "Descriptiton": "Our range of courses includes Managing self & personal development, Working in highly successful team, Employability skills workshop, and Critical thinking- Creativity."
+    }
+  ],
+  "business": [
+    {
+      "id": 1,
+      "img": "../../images/courses/sales.png",
+      "title": "Sales",
+      "description": "Find out what makes sales people effective, and learn specific strategies for prospecting and product positioning, and developing a sales process"
+    },
+    {
+      "id": 2,
+      "img": "../../images/courses/customer service.png",
+      "title": "Customer Experience",
+      "description": "Find out what makes sales people effective, and learn specific strategies for prospecting and product positioning, and developing a sales process"
+    },
+    {
+      "id": 3,
+      "img": "../../images/courses/digital marketing.png",
+      "title": "Digital Marketing",
+      "description": "Learn today's online marketing techniques and find out how to build a successful online marketing campaign for all digital channels: search, video, social, email, and display."
+    },
+    {
+      "id": 4,
+      "img": "../../images/courses/video editing.png",
+      "title": "Video Editing",
+      "description": "Video editing skills enable you to arrange and alter video shots in order to create a cohesive structure."
+    },
+    {
+      "id": 5,
+      "img": "../../images/courses/motion_still.gif",
+      "title": "Motion & Still Graphics ",
+      "description": "The use of diverse visual effects, animation, and other cinematic techniques to bring life to their creations."
+    },
+    {
+      "id": 6,
+      "img": "../../images/courses/content dev_t.png",
+      "title": "Content Management",
+      "description": "Video editing skills enable you to arrange and alter video shots in order to create a cohesive structure."
+    },
+    {
+      "id": 7,
+      "img": "../../images/courses/admin.png",
+      "title": "Administration Digital Tools",
+      "description": "Video editing skills enable you to arrange and alter video shots in order to create a cohesive structure."
+    }
+  ]
 }
