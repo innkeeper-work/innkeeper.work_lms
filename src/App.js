@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 // pages
 import Homepage from "./pages/Homepage";
 // import { CoursepageHero } from "./components/Hero";
+import Courseinfo from "./pages/Courseinfo";
 import TechAcademy from "./pages/TechAcademy";
 import BusinessSupportAcademy from "./pages/BusinessSupportAcademy";
 import Employability from "./pages/Employability";
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Homepage />} />
+        <Route path="courseinfo" element={<Courseinfo />} />
         <Route path="techacademy" element={<TechAcademy />} />
         <Route path="business" element={<BusinessSupportAcademy />} />
         <Route path="employability" element={<Employability />} />

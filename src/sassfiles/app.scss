@@ -60,8 +60,21 @@
 }
 .testBg {
   background-image: url("../images/success.png");
+  background-repeat: no-repeat;
+}
+.testTextBg {
+  background-color: $coursepagesectionBg;
 }
 
 .iconCol {
   color: $btnBgColor;
+}
+.category {
+  background-color: $coursepagesectionBg;
+}
+.sectiontwoBg {
+  background-color: $coursepagesectionBg;
+}
+.mainBg {
+  background-color: $coursepagesectionBg;
 }
