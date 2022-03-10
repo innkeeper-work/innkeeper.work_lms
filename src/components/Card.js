@@ -5,19 +5,21 @@ import blogimage1 from "../images/blogimage1.png";
 
 //homepage cards
 export const CourseCategoryCards = (props) => {
-	const { title, img, description } = props;
-	return (
-		<div className="row p-3 m-0 g-0">
-			<div className="card rounded">
-				<img src={img} alt="" />
 
-				<div className="card-body">
-					<h5 className="card-title">{title}</h5>
-					<p className="card-text">{description}</p>
-				</div>
-			</div>
-		</div>
-	);
+  const { title, img, description } = props;
+  return (
+    <div className="row p-3 m-0 g-0">
+      <div className="card rounded">
+        <img src={img} alt="" />
+
+        <div className="card-body">
+          <h5 className="card-title">{title}</h5>
+          <p className="card-text">{description}</p>
+        </div>
+      </div>
+    </div>
+  );
+
 };
 
 export const BlogCards = (props) => {
@@ -44,19 +46,23 @@ export const BlogCards = (props) => {
 
 //courses cards
 export const CourseCards = (props) => {
-	const { img, title, description } = props;
-	return (
-		<div className="card techCards">
-			<div className="m-3">
-				<img src={img} className="card-img-top techImages" alt={title} />
-			</div>
-			<div className="card-body">
-				<h5 className="card-title">{title}</h5>
-				<p className="card-text">{description}</p>
-				<ApplyNowButton />
-			</div>
-		</div>
-	);
+
+  const { img, title, description } = props;
+  return (
+    <div className="card techCards">
+      <div className="m-3">
+        <img src={img} className="card-img-top techImages" alt={title} />
+      </div>
+      <div className="card-body">
+        <h5 className="card-title">{title}</h5>
+        <p className="card-text">{description}</p>
+        <div className="d-flex align-self-end">
+          <ApplyNowButton />
+        </div>
+      </div>
+    </div>
+  );
+
 };
 
 export const InstructorCards = (props) => {

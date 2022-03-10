@@ -1,20 +1,34 @@
 import React from "react";
-
-
 import { CourseCards } from "../components/Card";
 import { OurInstructors } from "../components/Ourinstructors";
 import techacademy from "../data/tech_academy_details/techacademy.json";
 import { CoursepageHero } from "../components/Hero";
+import { InstructorCards } from "../components/Card";
 
 const TechAcademy = () => {
   return (
     <div>
-      <CoursepageHero />
+      <TechHero />
       <WebDev />
       <CloudComputing />
       <CyberSecurity />
       <BigData />
       <OurInstructors />
+      <Instructors />
+    </div>
+  );
+};
+
+let TechHero = () => {
+  return (
+    <div>
+      {techacademy.techacademyheroinfo.map((singlehero) => {
+        return (
+          <div key={singlehero.id}>
+            <CoursepageHero {...singlehero}></CoursepageHero>
+          </div>
+        );
+      })}
     </div>
   );
 };
@@ -28,7 +42,10 @@ let WebDev = () => {
       <div className="row">
         {techacademy.webdev.map((singleweb) => {
           return (
-            <div className="col-4" key={singleweb.id}>
+            <div
+              className="col-4 d-flex align-items-stretch"
+              key={singleweb.id}
+            >
               <CourseCards {...singleweb}></CourseCards>
             </div>
           );
@@ -44,7 +61,10 @@ let CloudComputing = () => {
       <div className="row">
         {techacademy.cloudcomputing.map((singlecloud) => {
           return (
-            <div className="col-4" key={singlecloud.id}>
+            <div
+              className="col-4 d-flex align-items-stretch"
+              key={singlecloud.id}
+            >
               <CourseCards {...singlecloud}></CourseCards>
             </div>
           );
@@ -60,7 +80,10 @@ let CyberSecurity = () => {
       <div className="row">
         {techacademy.cybersecurity.map((singlecyber) => {
           return (
-            <div className="col-4" key={singlecyber.id}>
+            <div
+              className="col-4 d-flex align-items-stretch"
+              key={singlecyber.id}
+            >
               <CourseCards {...singlecyber}></CourseCards>
             </div>
           );
@@ -76,8 +99,29 @@ let BigData = () => {
       <div className="row">
         {techacademy.bigdata.map((singlebig) => {
           return (
-            <div className="col-4" key={singlebig.id}>
+            <div
+              className="col-4 d-flex align-items-stretch"
+              key={singlebig.id}
+            >
               <CourseCards {...singlebig}></CourseCards>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+let Instructors = () => {
+  return (
+    <div className="webDev m-5 p-5">
+      <div className="row d-flex justify-content-around">
+        {techacademy.instructors.map((singleInstr) => {
+          return (
+            <div
+              className="col-lg-4 col-sm-4 col-md-4 d-flex align-items-stretch"
+              key={singleInstr.id}
+            >
+              <InstructorCards {...singleInstr}></InstructorCards>
             </div>
           );
         })}
