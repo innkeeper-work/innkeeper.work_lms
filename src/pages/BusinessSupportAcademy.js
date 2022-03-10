@@ -8,10 +8,24 @@ import { CoursepageHero } from "../components/Hero";
 const BusinessSupportAcademy = () => {
   return (
     <div>
-      <CoursepageHero />
+      <BusinessHero />
       <Business />
       <OurInstructors />
       {/* <Instructors /> */}
+    </div>
+  );
+};
+
+let BusinessHero = () => {
+  return (
+    <div>
+      {businessSupport.businessheroinfo.map((singlebushero) => {
+        return (
+          <div key={singlebushero.id}>
+            <CoursepageHero {...singlebushero}></CoursepageHero>
+          </div>
+        );
+      })}
     </div>
   );
 };
