@@ -31,15 +31,16 @@ export let HomepageHero = () => {
 	);
 };
 
-export const CoursepageHero = () => {
+export const CoursepageHero = (props) => {
+  const {herotitle, Description} = props
 	return (
 		<div className="px-4 py-2 heroBg">
 			<Navbar />
 			<div className="row align-items-center g-5 p-md-4 m-5">
 				<div className="col-lg-6 col-sm-12">
 					<h3 className="herotextWhite">
-						Mentored Upskilling For Improved <br />
-						<span className="herotextColored">Learning Opportunities</span>
+						{herotitle} <br />
+						<span className="herotextColored">{Description}</span>
 					</h3>
 					<GetStartedButton />
 				</div>
