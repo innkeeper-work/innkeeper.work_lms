@@ -120,7 +120,7 @@ const Footer = () => {
                     href="facbook.com/"
                     style={{ textDecoration: 'none' }}
                   >
-                    <i class="bi bi-linkedin"></i> Facebook
+                    <i className="bi bi-linkedin"></i> Facebook
                   </a>
                 </p>
                 <p>
@@ -129,7 +129,7 @@ const Footer = () => {
                     href="twittercom/"
                     style={{ textDecoration: 'none' }}
                   >
-                    <i class="bi bi-linkedin"></i> Twitter
+                    <i className="bi bi-linkedin"></i> Twitter
                   </a>
                 </p>
                 <p>
@@ -138,7 +138,7 @@ const Footer = () => {
                     href="instagram.com/"
                     style={{ textDecoration: 'none' }}
                   >
-                    <i class="bi bi-linkedin"></i> Instagram
+                    <i className="bi bi-linkedin"></i> Instagram
                   </a>
                 </p>
                 <p>
@@ -147,7 +147,7 @@ const Footer = () => {
                     href="linked.com/"
                     style={{ textDecoration: 'none' }}
                   >
-                    <i class="bi bi-linkedin"></i> Linkedin
+                    <i className="bi bi-linkedin"></i> Linkedin
                   </a>
                 </p>
               </div>

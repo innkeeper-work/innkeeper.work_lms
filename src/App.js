@@ -22,7 +22,6 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
-      <footer>{<Footer />}</footer>
     </div>
   );
 }
