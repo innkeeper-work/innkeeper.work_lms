@@ -12,6 +12,9 @@
 .callToAction {
   @include callToActionBtn;
 }
+.errorPage {
+  @include contactusbtn;
+}
 
 .webDev {
   @include webDev;

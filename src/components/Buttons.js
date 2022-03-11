@@ -49,3 +49,17 @@ export const SubscribeButton = () => {
     </button>
   );
 };
+export const Home = () => {
+  return (
+    <button type="button" className="btn errorPage">
+      Home
+    </button>
+  );
+};
+export const ContactUs = () => {
+  return (
+    <button type="button" className="btn errorPage">
+      Contact Us
+    </button>
+  );
+};

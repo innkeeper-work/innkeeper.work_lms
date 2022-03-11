@@ -20,6 +20,7 @@ export const CourseCategoryCards = (props) => {
 	);
 };
 
+
 //blog cards
 export const BlogCards = (props) => {
 	return (
