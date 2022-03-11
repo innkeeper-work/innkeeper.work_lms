@@ -24,22 +24,6 @@ export const CourseCategoryCards = (props) => {
 };
 
 
-//courses cards
-export const CourseCards = (props) => {
-  const { img, title, description } = props;
-  return (
-    <div className="card techCards">
-      <div className="m-3">
-        <img src={img} className="card-img-top techImages" alt={title} />
-      </div>
-      <div className="card-body">
-        <h5 className="card-title">{title}</h5>
-        <p className="card-text">{description}</p>
-        <ApplyNowButton />
-      </div>
-    </div>
-  );
-
 export const BlogCards = (props) => {
 	return (
 		<div class="card m-3" style={{ maxWidth: "540px" }}>
