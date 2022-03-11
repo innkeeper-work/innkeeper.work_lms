@@ -1,120 +1,158 @@
 import React from 'react';
+import innkeeperlogo from '../images/innkeeperlogo.png';
 
 const Footer = () => {
   return (
     <>
-      <footer class="text-center text-lg-start bg-light text-muted">
-        <div>
-          <a href="#!" className="me-4 text-reset">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="#!" className="me-4 text-reset">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="#!" className="me-4 text-reset">
-            <i class="fab fa-google"></i>
-          </a>
-          <a href="#!" className="me-4 text-reset">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="#!" className="me-4 text-reset">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="#!" className="me-4 text-reset">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-
-        <section class="">
-          <div class="container text-center text-md-start mt-5">
-            <div class="row mt-3">
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <h6 class="text-uppercase fw-bold mb-4">
-                  <i class="fas fa-gem me-3"></i>Company name
+      <footer className="text-center text-lg-start bgSoft">
+        <div className="card-body herotextWhite">
+          <div className="container text-center text-lg-start mt-5">
+            <div className="row mt-3">
+              <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <img src={innkeeperlogo} alt="Innkeeper.work" />
+                <h6 className="text-uppercase fw-bold mb-4">
+                  {/* <i className="fas fa-gem me-3">Innkeeper</i>
+                  <span>Skill-up, Stand-out</span> */}
                 </h6>
                 <p>
-                  Here you can use rows and columns to organize your footer
-                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit.
+                  The 8thGear Hub, 11b Colin Onabule Crescent, Diamond Estate
+                  Off CMD Road (beside Secretariat/Magodo gate) Lagos Nigeria.
+                  +234 (0) 809-846-8885 info@innkeeper.work
                 </p>
               </div>
 
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 className="text-uppercase fw-bold mb-4">Menu</h6>
                 <p>
-                  <a href="#!" class="text-reset">
-                    Angular
+                  <a
+                    href="#!"
+                    className="text-reset"
+                    style={{ textDecoration: 'none' }}
+                  >
+                    Home
                   </a>
                 </p>
                 <p>
-                  <a href="#!" class="text-reset">
-                    React
+                  <a
+                    href="#!"
+                    className="text-reset"
+                    style={{ textDecoration: 'none' }}
+                  >
+                    About Us
                   </a>
                 </p>
                 <p>
-                  <a href="#!" class="text-reset">
-                    Vue
+                  <a
+                    href="#!"
+                    className="text-reset"
+                    style={{ textDecoration: 'none' }}
+                  >
+                    Events
                   </a>
                 </p>
                 <p>
-                  <a href="#!" class="text-reset">
-                    Laravel
+                  <a
+                    href="#!"
+                    className="text-reset"
+                    style={{ textDecoration: 'none' }}
+                  >
+                    Contact
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="#!"
+                    className="text-reset"
+                    style={{ textDecoration: 'none' }}
+                  >
+                    FAQ
                   </a>
                 </p>
               </div>
 
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 className="text-uppercase fw-bold mb-4">Courses</h6>
                 <p>
-                  <a href="#!" class="text-reset">
-                    Pricing
+                  <a
+                    href="#!"
+                    className="text-reset"
+                    style={{ textDecoration: 'none' }}
+                  >
+                    Business Support Academy
                   </a>
                 </p>
                 <p>
-                  <a href="#!" class="text-reset">
-                    Settings
+                  <a
+                    href="#!"
+                    className="text-reset"
+                    style={{ textDecoration: 'none' }}
+                  >
+                    Tech Academy
                   </a>
                 </p>
                 <p>
-                  <a href="#!" class="text-reset">
-                    Orders
+                  <a
+                    href="#!"
+                    className="text-reset"
+                    style={{ textDecoration: 'none' }}
+                  >
+                    Employability/Soft Skills
                   </a>
                 </p>
                 <p>
-                  <a href="#!" class="text-reset">
-                    Help
+                  <a
+                    href="#!"
+                    className="text-reset"
+                    style={{ textDecoration: 'none' }}
+                  >
+                    Entrepreneurship
                   </a>
                 </p>
               </div>
 
-              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 className="text-uppercase fw-bold mb-4">
+                  <span></span>
+                </h6>
                 <p>
-                  <i class="fas fa-home me-3"></i> New York, NY 10012, US
+                  <a
+                    className="btnText "
+                    href="facbook.com/"
+                    style={{ textDecoration: 'none' }}
+                  >
+                    <i class="bi bi-linkedin"></i> Facebook
+                  </a>
                 </p>
                 <p>
-                  <i class="fas fa-envelope me-3"></i>
-                  info@example.com
+                  <a
+                    className="btnText"
+                    href="twittercom/"
+                    style={{ textDecoration: 'none' }}
+                  >
+                    <i class="bi bi-linkedin"></i> Twitter
+                  </a>
                 </p>
                 <p>
-                  <i class="fas fa-phone me-3"></i> + 01 234 567 88
+                  <a
+                    className="btnText"
+                    href="instagram.com/"
+                    style={{ textDecoration: 'none' }}
+                  >
+                    <i class="bi bi-linkedin"></i> Instagram
+                  </a>
                 </p>
                 <p>
-                  <i class="fas fa-print me-3"></i> + 01 234 567 89
+                  <a
+                    className="btnText"
+                    href="linked.com/"
+                    style={{ textDecoration: 'none' }}
+                  >
+                    <i class="bi bi-linkedin"></i> Linkedin
+                  </a>
                 </p>
               </div>
             </div>
           </div>
-        </section>
-
-        <div
-          class="text-center p-4"
-          style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}
-        >
-          © 2021 Copyright:
-          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">
-            MDBootstrap.com
-          </a>
         </div>
       </footer>
     </>

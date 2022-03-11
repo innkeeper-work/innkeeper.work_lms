@@ -1,12 +1,12 @@
-import React from "react";
-import { HomepageHero } from "../components/Hero";
-import aiki from "../images/aiki.png";
-import categories from "../data/categories.json";
-import { CourseCategoryCards } from "../components/Card";
-import { BlogCards } from "../components/Card";
-import { LearnMoreButton } from "../components/Buttons";
-import { BeginCoursesButton } from "../components/Buttons";
-import blogimage1 from "../images/blogimage1.png";
+import React from 'react';
+import { HomepageHero } from '../components/Hero';
+import aiki from '../images/aiki.png';
+import categories from '../data/categories.json';
+import { CourseCategoryCards } from '../components/Card';
+import { BlogCards } from '../components/Card';
+import { LearnMoreButton } from '../components/Buttons';
+import { BeginCoursesButton } from '../components/Buttons';
+import blogimage1 from '../images/blogimage1.png';
 
 const Homepage = () => {
   return (
@@ -112,8 +112,8 @@ let Testimonial = () => {
         src="/docs/5.1/assets/brand/bootstrap-logo.svg"
         alt=""
       />
-      <div className="h-50 w-50 mx-5" style={{ backgroundColor: "#ffffff" }}>
-        {" "}
+      <div className="h-50 w-50 mx-5" style={{ backgroundColor: '#ffffff' }}>
+        {' '}
         <h1 className="display-5 fw-bold">Centered hero</h1>
         <div className="col-lg-6 mx-auto">
           <p className="lead mb-4">
@@ -151,7 +151,7 @@ let Newsletter = () => {
         <p className="card-text">
           With supporting text below as a natural lead-in to additional content.
         </p>
-        <a href="#" class="btn btn-primary">
+        <a href="#!" className="btn btn-primary">
           Go somewhere
         </a>
       </div>
