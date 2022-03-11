@@ -1,10 +1,14 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
 import contact_image from "../images/contact_image.png";
 
 const Contact = () => {
+  const [fullName, setFullname] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [messgae, setMessage] = useState("");
   const handleSubmit = (e) => {
-    console.log("Hello");
+    e.preventDefault();
+    console.log(fullName, email, subject, messgae);
   };
   return (
     <div className="p-2 m-3">
@@ -25,23 +29,27 @@ const Contact = () => {
             <a href="08098468885"> 08098468885</a>
           </p>
 
-          <form className="form" onSubmit={handleSubmit}>
+          <form className="form">
             <input
               type="text"
               className="form-control mb-3"
-              placeholder="Your name"
-              aria-label="Your name"
-              id="name"
-              name="name"
+              placeholder="Your Fullname"
+              aria-label="Your Fullname"
+              id="fullname"
+              name="fullname"
+              value={fullName}
+              onChange={(e) => setFullname(e.target.value)}
             />
 
             <input
               type="text"
               className="form-control mb-3"
-              placeholder="Your mail"
-              aria-label="Your mail"
-              id="mail"
-              name="mail"
+              placeholder="Your email"
+              aria-label="Your email"
+              id="email"
+              name="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
             />
 
             <input
@@ -51,6 +59,8 @@ const Contact = () => {
               aria-label="Subject"
               id="subject"
               name="subject"
+              value={subject}
+              onChange={(e) => setSubject(e.target.value)}
             />
             <div>
               <textarea
@@ -60,10 +70,16 @@ const Contact = () => {
                 id="exampleFormControlTextarea1"
                 rows="3"
                 placeholder="Message"
+                value={messgae}
+                onChange={(e) => setMessage(e.target.value)}
               ></textarea>
             </div>
 
-            <button type="submit" className="btn contact-btn bg-bark">
+            <button
+              type="submit"
+              className="btn contact-btn bg-bark"
+              onClick={handleSubmit}
+            >
               Submit
             </button>
           </form>
