@@ -1,6 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import contact_image from "../images/contact_image.png";
+import React from 'react';
+import contact_image from '../images/contact_image.png';
 
 const Contact = () => {
   const [fullName, setFullname] = useState("");
@@ -16,11 +15,20 @@ const Contact = () => {
   const handleSubmit = (e) => {
     console.log("Hello");
   };
+
   return (
     <div className="p-2 m-3">
       <h2 className="d-flex justify-content-center">Contact Us</h2>
       <div className="row g-5">
         <div className="col-md-7 col-sm-12">
+
+          <input
+            type="text"
+            className="form-control"
+            placeholder="First name"
+            aria-label="First name"
+          />
+        </div>
           <p>
             Do you have other questions? Don't worry, there aren't any dumb
             questions. Just fill out the form below and we'll get back to you as
