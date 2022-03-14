@@ -36,7 +36,7 @@ let Enterpreneur = () => {
 		<div className="row lg-3 p-1 d-flex justify-content-between">
 				{entskills.entrepreneur.map((singleEnt) => {
 					return (
-						<div className="col-md-3 col-lg-3 col-sm-6 pb-5" key={singleEnt.id}>
+						<div className="col-md-3 col-lg-3 col-sm-6 pb-5 d-flex align-item-stretch" key={singleEnt.id}>
 							<CourseCards {...singleEnt}></CourseCards>
 						</div>
 					);

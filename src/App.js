@@ -15,7 +15,6 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="courseinfo" element={<Courseinfo />} />
         <Route path="techacademy" element={<TechAcademy />} />
         <Route
           path="businesssupportacademy"
@@ -24,6 +23,7 @@ function App() {
         <Route path="employability" element={<Employability />} />
         <Route path="entrepreneurship" element={<Entrepreneurship />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="courseinfo" element={<Courseinfo />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
       <footer />
