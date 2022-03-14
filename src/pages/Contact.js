@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
+import { Link } from "react-router-dom";
 import contact_image from "../images/contact_image.png";
 
 const Contact = () => {
@@ -11,6 +12,7 @@ const Contact = () => {
     console.log(fullName, email, subject, messgae);
 
 const Contact = () => {
+
   const handleSubmit = (e) => {
     console.log("Hello");
   };
@@ -32,7 +34,6 @@ const Contact = () => {
             contact
             <a href="08098468885"> 08098468885</a>
           </p>
-
 
           <form className="form">
             <input
@@ -59,6 +60,7 @@ const Contact = () => {
               type="text"
               className="form-control mb-3"
 
+
               placeholder="Your email"
               aria-label="Your email"
               id="email"
@@ -79,6 +81,7 @@ const Contact = () => {
               id="subject"
               name="subject"
 
+
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
 
@@ -91,6 +94,7 @@ const Contact = () => {
                 id="exampleFormControlTextarea1"
                 rows="3"
                 placeholder="Message"
+
                 value={messgae}
                 onChange={(e) => setMessage(e.target.value)}
               ></textarea>
@@ -101,6 +105,7 @@ const Contact = () => {
               className="btn contact-btn bg-bark"
               onClick={handleSubmit}
             >
+
               ></textarea>
             </div>
 

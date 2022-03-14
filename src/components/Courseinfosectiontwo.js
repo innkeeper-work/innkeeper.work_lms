@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import abdulrahman from "../images/abdulrahman.png";
+import adamu from "../images/adamu.png";
 
 export let Sectiontwo = () => {
   return (
@@ -15,7 +15,7 @@ export let Sectiontwo = () => {
 let Requirements = () => {
   return (
     <div className="card-body">
-      <h5 className="card-title">Requirements</h5>
+      <h3 className="card-title">Requirements</h3>
       <ul className="">
         <li className="list-item pb-2">Good and functioning Laptop.</li>
         <li className="list-item pb-2">Reliable Internet connection.</li>
@@ -38,7 +38,7 @@ let Requirements = () => {
 let EnrolOptions = () => {
   return (
     <div className="card-body">
-      <h5 className="card-title">Requirements</h5>
+      <h3 className="card-title">Available Enrolment Options</h3>
       <ul className="">
         <li className="list-item pb-2">Click to Pay Now</li>
         <p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
@@ -53,39 +53,27 @@ let EnrolOptions = () => {
 
 let AboutInstructor = () => {
   return (
-    <div className="card-body">
-      <h5 className="card-title">About the Instructor</h5>
-      <div className="mb-3">
-        <div className="row">
-          <div className="col-md-4">
-            <img
-              src={abdulrahman}
-              className="img-fluid rounded-start"
-              alt="..."
-            />
-          </div>
-          <div className="col-md-6">
-            <div className="card-body">
-              <p className="card-title">AbdulRahman Adamu</p>
-              <p className="card-text">Frontend Developer</p>
-              <Link to="" target="_blank" rel="noreferrer">
-                <i
-                  className="fa fa-linkedin iconCol ms-3"
-                  aria-hidden="true"
-                ></i>
-              </Link>
-              <Link to="" target="_blank" rel="noreferrer">
-                <i
-                  className="fa fa-facebook iconCol ms-3"
-                  aria-hidden="true"
-                ></i>
-              </Link>
-              <Link to="" target="_blank" rel="noreferrer">
-                <i
-                  className="fa fa-instagram iconCol ms-3"
-                  aria-hidden="true"
-                ></i>
-              </Link>
+    <div className="mb-3">
+      <div className="row g-0">
+        <div className="col-md-4">
+          <img
+            src={adamu}
+            className="img-thumbnail mx-auto rounded-circle text-center"
+            alt="..."
+          />
+        </div>
+        <div className="col-md-8">
+          <div className="card-body">
+            {/* import the data from json using props */}
+            <h5 className="card-title">Card Title</h5>
+            <p className="card-text">Tech</p>
+            <div className="card-text d-flex justify-content-end">
+              {/* <a href={linkedinprofile} target="_blank" rel="noreferrer"> */}
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus, praesentium.
+              </p>
+              {/* </a> */}
             </div>
           </div>
         </div>

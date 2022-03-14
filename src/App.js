@@ -16,13 +16,17 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="techacademy" element={<TechAcademy />} />
-        <Route path="business" element={<BusinessSupportAcademy />} />
+        <Route
+          path="businesssupportacademy"
+          element={<BusinessSupportAcademy />}
+        />
         <Route path="employability" element={<Employability />} />
         <Route path="entrepreneurship" element={<Entrepreneurship />} />
         <Route path="contact" element={<Contact />} />
         <Route path="courseinfo" element={<Courseinfo />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
+      <footer />
     </div>
   );
 }

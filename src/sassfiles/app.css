@@ -1,3 +1,27 @@
+* {
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+body h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--white);
+}
+body h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+body p {
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: var(--white);
+}
+
 .signinbtn {
   color: #ffffff;
   background: #27aae1;
@@ -83,8 +107,8 @@
   color: #27aae1;
 }
 
-.category {
-  background-color: #e4fbff;
+.categoryBg {
+  background-color: #e6f4f1;
 }
 
 .sectiontwoBg {
@@ -93,5 +117,37 @@
 
 .mainBg {
   background-color: #e4fbff;
+}
+
+.card-cut-one {
+  border-top: 1px dashed #27aae1;
+  border-right: none;
+  border-bottom: none;
+  border-left: 1px dashed #27aae1;
+}
+
+.card-cut-two {
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px dashed #27aae1;
+  border-left: 1px dashed #27aae1;
+}
+
+.card-cut-three {
+  border-top: 1px dashed #27aae1;
+  border-right: 1px dashed #27aae1;
+  border-bottom: none;
+  border-left: none;
+}
+
+.card-cut-four {
+  border-top: none;
+  border-right: 1px dashed #27aae1;
+  border-bottom: 1px dashed #27aae1;
+  border-left: none;
+}
+
+.faqBg {
+  background-color: #e6f4f1;
 }
 /*# sourceMappingURL=app.css.map */
