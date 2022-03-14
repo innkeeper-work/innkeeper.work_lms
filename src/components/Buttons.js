@@ -49,3 +49,10 @@ export const SubscribeButton = () => {
     </button>
   );
 };
+export const SendButton = () => {
+  return (
+    <button type="button" className="btn signinbtnapply">
+      Send
+    </button>
+  );
+};
