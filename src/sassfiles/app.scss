@@ -1,5 +1,33 @@
 @use "./customdes" as *;
+// @import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 
+* {
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  // font-family: "Josefin Sans", cursive;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--white);
+  }
+
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  p {
+    font-size: 0.75rem;
+    font-weight: 300;
+    color: var(--white);
+  }
+}
 .signinbtn {
   @include signin;
 }
@@ -11,6 +39,9 @@
 // }
 .callToAction {
   @include callToActionBtn;
+}
+.errorPage {
+  @include contactusbtn;
 }
 
 .webDev {
@@ -60,8 +91,37 @@
 }
 .testBg {
   background-image: url("../images/success.png");
+  background-repeat: no-repeat;
+}
+.testTextBg {
+  background-color: $coursepagesectionBg;
 }
 
 .iconCol {
   color: $btnBgColor;
+}
+
+.categoryBg {
+  background-color: $heroFooter2Color;
+}
+.sectiontwoBg {
+  background-color: $coursepagesectionBg;
+}
+.mainBg {
+  background-color: $coursepagesectionBg;
+}
+.card-cut-one {
+  @include card-cut-one;
+}
+.card-cut-two {
+  @include card-cut-two;
+}
+.card-cut-three {
+  @include card-cut-three;
+}
+.card-cut-four {
+  @include card-cut-four;
+}
+.faqBg {
+  background-color: $heroFooter2Color;
 }

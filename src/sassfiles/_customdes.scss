@@ -12,6 +12,14 @@ $coursepagesectionBg: #e4fbff;
   background: $btnBgColor;
   // background: $callToActionBtn;
 }
+@mixin home {
+  color: $btnText;
+  background: $btnBgColor;
+}
+@mixin contactusbtn {
+  color: $btnText;
+  background: $btnBgColor;
+}
 @mixin callToActionBtn {
   color: $btnText;
   background: $callToActionBtn;
@@ -34,4 +42,29 @@ $coursepagesectionBg: #e4fbff;
   background: $sectionColor;
   color: $btnText;
   // max-width: 97%;
+}
+
+@mixin card-cut-one {
+  border-top: 1px dashed $btnBgColor;
+  border-right: none;
+  border-bottom: none;
+  border-left: 1px dashed $btnBgColor;
+}
+@mixin card-cut-two {
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px dashed $btnBgColor;
+  border-left: 1px dashed $btnBgColor;
+}
+@mixin card-cut-three {
+  border-top: 1px dashed $btnBgColor;
+  border-right: 1px dashed $btnBgColor;
+  border-bottom: none;
+  border-left: none;
+}
+@mixin card-cut-four {
+  border-top: none;
+  border-right: 1px dashed $btnBgColor;
+  border-bottom: 1px dashed $btnBgColor;
+  border-left: none;
 }
