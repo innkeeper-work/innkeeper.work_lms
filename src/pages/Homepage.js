@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Link } from "react-router-dom";
 import { HomepageHero } from "../components/Hero";
@@ -6,11 +7,12 @@ import lady from "../images/lady.png";
 import categories from "../data/categories.json";
 import { CourseCategoryCards } from "../components/Card";
 import { BlogCards } from "../components/Card";
+import { BlogCardsTwo } from "../components/Card";
 import { LearnMoreButton } from "../components/Buttons";
 import { BeginCoursesButton } from "../components/Buttons";
 import { SubscribeButton } from "../components/Buttons";
+import { ApplyNowButton } from "../components/Buttons";
 
-import blogimage1 from "../images/blogimage1.png";
 import videoicon from "../images/videoicon.png";
 
 const Homepage = () => {
@@ -23,20 +25,25 @@ const Homepage = () => {
       <CourseCategory />
       <Homepagetest />
       <Testimonial />
+      <Faq />
       <div className="row">
-        <h4 className="text-center mt-5">Blog</h4>
-        <div className="col-6">
-          <BlogCards img="blogimage1.png">
+        <h3 className="text-center mt-5">Blog</h3>
+        <div className="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+          <BlogCards>
             LSETF/USADF partners with us to begin a fully-funded scholarship for
             youths in Lagos.
           </BlogCards>
         </div>
-        <div className="col-6">
-          <BlogCards>
+        <div className="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+          <BlogCardsTwo>
             Two weeks intensive internship training commences.
-          </BlogCards>
+          </BlogCardsTwo>
         </div>
       </div>
+      <div className="w-75 mx-auto">
+        <hr />
+      </div>
+
       <Newsletter />
     </div>
   );
@@ -44,52 +51,70 @@ const Homepage = () => {
 
 let Homepagemain = () => {
   return (
-    <div className="container-fluid mx-auto mainBg">
-      <div className="card-group">
-        <div className="col-3">
+    <div className="container-fluid p-5 mainBg">
+      <div className="card-group m-5">
+        <div className="col-md-3 col-lg-3 col-sm-5 col-xs-6">
           <div className="row">
-            <img src="" className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Self-Paced Learning</h5>
-              <p className="card-text">
+            <div className="">
+              <div className="m-5 p-5 card-cut-one d-none d-xs-none d-sm-none d-md-block d-lg-block"></div>
+              <Link to={{ pathname: "https://github.com" }}>
+                <i className="fab fa-github" />
+              </Link>
+            </div>
+            <div>
+              <h3>Self-Paced Learning</h3>
+              <p>
                 We are empathic on serving you with the best based on your
                 convenience.
               </p>
             </div>
           </div>
           <div className="row">
-            <img src="" className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Flexibility-support</h5>
-              <p className="card-text">
-                Classes are stress-free with our flexible payment system.
-              </p>
+            <div className="mt-5 pt-5">
+              <Link to={{ pathname: "https://github.com" }}>
+                <i className="fab fa-github" />
+              </Link>
+              <h3>Flexibility-support</h3>
+              <p>Classes are stress-free with our flexible payment system.</p>
             </div>
           </div>
+          <div className="">
+            <div className=" m-5 p-5 card-cut-two d-none d-xs-none d-sm-none d-md-block d-lg-block"></div>
+          </div>
         </div>
-        <div className="col-6">
+        <div className="col-md-6 col-lg-6 col-sm-7 d-none d-xs-none d-sm-block d-md-block d-lg-block">
           <img src={lady} className="card-img-top" alt="..." />
         </div>
-        <div className="col-3">
+        <div className="col-md-3 col-lg-3 col-sm-6 col-xs-6">
           <div className="row">
-            <img src="" className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Instructor-Led Learning</h5>
-              <p className="card-text">
+            <div className="">
+              <div className="m-5 p-5 card-cut-three d-none d-xs-none d-sm-none d-md-block d-lg-block"></div>
+              <Link to={{ pathname: "https://github.com" }}>
+                <i className="fab fa-github" />
+              </Link>
+            </div>
+            <div>
+              <h3>Instructor-Led Learning</h3>
+              <p>
                 Our instructors are top- notch in the various courses of
                 interest Be assured of getting the best.
               </p>
             </div>
           </div>
           <div className="row">
-            <img src="" className="card-img-top" alt="..." />
-            <div className="card-body">
-              <h5 className="card-title">Scholarship-Support</h5>
-              <p className="card-text">
+            <div className="mt-5 pt-5">
+              <Link to={{ pathname: "https://github.com" }}>
+                <i className="fab fa-github" />
+              </Link>
+              <h3>Scholarship-Support</h3>
+              <p>
                 We provide fully-funded training in collaboration with
                 organizations that share the same goals so as to ensure
                 upskilling of youths in Nigeria.
               </p>
+            </div>
+            <div className="">
+              <div className=" m-5 p-5 card-cut-four d-none d-xs-none d-sm-none d-md-block d-lg-block"></div>
             </div>
           </div>
         </div>
@@ -100,10 +125,10 @@ let Homepagemain = () => {
 
 let Homepagewelcome = () => {
   return (
-    <div className="text-center mt-5">
+    <div className="container text-center py-5">
       <div className="card-body">
-        <h5 className="card-title">Welcome to our Inn</h5>
-        <p className="card-text ">
+        <h3 className="card-title">Welcome to our Inn</h3>
+        <p className="card-text">
           We are that digital inn where you get equipped and positioned to
           become financially independent. Innkeeper.work is an upskilling
           platform that allows for collaborative learning, leveraging self-paced
@@ -116,12 +141,12 @@ let Homepagewelcome = () => {
 };
 let Homepagesoft = () => {
   return (
-    <div className="text-center mt-5 py-5 bgSoft">
+    <div className="text-center py-5 bgSoft">
       <div className="card-body herotextWhite">
-        <h5 className="card-title">
+        <p className="card-title">
           Join our community to get certified for that professional role you
           desire.
-        </h5>
+        </p>
         <p className="card-text">Take our free soft skill courses today!</p>
         <BeginCoursesButton />
       </div>
@@ -131,13 +156,12 @@ let Homepagesoft = () => {
 
 let CourseCategory = () => {
   return (
-    <div className="category">
-      <h4 className="text-center pt-5">Our Courses</h4>
+    <div className="categoryBg">
+      <h3 className="text-center pt-5">Our Courses</h3>
       <div className="row">
         {categories.coursecategories.map((category) => {
           return (
             <div className="col-lg-4 col-md-6 col-sm-6" key={category.id}>
-              {/* <div className="col-lg-4 col-md-6 col-sm-6 d-flex align-items-stretch" key={category.id}> */}
               <CourseCategoryCards {...category}></CourseCategoryCards>
             </div>
           );
@@ -154,16 +178,16 @@ let Homepagetest = () => {
      bgSoft"
     >
       <div className="card-body herotextWhite">
-        <h6 className="card-title">
+        <p className="card-title">
           "My entire team was good to go at the end of the training! The soft
           skills available on innkeeper platform was used to train my team. This
           was needful because my teamrelates with people often. I witnessed some
           part of the role plays and it was impactful. Thanks to innkeeper.work”
-        </h6>
+        </p>
 
         <img src={aiki} className="img-fluid rounded-start mt-4" alt="..." />
 
-        <h6 className="card-title mt-3">Hafsatu Shinkafi</h6>
+        <p className="card-title mt-3">Hafsatu Shinkafi</p>
         <p className="card-text">CEO, AIKI Services</p>
       </div>
     </div>
@@ -172,10 +196,24 @@ let Homepagetest = () => {
 
 let Testimonial = () => {
   return (
-    <div className="p-5 text-center testBg">
-      {/* <div className="card testTextBg" style={{ width: "18rem" }}>
-        <h1 className="">Success Story</h1>
-      </div> */}
+
+    <div className="px-4 py-5 text-center testBg">
+      <img
+        className="d-block mx-auto mb-4"
+        src="/docs/5.1/assets/brand/bootstrap-logo.svg"
+        alt=""
+      />
+      <div className="h-50 w-50 mx-5" style={{ backgroundColor: '#ffffff' }}>
+        {' '}
+        <h1 className="display-5 fw-bold">Centered hero</h1>
+        <div className="col-lg-6 mx-auto">
+          <p className="lead mb-4">
+            Quickly design and customize responsive mobile-first sites with
+            Bootstrap, the world’s most popular front-end open source toolkit,
+            featuring Sass variables and mixins, responsive grid system,
+            extensive prebuilt components, and powerful JavaScript plugins.
+
+    <div className="col-xs-12 p-5 text-center testBg">
       <div className="card testTextBg m-auto p-3" style={{ width: "25rem" }}>
         <h3 className="">Success Story</h3>
         <div className="">
@@ -201,14 +239,118 @@ let Testimonial = () => {
   );
 };
 
+let Faq = () => {
+  return (
+    <div className="py-5 faqBg">
+      <h3 className="text-center">Frequently Asked Questions</h3>
+      <div
+        className="container accordion accordion-flush"
+        id="accordionFlushExample"
+      >
+        <div className="accordion-item">
+          <p className="accordion-header" id="flush-headingOne">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+              Accordion Item #1
+            </button>
+
+          </p>
+          <div
+            id="flush-collapseOne"
+            className="accordion-collapse collapse"
+            aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div className="accordion-body">
+              Placeholder content for this accordion, which is intended to
+              demonstrate the <code>.accordion-flush</code> class. This is the
+              first item's accordion body.
+            </div>
+          </div>
+        </div>
+        <div className="accordion-item">
+          <p className="accordion-header" id="flush-headingTwo">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              Accordion Item #2
+            </button>
+          </p>
+          <div
+            id="flush-collapseTwo"
+            className="accordion-collapse collapse"
+            aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Placeholder content for this accordion, which is intended to
+              demonstrate the <code>.accordion-flush</code> class. This is the
+              second item's accordion body. Let's imagine this being filled with
+              some actual content.
+            </div>
+          </div>
+        </div>
+        <div className="accordion-item">
+          <p className="accordion-header" id="flush-headingThree">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree"
+              aria-expanded="false"
+              aria-controls="flush-collapseThree"
+            >
+              Accordion Item #3
+            </button>
+          </p>
+          <div
+            id="flush-collapseThree"
+            className="accordion-collapse collapse"
+            aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div className="accordion-body">
+              Placeholder content for this accordion, which is intended to
+              demonstrate the <code>.accordion-flush</code> class. This is the
+              third item's accordion body. Nothing more exciting happening here
+              in terms of content, but just filling up the space to make it
+              look, at least at first glance, a bit more representative of how
+              this would look in a real-world application.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="text-center py-4">
+        <ApplyNowButton />
+      </div>
+    </div>
+  );
+};
+
 let Newsletter = () => {
   return (
-    <div className="text-center py-5">
+    <div className="text-center py-5 newsBg">
       <div className="card-body">
-        <h5 className="card-title">Our News Channel</h5>
+        <h3 className="card-title">Our News Channel</h3>
         <p className="card-text">
           Welcome to our news channel, subscribe to receive daily updates.
         </p>
+
+        <a href="#!" className="btn btn-primary">
+          Go somewhere
+        </a>
+
 
         <input
           type="email"
@@ -219,6 +361,7 @@ let Newsletter = () => {
         <div className="mt-3">
           <SubscribeButton />
         </div>
+
       </div>
     </div>
   );

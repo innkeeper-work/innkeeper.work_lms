@@ -1,5 +1,4 @@
 import React from "react";
-
 import heroimage from "../images/heroimage.png";
 import Navbar from "./Navbar";
 import { GetStartedButton } from "../components/Buttons";
@@ -18,11 +17,11 @@ export let HomepageHero = () => {
           />
         </div>
         <div className="col-lg-5 col-md-6">
-          <h3 className="herotextWhite">
+          <h1 className="herotextWhite">
             Mentored Upskilling For Improved <br />
             <span className="herotextColored">Learning Opportunities</span>
-          </h3>
-          <div className="mt-4">
+          </h1>
+          <div className="my-4">
             <GetStartedButton />
           </div>
         </div>
@@ -30,7 +29,6 @@ export let HomepageHero = () => {
     </div>
   );
 };
-
 
 export const CoursepageHero = (props) => {
   const { herotitle, Description } = props;
