@@ -1,5 +1,6 @@
 import React from 'react';
-import img404 from '../images/404.png'
+import img404 from '../images/404.png';
+import { Facebook } from 'react-bootstrap-icons';
 
 
 import { Home } from "../components/Buttons";
@@ -21,6 +22,15 @@ const Error404 = () => {
 					<div className="btn">
 						<ContactUs />
 					</div>
+					<div className="btn">
+						<Home />
+					</div>
+					<div className="btn">
+						<ContactUs />
+					</div>
+				</div>
+				<div>
+					
 				</div>
 			</div>
   );
