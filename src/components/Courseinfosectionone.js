@@ -15,7 +15,7 @@ let Aboutcourse = () => {
     <div className="">
       <img src={infoimage} className="card-img-top" alt="..." />
       <div className="card-body">
-        <h5 className="card-title">About Course</h5>
+        <h3 className="card-title">About Course</h3>
         <p className="card-text">
           This is a hybrid learning that blends self-paced and instructor-led
           learning for 8 weeks. The training takes place for a period of 6 weeks
@@ -33,7 +33,7 @@ let Aboutcourse = () => {
 let ApplyHere = () => {
   return (
     <div className="card-body">
-      <h5 className="card-title">How to Apply</h5>
+      <h3 className="card-title">How to Apply</h3>
       <ul className="">
         <li className="list-item pb-2">
           Read about the course content and indicate interest.
