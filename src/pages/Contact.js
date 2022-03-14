@@ -9,6 +9,10 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(fullName, email, subject, messgae);
+
+const Contact = () => {
+  const handleSubmit = (e) => {
+    console.log("Hello");
   };
   return (
     <div className="p-2 m-3">
@@ -29,6 +33,7 @@ const Contact = () => {
             <a href="08098468885"> 08098468885</a>
           </p>
 
+
           <form className="form">
             <input
               type="text"
@@ -39,17 +44,31 @@ const Contact = () => {
               name="fullname"
               value={fullName}
               onChange={(e) => setFullname(e.target.value)}
+
+          <form className="form" onSubmit={handleSubmit}>
+            <input
+              type="text"
+              className="form-control mb-3"
+              placeholder="Your name"
+              aria-label="Your name"
+              id="name"
+              name="name"
             />
 
             <input
               type="text"
               className="form-control mb-3"
+
               placeholder="Your email"
               aria-label="Your email"
               id="email"
               name="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              placeholder="Your mail"
+              aria-label="Your mail"
+              id="mail"
+              name="mail"
             />
 
             <input
@@ -59,8 +78,10 @@ const Contact = () => {
               aria-label="Subject"
               id="subject"
               name="subject"
+
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
+
             />
             <div>
               <textarea
@@ -80,6 +101,10 @@ const Contact = () => {
               className="btn contact-btn bg-bark"
               onClick={handleSubmit}
             >
+              ></textarea>
+            </div>
+
+            <button type="submit" className="btn contact-btn bg-bark">
               Submit
             </button>
           </form>

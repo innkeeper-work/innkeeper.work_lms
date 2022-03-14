@@ -20,26 +20,28 @@ export const CourseCategoryCards = (props) => {
   );
 };
 
+
+//blog cards
 export const BlogCards = (props) => {
-  return (
-    <div class="card m-3" style={{ maxWidth: "540px" }}>
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img src={img} className="img-fluid rounded-start h-100" alt="..." />
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">Blog title</h5>
-            <p class="card-text">{props.children}</p>
-            <p class="card-text">
-              <i class="fa fa-map-marker m-1" aria-hidden="true"></i>
-              <small class="text-muted">Magodo, Lagos</small>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+	return (
+		<div class="card m-3" style={{ maxWidth: "540px" }}>
+			<div class="row g-0">
+				<div class="col-md-4">
+					<img src={img} className="img-fluid rounded-start h-100" alt="..." />
+				</div>
+				<div class="col-md-8">
+					<div class="card-body">
+						<h5 class="card-title">Blog title</h5>
+						<p class="card-text">{props.children}</p>
+						<p class="card-text">
+							<i class="fa fa-map-marker m-1" aria-hidden="true"></i>
+							<small class="text-muted">Magodo, Lagos</small>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
 };
 
 //courses cards
@@ -59,6 +61,7 @@ export const CourseCards = (props) => {
       </div>
     </div>
   );
+
 };
 
 export const InstructorCards = (props) => {

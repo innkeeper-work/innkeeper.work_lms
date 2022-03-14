@@ -13,6 +13,11 @@
   background: linear-gradient(112.74deg, #00d8cf 23.84%, #27aae1 79.07%);
 }
 
+.errorPage {
+  color: #ffffff;
+  background: #27aae1;
+}
+
 .webDev {
   background: #e4fbff;
   box-shadow: 4px 4px 4px 4px rgba(179, 174, 174, 0.25);

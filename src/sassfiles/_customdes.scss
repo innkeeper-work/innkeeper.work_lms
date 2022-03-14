@@ -12,6 +12,14 @@ $coursepagesectionBg: #e4fbff;
   background: $btnBgColor;
   // background: $callToActionBtn;
 }
+@mixin home {
+  color: $btnText;
+  background: $btnBgColor;
+}
+@mixin contactusbtn {
+  color: $btnText;
+  background: $btnBgColor;
+}
 @mixin callToActionBtn {
   color: $btnText;
   background: $callToActionBtn;
