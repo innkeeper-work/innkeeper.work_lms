@@ -71,8 +71,7 @@ export const BlogCardsTwo = (props) => {
       </div>
     </div>
   );
-
-
+};
 
 //courses cards
 export const CourseCards = (props) => {
