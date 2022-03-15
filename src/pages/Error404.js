@@ -1,14 +1,13 @@
-import React from 'react';
-import img404 from '../images/404.png';
-import { Facebook } from 'react-bootstrap-icons';
+import React from "react";
+import img404 from "../images/404.png";
 
-import { Home } from '../components/Buttons';
-import { ContactUs } from '../components/Buttons';
+// import { Home } from "../components/Buttons";
+// import { ContactUs } from "../components/Buttons";
 
 const Error404 = () => {
   return (
     <div className="row g-5">
-      <div className="col-md-7">
+      <div class="col-md-7">
         <img src={img404} alt="error_page" />
       </div>
       <div className="col-md-5 m-auto">
@@ -17,13 +16,13 @@ const Error404 = () => {
           The page you are looking for does not exist. Please click on the
           buttons below to either go back to the homepage or contact us
         </p>
-        <div className="">
-          {/* <SignInButton className="p-4"></SignInButton>
-          <SignInButton /> */}
+        {/* <div className="btn">
+          <Home />
         </div>
-        <div className="btn">{/* <ContactUs /> */}</div>
+        <div className="btn">
+          <ContactUs />
+        </div> */}
       </div>
-      <div></div>
     </div>
   );
 };

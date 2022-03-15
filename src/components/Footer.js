@@ -8,7 +8,10 @@ const Footer = () => {
         <div className="card-body herotextWhite">
           <div className="container text-center text-lg-start mt-5">
             <div className="row mt-3">
-              <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <div
+                className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4"
+                style={{ textAlign: 'left' }}
+              >
                 <img src={innkeeperlogo} alt="Innkeeper.work" />
                 <h6 className="text-uppercase fw-bold mb-4">
                   <span />

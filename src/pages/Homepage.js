@@ -157,7 +157,7 @@ let CourseCategory = () => {
   return (
     <div className="categoryBg">
       <h3 className="text-center pt-5">Our Courses</h3>
-      <div className="row">
+      <div className="row g-0">
         {categories.coursecategories.map((category) => {
           return (
             <div className="col-lg-4 col-md-6 col-sm-6" key={category.id}>
@@ -328,11 +328,6 @@ let Newsletter = () => {
         <p className="card-text">
           Welcome to our news channel, subscribe to receive daily updates.
         </p>
-
-        <a href="#!" className="btn btn-primary">
-          Go somewhere
-        </a>
-
         <input
           type="email"
           className="form-control w-25 mx-auto"
