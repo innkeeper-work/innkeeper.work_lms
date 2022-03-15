@@ -5,7 +5,7 @@ import { GetStartedButton } from "../components/Buttons";
 
 export let HomepageHero = () => {
   return (
-    <div className="px-4 py-2 heroBg">
+    <div className="px-4 py-2 heroBg container-fluid">
       <Navbar />
       <div className="row flex-sm-row-reverse align-items-center">
         <div className="col-lg-5 col-md-5">

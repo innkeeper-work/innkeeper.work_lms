@@ -16,7 +16,7 @@ let Requirements = () => {
   return (
     <div className="card-body">
       <h3 className="card-title">Requirements</h3>
-      <ul className="">
+      <ul className="list-content">
         <li className="list-item pb-2">Good and functioning Laptop.</li>
         <li className="list-item pb-2">Reliable Internet connection.</li>
         <li className="list-item pb-2">Ability to operate a computer.</li>
@@ -39,7 +39,7 @@ let EnrolOptions = () => {
   return (
     <div className="card-body">
       <h3 className="card-title">Available Enrolment Options</h3>
-      <ul className="">
+      <ul className="list-content">
         <li className="list-item pb-2">Click to Pay Now</li>
         <p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
         <li className="list-item pb-2">Apply for Student loan HERE</li>
@@ -54,7 +54,24 @@ let EnrolOptions = () => {
 let AboutInstructor = () => {
   return (
     <div className="mb-3">
-      <div className="row g-0">
+      <div className="instructor_card d-flex align-items-md-center">
+        <div>
+          <img
+            src={adamu}
+            width="100px"
+            height="100px"
+            className="rounded-circle"
+          />
+        </div>
+
+        <div className="ms-3">
+          <h5>About Instructor</h5>
+          <p>AbdulRahman Adamu</p>
+          <p>Frontend Developer</p>
+        </div>
+        {/* <Link to=""></Link> */}
+      </div>
+      {/* <div className="row g-0">
         <div className="col-md-4">
           <img
             src={adamu}
@@ -64,20 +81,20 @@ let AboutInstructor = () => {
         </div>
         <div className="col-md-8">
           <div className="card-body">
-            {/* import the data from json using props */}
+           
             <h5 className="card-title">Card Title</h5>
             <p className="card-text">Tech</p>
             <div className="card-text d-flex justify-content-end">
-              {/* <a href={linkedinprofile} target="_blank" rel="noreferrer"> */}
+              
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Temporibus, praesentium.
               </p>
-              {/* </a> */}
+              
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

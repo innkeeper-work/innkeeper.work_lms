@@ -8,19 +8,19 @@ body {
   padding: 0;
 }
 body h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
   color: var(--white);
 }
 body h3 {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 body p {
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 300;
   color: var(--white);
-  line-height: 1.2rem;
+  line-height: 1.75rem;
 }
 
 .signinbtn {
@@ -85,6 +85,7 @@ body p {
 .heroBg {
   background-image: url("../images/homehero3.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .ctaColor {
@@ -98,6 +99,7 @@ body p {
 .testBg {
   background-image: url("../images/success.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .testTextBg {
@@ -150,5 +152,9 @@ body p {
 
 .faqBg {
   background-color: #e6f4f1;
+}
+
+.list-content > li::marker {
+  color: #27aae1;
 }
 /*# sourceMappingURL=app.css.map */

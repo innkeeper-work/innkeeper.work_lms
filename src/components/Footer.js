@@ -1,5 +1,5 @@
-import React from 'react';
-import innkeeperlogo from '../images/innkeeperlogo.png';
+import React from "react";
+import innkeeperlogo from "../images/innkeeperlogo.png";
 
 const Footer = () => {
   return (
@@ -27,7 +27,7 @@ const Footer = () => {
                   <a
                     href="#!"
                     className="text-reset"
-                    style={{ textDecoration: 'none' }}
+                    style={{ textDecoration: "none" }}
                   >
                     Home
                   </a>
@@ -36,7 +36,7 @@ const Footer = () => {
                   <a
                     href="#!"
                     className="text-reset"
-                    style={{ textDecoration: 'none' }}
+                    style={{ textDecoration: "none" }}
                   >
                     About Us
                   </a>
@@ -45,7 +45,7 @@ const Footer = () => {
                   <a
                     href="#!"
                     className="text-reset"
-                    style={{ textDecoration: 'none' }}
+                    style={{ textDecoration: "none" }}
                   >
                     Events
                   </a>
@@ -54,7 +54,7 @@ const Footer = () => {
                   <a
                     href="#!"
                     className="text-reset"
-                    style={{ textDecoration: 'none' }}
+                    style={{ textDecoration: "none" }}
                   >
                     Contact
                   </a>
@@ -63,7 +63,7 @@ const Footer = () => {
                   <a
                     href="#!"
                     className="text-reset"
-                    style={{ textDecoration: 'none' }}
+                    style={{ textDecoration: "none" }}
                   >
                     FAQ
                   </a>
@@ -76,7 +76,7 @@ const Footer = () => {
                   <a
                     href="#!"
                     className="text-reset"
-                    style={{ textDecoration: 'none' }}
+                    style={{ textDecoration: "none" }}
                   >
                     Business Support Academy
                   </a>
@@ -85,7 +85,7 @@ const Footer = () => {
                   <a
                     href="#!"
                     className="text-reset"
-                    style={{ textDecoration: 'none' }}
+                    style={{ textDecoration: "none" }}
                   >
                     Tech Academy
                   </a>
@@ -94,7 +94,7 @@ const Footer = () => {
                   <a
                     href="#!"
                     className="text-reset"
-                    style={{ textDecoration: 'none' }}
+                    style={{ textDecoration: "none" }}
                   >
                     Employability/Soft Skills
                   </a>
@@ -103,7 +103,7 @@ const Footer = () => {
                   <a
                     href="#!"
                     className="text-reset"
-                    style={{ textDecoration: 'none' }}
+                    style={{ textDecoration: "none" }}
                   >
                     Entrepreneurship
                   </a>
@@ -118,7 +118,7 @@ const Footer = () => {
                   <a
                     className="btnText "
                     href="facbook.com/"
-                    style={{ textDecoration: 'none' }}
+                    style={{ textDecoration: "none" }}
                   >
                     <i className="bi bi-linkedin"></i> Facebook
                   </a>
@@ -127,7 +127,7 @@ const Footer = () => {
                   <a
                     className="btnText"
                     href="twittercom/"
-                    style={{ textDecoration: 'none' }}
+                    style={{ textDecoration: "none" }}
                   >
                     <i className="bi bi-linkedin"></i> Twitter
                   </a>
@@ -136,7 +136,7 @@ const Footer = () => {
                   <a
                     className="btnText"
                     href="instagram.com/"
-                    style={{ textDecoration: 'none' }}
+                    style={{ textDecoration: "none" }}
                   >
                     <i className="bi bi-linkedin"></i> Instagram
                   </a>
@@ -145,7 +145,7 @@ const Footer = () => {
                   <a
                     className="btnText"
                     href="linked.com/"
-                    style={{ textDecoration: 'none' }}
+                    style={{ textDecoration: "none" }}
                   >
                     <i className="bi bi-linkedin"></i> Linkedin
                   </a>
