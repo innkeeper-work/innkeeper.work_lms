@@ -1,19 +1,18 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { HomepageHero } from '../components/Hero';
+import aiki from '../images/aiki.png';
+import lady from '../images/lady.png';
+import categories from '../data/categories.json';
+import { CourseCategoryCards } from '../components/Card';
+import { BlogCards } from '../components/Card';
+import { BlogCardsTwo } from '../components/Card';
+import { LearnMoreButton } from '../components/Buttons';
+import { BeginCoursesButton } from '../components/Buttons';
+import { SubscribeButton } from '../components/Buttons';
+import { ApplyNowButton } from '../components/Buttons';
 
-import React from "react";
-import { Link } from "react-router-dom";
-import { HomepageHero } from "../components/Hero";
-import aiki from "../images/aiki.png";
-import lady from "../images/lady.png";
-import categories from "../data/categories.json";
-import { CourseCategoryCards } from "../components/Card";
-import { BlogCards } from "../components/Card";
-import { BlogCardsTwo } from "../components/Card";
-import { LearnMoreButton } from "../components/Buttons";
-import { BeginCoursesButton } from "../components/Buttons";
-import { SubscribeButton } from "../components/Buttons";
-import { ApplyNowButton } from "../components/Buttons";
-
-import videoicon from "../images/videoicon.png";
+import videoicon from '../images/videoicon.png';
 
 const Homepage = () => {
   return (
@@ -57,7 +56,7 @@ let Homepagemain = () => {
           <div className="row">
             <div className="">
               <div className="m-5 p-5 card-cut-one d-none d-xs-none d-sm-none d-md-block d-lg-block"></div>
-              <Link to={{ pathname: "https://github.com" }}>
+              <Link to={{ pathname: 'https://github.com' }}>
                 <i className="fab fa-github" />
               </Link>
             </div>
@@ -71,7 +70,7 @@ let Homepagemain = () => {
           </div>
           <div className="row">
             <div className="mt-5 pt-5">
-              <Link to={{ pathname: "https://github.com" }}>
+              <Link to={{ pathname: 'https://github.com' }}>
                 <i className="fab fa-github" />
               </Link>
               <h3>Flexibility-support</h3>
@@ -89,7 +88,7 @@ let Homepagemain = () => {
           <div className="row">
             <div className="">
               <div className="m-5 p-5 card-cut-three d-none d-xs-none d-sm-none d-md-block d-lg-block"></div>
-              <Link to={{ pathname: "https://github.com" }}>
+              <Link to={{ pathname: 'https://github.com' }}>
                 <i className="fab fa-github" />
               </Link>
             </div>
@@ -103,7 +102,7 @@ let Homepagemain = () => {
           </div>
           <div className="row">
             <div className="mt-5 pt-5">
-              <Link to={{ pathname: "https://github.com" }}>
+              <Link to={{ pathname: 'https://github.com' }}>
                 <i className="fab fa-github" />
               </Link>
               <h3>Scholarship-Support</h3>
@@ -196,25 +195,8 @@ let Homepagetest = () => {
 
 let Testimonial = () => {
   return (
-
-    <div className="px-4 py-5 text-center testBg">
-      <img
-        className="d-block mx-auto mb-4"
-        src="/docs/5.1/assets/brand/bootstrap-logo.svg"
-        alt=""
-      />
-      <div className="h-50 w-50 mx-5" style={{ backgroundColor: '#ffffff' }}>
-        {' '}
-        <h1 className="display-5 fw-bold">Centered hero</h1>
-        <div className="col-lg-6 mx-auto">
-          <p className="lead mb-4">
-            Quickly design and customize responsive mobile-first sites with
-            Bootstrap, the world’s most popular front-end open source toolkit,
-            featuring Sass variables and mixins, responsive grid system,
-            extensive prebuilt components, and powerful JavaScript plugins.
-
     <div className="col-xs-12 p-5 text-center testBg">
-      <div className="card testTextBg m-auto p-3" style={{ width: "25rem" }}>
+      <div className="card testTextBg m-auto p-3" style={{ width: '25rem' }}>
         <h3 className="">Success Story</h3>
         <div className="">
           <p>
@@ -259,7 +241,6 @@ let Faq = () => {
             >
               Accordion Item #1
             </button>
-
           </p>
           <div
             id="flush-collapseOne"
@@ -351,7 +332,6 @@ let Newsletter = () => {
           Go somewhere
         </a>
 
-
         <input
           type="email"
           className="form-control w-25 mx-auto"
@@ -361,7 +341,6 @@ let Newsletter = () => {
         <div className="mt-3">
           <SubscribeButton />
         </div>
-
       </div>
     </div>
   );

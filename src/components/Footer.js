@@ -11,8 +11,7 @@ const Footer = () => {
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                 <img src={innkeeperlogo} alt="Innkeeper.work" />
                 <h6 className="text-uppercase fw-bold mb-4">
-                  {/* <i className="fas fa-gem me-3">Innkeeper</i>
-                  <span>Skill-up, Stand-out</span> */}
+                  <span />
                 </h6>
                 <p>
                   The 8thGear Hub, 11b Colin Onabule Crescent, Diamond Estate
@@ -22,7 +21,7 @@ const Footer = () => {
               </div>
 
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 d-none d-md-block">
-                <h6 className="text-uppercase fw-bold mb-4" >Menu</h6>
+                <h6 className="text-uppercase fw-bold mb-4">Menu</h6>
                 <p>
                   <a
                     href="#!"
@@ -70,7 +69,7 @@ const Footer = () => {
                 </p>
               </div>
 
-              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 d-none d-md-block">
                 <h6 className="text-uppercase fw-bold mb-4">Courses</h6>
                 <p>
                   <a
@@ -110,7 +109,7 @@ const Footer = () => {
                 </p>
               </div>
 
-              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 d-sm-flex">
                 <h6 className="text-uppercase fw-bold mb-4">
                   <span></span>
                 </h6>
