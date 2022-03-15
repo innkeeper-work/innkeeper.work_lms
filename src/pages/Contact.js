@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { SendButton } from "../components/Buttons";
 import contact_image from "../images/contact_image.png";
@@ -35,17 +34,15 @@ const Contact = () => {
       <h2 className="d-flex justify-content-center">Contact Us</h2>
       <div className="row g-5">
         <div className="col-md-7 col-sm-12">
-
           <li>
             Do you have other questions? Don't worry, there aren't any dumb
-            questions. Just fill out the form below and we'll get back to you as 
+            questions. Just fill out the form below and we'll get back to you as
             soon as possible.
           </li>
           <li>
             Got a news tip or inside information about a topic we covered? we
             would love to hear from you. Please fill out the form below or send
             a mail to
-
             <a href="mailto:info@innkeeper.work">info@innkeeper.work</a>
             or you contact
             <a href="tel:+2348098468885"> +2348098468885</a>
@@ -101,8 +98,9 @@ const Contact = () => {
               className="btn contact-btn bg-bark"
               onClick={handleSubmit}
             >
-              <SendButton />
-
+              <SendButton
+                onClick={() => <a href="mailto:sammiebechh@gmail.com"></a>}
+              />
             </button>
           </form>
         </div>

@@ -1,13 +1,17 @@
 import React from "react";
 import img404 from "../images/404.png";
 
-// import { Home } from "../components/Buttons";
-// import { ContactUs } from "../components/Buttons";
+
+import { Home } from "../components/Buttons";
+import { ContactUs } from "../components/Buttons";
+
+
 
 const Error404 = () => {
   return (
     <div className="row g-5">
-      <div class="col-md-7">
+      <div className="col-md-7">
+
         <img src={img404} alt="error_page" />
       </div>
       <div className="col-md-5 m-auto">

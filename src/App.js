@@ -10,6 +10,9 @@ import Entrepreneurship from "./pages/Entrepreneurship";
 import Contact from "./pages/Contact";
 import Error404 from "./pages/Error404";
 
+import Footer from "./components/Footer";
+
+
 function App() {
   return (
     <div className="App">
@@ -26,6 +29,8 @@ function App() {
         <Route path="frontend" element={<Frontend />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
+      <Footer />
+
     </div>
   );
 }
