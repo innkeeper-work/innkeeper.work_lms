@@ -11,6 +11,7 @@ import { LearnMoreButton } from "../components/Buttons";
 import { BeginCoursesButton } from "../components/Buttons";
 import { SubscribeButton } from "../components/Buttons";
 import { ApplyNowButton } from "../components/Buttons";
+import Footer from "../components/Footer";
 
 import videoicon from "../images/videoicon.png";
 
@@ -44,6 +45,7 @@ const Homepage = () => {
       </div>
 
       <Newsletter />
+      <Footer />
     </div>
   );
 };
@@ -327,11 +329,6 @@ let Newsletter = () => {
         <p className="card-text">
           Welcome to our news channel, subscribe to receive daily updates.
         </p>
-
-        <a href="#!" className="btn btn-primary">
-          Go somewhere
-        </a>
-
         <input
           type="email"
           className="form-control w-25 mx-auto"
