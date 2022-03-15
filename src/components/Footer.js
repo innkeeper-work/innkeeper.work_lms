@@ -1,5 +1,9 @@
 import React from 'react';
 import innkeeperlogo from '../images/innkeeperlogo.png';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 const Footer = () => {
   return (
@@ -113,43 +117,67 @@ const Footer = () => {
               </div>
 
               <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 d-flex d-md-block">
-                <h6 className="text-uppercase fw-bold mb-4">
-                  <span></span>
-                </h6>
                 <p>
                   <a
-                    className="btnText "
-                    href="facbook.com/"
-                    style={{ textDecoration: 'none' }}
+                    className="btnText d-flex"
+                    href="https://facebook.com/"
+                    style={{ textDecoration: 'none', marginRight: '50px' }}
                   >
-                    <i className="bi bi-linkedin"></i> Facebook
+                    <FacebookIcon />
+                    <p
+                      className="d-none d-md-block "
+                      style={{ textDecoration: 'none', marginLeft: '10px' }}
+                    >
+                      Facebook
+                    </p>
                   </a>
                 </p>
                 <p>
                   <a
-                    className="btnText"
-                    href="twittercom/"
-                    style={{ textDecoration: 'none' }}
+                    className="btnText d-flex"
+                    href="https://twitter.com/"
+                    style={{ textDecoration: 'none', marginRight: '50px' }}
                   >
-                    <i className="bi bi-linkedin"></i> Twitter
+                    <TwitterIcon />
+                    <p
+                      className="d-none d-md-block "
+                      style={{ textDecoration: 'none', marginLeft: '10px' }}
+                    >
+                      {' '}
+                      Twitter
+                    </p>
                   </a>
                 </p>
                 <p>
                   <a
-                    className="btnText"
-                    href="instagram.com/"
-                    style={{ textDecoration: 'none' }}
+                    className="btnText d-flex"
+                    href="https://instagram.com/"
+                    style={{ textDecoration: 'none', marginRight: '50px' }}
                   >
-                    <i className="bi bi-linkedin"></i> Instagram
+                    <InstagramIcon />
+                    <p
+                      className="d-none d-md-block "
+                      style={{ textDecoration: 'none', marginLeft: '10px' }}
+                    >
+                      {' '}
+                      Instagram
+                    </p>
                   </a>
                 </p>
                 <p>
                   <a
-                    className="btnText"
-                    href="linked.com/"
-                    style={{ textDecoration: 'none' }}
+                    className="btnText d-flex"
+                    href="https://linked.com/"
+                    style={{ textDecoration: 'none', marginRight: '50px' }}
                   >
-                    <i className="bi bi-linkedin"></i> Linkedin
+                    <LinkedInIcon />
+                    <p
+                      className="d-none d-md-block "
+                      style={{ textDecoration: 'none', marginLeft: '10px' }}
+                    >
+                      {' '}
+                      Linkedin
+                    </p>
                   </a>
                 </p>
               </div>
