@@ -127,3 +127,8 @@ body {
 .faqBg {
   background-color: $heroFooter2Color;
 }
+
+//Removed gutter-x from all row classes in order to removed horizontal scrolling from the entire pages
+.row {
+  --bs-gutter-x: 0rem;
+}

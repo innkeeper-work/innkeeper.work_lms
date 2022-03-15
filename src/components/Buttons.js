@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export const SignInButton = () => {
   return (
@@ -53,6 +53,20 @@ export const SendButton = () => {
   return (
     <button type="button" className="btn signinbtnapply">
       Send
+    </button>
+  );
+};
+export const Home = () => {
+  return (
+    <button type="button" className="btn callToAction">
+      Home
+    </button>
+  );
+};
+export const ContactUs = () => {
+  return (
+    <button type="button" className="btn callToAction">
+      Contact Us
     </button>
   );
 };
