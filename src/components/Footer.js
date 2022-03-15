@@ -21,8 +21,8 @@ const Footer = () => {
                 </p>
               </div>
 
-              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Menu</h6>
+              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 d-none d-md-block">
+                <h6 className="text-uppercase fw-bold mb-4" >Menu</h6>
                 <p>
                   <a
                     href="#!"

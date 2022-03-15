@@ -1,8 +1,8 @@
-import React from "react";
-import { ApplyNowButton } from "./Buttons";
-import img from "../images/barter.jpg";
-import blogimage1 from "../images/blogimage1.png";
-import blogimage2 from "../images/blogimage2.png";
+import React from 'react';
+import { ApplyNowButton } from './Buttons';
+// import img from "../images/barter.jpg";
+import blogimage1 from '../images/blogimage1.png';
+import blogimage2 from '../images/blogimage2.png';
 
 //homepage cards
 export const CourseCategoryCards = (props) => {
@@ -23,7 +23,7 @@ export const CourseCategoryCards = (props) => {
 
 export const BlogCards = (props) => {
   return (
-    <div class="card m-3" style={{ maxWidth: "540px" }}>
+    <div class="card m-3" style={{ maxWidth: '540px' }}>
       <div class="row g-0">
         <div class="col-md-4">
           <img
@@ -49,7 +49,7 @@ export const BlogCards = (props) => {
 
 export const BlogCardsTwo = (props) => {
   return (
-    <div class="card m-3" style={{ maxWidth: "540px" }}>
+    <div class="card m-3" style={{ maxWidth: '540px' }}>
       <div class="row g-0">
         <div class="col-md-4">
           <img
@@ -71,10 +71,10 @@ export const BlogCardsTwo = (props) => {
       </div>
     </div>
   );
-
-
+};
 
 //courses cards
+
 export const CourseCards = (props) => {
   const { img, title, description } = props;
   return (
