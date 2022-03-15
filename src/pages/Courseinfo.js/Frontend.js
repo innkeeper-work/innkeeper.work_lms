@@ -1,9 +1,10 @@
 import React from "react";
-import { CoursepageHero } from "../components/Hero";
-import { Sectionone } from "../components/Courseinfosectionone";
-import { Sectiontwo } from "../components/Courseinfosectiontwo";
-import { CourseCards } from "../components/Card";
-import techacademy from "../data/tech_academy_details/techacademy.json";
+import { CoursepageHero } from "../../components/Hero";
+import { ApplyNowButton } from "../../components/Buttons";
+import { Sectionone } from "../../components/Courseinfosectionone";
+import { Sectiontwo } from "../../components/Courseinfosectiontwo";
+import { CourseCards } from "../../components/Card";
+import techacademy from "../../data/tech_academy_details/techacademy.json";
 
 let CourseInfo = () => {
   return (
@@ -13,7 +14,7 @@ let CourseInfo = () => {
         <div className="col-lg-7 col-md-6 col-sm-10">
           <Sectionone />
         </div>
-        <div className="col-lg-4 col-md-5 col-sm-10 sectiontwoBg my-5">
+        <div className="col-lg-4 col-md-5 col-sm-10 sectiontwoBg mt-5 h-100">
           <Sectiontwo />
         </div>
       </div>

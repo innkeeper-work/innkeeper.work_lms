@@ -1,12 +1,11 @@
 import React from "react";
-
 import heroimage from "../images/heroimage.png";
 import Navbar from "./Navbar";
 import { GetStartedButton } from "../components/Buttons";
 
 export let HomepageHero = () => {
   return (
-    <div className="px-4 py-2 heroBg">
+    <div className="px-4 py-2 heroBg container-fluid">
       <Navbar />
       <div className="row flex-sm-row-reverse align-items-center">
         <div className="col-lg-5 col-md-5">
@@ -18,11 +17,11 @@ export let HomepageHero = () => {
           />
         </div>
         <div className="col-lg-5 col-md-6">
-          <h3 className="herotextWhite">
+          <h1 className="herotextWhite">
             Mentored Upskilling For Improved <br />
             <span className="herotextColored">Learning Opportunities</span>
-          </h3>
-          <div className="mt-4">
+          </h1>
+          <div className="my-4">
             <GetStartedButton />
           </div>
         </div>
@@ -31,7 +30,6 @@ export let HomepageHero = () => {
   );
 };
 
-
 export const CoursepageHero = (props) => {
   const { herotitle, Description } = props;
   return (
@@ -39,10 +37,10 @@ export const CoursepageHero = (props) => {
       <Navbar />
       <div className="row align-items-center g-5 p-md-4 m-5">
         <div className="col-lg-6 col-sm-12">
-          <h3 className="herotextColored">
+          <h1 className="herotextColored">
             {herotitle} <br />
-            <span className="herotextWhite">{Description}</span>
-          </h3>
+            <p className="herotextWhite">{Description}</p>
+          </h1>
           <GetStartedButton />
         </div>
       </div>

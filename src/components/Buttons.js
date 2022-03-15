@@ -49,17 +49,10 @@ export const SubscribeButton = () => {
     </button>
   );
 };
-export const Home = () => {
+export const SendButton = () => {
   return (
-    <button type="button" className="btn errorPage">
-      Home
-    </button>
-  );
-};
-export const ContactUs = () => {
-  return (
-    <button type="button" className="btn errorPage">
-      Contact Us
+    <button type="button" className="btn signinbtnapply">
+      Send
     </button>
   );
 };
