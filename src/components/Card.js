@@ -1,6 +1,5 @@
 import React from "react";
 import { ApplyNowButton } from "./Buttons";
-import img from "../images/barter.jpg";
 import blogimage1 from "../images/blogimage1.png";
 import blogimage2 from "../images/blogimage2.png";
 
@@ -71,8 +70,7 @@ export const BlogCardsTwo = (props) => {
       </div>
     </div>
   );
-
-
+};
 
 //courses cards
 export const CourseCards = (props) => {
