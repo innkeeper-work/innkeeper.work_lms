@@ -109,7 +109,7 @@ const Footer = () => {
                 </p>
               </div>
 
-              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 d-sm-flex">
+              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 d-flex d-md-block">
                 <h6 className="text-uppercase fw-bold mb-4">
                   <span></span>
                 </h6>

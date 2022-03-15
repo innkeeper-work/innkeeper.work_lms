@@ -193,10 +193,11 @@ let Homepagetest = () => {
   );
 };
 
+// style={{ width: '25%' }}
 let Testimonial = () => {
   return (
     <div className="col-xs-12 p-5 text-center testBg">
-      <div className="card testTextBg m-auto p-3" style={{ width: '25rem' }}>
+      <div className="card testTextBg m-auto p-3">
         <h3 className="">Success Story</h3>
         <div className="">
           <p>
