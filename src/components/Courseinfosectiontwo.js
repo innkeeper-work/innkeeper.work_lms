@@ -16,7 +16,7 @@ let Requirements = () => {
   return (
     <div className="card-body">
       <h3 className="card-title">Requirements</h3>
-      <ul className="">
+      <ul className="list-content">
         <li className="list-item pb-2">Good and functioning Laptop.</li>
         <li className="list-item pb-2">Reliable Internet connection.</li>
         <li className="list-item pb-2">Ability to operate a computer.</li>
@@ -39,7 +39,7 @@ let EnrolOptions = () => {
   return (
     <div className="card-body">
       <h3 className="card-title">Available Enrolment Options</h3>
-      <ul className="">
+      <ul className="list-content">
         <li className="list-item pb-2">Click to Pay Now</li>
         <p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
         <li className="list-item pb-2">Apply for Student loan HERE</li>
@@ -64,11 +64,12 @@ let AboutInstructor = () => {
           />
         </div>
 
-        <div className="ms-3 lh-lg">
+        <div className="ms-3">
           <h5>About Instructor</h5>
-          <p>Name</p>
-          <p>Role</p>
+          <p>AbdulRahman Adamu</p>
+          <p>Frontend Developer</p>
         </div>
+        {/* <Link to=""></Link> */}
       </div>
       {/* <div className="row g-0">
         <div className="col-md-4">

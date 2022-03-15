@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 // pages
 import Homepage from "./pages/Homepage";
 // import { CoursepageHero } from "./components/Hero";
-import Courseinfo from "./pages/Courseinfo";
+import Frontend from "./pages/Courseinfo.js/Frontend";
 import TechAcademy from "./pages/TechAcademy";
 import BusinessSupportAcademy from "./pages/BusinessSupportAcademy";
 import Employability from "./pages/Employability";
@@ -23,10 +23,9 @@ function App() {
         <Route path="employability" element={<Employability />} />
         <Route path="entrepreneurship" element={<Entrepreneurship />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="courseinfo" element={<Courseinfo />} />
+        <Route path="frontend" element={<Frontend />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
-      <footer />
     </div>
   );
 }
