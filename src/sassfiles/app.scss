@@ -12,20 +12,21 @@ body {
   padding: 0;
 
   h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 600;
     color: var(--white);
   }
 
   h3 {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: 600;
   }
 
   p {
-    font-size: 0.75rem;
+    font-size: 1rem;
     font-weight: 300;
     color: var(--white);
+    line-height: 1.75rem;
   }
 }
 .signinbtn {
@@ -82,6 +83,7 @@ body {
 .heroBg {
   background-image: url("../images/homehero3.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .ctaColor {
   background-color: $callToActionBtn;
@@ -92,6 +94,7 @@ body {
 .testBg {
   background-image: url("../images/success.png");
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .testTextBg {
   background-color: $coursepagesectionBg;
@@ -124,4 +127,7 @@ body {
 }
 .faqBg {
   background-color: $heroFooter2Color;
+}
+.list-content > li::marker {
+  color: $btnBgColor;
 }

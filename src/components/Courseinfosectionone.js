@@ -1,5 +1,9 @@
 import React from "react";
 import infoimage from "../images/infoimage.png";
+import AccessAlarmsIcon from "@material-ui/icons/AccessAlarms";
+import CreditCardIcon from "@material-ui/icons/CreditCard";
+import LibraryBooksIcon from "@material-ui/icons/LibraryBooks";
+import { ApplyNowButton } from "../components/Buttons";
 
 export let Sectionone = () => {
   return (
@@ -13,6 +17,50 @@ export let Sectionone = () => {
 let Aboutcourse = () => {
   return (
     <div className="">
+      <div className="navbar-expand-lg">
+        <div className="mt-5">
+          <ul className="navbar-nav ">
+            <li className="">
+              <div className="d-flex px-3">
+                <div className="px-2">
+                  <LibraryBooksIcon className="iconCol"></LibraryBooksIcon>
+                </div>
+
+                <div>
+                  <h3>COURSES</h3>
+                  <p>08 Weeks</p>
+                </div>
+              </div>
+            </li>
+            <li className="">
+              <div className="d-flex px-3">
+                <div className="px-2">
+                  <AccessAlarmsIcon className="iconCol"></AccessAlarmsIcon>
+                </div>
+
+                <div>
+                  <h3>DURATION</h3>
+                  <p>70 Hours</p>
+                </div>
+              </div>
+            </li>
+            <li className="">
+              <div className="d-flex px-3">
+                <div className="px-2">
+                  <CreditCardIcon className="iconCol"></CreditCardIcon>
+                </div>
+                <div>
+                  <h3>FEE</h3>
+                  <p>200,000.00</p>
+                </div>
+              </div>
+            </li>
+            <li className="px-3">
+              <ApplyNowButton />
+            </li>
+          </ul>
+        </div>
+      </div>
       <img src={infoimage} className="card-img-top" alt="..." />
       <div className="card-body">
         <h3 className="card-title">About Course</h3>
@@ -34,7 +82,7 @@ let ApplyHere = () => {
   return (
     <div className="card-body">
       <h3 className="card-title">How to Apply</h3>
-      <ul className="">
+      <ul className="list-content">
         <li className="list-item pb-2">
           Read about the course content and indicate interest.
         </li>
