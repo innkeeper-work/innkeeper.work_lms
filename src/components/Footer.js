@@ -113,8 +113,8 @@ const Footer = () => {
                 </p>
               </div>
 
-              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                <div className="d-flex d-md-block ms-5">
+              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 sm-3">
+                <div className="d-flex d-md-block ms-5 flex-wrap">
                   <p>
                     <a
                       className="btnText d-flex"

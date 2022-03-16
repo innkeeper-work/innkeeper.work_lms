@@ -58,15 +58,15 @@ export const SendButton = () => {
 };
 export const Home = () => {
   return (
-    <button type="button" className="btn callToAction">
-      Home
+    <button type="button" className="btn callToAction px-5">
+      <strong>Home</strong>
     </button>
   );
 };
 export const ContactUs = () => {
   return (
-    <button type="button" className="btn callToAction">
-      Contact Us
+    <button type="button" className="btn callToAction px-4">
+      <strong>Contact Us</strong>
     </button>
   );
 };
