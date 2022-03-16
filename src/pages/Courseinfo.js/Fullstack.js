@@ -10,27 +10,27 @@ import { ApplyNowButton } from "../../components/Buttons";
 import { CourseCards } from "../../components/Card";
 import techacademy from "../../data/tech_academy_details/techacademy.json";
 
-let FrontendInfo = () => {
+let FullstackInfo = () => {
 	return (
 		<div>
-			<CourseinfoHero coursename="Frontend Development" />
+			<CourseinfoHero coursename="Fullstack Development" />
 			<div className="row justify-content-center">
 				<div className="col-lg-7 col-md-6 col-sm-10">
-					<AboutFrontend />
-					<FrontendApplyHere />
+					<AboutFullstack />
+					<FullstackApplyHere />
 				</div>
 				<div className="col-lg-4 col-md-5 col-sm-10 sectiontwoBg mt-5 h-100">
-					<FrontendReq />
-					<FrontendEnrol />
-					<FrontendInstructor />
+					<FullstackReq />
+					<FullstackEnrol />
+					<FullstackInstructor />
 				</div>
 			</div>
-			<FrontendRelated />
+			<FullstackRelated />
 		</div>
 	);
 };
 
-let AboutFrontend = () => {
+let AboutFullstack = () => {
 	return (
 		<div className="">
 			<div className="navbar-expand-lg">
@@ -67,7 +67,7 @@ let AboutFrontend = () => {
 								</div>
 								<div>
 									<h3>FEE</h3>
-									<p>200,000.00</p>
+									<p>300,000.00</p>
 								</div>
 							</div>
 						</li>
@@ -84,17 +84,16 @@ let AboutFrontend = () => {
 					This is a hybrid learning that blends self-paced and instructor-led
 					learning for 8 weeks. The training takes place for a period of 6 weeks
 					and a 2 weeks practical with live projects. Areas to be covered
-					include HTML, JavaScript, React, Bootstrap, CSS, Figma, and Redux.
-					Applicants are encouraged to pay in instalments if full payment cannot
-					be made. Instructors are seasoned industry-based and can be reached
-					for post-class activities.
+					include both frontend and backend. Applicants are encouraged to pay in
+					instalments if full payment cannot be made. Instructors are seasoned
+					industry-based and can be reached for post-class activities.
 				</p>
 			</div>
 		</div>
 	);
 };
 
-let FrontendApplyHere = () => {
+let FullstackApplyHere = () => {
 	return (
 		<div className="card-body">
 			<h3 className="card-title">How to Apply</h3>
@@ -126,7 +125,7 @@ let FrontendApplyHere = () => {
 	);
 };
 
-let FrontendReq = () => {
+let FullstackReq = () => {
 	return (
 		<div className="card-body">
 			<h3 className="card-title">Requirements</h3>
@@ -149,7 +148,7 @@ let FrontendReq = () => {
 	);
 };
 
-let FrontendEnrol = () => {
+let FullstackEnrol = () => {
 	return (
 		<div className="card-body">
 			<h3 className="card-title">Available Enrolment Options</h3>
@@ -165,7 +164,7 @@ let FrontendEnrol = () => {
 	);
 };
 
-let FrontendInstructor = () => {
+let FullstackInstructor = () => {
 	return (
 		<div className="mb-3">
 			<div className="instructor_card d-flex align-items-md-center">
@@ -180,11 +179,9 @@ let FrontendInstructor = () => {
 				</div>
 
 				<div className="ms-3">
-					<h5>
-						<b>About Instructor</b>
-					</h5>
-					<p className="course-instructor">AbdulRahman Adamu</p>
-					<p className="course-instructor">Frontend Developer</p>
+					<h5>About Instructor</h5>
+					<p>AbdulRahman Adamu</p>
+					<p>Frontend Developer</p>
 				</div>
 				{/* <Link to=""></Link> */}
 			</div>
@@ -192,7 +189,7 @@ let FrontendInstructor = () => {
 	);
 };
 
-let FrontendRelated = () => {
+let FullstackRelated = () => {
 	return (
 		<div className="webDev mx-5 px-5 my-5 pb-5">
 			<h3 className="techHead px-5 my-5 pt-5">Related Courses</h3>
@@ -208,4 +205,4 @@ let FrontendRelated = () => {
 		</div>
 	);
 };
-export default FrontendInfo;
+export default FullstackInfo;

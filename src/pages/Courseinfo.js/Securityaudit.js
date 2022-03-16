@@ -10,27 +10,27 @@ import { ApplyNowButton } from "../../components/Buttons";
 import { CourseCards } from "../../components/Card";
 import techacademy from "../../data/tech_academy_details/techacademy.json";
 
-let FrontendInfo = () => {
+let SecurityauditInfo = () => {
 	return (
 		<div>
-			<CourseinfoHero coursename="Frontend Development" />
+			<CourseinfoHero coursename="Security Audit" />
 			<div className="row justify-content-center">
 				<div className="col-lg-7 col-md-6 col-sm-10">
-					<AboutFrontend />
-					<FrontendApplyHere />
+					<AboutSecurityaudit />
+					<SecurityauditApplyHere />
 				</div>
 				<div className="col-lg-4 col-md-5 col-sm-10 sectiontwoBg mt-5 h-100">
-					<FrontendReq />
-					<FrontendEnrol />
-					<FrontendInstructor />
+					{/* <RiskmgtReq /> */}
+					<SecurityauditEnrol />
+					<SecurityauditInstructor />
 				</div>
 			</div>
-			<FrontendRelated />
+			<SecurityauditRelated />
 		</div>
 	);
 };
 
-let AboutFrontend = () => {
+let AboutSecurityaudit = () => {
 	return (
 		<div className="">
 			<div className="navbar-expand-lg">
@@ -44,7 +44,7 @@ let AboutFrontend = () => {
 
 								<div>
 									<h3>COURSES</h3>
-									<p>08 Weeks</p>
+									<p>04 Weeks</p>
 								</div>
 							</div>
 						</li>
@@ -56,7 +56,7 @@ let AboutFrontend = () => {
 
 								<div>
 									<h3>DURATION</h3>
-									<p>70 Hours</p>
+									<p>50 Hours</p>
 								</div>
 							</div>
 						</li>
@@ -81,20 +81,17 @@ let AboutFrontend = () => {
 			<div className="card-body">
 				<h3 className="card-title">About Course</h3>
 				<p className="card-text">
-					This is a hybrid learning that blends self-paced and instructor-led
-					learning for 8 weeks. The training takes place for a period of 6 weeks
-					and a 2 weeks practical with live projects. Areas to be covered
-					include HTML, JavaScript, React, Bootstrap, CSS, Figma, and Redux.
-					Applicants are encouraged to pay in instalments if full payment cannot
-					be made. Instructors are seasoned industry-based and can be reached
-					for post-class activities.
+					This course introduces key processes, systems and documentation used
+					in security auditing for organizations. Real world use cases are
+					utilized to understand changes required to improve the integrity of
+					systems in organizations to run efficiently or effectively.
 				</p>
 			</div>
 		</div>
 	);
 };
 
-let FrontendApplyHere = () => {
+let SecurityauditApplyHere = () => {
 	return (
 		<div className="card-body">
 			<h3 className="card-title">How to Apply</h3>
@@ -126,30 +123,23 @@ let FrontendApplyHere = () => {
 	);
 };
 
-let FrontendReq = () => {
-	return (
-		<div className="card-body">
-			<h3 className="card-title">Requirements</h3>
-			<ul className="list-content">
-				<li className="list-item pb-2">Good and functioning Laptop.</li>
-				<li className="list-item pb-2">Reliable Internet connection.</li>
-				<li className="list-item pb-2">Ability to operate a computer.</li>
-				<li className="list-item pb-2">Google/Yahoo account.</li>
-				<li className="list-item pb-2">Domain name and hosting server</li>
-				<li className="list-item pb-2">
-					Code editor software (e.g. notepad++, visual studio code, sublime text
-					etc)
-				</li>
-				<li className="list-item pb-2">Flash drive or external hard drive.</li>
-				<li className="list-item pb-2">
-					Basic knowledge of computer's software applications is useful.
-				</li>
-			</ul>
-		</div>
-	);
-};
+// let RiskmgtReq = () => {
+//   return (
+//     <div className="card-body">
+//       <h3 className="card-title">Requirements</h3>
+//       <ul className="list-content">
+//         <li className="list-item pb-2">
+//           Working with, maintaining, and developing with SQL Server.
+//         </li>
+//         <li className="list-item pb-2">
+//           Experience with Azure, such as deploying and managing resources.
+//         </li>
+//       </ul>
+//     </div>
+//   );
+// };
 
-let FrontendEnrol = () => {
+let SecurityauditEnrol = () => {
 	return (
 		<div className="card-body">
 			<h3 className="card-title">Available Enrolment Options</h3>
@@ -165,7 +155,7 @@ let FrontendEnrol = () => {
 	);
 };
 
-let FrontendInstructor = () => {
+let SecurityauditInstructor = () => {
 	return (
 		<div className="mb-3">
 			<div className="instructor_card d-flex align-items-md-center">
@@ -180,11 +170,9 @@ let FrontendInstructor = () => {
 				</div>
 
 				<div className="ms-3">
-					<h5>
-						<b>About Instructor</b>
-					</h5>
-					<p className="course-instructor">AbdulRahman Adamu</p>
-					<p className="course-instructor">Frontend Developer</p>
+					<h5>About Instructor</h5>
+					<p>AbdulRahman Adamu</p>
+					<p>Frontend Developer</p>
 				</div>
 				{/* <Link to=""></Link> */}
 			</div>
@@ -192,7 +180,7 @@ let FrontendInstructor = () => {
 	);
 };
 
-let FrontendRelated = () => {
+let SecurityauditRelated = () => {
 	return (
 		<div className="webDev mx-5 px-5 my-5 pb-5">
 			<h3 className="techHead px-5 my-5 pt-5">Related Courses</h3>
@@ -208,4 +196,4 @@ let FrontendRelated = () => {
 		</div>
 	);
 };
-export default FrontendInfo;
+export default SecurityauditInfo;

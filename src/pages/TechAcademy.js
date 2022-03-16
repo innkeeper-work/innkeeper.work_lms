@@ -6,31 +6,31 @@ import { CoursepageHero } from "../components/Hero";
 import { InstructorCards } from "../components/Card";
 
 const TechAcademy = () => {
-  return (
-    <div>
-      <TechHero />
-      <WebDev />
-      <CloudComputing />
-      <CyberSecurity />
-      <BigData />
-      <OurInstructors />
-      <Instructors />
-    </div>
-  );
+	return (
+		<div>
+			<TechHero />
+			<WebDev />
+			<CloudComputing />
+			<CyberSecurity />
+			<BigData />
+			<OurInstructors />
+			<Instructors />
+		</div>
+	);
 };
 
 let TechHero = () => {
-  return (
-    <div>
-      {techacademy.techacademyheroinfo.map((singlehero) => {
-        return (
-          <div key={singlehero.id}>
-            <CoursepageHero {...singlehero}></CoursepageHero>
-          </div>
-        );
-      })}
-    </div>
-  );
+	return (
+		<div>
+			{techacademy.techacademyheroinfo.map((singlehero) => {
+				return (
+					<div key={singlehero.id}>
+						<CoursepageHero {...singlehero}></CoursepageHero>
+					</div>
+				);
+			})}
+		</div>
+	);
 };
 
 let WebDev = () => {
@@ -111,6 +111,7 @@ let Instructors = () => {
       </div>
     </div>
   );
+
 };
 
 export default TechAcademy;
