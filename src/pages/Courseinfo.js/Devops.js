@@ -10,27 +10,27 @@ import { ApplyNowButton } from "../../components/Buttons";
 import { CourseCards } from "../../components/Card";
 import techacademy from "../../data/tech_academy_details/techacademy.json";
 
-let FrontendInfo = () => {
+let DevopsInfo = () => {
   return (
     <div>
-      <CourseinfoHero coursename="Frontend Development" />
+      <CourseinfoHero coursename="Designing and Implementing Microsoft DevOps Solutions" />
       <div className="row justify-content-center">
         <div className="col-lg-7 col-md-6 col-sm-10">
-          <AboutFrontend />
-          <FrontendApplyHere />
+          <AboutDevops />
+          <DevopsApplyHere />
         </div>
         <div className="col-lg-4 col-md-5 col-sm-10 sectiontwoBg mt-5 h-100">
-          <FrontendReq />
-          <FrontendEnrol />
-          <FrontendInstructor />
+          <DevopsReq />
+          <DevopsEnrol />
+          <DevopsInstructor />
         </div>
       </div>
-      <FrontendRelated />
+      <DevopsRelated />
     </div>
   );
 };
 
-let AboutFrontend = () => {
+let AboutDevops = () => {
   return (
     <div className="">
       <div className="navbar-expand-lg">
@@ -44,7 +44,7 @@ let AboutFrontend = () => {
 
                 <div>
                   <h3>COURSES</h3>
-                  <p>08 Weeks</p>
+                  <p>04 Weeks</p>
                 </div>
               </div>
             </li>
@@ -56,7 +56,7 @@ let AboutFrontend = () => {
 
                 <div>
                   <h3>DURATION</h3>
-                  <p>70 Hours</p>
+                  <p>50 Hours</p>
                 </div>
               </div>
             </li>
@@ -67,7 +67,7 @@ let AboutFrontend = () => {
                 </div>
                 <div>
                   <h3>FEE</h3>
-                  <p>200,000.00</p>
+                  <p>300,000.00</p>
                 </div>
               </div>
             </li>
@@ -81,20 +81,21 @@ let AboutFrontend = () => {
       <div className="card-body">
         <h3 className="card-title">About Course</h3>
         <p className="card-text">
-          This is a hybrid learning that blends self-paced and instructor-led
-          learning for 8 weeks. The training takes place for a period of 6 weeks
-          and a 2 weeks practical with live projects. Areas to be covered
-          include HTML, JavaScript, React, Bootstrap, CSS, Figma, and Redux.
-          Applicants are encouraged to pay in instalments if full payment cannot
-          be made. Instructors are seasoned industry-based and can be reached
-          for post-class activities.
+          This course provides the knowledge and skills to design and implement
+          DevOps processes and practices. Students will learn how to plan for
+          DevOps, use source control, scale Git for an enterprise, consolidate
+          artifacts, design a dependency management strategy, manage secrets,
+          implement continuous integration, implement a container build
+          strategy, design a release strategy, set up a release management
+          workflow, implement a deployment pattern, and optimize feedback
+          mechanisms.
         </p>
       </div>
     </div>
   );
 };
 
-let FrontendApplyHere = () => {
+let DevopsApplyHere = () => {
   return (
     <div className="card-body">
       <h3 className="card-title">How to Apply</h3>
@@ -126,30 +127,30 @@ let FrontendApplyHere = () => {
   );
 };
 
-let FrontendReq = () => {
+let DevopsReq = () => {
   return (
     <div className="card-body">
       <h3 className="card-title">Requirements</h3>
       <ul className="list-content">
-        <li className="list-item pb-2">Good and functioning Laptop.</li>
-        <li className="list-item pb-2">Reliable Internet connection.</li>
-        <li className="list-item pb-2">Ability to operate a computer.</li>
-        <li className="list-item pb-2">Google/Yahoo account.</li>
-        <li className="list-item pb-2">Domain name and hosting server</li>
         <li className="list-item pb-2">
-          Code editor software (e.g. notepad++, visual studio code, sublime text
-          etc)
+          Cloud computing concepts, including an understanding of PaaS, SaaS,
+          and IaaS implementations.
         </li>
-        <li className="list-item pb-2">Flash drive or external hard drive.</li>
         <li className="list-item pb-2">
-          Basic knowledge of computer's software applications is useful.
+          Both Azure administration and Azure development with proven expertise
+          in at least one of these areas.
+        </li>
+        <li className="list-item pb-2">
+          Version control, Agile software development, and core software
+          development principles. It would be helpful to have experience in an
+          organization that delivers software.
         </li>
       </ul>
     </div>
   );
 };
 
-let FrontendEnrol = () => {
+let DevopsEnrol = () => {
   return (
     <div className="card-body">
       <h3 className="card-title">Available Enrolment Options</h3>
@@ -165,7 +166,7 @@ let FrontendEnrol = () => {
   );
 };
 
-let FrontendInstructor = () => {
+let DevopsInstructor = () => {
   return (
     <div className="mb-3">
       <div className="instructor_card d-flex align-items-md-center">
@@ -180,11 +181,9 @@ let FrontendInstructor = () => {
         </div>
 
         <div className="ms-3">
-          <h5>
-            <b>About Instructor</b>
-          </h5>
-          <p className="course-instructor">AbdulRahman Adamu</p>
-          <p className="course-instructor">Frontend Developer</p>
+          <h5>About Instructor</h5>
+          <p>AbdulRahman Adamu</p>
+          <p>Frontend Developer</p>
         </div>
         {/* <Link to=""></Link> */}
       </div>
@@ -192,7 +191,7 @@ let FrontendInstructor = () => {
   );
 };
 
-let FrontendRelated = () => {
+let DevopsRelated = () => {
   return (
     <div className="webDev mx-5 px-5 my-5 pb-5">
       <h3 className="techHead px-5 my-5 pt-5">Related Courses</h3>
@@ -208,4 +207,4 @@ let FrontendRelated = () => {
     </div>
   );
 };
-export default FrontendInfo;
+export default DevopsInfo;
