@@ -100,71 +100,80 @@ const Footer = () => {
 								</p>
 							</div>
 
-							<div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-								<div className="d-flex d-md-block ms-5">
-									<p>
-										<a
-											className="btnText d-flex"
-											href="https://facebook.com/"
-											style={{ textDecoration: "none", marginRight: "50px" }}>
-											<i class="bi bi-facebook" style={{ color: "white" }}></i>
-											<p
-												className="d-none d-md-block "
-												style={{ textDecoration: "none", marginLeft: "5px" }}>
-												Facebook
-											</p>
-										</a>
-									</p>
-									<p>
-										<a
-											className="btnText d-flex"
-											href="https://twitter.com/"
-											style={{ textDecoration: "none", marginRight: "50px" }}>
-											<i class="bi bi-twitter" style={{ color: "white" }}></i>
-											<p
-												className="d-none d-md-block "
-												style={{ textDecoration: "none", marginLeft: "5px" }}>
-												{" "}
-												Twitter
-											</p>
-										</a>
-									</p>
-									<p>
-										<a
-											className="btnText d-flex"
-											href="https://instagram.com/"
-											style={{ textDecoration: "none", marginRight: "50px" }}>
-											<i class="bi bi-instagram"></i>
-											<p
-												className="d-none d-md-block "
-												style={{ textDecoration: "none", marginLeft: "5px" }}>
-												{" "}
-												Instagram
-											</p>
-										</a>
-									</p>
-									<p>
-										<a
-											className="btnText d-flex"
-											href="https://linked.com/"
-											style={{ textDecoration: "none", marginRight: "50px" }}>
-											<i class="bi bi-linkedin"></i>
-											<p
-												className="d-none d-md-block "
-												style={{ textDecoration: "none", marginLeft: "5px" }}>
-												{" "}
-												Linkedin
-											</p>
-										</a>
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</footer>
-		</>
-	);
+              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 sm-3">
+                <div className="d-flex d-md-block ms-5 flex-wrap">
+                  <p>
+                    <a
+                      className="btnText d-flex"
+                      href="https://facebook.com/"
+                      style={{ textDecoration: 'none', marginRight: '50px' }}
+                    >
+                      <FacebookIcon />
+                      <p
+                        className="d-none d-md-block "
+                        style={{ textDecoration: 'none', marginLeft: '5px' }}
+                      >
+                        Facebook
+                      </p>
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      className="btnText d-flex"
+                      href="https://twitter.com/"
+                      style={{ textDecoration: 'none', marginRight: '50px' }}
+                    >
+                      <TwitterIcon />
+                      <p
+                        className="d-none d-md-block "
+                        style={{ textDecoration: 'none', marginLeft: '5px' }}
+                      >
+                        {' '}
+                        Twitter
+                      </p>
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      className="btnText d-flex"
+                      href="https://instagram.com/"
+                      style={{ textDecoration: 'none', marginRight: '50px' }}
+                    >
+                      <InstagramIcon />
+                      <p
+                        className="d-none d-md-block "
+                        style={{ textDecoration: 'none', marginLeft: '5px' }}
+                      >
+                        {' '}
+                        Instagram
+                      </p>
+                    </a>
+                  </p>
+                  <p>
+                    <a
+                      className="btnText d-flex"
+                      href="https://linked.com/"
+                      style={{ textDecoration: 'none', marginRight: '50px' }}
+                    >
+                      <LinkedInIcon />
+                      <p
+                        className="d-none d-md-block "
+                        style={{ textDecoration: 'none', marginLeft: '5px' }}
+                      >
+                        {' '}
+                        Linkedin
+                      </p>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </>
+  );
+
 };
 
 export default Footer;
