@@ -1,9 +1,9 @@
-@use "./customdes" as *;
+@use './customdes' as *;
 // @import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 
 * {
   box-sizing: border-box;
-  font-family: "poppins", sans-serif;
+  font-family: 'poppins', sans-serif;
   // font-family: "Josefin Sans", cursive;
 }
 
@@ -85,7 +85,7 @@ body {
   color: $btnBgColor;
 }
 .heroBg {
-  background-image: url("../images/homehero3.png");
+  background-image: url('../images/homehero3.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -96,7 +96,7 @@ body {
   background-color: $sectionColor;
 }
 .testBg {
-  background-image: url("../images/success.png");
+  background-image: url('../images/success.png');
   background-repeat: no-repeat;
   background-size: cover;
 }

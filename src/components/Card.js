@@ -73,6 +73,7 @@ export const BlogCardsTwo = (props) => {
 };
 
 //courses cards
+
 export const CourseCards = (props) => {
   const { img, title, description } = props;
   return (
