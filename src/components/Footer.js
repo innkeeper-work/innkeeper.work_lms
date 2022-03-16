@@ -1,9 +1,5 @@
 import React from "react";
 import innkeeperlogo from "../images/innkeeperlogo.png";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 const Footer = () => {
 	return (
@@ -111,7 +107,7 @@ const Footer = () => {
 											className="btnText d-flex"
 											href="https://facebook.com/"
 											style={{ textDecoration: "none", marginRight: "50px" }}>
-											<FacebookIcon />
+											<i class="bi bi-facebook" style={{ color: "white" }}></i>
 											<p
 												className="d-none d-md-block "
 												style={{ textDecoration: "none", marginLeft: "5px" }}>
@@ -124,7 +120,7 @@ const Footer = () => {
 											className="btnText d-flex"
 											href="https://twitter.com/"
 											style={{ textDecoration: "none", marginRight: "50px" }}>
-											<TwitterIcon />
+											<i class="bi bi-twitter" style={{ color: "white" }}></i>
 											<p
 												className="d-none d-md-block "
 												style={{ textDecoration: "none", marginLeft: "5px" }}>
@@ -138,7 +134,7 @@ const Footer = () => {
 											className="btnText d-flex"
 											href="https://instagram.com/"
 											style={{ textDecoration: "none", marginRight: "50px" }}>
-											<InstagramIcon />
+											<i class="bi bi-instagram"></i>
 											<p
 												className="d-none d-md-block "
 												style={{ textDecoration: "none", marginLeft: "5px" }}>
@@ -152,7 +148,7 @@ const Footer = () => {
 											className="btnText d-flex"
 											href="https://linked.com/"
 											style={{ textDecoration: "none", marginRight: "50px" }}>
-											<LinkedInIcon />
+											<i class="bi bi-linkedin"></i>
 											<p
 												className="d-none d-md-block "
 												style={{ textDecoration: "none", marginLeft: "5px" }}>
