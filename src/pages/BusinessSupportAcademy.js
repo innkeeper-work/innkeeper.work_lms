@@ -32,11 +32,11 @@ let BusinessHero = () => {
 
 let Business = () => {
   return (
-    <div className="webDev mx-5 px-5 my-5 pb-5 Larger shadow">
-      <div className="row">
+    <div className="webDev m-5 p-5">
+      <div className="row p-1 d-flex justify-content-around">
         {businessSupport.business.map((singlebus) => {
           return (
-            <div className="col-4" key={singlebus.id}>
+            <div className="col-md-4 col-sm-6 pb-5" key={singlebus.id}>
               <CourseCards {...singlebus}></CourseCards>
             </div>
           );
@@ -49,13 +49,10 @@ let Business = () => {
 let BusinessInstructors = () => {
   return (
     <div className="webDev m-5 p-5">
-      <div className="row d-flex justify-content-around">
+      <div className="row p-1 d-flex justify-content-around">
         {businessSupport.instructors.map((singleInstr) => {
           return (
-            <div
-              className="col-lg-4 col-sm-4 col-md-4 d-flex align-items-stretch"
-              key={singleInstr.id}
-            >
+            <div className="col-md-4 col-sm-6" key={singleInstr.id}>
               <InstructorCards {...singleInstr}></InstructorCards>
             </div>
           );
@@ -65,19 +62,3 @@ let BusinessInstructors = () => {
   );
 };
 export default BusinessSupportAcademy;
-
-// let Instructors = () => {
-//   return (
-//     <div className="webDev m-5 p-5">
-//       <div className="row d-flex justify-content-around">
-//         {techacademy.instructors.map((singleInstr) => {
-//           return (
-//             <div className="col-lg-4 col-sm-4 col-md-4" key={singleInstr.id}>
-//               <InstructorCards {...singleInstr}></InstructorCards>
-//             </div>
-//           );
-//         })}
-//       </div>
-//     </div>
-//   );
-// };
