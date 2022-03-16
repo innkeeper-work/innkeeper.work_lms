@@ -160,7 +160,7 @@ let CourseCategory = () => {
       <div className="row g-0">
         {categories.coursecategories.map((category) => {
           return (
-            <div className="col-lg-4 col-md-6 col-sm-6" key={category.id}>
+            <div className="col-lg-3 col-md-6 col-sm-6" key={category.id}>
               <CourseCategoryCards {...category}></CourseCategoryCards>
             </div>
           );

@@ -1,14 +1,14 @@
-import React from 'react';
-import img404 from '../images/404.png';
-import FacebookIcon from '@material-ui/icons/Facebook';
-import TwitterIcon from '@material-ui/icons/Twitter';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-
-import { Home } from '../components/Buttons';
-import { ContactUs } from '../components/Buttons';
+import React from "react";
+import img404 from "../images/404.png";
+import { FacebookIcon } from "../components/Icons";
+import { TwitterIcon } from "../components/Icons";
+import { InstagramIcon } from "../components/Icons";
+import { LinkedInIcon } from "../components/Icons";
+import { Home } from "../components/Buttons";
+import { ContactUs } from "../components/Buttons";
 
 const Error404 = () => {
+
   return (
     <div className="row">
       <div className="col-md-6 col-lg-6 col-sm-6 col-xs-12 g-0">
@@ -42,6 +42,7 @@ const Error404 = () => {
       </div>
     </div>
   );
+
 };
 
 export default Error404;

@@ -8,7 +8,7 @@ export let HomepageHero = () => {
     <div className="px-4 py-2 heroBg container-fluid">
       <Navbar />
       <div className="row flex-sm-row-reverse align-items-center">
-        <div className="col-lg-5 col-md-5">
+        <div className="col-lg-5 col-md-6">
           <img
             src={heroimage}
             className="d-block mx-lg-auto img-fluid"
@@ -16,11 +16,15 @@ export let HomepageHero = () => {
             loading=""
           />
         </div>
-        <div className="col-lg-5 col-md-6">
+        <div className="col-lg-7 ps-5 col-md-6 py-5">
           <h1 className="herotextWhite">
-            Mentored Upskilling For Improved <br />
-            <span className="herotextColored">Learning Opportunities</span>
+            Upskill for this&nbsp;
+            <span className="herotextColored">Digital age.</span>
           </h1>
+          <p className="herotextWhite">
+            Mentored Upskilling For Improved Learning Opportunities. Get the
+            needed skills for your desired job role.
+          </p>
           <div className="my-4">
             <GetStartedButton />
           </div>
@@ -37,11 +41,25 @@ export const CoursepageHero = (props) => {
       <Navbar />
       <div className="row align-items-center g-5 p-md-4 m-5">
         <div className="col-lg-6 col-sm-12">
-          <h3 className="herotextColored">
+          <h1 className="herotextColored">
             {herotitle} <br />
-            <span className="herotextWhite">{Description}</span>
-          </h3>
+            <p className="herotextWhite">{Description}</p>
+          </h1>
           <GetStartedButton />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const CourseinfoHero = (props) => {
+  const { coursename } = props;
+  return (
+    <div className="px-4 py-2 heroBg">
+      <Navbar />
+      <div className="row align-items-center g-5 p-md-4 my-5">
+        <div className="col-lg-6 col-sm-12">
+          <h1 className="herotextColored mb-5">{coursename}</h1>
         </div>
       </div>
     </div>
