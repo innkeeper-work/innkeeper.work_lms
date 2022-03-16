@@ -35,17 +35,12 @@ let TechHero = () => {
 
 let WebDev = () => {
   return (
-    <div className="webDev mx-5 px-5 my-5 pb-5 Larger shadow">
-      <h3 className="techHead mx-5 px-5 my-5 pt-5">
-        Programming and Web Development
-      </h3>
-      <div className="row">
+    <div className="webDev m-5 p-5">
+      <h3 className="techHead pb-3">Programming and Web Development</h3>
+      <div className="row p-1 d-flex justify-content-between">
         {techacademy.webdev.map((singleweb) => {
           return (
-            <div
-              className="col-4 d-flex align-items-stretch"
-              key={singleweb.id}
-            >
+            <div className="col-md-4 col-sm-4 pb-5" key={singleweb.id}>
               <CourseCards {...singleweb}></CourseCards>
             </div>
           );
@@ -56,15 +51,12 @@ let WebDev = () => {
 };
 let CloudComputing = () => {
   return (
-    <div className="webDev mx-5 px-5 my-5 pb-5 Larger shadow">
-      <h3 className="techHead mx-5 px-5 my-5 pt-5">Cloud Computing</h3>
-      <div className="row">
+    <div className="webDev m-5 p-5">
+      <h3 className="techHead pb-3">Cloud Computing</h3>
+      <div className="row p-1 d-flex justify-content-between">
         {techacademy.cloudcomputing.map((singlecloud) => {
           return (
-            <div
-              className="col-4 d-flex align-items-stretch"
-              key={singlecloud.id}
-            >
+            <div className="col-md-4 col-sm-4 pb-5" key={singlecloud.id}>
               <CourseCards {...singlecloud}></CourseCards>
             </div>
           );
@@ -75,15 +67,12 @@ let CloudComputing = () => {
 };
 let CyberSecurity = () => {
   return (
-    <div className="webDev mx-5 px-5 my-5 pb-5 Larger shadow">
-      <h3 className="techHead mx-5 px-5 my-5 pt-5">Cyber Security</h3>
-      <div className="row">
+    <div className="webDev  m-5 p-5">
+      <h3 className="techHead pb-3">Cyber Security</h3>
+      <div className="row p-1 d-flex justify-content-between">
         {techacademy.cybersecurity.map((singlecyber) => {
           return (
-            <div
-              className="col-4 d-flex align-items-stretch"
-              key={singlecyber.id}
-            >
+            <div className="col-md-4 col-sm-4 pb-5" key={singlecyber.id}>
               <CourseCards {...singlecyber}></CourseCards>
             </div>
           );
@@ -94,15 +83,12 @@ let CyberSecurity = () => {
 };
 let BigData = () => {
   return (
-    <div className="webDev mx-5 px-5 my-5 pb-5 Larger shadow">
-      <h3 className="techHead mx-5 px-5 my-5 pt-5">Big Data</h3>
-      <div className="row">
+    <div className="webDev m-5 p-5">
+      <h3 className="techHead pb-3">Big Data</h3>
+      <div className="row p-1 d-flex justify-content-between">
         {techacademy.bigdata.map((singlebig) => {
           return (
-            <div
-              className="col-4 d-flex align-items-stretch"
-              key={singlebig.id}
-            >
+            <div className="col-md-4 col-sm-4 pb-5" key={singlebig.id}>
               <CourseCards {...singlebig}></CourseCards>
             </div>
           );
@@ -114,13 +100,10 @@ let BigData = () => {
 let Instructors = () => {
   return (
     <div className="webDev m-5 p-5">
-      <div className="row d-flex justify-content-around">
+      <div className="row p-1 d-flex justify-content-around">
         {techacademy.instructors.map((singleInstr) => {
           return (
-            <div
-              className="col-lg-4 col-sm-4 col-md-4 d-flex align-items-stretch"
-              key={singleInstr.id}
-            >
+            <div className="col-md-4 col-sm-6" key={singleInstr.id}>
               <InstructorCards {...singleInstr}></InstructorCards>
             </div>
           );
