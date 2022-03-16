@@ -22,17 +22,31 @@ export const CreditCardIcon = () => {
 		</div>
 	);
 };
-// export const AlarmIcon = () => {
-// 	return (
-// 		<div>
-// 			<i class="bi bi-alarm iconCol"></i>
-// 		</div>
-// 	);
-// };
-// export const AlarmIcon = () => {
-// 	return (
-// 		<div>
-// 			<i class="bi bi-alarm iconCol"></i>
-// 		</div>
-// 	);
-// };
+export const FacebookIcon = () => {
+	return (
+		<div>
+			<i class="bi bi-facebook"></i>
+		</div>
+	);
+};
+export const TwitterIcon = () => {
+	return (
+		<div>
+			<i class="bi bi-twitter"></i>
+		</div>
+	);
+};
+export const InstagramIcon = () => {
+	return (
+		<div>
+			<i class="bi bi-instagram"></i>
+		</div>
+	);
+};
+export const LinkedInIcon = () => {
+	return (
+		<div>
+			<i class="bi bi-linkedin"></i>
+		</div>
+	);
+};
