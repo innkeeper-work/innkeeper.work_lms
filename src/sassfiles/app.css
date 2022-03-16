@@ -23,6 +23,10 @@ body p {
   line-height: 1.75rem;
 }
 
+.course-instructor {
+  line-height: 0.8rem;
+}
+
 .signinbtn {
   color: #ffffff;
   background: #27aae1;

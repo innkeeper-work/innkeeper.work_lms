@@ -29,6 +29,10 @@ body {
     line-height: 1.75rem;
   }
 }
+
+.course-instructor {
+  line-height: 0.8rem;
+}
 .signinbtn {
   @include signin;
 }
