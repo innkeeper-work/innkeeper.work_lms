@@ -1,7 +1,7 @@
 import React from "react";
 import { ApplyNowButton } from "./Buttons";
-import blogimage1 from "../images/blogimage1.png";
-import blogimage2 from "../images/blogimage2.png";
+import event1 from "../images/event1.png";
+import event2 from "../images/event2.png";
 
 //homepage cards
 export const CourseCategoryCards = (props) => {
@@ -22,11 +22,11 @@ export const CourseCategoryCards = (props) => {
 
 export const BlogCards = (props) => {
   return (
-    <div class="card m-3" style={{ maxWidth: "540px" }}>
+    <div class="card m-3">
       <div class="row g-0">
         <div class="col-md-4">
           <img
-            src={blogimage1}
+            src={event1}
             className="img-fluid rounded-start h-100"
             alt="..."
           />
@@ -48,11 +48,11 @@ export const BlogCards = (props) => {
 
 export const BlogCardsTwo = (props) => {
   return (
-    <div class="card m-3" style={{ maxWidth: "540px" }}>
+    <div class="card m-3">
       <div class="row g-0">
         <div class="col-md-4">
           <img
-            src={blogimage2}
+            src={event2}
             className="img-fluid rounded-start h-100"
             alt="..."
           />

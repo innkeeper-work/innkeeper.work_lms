@@ -10,14 +10,14 @@ import Architectdesign from "./pages/Courseinfo.js/Architectdesign";
 import Architecttech from "./pages/Courseinfo.js/Architecttech";
 import Relationaldb from "./pages/Courseinfo.js/Relationaldb";
 import Riskmgt from "./pages/Courseinfo.js/Riskmgt";
-import Reverse from "./pages/Courseinfo.js/Reverse";
+import Reverseengineering from "./pages/Courseinfo.js/Reverseengineering";
 import Pentesting from "./pages/Courseinfo.js/Pentesting";
 import Bigdata from "./pages/Courseinfo.js/Bigdata";
 import Python from "./pages/Courseinfo.js/Python";
 import IoT from "./pages/Courseinfo.js/IoT";
 import Securityaudit from "./pages/Courseinfo.js/Securityaudit";
 import Sales from "./pages/Courseinfo.js/Sales";
-import Customer from "./pages/Courseinfo.js/Customer";
+import Customerexperience from "./pages/Courseinfo.js/Customerexperience";
 import Digitalmarketing from "./pages/Courseinfo.js/Digitalmarketing";
 import Videoediting from "./pages/Courseinfo.js/Videoediting";
 import Personaldevt from "./pages/Courseinfo.js/Personaldevt";
@@ -57,14 +57,14 @@ function App() {
         <Route path=" architecttech" element={<Architecttech />} />
         <Route path="relationaldb" element={<Relationaldb />} />
         <Route path="riskmgt" element={<Riskmgt />} />
-        <Route path="reverse" element={<Reverse />} />
+        <Route path="reverseengineering" element={<Reverseengineering />} />
         <Route path="pentesting" element={<Pentesting />} />
         <Route path="bigdata" element={<Bigdata />} />
         <Route path="python" element={<Python />} />
         <Route path="iot" element={<IoT />} />
         <Route path="securityaudit" element={<Securityaudit />} />
         <Route path="sales" element={<Sales />} />
-        <Route path="customer" element={<Customer />} />
+        <Route path="customerexperience" element={<Customerexperience />} />
         <Route path="digitalmarketing" element={<Digitalmarketing />} />
         <Route path="videoediting" element={<Videoediting />} />
         <Route path="personaldevt" element={<Personaldevt />} />
