@@ -1,19 +1,18 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { HomepageHero } from "../components/Hero";
-import aiki from "../images/aiki.png";
-import lady from "../images/lady.png";
-import categories from "../data/categories.json";
-import { CourseCategoryCards } from "../components/Card";
-import { BlogCards } from "../components/Card";
-import { BlogCardsTwo } from "../components/Card";
-import { LearnMoreButton } from "../components/Buttons";
-import { BeginCoursesButton } from "../components/Buttons";
-import { SubscribeButton } from "../components/Buttons";
-import { ApplyNowButton } from "../components/Buttons";
-import Footer from "../components/Footer";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { HomepageHero } from '../components/Hero';
+import aiki from '../images/aiki.png';
+import lady from '../images/lady.png';
+import categories from '../data/categories.json';
+import { CourseCategoryCards } from '../components/Card';
+import { BlogCards } from '../components/Card';
+import { BlogCardsTwo } from '../components/Card';
+import { LearnMoreButton } from '../components/Buttons';
+import { BeginCoursesButton } from '../components/Buttons';
+import { SubscribeButton } from '../components/Buttons';
+import { ApplyNowButton } from '../components/Buttons';
 
-import videoicon from "../images/videoicon.png";
+import videoicon from '../images/videoicon.png';
 
 const Homepage = () => {
   return (
@@ -45,7 +44,6 @@ const Homepage = () => {
       </div>
 
       <Newsletter />
-      <Footer />
     </div>
   );
 };
@@ -58,7 +56,7 @@ let Homepagemain = () => {
           <div className="row">
             <div className="">
               <div className="m-5 p-5 card-cut-one d-none d-xs-none d-sm-none d-md-block d-lg-block"></div>
-              <Link to={{ pathname: "https://github.com" }}>
+              <Link to={{ pathname: 'https://github.com' }}>
                 <i className="fab fa-github" />
               </Link>
             </div>
@@ -72,7 +70,7 @@ let Homepagemain = () => {
           </div>
           <div className="row">
             <div className="mt-5 pt-5">
-              <Link to={{ pathname: "https://github.com" }}>
+              <Link to={{ pathname: 'https://github.com' }}>
                 <i className="fab fa-github" />
               </Link>
               <h3>Flexibility-support</h3>
@@ -90,7 +88,7 @@ let Homepagemain = () => {
           <div className="row">
             <div className="">
               <div className="m-5 p-5 card-cut-three d-none d-xs-none d-sm-none d-md-block d-lg-block"></div>
-              <Link to={{ pathname: "https://github.com" }}>
+              <Link to={{ pathname: 'https://github.com' }}>
                 <i className="fab fa-github" />
               </Link>
             </div>
@@ -104,7 +102,7 @@ let Homepagemain = () => {
           </div>
           <div className="row">
             <div className="mt-5 pt-5">
-              <Link to={{ pathname: "https://github.com" }}>
+              <Link to={{ pathname: 'https://github.com' }}>
                 <i className="fab fa-github" />
               </Link>
               <h3>Scholarship-Support</h3>
@@ -159,7 +157,7 @@ let CourseCategory = () => {
   return (
     <div className="categoryBg">
       <h3 className="text-center pt-5">Our Courses</h3>
-      <div className="row">
+      <div className="row g-0">
         {categories.coursecategories.map((category) => {
           return (
             <div className="col-lg-3 col-md-6 col-sm-6" key={category.id}>
@@ -195,10 +193,11 @@ let Homepagetest = () => {
   );
 };
 
+// style={{ width: '25%' }}
 let Testimonial = () => {
   return (
     <div className="col-xs-12 p-5 text-center testBg">
-      <div className="card testTextBg m-auto p-3" style={{ width: "25rem" }}>
+      <div className="card testTextBg m-auto p-3">
         <h3 className="">Success Story</h3>
         <div className="">
           <p>

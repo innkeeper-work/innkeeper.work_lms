@@ -35,6 +35,7 @@ import Employability from "./pages/Employability";
 import Entrepreneurship from "./pages/Entrepreneurship";
 import Contact from "./pages/Contact";
 import Error404 from "./pages/Error404";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -80,6 +81,7 @@ function App() {
       </Routes>
     </div>
   );
+
 }
 
 export default App;

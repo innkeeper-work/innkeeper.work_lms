@@ -37,10 +37,10 @@ export const CoursepageHero = (props) => {
       <Navbar />
       <div className="row align-items-center g-5 p-md-4 m-5">
         <div className="col-lg-6 col-sm-12">
-          <h3 className="herotextColored">
+          <h1 className="herotextColored">
             {herotitle} <br />
-            <span className="herotextWhite">{Description}</span>
-          </h3>
+            <p className="herotextWhite">{Description}</p>
+          </h1>
           <GetStartedButton />
         </div>
       </div>
