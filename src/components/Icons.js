@@ -8,6 +8,7 @@ export const BookIcon = () => {
 	);
 };
 
+// course info icons
 export const AlarmIcon = () => {
 	return (
 		<div>
@@ -22,6 +23,8 @@ export const CreditCardIcon = () => {
 		</div>
 	);
 };
+
+// social media icons
 export const FacebookIcon = () => {
 	return (
 		<div>
