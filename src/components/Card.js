@@ -2,12 +2,14 @@ import React from "react";
 import { ApplyNowButton } from "./Buttons";
 import event1 from "../images/event1.png";
 import event2 from "../images/event2.png";
+import { ReadMoreButton } from "../components/Buttons";
+import { Link } from "react-router-dom";
 
 //homepage cards
 export const CourseCategoryCards = (props) => {
-  const { title, img, description } = props;
+  const { title, img, description, linked } = props;
   return (
-    <div className="row p-3 m-0 g-0">
+    <div className="row p-3 g-0">
       <div className="card rounded">
         <img src={img} alt="" />
 
@@ -22,22 +24,22 @@ export const CourseCategoryCards = (props) => {
 
 export const BlogCards = (props) => {
   return (
-    <div class="card m-3">
-      <div class="row g-0">
-        <div class="col-md-4">
+    <div className="card ">
+      <div className="row g-0 p-3">
+        <div className="col-lg-4">
           <img
             src={event1}
-            className="img-fluid rounded-start h-100"
+            className="img-fluid rounded-start h-100 w-100"
             alt="..."
           />
         </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h3 class="card-title">Blog title</h3>
-            <p class="card-text">{props.children}</p>
-            <p class="card-text">
-              <i class="fa fa-map-marker m-1" aria-hidden="true"></i>
-              <small class="text-muted">Magodo, Lagos</small>
+        <div className="col-lg-8">
+          <div className="card-body">
+            <h3 className="card-title">Blog title</h3>
+            <p className="card-text">{props.children}</p>
+            <p className="card-text">
+              <i className="fa fa-map-marker m-1" aria-hidden="true"></i>
+              <small className="text-muted">Magodo, Lagos</small>
             </p>
           </div>
         </div>
@@ -48,22 +50,22 @@ export const BlogCards = (props) => {
 
 export const BlogCardsTwo = (props) => {
   return (
-    <div class="card m-3">
-      <div class="row g-0">
-        <div class="col-md-4">
+    <div className="card">
+      <div className="row g-0 p-3">
+        <div className="col-lg-4">
           <img
             src={event2}
-            className="img-fluid rounded-start h-100"
+            className="img-fluid rounded-start h-100 w-100"
             alt="..."
           />
         </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h3 class="card-title">Blog title</h3>
-            <p class="card-text">{props.children}</p>
-            <p class="card-text">
-              <i class="fa fa-map-marker m-1" aria-hidden="true"></i>
-              <small class="text-muted">Magodo, Lagos</small>
+        <div className="col-lg-8">
+          <div className="card-body">
+            <h3 className="card-title">Blog title</h3>
+            <p className="card-text">{props.children}</p>
+            <p className="card-text">
+              <i className="fa fa-map-marker m-1" aria-hidden="true"></i>
+              <small className="text-muted">Magodo, Lagos</small>
             </p>
           </div>
         </div>

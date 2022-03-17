@@ -3,6 +3,7 @@
     {
       "id": 1,
       "herotitle": "Tech Academy",
+
       "Description": "The world of business presents a variety of roles and opportunities, and with the advent of technology. Our range of courses includes Cyber Security, Big data & IoT, Cloud Computing, and Web Development; which will equip you with the required skills in the tech world."
     }
   ],
@@ -27,7 +28,6 @@
       "description": "Full stack web developers can create full-fledged web applications and websites."
     }
   ],
-
 
   "cloudcomputing": [
     {

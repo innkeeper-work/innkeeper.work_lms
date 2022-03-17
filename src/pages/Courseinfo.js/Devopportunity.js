@@ -1,8 +1,6 @@
 import React from "react";
 import infoimage from "../../images/infoimage.png";
-import { BookIcon } from "../../components/Icons";
-import { AlarmIcon } from "../../components/Icons";
-import { CreditCardIcon } from "../../components/Icons";
+import { BookIcon, AlarmIcon, CreditCardIcon } from "../../components/Icons";
 // import { Link } from "react-router-dom";
 import { CourseinfoHero } from "../../components/Hero";
 import adamu from "../../images/adamu.png";

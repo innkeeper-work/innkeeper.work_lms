@@ -7,46 +7,49 @@ import empsoftskill from "../data/employability_softskills/employability_softski
 import { OurInstructors } from "../components/Ourinstructors";
 
 const Employability = () => {
-	return (
-		<div>
-			<CoursepageHero />
-			<EmpSoftSkills />
-			<OurInstructors />
-			<Instructors />
-		</div>
-	);
+  return (
+    <div>
+      <CoursepageHero />
+      <EmpSoftSkills />
+      <OurInstructors />
+      <Instructors />
+    </div>
+  );
 };
 
 let EmpSoftSkills = () => {
-	return (
-		<div className="webDev m-5 p-5 ">
-			<div className="row p-1 d-flex justify-content-between">
-				{empsoftskill.empsoftskills.map((singleEmp) => {
-					return (
-						<div className="col-md-3 col-sm-6 pb-5" key={singleEmp.id}>
-							<CourseCards {...singleEmp}></CourseCards>
-						</div>
-					);
-				})}
-			</div>
-		</div>
-	);
+  return (
+    <div className="webDev m-5 p-5 ">
+      <div className="row p-1 d-flex justify-content-between">
+        {empsoftskill.empsoftskills.map((singleEmp) => {
+          return (
+            <div
+              className="col-lg-4 col-md-6 d-flex align-items-stretch py-4"
+              key={singleEmp.id}
+            >
+              <CourseCards {...singleEmp}></CourseCards>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
 };
 
 let Instructors = () => {
-	return (
-		<div className="webDev m-5 p-5">
-			<div className="row p-1 d-flex justify-content-around">
-				{empsoftskill.instructors.map((singlecv) => {
-					return (
-						<div className="col-md-4 col-sm-6" key={singlecv.id}>
-							<InstructorCards {...singlecv}></InstructorCards>
-						</div>
-					);
-				})}
-			</div>
-		</div>
-	);
+  return (
+    <div className="webDev m-5 p-5">
+      <div className="row p-1 d-flex justify-content-around">
+        {empsoftskill.instructors.map((singlecv) => {
+          return (
+            <div className="col-md-4 col-sm-6" key={singlecv.id}>
+              <InstructorCards {...singlecv}></InstructorCards>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
 };
 
 export default Employability;

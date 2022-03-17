@@ -1,18 +1,18 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { HomepageHero } from '../components/Hero';
-import aiki from '../images/aiki.png';
-import lady from '../images/lady.png';
-import categories from '../data/categories.json';
-import { CourseCategoryCards } from '../components/Card';
-import { BlogCards } from '../components/Card';
-import { BlogCardsTwo } from '../components/Card';
-import { LearnMoreButton } from '../components/Buttons';
-import { BeginCoursesButton } from '../components/Buttons';
-import { SubscribeButton } from '../components/Buttons';
-import { ApplyNowButton } from '../components/Buttons';
+import React from "react";
+import { Link } from "react-router-dom";
+import { HomepageHero } from "../components/Hero";
+import aiki from "../images/aiki.png";
+import lady from "../images/lady.png";
+import categories from "../data/categories.json";
+import { CourseCategoryCards } from "../components/Card";
+import { BlogCards } from "../components/Card";
+import { BlogCardsTwo } from "../components/Card";
+import { LearnMoreButton } from "../components/Buttons";
+import { BeginCoursesButton } from "../components/Buttons";
+import { SubscribeButton } from "../components/Buttons";
+import { ApplyNowButton } from "../components/Buttons";
 
-import videoicon from '../images/videoicon.png';
+import videoicon from "../images/videoicon.png";
 
 const Homepage = () => {
   return (
@@ -25,15 +25,15 @@ const Homepage = () => {
       <Homepagetest />
       <Testimonial />
       <Faq />
-      <div className="row">
-        <h3 className="text-center mt-5">Blog</h3>
-        <div className="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+      <div className="row m-3">
+        <h3 className="text-center my-5">Blog</h3>
+        <div className="col-md-6 col-lg-6 col-sm-6 col-xs-12 d-flex align-items-stretch py-3">
           <BlogCards>
             LSETF/USADF partners with us to begin a fully-funded scholarship for
             youths in Lagos.
           </BlogCards>
         </div>
-        <div className="col-md-6 col-lg-6 col-sm-6 col-xs-12">
+        <div className="col-md-6 col-lg-6 col-sm-6 col-xs-12 d-flex align-items-stretch py-3">
           <BlogCardsTwo>
             Two weeks intensive internship training commences.
           </BlogCardsTwo>
@@ -51,17 +51,17 @@ const Homepage = () => {
 let Homepagemain = () => {
   return (
     <div className="container-fluid p-5 mainBg">
-      <div className="card-group m-5">
-        <div className="col-md-3 col-lg-3 col-sm-5 col-xs-6">
+      <div className="card-group m-lg-5">
+        <div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
           <div className="row">
             <div className="">
               <div className="m-5 p-5 card-cut-one d-none d-xs-none d-sm-none d-md-block d-lg-block"></div>
-              <Link to={{ pathname: 'https://github.com' }}>
-                <i className="fab fa-github" />
-              </Link>
+
+              <i class="bi bi-book iconCol"></i>
             </div>
             <div>
               <h3>Self-Paced Learning</h3>
+
               <p>
                 We are empathic on serving you with the best based on your
                 convenience.
@@ -69,10 +69,9 @@ let Homepagemain = () => {
             </div>
           </div>
           <div className="row">
-            <div className="mt-5 pt-5">
-              <Link to={{ pathname: 'https://github.com' }}>
-                <i className="fab fa-github" />
-              </Link>
+            <div className="mt-lg-5 mt-md-5 pt-lg-5 pt-md-5">
+              <i class="bi bi-credit-card-2-front iconCol"></i>
+
               <h3>Flexibility-support</h3>
               <p>Classes are stress-free with our flexible payment system.</p>
             </div>
@@ -81,16 +80,14 @@ let Homepagemain = () => {
             <div className=" m-5 p-5 card-cut-two d-none d-xs-none d-sm-none d-md-block d-lg-block"></div>
           </div>
         </div>
-        <div className="col-md-6 col-lg-6 col-sm-7 d-none d-xs-none d-sm-block d-md-block d-lg-block">
+        <div className="col-lg-6 col-md-6 col-sm-7 d-none d-xs-none d-sm-none d-md-block d-lg-block">
           <img src={lady} className="card-img-top" alt="..." />
         </div>
-        <div className="col-md-3 col-lg-3 col-sm-6 col-xs-6">
+        <div className="col-lg-3 col-md-3 col-sm-6 col-xs-6">
           <div className="row">
             <div className="">
               <div className="m-5 p-5 card-cut-three d-none d-xs-none d-sm-none d-md-block d-lg-block"></div>
-              <Link to={{ pathname: 'https://github.com' }}>
-                <i className="fab fa-github" />
-              </Link>
+              <i class="bi bi-tv iconCol"></i>
             </div>
             <div>
               <h3>Instructor-Led Learning</h3>
@@ -101,10 +98,8 @@ let Homepagemain = () => {
             </div>
           </div>
           <div className="row">
-            <div className="mt-5 pt-5">
-              <Link to={{ pathname: 'https://github.com' }}>
-                <i className="fab fa-github" />
-              </Link>
+            <div className="mt-lg-5 mt-md-5 pt-lg-5 pt-md-5">
+              <i class="bi bi-pip iconCol"></i>
               <h3>Scholarship-Support</h3>
               <p>
                 We provide fully-funded training in collaboration with
@@ -155,16 +150,22 @@ let Homepagesoft = () => {
 
 let CourseCategory = () => {
   return (
-    <div className="categoryBg">
-      <h3 className="text-center pt-5">Our Courses</h3>
-      <div className="row g-0">
-        {categories.coursecategories.map((category) => {
-          return (
-            <div className="col-lg-3 col-md-6 col-sm-6" key={category.id}>
-              <CourseCategoryCards {...category}></CourseCategoryCards>
-            </div>
-          );
-        })}
+    <div className="categoryBg py-4">
+      <div className="mx-md-5 px-md-3">
+        <h3 className="text-center pt-5">Our Courses</h3>
+        <div className="row g-0 justify-content-center">
+          {categories.coursecategories.map((category) => {
+            return (
+              <div
+                className="col-lg-4 col-md-6 col-sm-6 col-xs-12
+            "
+                key={category.id}
+              >
+                <CourseCategoryCards {...category}></CourseCategoryCards>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
