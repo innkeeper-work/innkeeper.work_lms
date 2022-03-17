@@ -1,9 +1,6 @@
 import React from "react";
 import infoimage from "../../images/infoimage.png";
-import AccessAlarmsIcon from "@material-ui/icons/AccessAlarms";
-import CreditCardIcon from "@material-ui/icons/CreditCard";
-import LibraryBooksIcon from "@material-ui/icons/LibraryBooks";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { CourseinfoHero } from "../../components/Hero";
 import adamu from "../../images/adamu.png";
 import { ApplyNowButton } from "../../components/Buttons";
@@ -33,13 +30,13 @@ let FrontendInfo = () => {
 let AboutFrontend = () => {
   return (
     <div className="">
-      <div className="navbar-expand-lg">
+      <div className="navbar-expand ">
         <div className="mt-5">
           <ul className="navbar-nav ">
             <li className="">
               <div className="d-flex px-3">
                 <div className="px-2">
-                  <LibraryBooksIcon className="iconCol"></LibraryBooksIcon>
+                  <i class="bi bi-book iconCol"></i>
                 </div>
 
                 <div>
@@ -51,7 +48,8 @@ let AboutFrontend = () => {
             <li className="">
               <div className="d-flex px-3">
                 <div className="px-2">
-                  <AccessAlarmsIcon className="iconCol"></AccessAlarmsIcon>
+                  {" "}
+                  <i class="bi bi-clock iconCol"></i>
                 </div>
 
                 <div>
@@ -63,11 +61,11 @@ let AboutFrontend = () => {
             <li className="">
               <div className="d-flex px-3">
                 <div className="px-2">
-                  <CreditCardIcon className="iconCol"></CreditCardIcon>
+                  <i class="bi bi-wallet2 iconCol"></i>
                 </div>
                 <div>
                   <h3>FEE</h3>
-                  <p>200,000.00</p>
+                  <p>&#8358;200,000.00</p>
                 </div>
               </div>
             </li>
@@ -102,9 +100,7 @@ let FrontendApplyHere = () => {
         <li className="list-item pb-2">
           Read about the course content and indicate interest.
         </li>
-        <li className="list-item pb-2">
-          Select a payment/enrolment method HERE.
-        </li>
+        <li className="list-item pb-2">Select a payment/enrolment method.</li>
         <li className="list-item pb-2">
           Except you pay the stipulated amount, every other course enrolment
           method will require the admin to permit you to class.
@@ -154,12 +150,36 @@ let FrontendEnrol = () => {
     <div className="card-body">
       <h3 className="card-title">Available Enrolment Options</h3>
       <ul className="list-content">
-        <li className="list-item pb-2">Click to Pay Now</li>
+        <li className="list-item pb-2">
+          Click to{" "}
+          <Link
+            to="https://paystack.com/pay/innkeeper-frontend-development"
+            className="text-decoration-none"
+          >
+            <b>Pay Now</b>
+          </Link>
+        </li>
         <p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
-        <li className="list-item pb-2">Apply for Student loan HERE</li>
-        <li className="list-item pb-2">Apply via our training bond HERE</li>
+        <li className="list-item pb-2">
+          Apply for Student loan{" "}
+          <Link to="" className="text-decoration-none">
+            <b>HERE</b>
+          </Link>
+        </li>
+        <li className="list-item pb-2">
+          Apply via our training bond{" "}
+          <Link to="" className="text-decoration-none">
+            <b>HERE</b>
+          </Link>
+        </li>
         <li className="list-item pb-2">Apply for scholarship.</li>
-        <p className="">(See available ones HERE)</p>
+        <p className="">
+          (See available ones{" "}
+          <Link to="" className="text-decoration-none">
+            <b>HERE</b>
+          </Link>
+          )
+        </p>
       </ul>
     </div>
   );

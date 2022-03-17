@@ -43,7 +43,7 @@ let WebDev = () => {
         {techacademy.webdev.map((singleweb) => {
           return (
             <div
-              className="col-4 d-flex align-items-stretch"
+              className="col-lg-4 col-md-6 d-flex align-items-stretch py-3"
               key={singleweb.id}
             >
               <CourseCards {...singleweb}></CourseCards>
@@ -62,7 +62,7 @@ let CloudComputing = () => {
         {techacademy.cloudcomputing.map((singlecloud) => {
           return (
             <div
-              className="col-4 d-flex align-items-stretch"
+              className="col-lg-4 col-md-6 d-flex align-items-stretch py-4"
               key={singlecloud.id}
             >
               <CourseCards {...singlecloud}></CourseCards>
@@ -81,7 +81,7 @@ let CyberSecurity = () => {
         {techacademy.cybersecurity.map((singlecyber) => {
           return (
             <div
-              className="col-4 d-flex align-items-stretch"
+              className="col-lg-4 col-md-6 d-flex align-items-stretch py-4"
               key={singlecyber.id}
             >
               <CourseCards {...singlecyber}></CourseCards>
@@ -100,7 +100,7 @@ let BigData = () => {
         {techacademy.bigdata.map((singlebig) => {
           return (
             <div
-              className="col-4 d-flex align-items-stretch"
+              className="col-lg-4 col-md-6 d-flex align-items-stretch py-4"
               key={singlebig.id}
             >
               <CourseCards {...singlebig}></CourseCards>

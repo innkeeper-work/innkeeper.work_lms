@@ -56,3 +56,10 @@ export const SendButton = () => {
     </button>
   );
 };
+export const ReadMoreButton = () => {
+  return (
+    <button type="button" className="btn callToAction">
+      Read More
+    </button>
+  );
+};

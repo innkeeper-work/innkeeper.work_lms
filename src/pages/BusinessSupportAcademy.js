@@ -36,7 +36,10 @@ let Business = () => {
       <div className="row">
         {businessSupport.business.map((singlebus) => {
           return (
-            <div className="col-4" key={singlebus.id}>
+            <div
+              className="col-lg-4 col-md-6 d-flex align-items-stretch py-4"
+              key={singlebus.id}
+            >
               <CourseCards {...singlebus}></CourseCards>
             </div>
           );

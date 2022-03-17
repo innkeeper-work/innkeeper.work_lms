@@ -79,9 +79,9 @@ function App() {
         <Route path="financing" element={<Financing />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
+      <Footer />
     </div>
   );
-
 }
 
 export default App;

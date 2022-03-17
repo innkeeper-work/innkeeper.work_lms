@@ -1,8 +1,5 @@
 import React from "react";
 import infoimage from "../../images/infoimage.png";
-import AccessAlarmsIcon from "@material-ui/icons/AccessAlarms";
-import CreditCardIcon from "@material-ui/icons/CreditCard";
-import LibraryBooksIcon from "@material-ui/icons/LibraryBooks";
 // import { Link } from "react-router-dom";
 import { CourseinfoHero } from "../../components/Hero";
 import adamu from "../../images/adamu.png";
@@ -38,9 +35,7 @@ let AboutVideoediting = () => {
           <ul className="navbar-nav ">
             <li className="">
               <div className="d-flex px-3">
-                <div className="px-2">
-                  <LibraryBooksIcon className="iconCol"></LibraryBooksIcon>
-                </div>
+                <div className="px-2"></div>
 
                 <div>
                   <h3>COURSES</h3>
@@ -50,9 +45,7 @@ let AboutVideoediting = () => {
             </li>
             <li className="">
               <div className="d-flex px-3">
-                <div className="px-2">
-                  <AccessAlarmsIcon className="iconCol"></AccessAlarmsIcon>
-                </div>
+                <div className="px-2"></div>
 
                 <div>
                   <h3>DURATION</h3>
@@ -62,9 +55,7 @@ let AboutVideoediting = () => {
             </li>
             <li className="">
               <div className="d-flex px-3">
-                <div className="px-2">
-                  <CreditCardIcon className="iconCol"></CreditCardIcon>
-                </div>
+                <div className="px-2"></div>
                 <div>
                   <h3>FEE</h3>
                   <p>150,000.00</p>
