@@ -1,5 +1,6 @@
 import React from "react";
 
+// course info icons
 export const BookIcon = () => {
 	return (
 		<div>
@@ -8,7 +9,6 @@ export const BookIcon = () => {
 	);
 };
 
-// course info icons
 export const AlarmIcon = () => {
 	return (
 		<div>

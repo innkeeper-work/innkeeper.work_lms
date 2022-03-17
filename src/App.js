@@ -38,50 +38,50 @@ import Error404 from "./pages/Error404";
 import Footer from "./components/Footer";
 
 function App() {
-  return (
-    <div className="App">
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="techacademy" element={<TechAcademy />} />
-        <Route
-          path="businesssupportacademy"
-          element={<BusinessSupportAcademy />}
-        />
-        <Route path="employability" element={<Employability />} />
-        <Route path="entrepreneurship" element={<Entrepreneurship />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="frontend" element={<Frontend />} />
-        <Route path="backend" element={<Backend />} />
-        <Route path="fullstack" element={<Fullstack />} />
-        <Route path="devops" element={<Devops />} />
-        <Route path=" architectdesign" element={<Architectdesign />} />
-        <Route path=" architecttech" element={<Architecttech />} />
-        <Route path="relationaldb" element={<Relationaldb />} />
-        <Route path="riskmgt" element={<Riskmgt />} />
-        <Route path="reverseengineering" element={<Reverseengineering />} />
-        <Route path="pentesting" element={<Pentesting />} />
-        <Route path="bigdata" element={<Bigdata />} />
-        <Route path="python" element={<Python />} />
-        <Route path="iot" element={<IoT />} />
-        <Route path="securityaudit" element={<Securityaudit />} />
-        <Route path="sales" element={<Sales />} />
-        <Route path="customerexperience" element={<Customerexperience />} />
-        <Route path="digitalmarketing" element={<Digitalmarketing />} />
-        <Route path="videoediting" element={<Videoediting />} />
-        <Route path="personaldevt" element={<Personaldevt />} />
-        <Route path="successfulteam" element={<Successfulteam />} />
-        <Route path="workshop" element={<Workshop />} />
-        <Route path="stillandmotion" element={<Stillandmotion />} />
-        <Route path="criticalthinking" element={<Criticalthinking />} />
-        <Route path="devopportunity" element={<Devopportunity />} />
-        <Route path="business" element={<Business />} />
-        <Route path="growth" element={<Growth />} />
-        <Route path="financing" element={<Financing />} />
-        <Route path="*" element={<Error404 />} />
-      </Routes>
-    </div>
-  );
-
+	return (
+		<div className="App">
+			<Routes>
+				<Route path="/" element={<Homepage />} />
+				<Route path="techacademy" element={<TechAcademy />} />
+				<Route
+					path="businesssupportacademy"
+					element={<BusinessSupportAcademy />}
+				/>
+				<Route path="employability" element={<Employability />} />
+				<Route path="entrepreneurship" element={<Entrepreneurship />} />
+				<Route path="contact" element={<Contact />} />
+				<Route path="frontend" element={<Frontend />} />
+				<Route path="backend" element={<Backend />} />
+				<Route path="fullstack" element={<Fullstack />} />
+				<Route path="devops" element={<Devops />} />
+				<Route path=" architectdesign" element={<Architectdesign />} />
+				<Route path=" architecttech" element={<Architecttech />} />
+				<Route path="relationaldb" element={<Relationaldb />} />
+				<Route path="riskmgt" element={<Riskmgt />} />
+				<Route path="reverseengineering" element={<Reverseengineering />} />
+				<Route path="pentesting" element={<Pentesting />} />
+				<Route path="bigdata" element={<Bigdata />} />
+				<Route path="python" element={<Python />} />
+				<Route path="iot" element={<IoT />} />
+				<Route path="securityaudit" element={<Securityaudit />} />
+				<Route path="sales" element={<Sales />} />
+				<Route path="customerexperience" element={<Customerexperience />} />
+				<Route path="digitalmarketing" element={<Digitalmarketing />} />
+				<Route path="videoediting" element={<Videoediting />} />
+				<Route path="personaldevt" element={<Personaldevt />} />
+				<Route path="successfulteam" element={<Successfulteam />} />
+				<Route path="workshop" element={<Workshop />} />
+				<Route path="stillandmotion" element={<Stillandmotion />} />
+				<Route path="criticalthinking" element={<Criticalthinking />} />
+				<Route path="devopportunity" element={<Devopportunity />} />
+				<Route path="business" element={<Business />} />
+				<Route path="growth" element={<Growth />} />
+				<Route path="financing" element={<Financing />} />
+				<Route path="*" element={<Error404 />} />
+			</Routes>
+			<Footer />
+		</div>
+	);
 }
 
 export default App;
