@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import { SendButton } from "../components/Buttons";
-import contact_image from "../images/contact_image.png";
+import React, { useState } from 'react';
+import { SendButton } from '../components/Buttons';
+import contact_image from '../images/contact_image.png';
 
 const Contact = () => {
   const [person, setPerson] = useState({
-    fullName: "",
-    email: "",
-    subject: "",
-    message: "",
+    fullName: '',
+    email: '',
+    subject: '',
+    message: '',
   });
   const [people, setPeople] = useState([]);
   const handleChange = (e) => {
@@ -21,25 +21,35 @@ const Contact = () => {
       const newPerson = { ...person, id: new Date().getTime().toString() };
       setPeople([...people, newPerson]);
       setPerson({
-        fullName: "",
-        email: "",
-        subject: "",
-        message: "",
+        fullName: '',
+        email: '',
+        subject: '',
+        message: '',
       });
     }
   };
 
   return (
     <div className="p-2 m-3">
-      <h2 className="d-flex justify-content-center">Contact Us</h2>
-      <div className="row g-5">
-        <div className="col-md-7 col-sm-12">
-          <li>
+      <div className="col col-md-5 col-sm-12">
+        <img
+          src={contact_image}
+          alt="Innkeeper.work contact us"
+          className="d-block mx-lg-auto d-xs-block d-md-none col-12 mb-5"
+        />
+      </div>
+
+      <div className="row mx-4">
+        <h2 className="d-flex justify-content-center herotextColored mt-4">
+          <strong> Contact Us</strong>
+        </h2>
+        <div className="col-md-7 col-sm-12 g-5">
+          <li className="mb-4">
             Do you have other questions? Don't worry, there aren't any dumb
             questions. Just fill out the form below and we'll get back to you as
             soon as possible.
           </li>
-          <li>
+          <li className="mb-4">
             Got a news tip or inside information about a topic we covered? we
             would love to hear from you. Please fill out the form below or send
             a mail to
@@ -99,14 +109,18 @@ const Contact = () => {
               onClick={handleSubmit}
             >
               <SendButton
-                onClick={() => <a href="mailto:sammiebechh@gmail.com"></a>}
+                onClick={() => <a href="mailto:sammiebechh@gmail.com">Send</a>}
               />
             </button>
           </form>
         </div>
 
         <div className="col col-md-5 col-sm-12">
-          <img src={contact_image} alt="" />
+          <img
+            src={contact_image}
+            alt="Innkeeper.work contact us"
+            className="d-block mx-lg-auto img-fluid d-sm-none d-md-block"
+          />
         </div>
       </div>
     </div>

@@ -28,7 +28,7 @@ export const CreditCardIcon = () => {
 export const FacebookIcon = () => {
   return (
     <div>
-      <i class="bi bi-facebook"></i>
+     <i class="bi bi-facebook"></i>
     </div>
   );
 };

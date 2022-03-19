@@ -332,7 +332,7 @@ let Newsletter = () => {
           type="email"
           className="form-control w-25 mx-auto"
           id="exampleFormControlInput1"
-          placeholder="Your email"
+          placeholder="Email"
         ></input>
         <div className="mt-3">
           <SubscribeButton />

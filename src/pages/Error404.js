@@ -34,11 +34,28 @@ const Error404 = () => {
             <ContactUs />
           </div>
 
-          <div className="herotextColored d-flex justify-content-evenly g-2 p-auto">
-            <FacebookIcon className="" />
-            <InstagramIcon className />
-            <TwitterIcon className />
-            <LinkedInIcon className />
+          <div className=" d-flex justify-content-evenly g-2 p-auto">
+            <a
+              className="herotextColored"
+              href="https://facebook.com/innkeeper.work/"
+            >
+              <FacebookIcon />
+            </a>
+            <a
+              className="herotextColored"
+              href="https://instagram.com/innkeeperwork"
+            >
+              <InstagramIcon />
+            </a>
+            <a className="herotextColored" href="#!">
+              <TwitterIcon />
+            </a>
+            <a
+              className="herotextColored"
+              href="https://linkedin.com/company/innkeeper-work"
+            >
+              <LinkedInIcon />
+            </a>
           </div>
           <div>
             <br />
