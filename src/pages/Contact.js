@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { SendButton } from '../components/Buttons';
 import contact_image from '../images/contact_image.png';
+import contact_image2 from '../images/contact_image2.png';
+import Navbar from '../components/Navbar';
 
 const Contact = () => {
   const [person, setPerson] = useState({
@@ -30,20 +32,25 @@ const Contact = () => {
   };
 
   return (
-    <div className="p-2 m-3">
-      <div className="col col-md-5 col-sm-12">
+    <>
+      <div className="heroBg mx-auto d-none d-md-block">
+        <Navbar />
+      </div>
+
+      <div className="col col-md-5 col-sm-12 heroBg d-block mx-lg-auto d-xs-block d-md-none col-12 mb-5">
+        <Navbar />
         <img
-          src={contact_image}
+          src={contact_image2}
           alt="Innkeeper.work contact us"
           className="d-block mx-lg-auto d-xs-block d-md-none col-12 mb-5"
         />
       </div>
 
-      <div className="row mx-4">
+      <div className="row mx-5">
         <h2 className="d-flex justify-content-center herotextColored mt-4">
           <strong> Contact Us</strong>
         </h2>
-        <div className="col-md-7 col-sm-12 g-5">
+        <div className="col-md-7 col-sm-12 g-5 mb-5">
           <li className="mb-4">
             Do you have other questions? Don't worry, there aren't any dumb
             questions. Just fill out the form below and we'll get back to you as
@@ -123,7 +130,7 @@ const Contact = () => {
           />
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
