@@ -28,14 +28,14 @@ export const CreditCardIcon = () => {
 export const FacebookIcon = () => {
   return (
     <div>
-     <i class="bi bi-facebook"></i>
+      <i class="bi bi-facebook"></i>
     </div>
   );
 };
-export const TwitterIcon = () => {
+export const WhatsAppIcon = () => {
   return (
     <div>
-      <i class="bi bi-twitter"></i>
+      <i class="bi bi-whatsapp"></i>
     </div>
   );
 };

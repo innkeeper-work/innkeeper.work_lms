@@ -1,7 +1,7 @@
-import React from "react";
-import heroimage from "../images/heroimage.png";
-import Navbar from "./Navbar";
-import { GetStartedButton } from "../components/Buttons";
+import React from 'react';
+import heroimage from '../images/heroimage.png';
+import Navbar from './Navbar';
+import { GetStartedButton } from '../components/Buttons';
 
 export let HomepageHero = () => {
   return (
@@ -19,7 +19,7 @@ export let HomepageHero = () => {
         <div className="col-lg-7 ps-5 col-md-6 py-5">
           <h1 className="herotextWhite">
             Upskill for this&nbsp;
-            <span className="herotextColored">Digital age.</span>
+            <span className="herotextColored d-flex">Digital age.</span>
           </h1>
           <p className="herotextWhite">
             Mentored Upskilling For Improved Learning Opportunities. Get the
