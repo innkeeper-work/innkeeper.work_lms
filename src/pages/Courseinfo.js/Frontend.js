@@ -30,12 +30,12 @@ let FrontendInfo = () => {
 let AboutFrontend = () => {
   return (
     <div className="">
-      <div className="navbar-expand ">
+      <div className="navbar-expand col-lg-6 mx-auto">
         <div className="mt-5">
           <ul className="navbar-nav ">
             <li className="">
-              <div className="d-flex px-3">
-                <div className="px-2">
+              <div className="">
+                <div className="">
                   <i class="bi bi-book iconCol"></i>
                 </div>
 
@@ -46,8 +46,8 @@ let AboutFrontend = () => {
               </div>
             </li>
             <li className="">
-              <div className="d-flex px-3">
-                <div className="px-2">
+              <div className="">
+                <div className="">
                   {" "}
                   <i class="bi bi-clock iconCol"></i>
                 </div>
@@ -59,8 +59,8 @@ let AboutFrontend = () => {
               </div>
             </li>
             <li className="">
-              <div className="d-flex px-3">
-                <div className="px-2">
+              <div className="">
+                <div className="">
                   <i class="bi bi-wallet2 iconCol"></i>
                 </div>
                 <div>
@@ -68,9 +68,6 @@ let AboutFrontend = () => {
                   <p>&#8358;200,000.00</p>
                 </div>
               </div>
-            </li>
-            <li className="px-3">
-              <ApplyNowButton />
             </li>
           </ul>
         </div>

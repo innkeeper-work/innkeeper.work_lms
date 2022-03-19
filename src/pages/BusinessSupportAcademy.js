@@ -32,12 +32,12 @@ let BusinessHero = () => {
 
 let Business = () => {
   return (
-    <div className="webDev mx-5 px-5 my-5 pb-5 Larger shadow">
-      <div className="row">
+    <div className="webDev p-4 mx-3 my-4">
+      <div className="row p-1 d-flex justify-content-center">
         {businessSupport.business.map((singlebus) => {
           return (
             <div
-              className="col-lg-4 col-md-6 d-flex align-items-stretch py-4"
+              className="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex align-items-stretch py-4"
               key={singlebus.id}
             >
               <CourseCards {...singlebus}></CourseCards>

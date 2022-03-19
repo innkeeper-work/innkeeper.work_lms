@@ -9,7 +9,7 @@ import { OurInstructors } from "../components/Ourinstructors";
 const Employability = () => {
   return (
     <div>
-      <CoursepageHero />
+      <EmpCoursepageHero />
       <EmpSoftSkills />
       <OurInstructors />
       <Instructors />
@@ -17,14 +17,28 @@ const Employability = () => {
   );
 };
 
+let EmpCoursepageHero = () => {
+  return (
+    <div className="">
+      {empsoftskill.empsoftskillsheroinfo.map((singlehero) => {
+        return (
+          <div className="" key={singlehero.id}>
+            <CoursepageHero {...singlehero}></CoursepageHero>
+          </div>
+        );
+      })}
+    </div>
+  );
+};
+
 let EmpSoftSkills = () => {
   return (
-    <div className="webDev m-5 p-5 ">
-      <div className="row p-1 d-flex justify-content-between">
+    <div className="webDev p-4 mx-3 my-4">
+      <div className="row p-1 d-flex justify-content-center">
         {empsoftskill.empsoftskills.map((singleEmp) => {
           return (
             <div
-              className="col-lg-4 col-md-6 d-flex align-items-stretch py-4"
+              className="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex align-items-stretch py-4"
               key={singleEmp.id}
             >
               <CourseCards {...singleEmp}></CourseCards>

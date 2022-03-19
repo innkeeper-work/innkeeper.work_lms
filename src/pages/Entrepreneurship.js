@@ -32,12 +32,12 @@ let CourseHero = () => {
 
 let Enterpreneur = () => {
   return (
-    <div className="webDev m-5 p-5 ">
-      <div className="row lg-3 p-1 d-flex justify-content-between">
+    <div className="webDev p-4 mx-3 my-4">
+      <div className="row lg-3 p-1 d-flex justify-content-center">
         {entskills.entrepreneur.map((singleEnt) => {
           return (
             <div
-              className="col-lg-4 col-md-6 d-flex align-items-stretch py-4"
+              className="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex align-items-stretch py-4"
               key={singleEnt.id}
             >
               <CourseCards {...singleEnt}></CourseCards>
