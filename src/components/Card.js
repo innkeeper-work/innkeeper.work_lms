@@ -22,22 +22,22 @@ export const CourseCategoryCards = (props) => {
 
 export const BlogCards = (props) => {
   return (
-    <div class="card m-3">
-      <div class="row g-0">
-        <div class="col-md-4">
+    <div className="card m-3">
+      <div className="row g-0">
+        <div className="col-md-4">
           <img
             src={event1}
             className="img-fluid rounded-start h-100"
             alt="..."
           />
         </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h3 class="card-title">Blog title</h3>
-            <p class="card-text">{props.children}</p>
-            <p class="card-text">
-              <i class="fa fa-map-marker m-1" aria-hidden="true"></i>
-              <small class="text-muted">Magodo, Lagos</small>
+        <div className="col-md-8">
+          <div className="card-body">
+            <h3 className="card-title">Blog title</h3>
+            <p className="card-text">{props.children}</p>
+            <p className="card-text">
+              <i className="fa fa-map-marker m-1" aria-hidden="true"></i>
+              <small className="text-muted">Magodo, Lagos</small>
             </p>
           </div>
         </div>
@@ -48,22 +48,22 @@ export const BlogCards = (props) => {
 
 export const BlogCardsTwo = (props) => {
   return (
-    <div class="card m-3">
-      <div class="row g-0">
-        <div class="col-md-4">
+    <div className="card m-3">
+      <div className="row g-0">
+        <div className="col-md-4">
           <img
             src={event2}
             className="img-fluid rounded-start h-100"
             alt="..."
           />
         </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h3 class="card-title">Blog title</h3>
-            <p class="card-text">{props.children}</p>
-            <p class="card-text">
-              <i class="fa fa-map-marker m-1" aria-hidden="true"></i>
-              <small class="text-muted">Magodo, Lagos</small>
+        <div className="col-md-8">
+          <div className="card-body">
+            <h3 className="card-title">Blog title</h3>
+            <p className="card-text">{props.children}</p>
+            <p className="card-text">
+              <i className="fa fa-map-marker m-1" aria-hidden="true"></i>
+              <small className="text-muted">Magodo, Lagos</small>
             </p>
           </div>
         </div>

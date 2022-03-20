@@ -110,7 +110,8 @@ const Contact = () => {
               ></textarea>
             </div>
 
-            <button
+            <a
+              href={<SendButton />}
               type="submit"
               className="btn contact-btn bg-bark"
               onClick={handleSubmit}
@@ -118,7 +119,7 @@ const Contact = () => {
               <SendButton
                 onClick={() => <a href="mailto:sammiebechh@gmail.com">Send</a>}
               />
-            </button>
+            </a>
           </form>
         </div>
 
