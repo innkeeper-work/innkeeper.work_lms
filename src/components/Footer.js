@@ -32,11 +32,11 @@ const Footer = () => {
               <p>FAQ</p>
             </div>
 
-            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 d-none d-md-block ms-5 ps-5 gs-5">
+            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 d-none d-md-block ms-5 gs-5">
               <h5 className="text-uppercase fw-bold mb-4">Courses</h5>
               <p>Business Support Academy</p>
               <p>Tech Academy</p>
-              <p>Employability/Soft Skills</p>
+              <p>Employability / Soft&nbsp;Skills</p>
               <p>Entrepreneurship</p>
             </div>
 

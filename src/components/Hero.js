@@ -37,18 +37,33 @@ export let HomepageHero = () => {
 export const CoursepageHero = (props) => {
   const { herotitle, Description } = props;
   return (
-    <div className="px-4 py-2 heroBg">
-      <Navbar />
-      <div className="row align-items-center g-5 p-md-4 m-5">
-        <div className="col-lg-6 col-sm-12">
-          <h1 className="herotextColored">
-            {herotitle} <br />
-            <p className="herotextWhite">{Description}</p>
-          </h1>
-          <GetStartedButton />
+    <>
+      <div className="px-4 py-2 heroBg  d-none d-md-block">
+        <Navbar />
+        <div className="row align-items-center g-5 p-md-4 m-5">
+          <div className="col-lg-6 col-sm-12">
+            <h1 className="herotextColored">
+              {herotitle} <br />
+              <p className="herotextWhite">{Description}</p>
+            </h1>
+            <GetStartedButton />
+          </div>
         </div>
       </div>
-    </div>
+
+      <div className="py-2 heroBg d-block d-md-none ">
+        <Navbar />
+        <div className="row align-items-center g-5 p-md-4 m-3">
+          <div className="col-lg-6 col-sm-12">
+            <h1 className="herotextColored">
+              {herotitle} <br />
+              <p className="herotextWhite">{Description}</p>
+            </h1>
+            <GetStartedButton />
+          </div>
+        </div>
+      </div>
+    </>
   );
 };
 

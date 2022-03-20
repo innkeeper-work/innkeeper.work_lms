@@ -1,7 +1,7 @@
-import React from "react";
-import { ApplyNowButton } from "./Buttons";
-import event1 from "../images/event1.png";
-import event2 from "../images/event2.png";
+import React from 'react';
+import { ApplyNowButton } from './Buttons';
+import event1 from '../images/event1.png';
+import event2 from '../images/event2.png';
 
 //homepage cards
 export const CourseCategoryCards = (props) => {
@@ -96,16 +96,17 @@ export const InstructorCards = (props) => {
   const { img, instructorname, role, linkedinprofile } = props;
   return (
     <>
-      <div className="card mb-3">
-        <div className="row g-0">
-          <div className="col-md-4">
+      <div className="card m-2">
+        <div className="row ">
+          <div className="col-md-6 d-flex justify-content-center">
             <img
               src={img}
-              className="img-fluid rounded-start h-100"
+              className=" img-fluid rounded-start h-100"
               alt="..."
             />
           </div>
-          <div className="col-md-8">
+
+          <div className="col-md-6 d-flex justify-content-center p-2">
             <div className="card-body">
               <h5 className="card-title">{instructorname}</h5>
               <p className="card-text">{role}</p>
