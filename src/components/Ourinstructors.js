@@ -2,9 +2,9 @@ import React from "react";
 
 export const OurInstructors = () => {
   return (
-    <div className="ourInstructor text-center m-3">
-      <h2 className="p-3">Our Instructors</h2>
-      <p className="p-3">
+    <div className="ourInstructor text-center m-3 py-5">
+      <h3 className="card-title">Our Instructors</h3>
+      <p className="card-text">
         Our blended learning approach is built to equip young people with
         technical/business support skills <br />
         thereby bridging the employability gap. We also provide access to job

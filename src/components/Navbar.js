@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import innkeeperlogo from '../images/innkeeperlogo.png';
 import { SignInButton } from '../components/Buttons';
 const Navbar = () => {
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container-fluid">
@@ -105,6 +106,7 @@ const Navbar = () => {
       </div>
     </nav>
   );
+
 };
 
 export default Navbar;

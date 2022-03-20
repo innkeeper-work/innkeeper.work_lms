@@ -1,7 +1,8 @@
-import React from 'react';
+import React from "react";
 
 // course info icons
 export const BookIcon = () => {
+
   return (
     <div>
       <i className="bi bi-journals iconCol"></i>
@@ -22,10 +23,12 @@ export const CreditCardIcon = () => {
       <i className="bi bi-credit-card iconCol"></i>
     </div>
   );
+
 };
 
 // social media icons
 export const FacebookIcon = () => {
+
   return (
     <div>
       <i className="bi bi-facebook"></i>
@@ -52,4 +55,5 @@ export const LinkedInIcon = () => {
       <i className="bi bi-linkedin"></i>
     </div>
   );
+
 };

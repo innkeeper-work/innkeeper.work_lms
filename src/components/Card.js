@@ -1,26 +1,30 @@
+
 import React from 'react';
 import { ApplyNowButton } from './Buttons';
 import event1 from '../images/event1.png';
 import event2 from '../images/event2.png';
 
+
 //homepage cards
 export const CourseCategoryCards = (props) => {
-  const { title, img, description } = props;
-  return (
-    <div className="row p-3 m-0 g-0">
-      <div className="card rounded">
-        <img src={img} alt="" />
+	const { title, img, description, Link } = props;
+	return (
+		<div className="row p-3 g-0">
+			<div className="card rounded">
+				<img src={img} alt="" />
 
-        <div className="card-body">
-          <h3 className="card-title">{title}</h3>
-          <p className="card-text">{description}</p>
-        </div>
-      </div>
-    </div>
-  );
+				<div className="card-body">
+					<h3 className="card-title">{title}</h3>
+					<p className="card-text">{description}</p>
+					<a href={Link}> Read More</a>
+				</div>
+			</div>
+		</div>
+	);
 };
 
 export const BlogCards = (props) => {
+
   return (
     <div className="card m-3">
       <div className="row g-0">
@@ -70,29 +74,34 @@ export const BlogCardsTwo = (props) => {
       </div>
     </div>
   );
+
 };
 
 //courses cards
 
 export const CourseCards = (props) => {
-  const { img, title, description } = props;
-  return (
-    <div className="card techCards">
-      <div className="m-3">
-        <img src={img} className="card-img-top techImages" alt={title} />
-      </div>
-      <div className="card-body">
-        <h5 className="card-title">{title}</h5>
-        <p className="card-text">{description}</p>
-        <div className="d-flex align-self-end">
-          <ApplyNowButton />
-        </div>
-      </div>
-    </div>
-  );
+	const { img, title, description, Link } = props;
+	return (
+		<div className="card techCards">
+			<div className="m-3">
+				<img src={img} className="card-img-top techImages" alt={title} />
+			</div>
+			<div className="card-body">
+				<h5 className="card-title">{title}</h5>
+				<p className="card-text">{description}</p>
+				<div className="d-flex align-self-end">
+					<a href={Link}>
+						{" "}
+						<ApplyNowButton />
+					</a>
+				</div>
+			</div>
+		</div>
+	);
 };
 
 export const InstructorCards = (props) => {
+
   const { img, instructorname, role, linkedinprofile } = props;
   return (
     <>
@@ -121,4 +130,5 @@ export const InstructorCards = (props) => {
       </div>
     </>
   );
+
 };

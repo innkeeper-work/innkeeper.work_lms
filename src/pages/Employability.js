@@ -23,7 +23,9 @@ let EmpSoftSkills = () => {
       <div className="row p-1 d-flex justify-content-between">
         {empsoftskill.empsoftskills.map((singleEmp) => {
           return (
+
             <div className="col-md-3 col-sm-6 pb-5" key={singleEmp.id}>
+
               <CourseCards {...singleEmp}></CourseCards>
             </div>
           );

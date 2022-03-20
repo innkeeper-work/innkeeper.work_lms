@@ -1,6 +1,6 @@
 import React from "react";
 import infoimage from "../../images/infoimage.png";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { CourseinfoHero } from "../../components/Hero";
 import adamu from "../../images/adamu.png";
 import { ApplyNowButton } from "../../components/Buttons";
@@ -149,19 +149,40 @@ let ArchitectdesignReq = () => {
 };
 
 let ArchitectdesignEnrol = () => {
-	return (
-		<div className="card-body">
-			<h3 className="card-title">Available Enrolment Options</h3>
-			<ul className="list-content">
-				<li className="list-item pb-2">Click to Pay Now</li>
-				<p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
-				<li className="list-item pb-2">Apply for Student loan HERE</li>
-				<li className="list-item pb-2">Apply via our training bond HERE</li>
-				<li className="list-item pb-2">Apply for scholarship.</li>
-				<p className="">(See available ones HERE)</p>
-			</ul>
-		</div>
-	);
+  return (
+    <div className="card-body">
+      <h3 className="card-title">Available Enrolment Options</h3>
+      <ul className="list-content">
+        <li className="list-item pb-2">
+          Click to{" "}
+          <Link to="" className="text-decoration-none">
+            <b>Pay Now</b>
+          </Link>
+        </li>
+        <p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
+        <li className="list-item pb-2">
+          Apply for Student loan{" "}
+          <Link to="" className="text-decoration-none">
+            <b>HERE</b>
+          </Link>
+        </li>
+        <li className="list-item pb-2">
+          Apply via our training bond{" "}
+          <Link to="" className="text-decoration-none">
+            <b>HERE</b>
+          </Link>
+        </li>
+        <li className="list-item pb-2">Apply for scholarship.</li>
+        <p className="">
+          (See available ones{" "}
+          <Link to="" className="text-decoration-none">
+            <b>HERE</b>
+          </Link>
+          )
+        </p>
+      </ul>
+    </div>
+  );
 };
 
 let ArchitectdesignInstructor = () => {

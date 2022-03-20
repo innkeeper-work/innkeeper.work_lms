@@ -1,6 +1,7 @@
-import React from 'react';
-import innkeeperlogo from '../images/innkeeperlogo.png';
+import React from "react";
+import innkeeperlogo from "../images/innkeeperlogo.png";
 import {
+
   FacebookIcon,
   WhatsAppIcon,
   InstagramIcon,
@@ -65,6 +66,7 @@ const Footer = () => {
       </footer>
     </>
   );
+
 };
 
 export default Footer;

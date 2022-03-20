@@ -89,7 +89,10 @@ let WebDev = () => {
       <div className="row p-1 d-flex justify-content-between">
         {techacademy.webdev.map((singleweb) => {
           return (
-            <div className="col-md-4 col-sm-4 pb-5" key={singleweb.id}>
+            <div
+              className="col-lg-4 col-md-6 d-flex align-items-stretch py-3"
+              key={singleweb.id}
+            >
               <CourseCards {...singleweb}></CourseCards>
             </div>
           );
@@ -106,7 +109,10 @@ let CloudComputing = () => {
       <div className="row p-1 d-flex justify-content-between">
         {techacademy.cloudcomputing.map((singlecloud) => {
           return (
-            <div className="col-md-4 col-sm-4 pb-5" key={singlecloud.id}>
+            <div
+              className="col-lg-4 col-md-6 d-flex align-items-stretch py-4"
+              key={singlecloud.id}
+            >
               <CourseCards {...singlecloud}></CourseCards>
             </div>
           );
@@ -123,7 +129,10 @@ let CyberSecurity = () => {
       <div className="row p-1 d-flex justify-content-between">
         {techacademy.cybersecurity.map((singlecyber) => {
           return (
-            <div className="col-md-4 col-sm-4 pb-5" key={singlecyber.id}>
+            <div
+              className="col-lg-4 col-md-6 d-flex align-items-stretch py-4"
+              key={singlecyber.id}
+            >
               <CourseCards {...singlecyber}></CourseCards>
             </div>
           );
@@ -140,7 +149,10 @@ let BigData = () => {
       <div className="row p-1 d-flex justify-content-between">
         {techacademy.bigdata.map((singlebig) => {
           return (
-            <div className="col-md-4 col-sm-4 pb-5" key={singlebig.id}>
+            <div
+              className="col-lg-4 col-md-6 d-flex align-items-stretch py-4"
+              key={singlebig.id}
+            >
               <CourseCards {...singlebig}></CourseCards>
             </div>
           );

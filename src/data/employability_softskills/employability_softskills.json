@@ -11,25 +11,29 @@
 			"id": 1,
 			"img": "../../images/courses/personal dev_t.png",
 			"title": "Managing Self & Personal development",
-			"description": "A personal development plan can help you grow and develop your potential, attain your goals, and undergo self-transformation."
+			"description": "A personal development plan can help you grow and develop your potential, attain your goals, and undergo self-transformation.",
+			"Link": "personaldevt"
 		},
 		{
 			"id": 2,
 			"img": "../../images/courses/team-success.png",
 			"title": "Working in Highly Successful Team",
-			"description": "Teams and individuals may recognize their strengths and weaknesses, facts and assumptions through having informed and constructive talks."
+			"description": "Teams and individuals may recognize their strengths and weaknesses, facts and assumptions through having informed and constructive talks.",
+			"Link": "successfulteam"
 		},
 		{
 			"id": 3,
 			"img": "../../images/courses/emp_skills.png",
 			"title": "Employability Skills Workshop",
-			"description": "Whether you work for a company that is owned by someone else or run your own business, you will undoubtedly need to attend some organizational skills training."
+			"description": "Whether you work for a company that is owned by someone else or run your own business, you will undoubtedly need to attend some organizational skills training.",
+			"Link": "employabilityworkshop"
 		},
 		{
 			"id": 4,
 			"img": "../../images/courses/creativity.png",
 			"title": "Critical thinking- Creativity",
-			"description": "Critical thinking helps you to get rid of prejudices, and assertions that are thrown at you through various means and make sense of what is offered."
+			"description": "Critical thinking helps you to get rid of prejudices, and assertions that are thrown at you through various means and make sense of what is offered.",
+			"Link": "criticalthinking"
 		}
 	],
 	"instructors": [
