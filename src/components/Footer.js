@@ -53,14 +53,12 @@ const Footer = () => {
 										Contact
 									</Link>
 								</p>
-								<p>
-									<Link
-										to="#faq"
-										className="text-reset"
-										style={{ textDecoration: "none" }}>
-										FAQ
-									</Link>
-								</p>
+								<a
+									href="#faq"
+									className="text-reset"
+									style={{ textDecoration: "none" }}>
+									FAQ
+								</a>
 							</div>
 
 							<div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 d-none d-md-block">

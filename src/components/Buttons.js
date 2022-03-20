@@ -1,8 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
+// import Scroll from "react-scroll";
 
+// const ScrollLink = Scroll.ScrollLink;
 export const SignInButton = () => {
 	return (
-		<a href="http://app.innkeeper.work" rel="noreferrer">
+		<a href="https://soft.innkeeper.work/login/index.php" rel="noreferrer">
 			<button type="button" className="btn signinbtnapply">
 				Sign In
 			</button>
@@ -11,9 +14,11 @@ export const SignInButton = () => {
 };
 export const GetStartedButton = () => {
 	return (
-		<button type="button" className="btn callToAction">
-			Get Started
-		</button>
+		<a href="#categories" rel="noreferrer">
+			<button type="button" className="btn callToAction">
+				Get Started
+			</button>
+		</a>
 	);
 };
 export const LearnMoreButton = () => {
@@ -60,15 +65,19 @@ export const SendButton = () => {
 };
 export const Home = () => {
 	return (
-		<button type="button" className="btn callToAction px-5">
-			<strong>Home</strong>
-		</button>
+		<Link to="/">
+			<button type="button" className="btn callToAction px-5">
+				<strong>Home</strong>
+			</button>
+		</Link>
 	);
 };
 export const ContactUs = () => {
 	return (
-		<button type="button" className="btn callToAction px-4">
-			<strong>Contact Us</strong>
-		</button>
+		<Link to="contact">
+			<button type="button" className="btn callToAction px-4">
+				<strong>Contact Us</strong>
+			</button>
+		</Link>
 	);
 };
