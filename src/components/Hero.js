@@ -8,7 +8,7 @@ export let HomepageHero = () => {
     <div className="px-4 py-2 heroBg container-fluid">
       <Navbar />
       <div className="row flex-sm-row-reverse align-items-center">
-        <div className="col-lg-5 col-md-6">
+        <div className="col-lg-5 col-md-6 col-sm-6">
           <img
             src={heroimage}
             className="d-block mx-lg-auto img-fluid"
@@ -16,16 +16,17 @@ export let HomepageHero = () => {
             loading=""
           />
         </div>
-        <div className="col-lg-7 ps-lg-5 ps-md-5 col-md-6 py-5">
+        {/* <div className="col-lg-7 col-md-6 col-sm-6 ps-lg-5 ps-md-5 py-5"> */}
+        <div className="col-lg-7 col-md-6 col-sm-6 py-5">
           <h1 className="herotextWhite">
-            Upskill for this&nbsp;
-            <span className="herotextColored">Digital age.</span>
+            Upskill for this Digital age.
+            {/* <span className="herotextColored">Digital age.</span> */}
           </h1>
           <p className="herotextWhite">
             Mentored Upskilling For Improved Learning Opportunities. Get the
             needed skills for your desired job role.
           </p>
-          <div className="my-4">
+          <div className="mt-2">
             <GetStartedButton />
           </div>
         </div>
