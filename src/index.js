@@ -9,10 +9,10 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "./sassfiles/app.css";
 
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-  document.getElementById("root")
+	<BrowserRouter>
+		<App />
+	</BrowserRouter>,
+	document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function

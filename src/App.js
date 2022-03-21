@@ -38,6 +38,7 @@ import Error404 from "./pages/Error404";
 import Footer from "./components/Footer";
 
 function App() {
+
   return (
     <div className="App">
       <Routes>
@@ -79,9 +80,12 @@ function App() {
         <Route path="financing" element={<Financing />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
+
 }
 
 export default App;

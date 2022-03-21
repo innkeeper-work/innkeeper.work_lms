@@ -1,175 +1,101 @@
 import React from "react";
 import innkeeperlogo from "../images/innkeeperlogo.png";
+import { Link } from "react-router-dom";
+import {
+  FacebookIcon,
+  WhatsAppIcon,
+  InstagramIcon,
+  LinkedInIcon,
+} from "../components/Icons";
 
 const Footer = () => {
   return (
     <>
-      <footer className="text-left text-lg-start bgSoft">
-        <div className="card-body herotextWhite">
-          <div className="container text-left text-lg-start mt-5">
-            <div className="row mt-3 ms-5">
-              <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <img src={innkeeperlogo} alt="Innkeeper.work" />
-                <h5 className="text-uppercase fw-bold mb-4">
-                  <span />
-                </h5>
-                <p>
-                  The 8thGear Hub, 11b Colin Onabule Crescent, Diamond Estate
-                  Off CMD Road (beside Secretariat/Magodo gate) Lagos Nigeria.
-                  +234 (0) 809-846-8885 info@innkeeper.work
-                </p>
-              </div>
+      <footer className=" bgSoft ">
+        <div className="container-fluid  justify-content-evenly p-4">
+          <div className="row herotextWhite d-flex justify-content-evenly mt-5">
+            <div className="col-md-3 col-lg-4 col-xl-3 mx-auto">
+              <img src={innkeeperlogo} alt="Innkeeper.work" />
 
-              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 d-none d-md-block ms-5">
-                <h5 className="text-uppercase fw-bold mb-4">Menu</h5>
-                <p>
-                  <a
-                    href="#!"
-                    className="text-reset"
-                    style={{ textDecoration: "none" }}
-                  >
-                    Home
-                  </a>
-                </p>
-                <p>
-                  <a
-                    href="#!"
-                    className="text-reset"
-                    style={{ textDecoration: "none" }}
-                  >
-                    About Us
-                  </a>
-                </p>
-                <p>
-                  <a
-                    href="#!"
-                    className="text-reset"
-                    style={{ textDecoration: "none" }}
-                  >
-                    Events
-                  </a>
-                </p>
-                <p>
-                  <a
-                    href="#!"
-                    className="text-reset"
-                    style={{ textDecoration: "none" }}
-                  >
-                    Contact
-                  </a>
-                </p>
-                <p>
-                  <a
-                    href="#!"
-                    className="text-reset"
-                    style={{ textDecoration: "none" }}
-                  >
-                    FAQ
-                  </a>
-                </p>
-              </div>
+              <p>
+                The 8thGear Hub, 11b Colin Onabule Crescent, Diamond Estate Off
+                CMD Road (beside Secretariat/Magodo gate) Lagos Nigeria. +234
+                (0) 809-846-8885 info@innkeeper.work
+              </p>
+            </div>
 
-              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 d-none d-md-block">
-                <h5 className="text-uppercase fw-bold mb-4">Courses</h5>
-                <p>
-                  <a
-                    href="#!"
-                    className="text-reset"
-                    style={{ textDecoration: "none" }}
-                  >
-                    Business Support Academy
-                  </a>
-                </p>
-                <p>
-                  <a
-                    href="#!"
-                    className="text-reset"
-                    style={{ textDecoration: "none" }}
-                  >
-                    Tech Academy
-                  </a>
-                </p>
-                <p>
-                  <a
-                    href="#!"
-                    className="text-reset"
-                    style={{ textDecoration: "none" }}
-                  >
-                    Employability/Soft Skills
-                  </a>
-                </p>
-                <p>
-                  <a
-                    href="#!"
-                    className="text-reset"
-                    style={{ textDecoration: "none" }}
-                  >
-                    Entrepreneurship
-                  </a>
-                </p>
-              </div>
+            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 d-none d-md-block ms-3 ps-5 gs-5">
+              <h5 className="text-uppercase fw-bold mb-4">Menu</h5>
+              <p>Home</p>
+              <p>About Us</p>
+              <p>Events</p>
+              <p>Contact</p>
+              <p>FAQ</p>
+            </div>
 
-              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                <div className="d-flex d-md-block ms-5">
-                  <p>
-                    <a
-                      className="btnText d-flex"
-                      href="https://facebook.com/"
-                      style={{ textDecoration: "none", marginRight: "50px" }}
-                    >
-                      <p
-                        className="d-none d-md-block "
-                        style={{ textDecoration: "none", marginLeft: "5px" }}
-                      >
-                        Facebook
-                      </p>
-                    </a>
-                  </p>
-                  <p>
-                    <a
-                      className="btnText d-flex"
-                      href="https://twitter.com/"
-                      style={{ textDecoration: "none", marginRight: "50px" }}
-                    >
-                      <p
-                        className="d-none d-md-block "
-                        style={{ textDecoration: "none", marginLeft: "5px" }}
-                      >
-                        {" "}
-                        Twitter
-                      </p>
-                    </a>
-                  </p>
-                  <p>
-                    <a
-                      className="btnText d-flex"
-                      href="https://instagram.com/"
-                      style={{ textDecoration: "none", marginRight: "50px" }}
-                    >
-                      <p
-                        className="d-none d-md-block "
-                        style={{ textDecoration: "none", marginLeft: "5px" }}
-                      >
-                        {" "}
-                        Instagram
-                      </p>
-                    </a>
-                  </p>
-                  <p>
-                    <a
-                      className="btnText d-flex"
-                      href="https://linked.com/"
-                      style={{ textDecoration: "none", marginRight: "50px" }}
-                    >
-                      <p
-                        className="d-none d-md-block "
-                        style={{ textDecoration: "none", marginLeft: "5px" }}
-                      >
-                        {" "}
-                        Linkedin
-                      </p>
-                    </a>
-                  </p>
+            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 d-none d-md-block ms-5 gs-5">
+              <h5 className="text-uppercase fw-bold mb-4">Courses</h5>
+              <p>Business Support Academy</p>
+              <p>Tech Academy</p>
+              <p>Employability / Soft&nbsp;Skills</p>
+              <p>Entrepreneurship</p>
+            </div>
+
+            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 d-none d-md-block ms-5">
+              <h5 className="text-uppercase fw-bold mb-4">Menu</h5>
+              <p>
+                <Link
+                  to="/"
+                  className="text-reset"
+                  style={{ textDecoration: "none" }}
+                >
+                  Home
+                </Link>
+              </p>
+              <p>
+                <a
+                  href="#!"
+                  className="text-reset"
+                  style={{ textDecoration: "none" }}
+                >
+                  Events
+                </a>
+              </p>
+              <p>
+                <Link
+                  to="contact"
+                  className="text-reset"
+                  style={{ textDecoration: "none" }}
+                >
+                  Contact
+                </Link>
+              </p>
+              <a
+                href="#faq"
+                className="text-reset"
+                style={{ textDecoration: "none" }}
+              >
+                FAQ
+              </a>
+            </div>
+
+            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto gs-5 mx-auto mb-md-0 mb-4 sm-3">
+              <div className="d-flex justify-content-evenly d-md-block">
+                <div className="btnText d-flex justify-content-end px-4 pb-3">
+                  <FacebookIcon />
+                  <p className="d-none d-md-block ms-3">Facebook</p>
+                </div>
+                <div className="btnText d-flex justify-content-end px-4 pb-3">
+                  <WhatsAppIcon />
+                  <p className="d-none d-md-block ms-3">WhatsApp</p>
+                </div>
+                <div className="btnText d-flex justify-content-end px-4 pb-3">
+                  <InstagramIcon />
+                  <p className="d-none d-md-block ms-3">Instagram</p>
+                </div>
+                <div className="btnText d-flex justify-content-end px-4 pb-3">
+                  <LinkedInIcon />
+                  <p className="d-none d-md-block ms-3 me-3">Linkedin</p>
                 </div>
               </div>
             </div>
