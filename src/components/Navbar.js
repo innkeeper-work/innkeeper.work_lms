@@ -68,7 +68,7 @@ const Navbar = () => {
 								</li>
 							</ul>
 						</li>
-						<li className="nav-item">
+						{/* <li className="nav-item">
 							<Link
 								to="/blog"
 								className="nav-link mx-3"
@@ -84,7 +84,7 @@ const Navbar = () => {
 								style={{ color: "#fff" }}>
 								Community
 							</Link>
-						</li>
+						</li> */}
 						<li className="nav-item">
 							<Link
 								to="/contact"
