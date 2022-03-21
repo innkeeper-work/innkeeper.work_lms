@@ -29,67 +29,67 @@ let FrontendInfo = () => {
 };
 
 let AboutFrontend = () => {
-	return (
-		<div className="">
-			<div className="navbar-expand-lg">
-				<div className="mt-5">
-					<ul className="navbar-nav ">
-						<li className="">
-							<div className="d-flex px-3">
-								<div className="px-2">
-									<BookIcon />
-								</div>
 
-								<div>
-									<h3>COURSES</h3>
-									<p>08 Weeks</p>
-								</div>
-							</div>
-						</li>
-						<li className="">
-							<div className="d-flex px-3">
-								<div className="px-2">
-									<AlarmIcon />
-								</div>
+  return (
+    <div className="">
+      <div className="navbar-expand col-lg-6 mx-auto">
+        <div className="mt-5">
+          <ul className="navbar-nav ">
+            <li className="">
+              <div className="">
+                <div className="">
+                  <i class="bi bi-book iconCol"></i>
+                </div>
 
-								<div>
-									<h3>DURATION</h3>
-									<p>70 Hours</p>
-								</div>
-							</div>
-						</li>
-						<li className="">
-							<div className="d-flex px-3">
-								<div className="px-2">
-									<CreditCardIcon />
-								</div>
-								<div>
-									<h3>FEE</h3>
-									<p>200,000.00</p>
-								</div>
-							</div>
-						</li>
-						<li className="px-3">
-							<ApplyNowButton />
-						</li>
-					</ul>
-				</div>
-			</div>
-			<img src={infoimage} className="card-img-top" alt="..." />
-			<div className="card-body">
-				<h3 className="card-title">About Course</h3>
-				<p className="card-text">
-					This is a hybrid learning that blends self-paced and instructor-led
-					learning for 8 weeks. The training takes place for a period of 6 weeks
-					and a 2 weeks practical with live projects. Areas to be covered
-					include HTML, JavaScript, React, Bootstrap, CSS, Figma, and Redux.
-					Applicants are encouraged to pay in instalments if full payment cannot
-					be made. Instructors are seasoned industry-based and can be reached
-					for post-class activities.
-				</p>
-			</div>
-		</div>
-	);
+                <div>
+                  <h3>COURSES</h3>
+                  <p>08 Weeks</p>
+                </div>
+              </div>
+            </li>
+            <li className="">
+              <div className="">
+                <div className="">
+                  {" "}
+                  <i class="bi bi-clock iconCol"></i>
+                </div>
+
+                <div>
+                  <h3>DURATION</h3>
+                  <p>70 Hours</p>
+                </div>
+              </div>
+            </li>
+            <li className="">
+              <div className="">
+                <div className="">
+                  <i class="bi bi-wallet2 iconCol"></i>
+                </div>
+                <div>
+                  <h3>FEE</h3>
+                  <p>&#8358;200,000.00</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <img src={infoimage} className="card-img-top" alt="..." />
+      <div className="card-body">
+        <h3 className="card-title">About Course</h3>
+        <p className="card-text">
+          This is a hybrid learning that blends self-paced and instructor-led
+          learning for 8 weeks. The training takes place for a period of 6 weeks
+          and a 2 weeks practical with live projects. Areas to be covered
+          include HTML, JavaScript, React, Bootstrap, CSS, Figma, and Redux.
+          Applicants are encouraged to pay in instalments if full payment cannot
+          be made. Instructors are seasoned industry-based and can be reached
+          for post-class activities.
+        </p>
+      </div>
+    </div>
+  );
+
 };
 
 let FrontendApplyHere = () => {

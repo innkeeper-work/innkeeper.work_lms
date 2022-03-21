@@ -1,17 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import Scroll from "react-scroll";
 
-// const ScrollLink = Scroll.ScrollLink;
 export const SignInButton = () => {
 	return (
-		<a href="https://soft.innkeeper.work/login/index.php" rel="noreferrer">
+		<a href="http://app.innkeeper.work" rel="noreferrer">
 			<button type="button" className="btn signinbtnapply">
 				Sign In
 			</button>
 		</a>
 	);
 };
+
 export const GetStartedButton = () => {
 	return (
 		<a href="#categories" rel="noreferrer">
@@ -49,6 +48,7 @@ export const ApplyNowButton = () => {
 		</button>
 	);
 };
+
 export const SubscribeButton = () => {
 	return (
 		<button type="button" className="btn callToAction">
@@ -66,16 +66,17 @@ export const SendButton = () => {
 export const Home = () => {
 	return (
 		<Link to="/">
-			<button type="button" className="btn callToAction px-5">
+			<button type="button" className="btn callToAction px-5 me-2">
 				<strong>Home</strong>
 			</button>
 		</Link>
 	);
 };
+
 export const ContactUs = () => {
 	return (
 		<Link to="contact">
-			<button type="button" className="btn callToAction px-4">
+			<button type="button" className="btn callToAction px-4 ms-2">
 				<strong>Contact Us</strong>
 			</button>
 		</Link>
