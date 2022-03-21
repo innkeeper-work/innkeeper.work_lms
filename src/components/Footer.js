@@ -6,7 +6,6 @@ import {
 	InstagramIcon,
 	LinkedInIcon,
 } from "../components/Icons";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
 	return (
