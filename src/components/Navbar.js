@@ -5,7 +5,7 @@ import { SignInButton } from "../components/Buttons";
 const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark ">
-      <div class="container-fluid px-4">
+      <div class="container-fluid px-2">
         <Link to="" className="navbar-brand ms-2">
           {" "}
           <img src={innkeeperlogo} className="" alt="" />

@@ -35,7 +35,7 @@ let TechHero = () => {
 
 let WebDev = () => {
   return (
-    <div className="webDev p-4 mx-3 my-4">
+    <div className="webDev p-4 mx-3 my-4 ">
       {/* <h3 className="techHead mx-5 px-5 my-5 pt-5"> */}
       <h3 className="techHead ms-2 py-2">Programming and Web Development</h3>
       <div className="row p-1 d-flex justify-content-center">

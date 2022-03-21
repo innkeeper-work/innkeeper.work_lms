@@ -2,145 +2,142 @@
 // @import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 
 * {
-
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
-  
-
 }
 
 body {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 
-	h1 {
-		font-size: 2.5rem;
-		font-weight: 600;
-		color: var(--white);
-	}
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--white);
+  }
 
-	h3 {
-		font-size: 1.5rem;
-		font-weight: 600;
-	}
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
 
-	p {
-		font-size: 1rem;
-		font-weight: 300;
-		color: var(--white);
-		line-height: 1.75rem;
-	}
+  h5 {
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--white);
+    line-height: 1.75rem;
+  }
 }
 
 .course-instructor {
-	line-height: 0.8rem;
+  line-height: 0.8rem;
 }
 .signinbtn {
-	@include signin;
+  @include signin;
 }
 .signinbtnapply {
-	@include signin;
+  @include signin;
 }
 // .signinbtn:hover {
 // 	@extend .signinbtn;
 // }
 .callToAction {
-	@include callToActionBtn;
+  @include callToActionBtn;
 }
 .errorPage {
-	@include contactusbtn;
+  @include contactusbtn;
 }
 
 .webDev {
-	@include webDev;
+  @include webDev;
 }
 .techHead {
-	@include techHead;
+  @include techHead;
 }
 .techCards {
-	@include techCards;
+  @include techCards;
 }
 .techImages {
-	@include techImages;
+  @include techImages;
 }
 .ourInstructor {
-	@include ourInstructor;
+  @include ourInstructor;
 }
 // .callToAction:hover {
 // 	@extend .signinbtn;
 // }
 
 .inst {
-	position: relative;
+  position: relative;
 }
 // home page
 .btnColor {
-	background-color: $btnBgColor;
+  background-color: $btnBgColor;
 }
 
 .btnText {
-	color: $btnText;
+  color: $btnText;
 }
 .herotextWhite {
-	color: $btnText;
+  color: $btnText;
 }
 .herotextColored {
-	color: $btnBgColor;
+  color: $btnBgColor;
 }
 .heroBg {
-
   background-image: url("../images/homeherobg.png");
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 .ctaColor {
-	background-color: $callToActionBtn;
+  background-color: $callToActionBtn;
 }
 .bgSoft {
-	background-color: $sectionColor;
+  background-color: $sectionColor;
 }
 .testBg {
-
   background-image: url("../images/success.png");
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 .testTextBg {
-	background-color: $coursepagesectionBg;
+  background-color: $coursepagesectionBg;
 }
 
 .iconCol {
-	color: $btnBgColor;
+  color: $btnBgColor;
 }
 
 .categoryBg {
-	background-color: $heroFooter2Color;
+  background-color: $heroFooter2Color;
 }
 .sectiontwoBg {
-	background-color: $coursepagesectionBg;
+  background-color: $coursepagesectionBg;
 }
 .mainBg {
-	background-color: $coursepagesectionBg;
+  background-color: $coursepagesectionBg;
 }
 .card-cut-one {
-	@include card-cut-one;
+  @include card-cut-one;
 }
 .card-cut-two {
-	@include card-cut-two;
+  @include card-cut-two;
 }
 .card-cut-three {
-	@include card-cut-three;
+  @include card-cut-three;
 }
 .card-cut-four {
-	@include card-cut-four;
+  @include card-cut-four;
 }
 .faqBg {
-	background-color: $heroFooter2Color;
+  background-color: $heroFooter2Color;
 }
 
 //Removed gutter-x from all row classes in order to removed horizontal scrolling from the entire pages
-.row {
-	--bs-gutter-x: 0rem;
-}
+// .row {
+//   --bs-gutter-x: 0rem;
+// }

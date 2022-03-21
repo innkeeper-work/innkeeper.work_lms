@@ -44,6 +44,7 @@ let WebDev = () => {
             <div
               className="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex align-items-stretch py-4"
               key={singleweb.id}
+              x
             >
               <CourseCards {...singleweb}></CourseCards>
             </div>
