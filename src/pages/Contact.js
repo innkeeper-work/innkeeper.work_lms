@@ -5,6 +5,7 @@ import contact_image2 from '../images/contact_image2.png';
 import Navbar from '../components/Navbar';
 
 const Contact = () => {
+
   const [person, setPerson] = useState({
     fullName: '',
     email: '',
@@ -76,39 +77,40 @@ const Contact = () => {
               onChange={handleChange}
             />
 
-            <input
-              type="text"
-              className="form-control mb-3"
-              placeholder="Your email"
-              aria-label="Your email"
-              id="email"
-              name="email"
-              value={person.email}
-              onChange={handleChange}
-            />
 
-            <input
-              type="text"
-              className="form-control mb-3"
-              placeholder="Subject"
-              aria-label="Subject"
-              id="subject"
-              name="subject"
-              value={person.subject}
-              onChange={handleChange}
-            />
-            <div>
-              <textarea
-                name="message"
-                aria-label="Subject"
-                className="form-control"
-                id="exampleFormControlTextarea1"
-                rows="3"
-                placeholder="Message"
-                value={person.message}
-                onChange={handleChange}
-              ></textarea>
-            </div>
+						<input
+							type="text"
+							className="form-control mb-3"
+							placeholder="Your email"
+							aria-label="Your email"
+							id="email"
+							name="email"
+							value={person.email}
+							onChange={handleChange}
+						/>
+
+						<input
+							type="text"
+							className="form-control mb-3"
+							placeholder="Subject"
+							aria-label="Subject"
+							id="subject"
+							name="subject"
+							value={person.subject}
+							onChange={handleChange}
+						/>
+						<div>
+							<textarea
+								name="message"
+								aria-label="Subject"
+								className="form-control"
+								id="exampleFormControlTextarea1"
+								rows="3"
+								placeholder="Message"
+								value={person.message}
+								onChange={handleChange}></textarea>
+						</div>
+
 
             <a
               href={<SendButton />}
@@ -133,6 +135,7 @@ const Contact = () => {
       </div>
     </>
   );
+
 };
 
 export default Contact;

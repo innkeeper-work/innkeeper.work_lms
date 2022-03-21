@@ -8,7 +8,7 @@ import faqs from "../data/faq.json";
 import { CourseCategoryCards } from "../components/Card";
 import { BlogCards } from "../components/Card";
 import { BlogCardsTwo } from "../components/Card";
-import { LearnMoreButton } from "../components/Buttons";
+// import { LearnMoreButton } from "../components/Buttons";
 import { BeginCoursesButton } from "../components/Buttons";
 import { SubscribeButton } from "../components/Buttons";
 import { FAQ } from "../components/FAQ";
@@ -130,7 +130,7 @@ let Homepagewelcome = () => {
 					platform that allows for collaborative learning, leveraging self-paced
 					and instructor-led approaches.
 				</p>
-				<LearnMoreButton />
+				{/* <LearnMoreButton /> */}
 			</div>
 		</div>
 	);
@@ -155,7 +155,7 @@ let Homepagesoft = () => {
 let CourseCategory = () => {
 	return (
 		<div className="categoryBg py-4">
-			<div className="mx-md-5 px-md-3">
+			<div className="mx-md-5 px-md-3" id="categories">
 				<h3 className="text-center pt-5">Our Courses</h3>
 				<div className="row g-0 justify-content-center">
 					{categories.coursecategories.map((category) => {

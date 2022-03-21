@@ -1,3 +1,4 @@
+
 import React from 'react';
 import img404 from '../images/404.png';
 import { FacebookIcon } from '../components/Icons';
@@ -53,6 +54,7 @@ const Error404 = () => {
       </div>
     </div>
   );
+
 };
 
 export default Error404;

@@ -1,7 +1,9 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import innkeeperlogo from '../images/innkeeperlogo.png';
-import { SignInButton } from '../components/Buttons';
+import React from "react";
+import { Link } from "react-router-dom";
+import innkeeperlogo from "../images/innkeeperlogo.png";
+import { SignInButton } from "../components/Buttons";
+
+
 const Navbar = () => {
 
   return (

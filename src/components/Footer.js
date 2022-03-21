@@ -33,6 +33,7 @@ const Footer = () => {
               <p>FAQ</p>
             </div>
 
+
             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 d-none d-md-block ms-5 gs-5">
               <h5 className="text-uppercase fw-bold mb-4">Courses</h5>
               <p>Business Support Academy</p>
@@ -40,6 +41,41 @@ const Footer = () => {
               <p>Employability / Soft&nbsp;Skills</p>
               <p>Entrepreneurship</p>
             </div>
+
+							<div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 d-none d-md-block ms-5">
+								<h5 className="text-uppercase fw-bold mb-4">Menu</h5>
+								<p>
+									<Link
+										to="/"
+										className="text-reset"
+										style={{ textDecoration: "none" }}>
+										Home
+									</Link>
+								</p>
+								<p>
+									<a
+										href="#!"
+										className="text-reset"
+										style={{ textDecoration: "none" }}>
+										Events
+									</a>
+								</p>
+								<p>
+									<Link
+										to="contact"
+										className="text-reset"
+										style={{ textDecoration: "none" }}>
+										Contact
+									</Link>
+								</p>
+								<a
+									href="#faq"
+									className="text-reset"
+									style={{ textDecoration: "none" }}>
+									FAQ
+								</a>
+							</div>
+
 
             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto gs-5 mx-auto mb-md-0 mb-4 sm-3">
               <div className="d-flex justify-content-evenly d-md-block">

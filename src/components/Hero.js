@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import { GetStartedButton } from '../components/Buttons';
 
 export let HomepageHero = () => {
+
   return (
     <div className="px-4 py-2 heroBg container-fluid">
       <Navbar />
@@ -65,18 +66,19 @@ export const CoursepageHero = (props) => {
       </div>
     </>
   );
+
 };
 
 export const CourseinfoHero = (props) => {
-  const { coursename } = props;
-  return (
-    <div className="px-4 py-2 heroBg">
-      <Navbar />
-      <div className="row align-items-center g-5 p-md-4 my-5">
-        <div className="col-lg-6 col-sm-12">
-          <h1 className="herotextColored mb-5">{coursename}</h1>
-        </div>
-      </div>
-    </div>
-  );
+	const { coursename } = props;
+	return (
+		<div className="px-4 py-2 heroBg">
+			<Navbar />
+			<div className="row align-items-center g-5 p-md-4 my-5">
+				<div className="col-lg-6 col-sm-12">
+					<h1 className="herotextColored mb-5">{coursename}</h1>
+				</div>
+			</div>
+		</div>
+	);
 };
