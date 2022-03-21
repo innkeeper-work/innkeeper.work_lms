@@ -3,24 +3,23 @@ import React from "react";
 import { CoursepageHero } from "../components/Hero";
 import { CourseCards } from "../components/Card";
 import { InstructorCards } from "../components/Card";
-import empsoftskill from "../data/employability_softskills/employability_softskills.json";
+import entskills from "../data/entrepreneurship/entrepreneurship.json";
 import { OurInstructors } from "../components/Ourinstructors";
 
-const Employability = () => {
+const Entrepreneurship = () => {
   return (
     <div>
-      <EmpCoursepageHero />
-      <EmpSoftSkills />
+      <CourseHero />
+      <Enterpreneur />
       <OurInstructors />
       <Instructors />
     </div>
   );
 };
-
-let EmpCoursepageHero = () => {
+let CourseHero = () => {
   return (
     <div className="">
-      {empsoftskill.empsoftskillsheroinfo.map((singlehero) => {
+      {entskills.entrepreneurheroinfo.map((singlehero) => {
         return (
           <div className="" key={singlehero.id}>
             <CoursepageHero {...singlehero}></CoursepageHero>
@@ -31,17 +30,17 @@ let EmpCoursepageHero = () => {
   );
 };
 
-let EmpSoftSkills = () => {
+let Enterpreneur = () => {
   return (
     <div className="webDev p-4 mx-3 my-4">
-      <div className="row p-1 d-flex justify-content-center">
-        {empsoftskill.empsoftskills.map((singleEmp) => {
+      <div className="row lg-3 p-1 d-flex justify-content-center">
+        {entskills.entrepreneur.map((singleEnt) => {
           return (
             <div
               className="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex align-items-stretch py-4"
-              key={singleEmp.id}
+              key={singleEnt.id}
             >
-              <CourseCards {...singleEmp}></CourseCards>
+              <CourseCards {...singleEnt}></CourseCards>
             </div>
           );
         })}
@@ -53,11 +52,11 @@ let EmpSoftSkills = () => {
 let Instructors = () => {
   return (
     <div className="webDev m-5 p-5">
-      <div className="row p-1 d-flex justify-content-around">
-        {empsoftskill.instructors.map((singlecv) => {
+      <div className="row d-flex justify-content-around">
+        {entskills.instructors.map((singleEnt) => {
           return (
-            <div className="col-md-4 col-sm-6" key={singlecv.id}>
-              <InstructorCards {...singlecv}></InstructorCards>
+            <div className="col-lg-4 col-sm-4 col-md-4" key={singleEnt.id}>
+              <InstructorCards {...singleEnt}></InstructorCards>
             </div>
           );
         })}
@@ -66,4 +65,4 @@ let Instructors = () => {
   );
 };
 
-export default Employability;
+export default Entrepreneurship;

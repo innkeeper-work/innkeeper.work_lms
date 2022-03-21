@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import innkeeperlogo from "../images/innkeeperlogo.png";
 import { SignInButton } from "../components/Buttons";
-
 const Navbar = () => {
 	return (
 		<nav class="navbar navbar-expand-lg navbar-dark ">
@@ -12,25 +11,25 @@ const Navbar = () => {
 					<img src={innkeeperlogo} className="" alt="" />
 				</Link>
 				<button
-					className="navbar-toggler"
+					class="navbar-toggler"
 					type="button"
 					data-bs-toggle="collapse"
 					data-bs-target="#navbarNavDarkDropdown"
 					aria-controls="navbarNavDarkDropdown"
 					aria-expanded="false"
 					aria-label="Toggle navigation">
-					<span className="navbar-toggler-icon"></span>
+					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div
-					className="collapse navbar-collapse justify-content-end"
+					class="collapse navbar-collapse justify-content-end"
 					id="navbarNavDarkDropdown">
-					<ul className="navbar-nav">
-						<li className="nav-item">
+					<ul class="navbar-nav">
+						<li class="nav-item">
 							<Link to="/" className="nav-link active mx-3" aria-current="page">
 								Home
 							</Link>
 						</li>
-						<li className="nav-item dropdown">
+						<li class="nav-item dropdown">
 							<Link
 								to=""
 								className="nav-link dropdown-toggle mx-3"
@@ -68,7 +67,7 @@ const Navbar = () => {
 								</li>
 							</ul>
 						</li>
-						{/* <li className="nav-item">
+						<li class="nav-item">
 							<Link
 								to="/blog"
 								className="nav-link mx-3"
@@ -77,15 +76,15 @@ const Navbar = () => {
 								Blog
 							</Link>
 						</li>
-						<li className="nav-item">
+						<li class="nav-item">
 							<Link
 								to="/community"
 								className="nav-link mx-3"
 								style={{ color: "#fff" }}>
 								Community
 							</Link>
-						</li> */}
-						<li className="nav-item">
+						</li>
+						<li class="nav-item">
 							<Link
 								to="/contact"
 								className="nav-link mx-3"

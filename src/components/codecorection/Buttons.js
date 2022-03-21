@@ -1,23 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 export const SignInButton = () => {
   return (
-    <a href="http://app.innkeeper.work" rel="noreferrer">
-      <button type="button" className="btn signinbtnapply">
-        Sign In
-      </button>
-    </a>
+    <button type="button" className="btn signinbtnapply">
+      Sign In
+    </button>
   );
 };
-
 export const GetStartedButton = () => {
   return (
-    <a href="#categories" rel="noreferrer">
-      <button type="button" className="btn callToAction">
-        Get Started
-      </button>
-    </a>
+    <button type="button" className="btn callToAction">
+      Get Started
+    </button>
   );
 };
 export const LearnMoreButton = () => {
@@ -62,22 +56,10 @@ export const SendButton = () => {
     </button>
   );
 };
-export const Home = () => {
+export const ReadMoreButton = () => {
   return (
-    <Link to="/">
-      <button type="button" className="btn callToAction px-5 me-2">
-        <strong>Home</strong>
-      </button>
-    </Link>
-  );
-};
-
-export const ContactUs = () => {
-  return (
-    <Link to="contact">
-      <button type="button" className="btn callToAction px-4 ms-2">
-        <strong>Contact Us</strong>
-      </button>
-    </Link>
+    <button type="button" className="btn callToAction">
+      Read More
+    </button>
   );
 };

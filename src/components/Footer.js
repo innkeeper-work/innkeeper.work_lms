@@ -1,16 +1,13 @@
 import React from "react";
 import innkeeperlogo from "../images/innkeeperlogo.png";
+import { Link } from "react-router-dom";
 import {
 	FacebookIcon,
-	TwitterIcon,
 	InstagramIcon,
 	LinkedInIcon,
 	WhatsAppIcon,
 } from "../components/Icons";
-import { Link } from "react-router-dom";
-import Scroll from "react-scroll";
 
-const ScrollLink = Scroll.ScrollLink;
 const Footer = () => {
 	return (
 		<>
