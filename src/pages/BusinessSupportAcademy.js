@@ -1,18 +1,31 @@
-import React from "react";
-import { CourseCards } from "../components/Card";
-import { OurInstructors } from "../components/Ourinstructors";
-import businessSupport from "../data/bus_support_details/business_support.json";
-import { CoursepageHero } from "../components/Hero";
-import { InstructorCards } from "../components/Card";
+import React from 'react';
+import { CourseCards } from '../components/Card';
+import { OurInstructors } from '../components/Ourinstructors';
+import businessSupport from '../data/bus_support_details/business_support.json';
+import { CoursepageHero } from '../components/Hero';
+import { InstructorCards } from '../components/Card';
 
 const BusinessSupportAcademy = () => {
   return (
-    <div>
-      <BusinessHero />
-      <Business />
-      <OurInstructors />
-      <BusinessInstructors />
-    </div>
+    <>
+      <div className="d-none d-md-block">
+        <BusinessHero />
+        <div className="webDev m-5 p-5">
+          <Business />
+        </div>
+        <OurInstructors />
+        <BusinessInstructors />
+      </div>
+
+      <div className="d-block d-md-none">
+        <BusinessHero />
+        <div className="webDev p-4 mb-5">
+          <Business />
+        </div>
+        <OurInstructors />
+        <BusinessInstructors />
+      </div>
+    </>
   );
 };
 
@@ -32,8 +45,10 @@ let BusinessHero = () => {
 
 let Business = () => {
   return (
+
     <div className="webDev p-4 mx-3 my-4">
       <div className="row p-1 d-flex justify-content-center">
+
         {businessSupport.business.map((singlebus) => {
           return (
             <div
@@ -52,13 +67,10 @@ let Business = () => {
 let BusinessInstructors = () => {
   return (
     <div className="webDev m-5 p-5">
-      <div className="row d-flex justify-content-around">
+      <div className="row p-1 d-flex justify-content-around">
         {businessSupport.instructors.map((singleInstr) => {
           return (
-            <div
-              className="col-lg-4 col-sm-4 col-md-4 d-flex align-items-stretch"
-              key={singleInstr.id}
-            >
+            <div className="col-md-4 col-sm-6" key={singleInstr.id}>
               <InstructorCards {...singleInstr}></InstructorCards>
             </div>
           );
@@ -68,19 +80,3 @@ let BusinessInstructors = () => {
   );
 };
 export default BusinessSupportAcademy;
-
-// let Instructors = () => {
-//   return (
-//     <div className="webDev m-5 p-5">
-//       <div className="row d-flex justify-content-around">
-//         {techacademy.instructors.map((singleInstr) => {
-//           return (
-//             <div className="col-lg-4 col-sm-4 col-md-4" key={singleInstr.id}>
-//               <InstructorCards {...singleInstr}></InstructorCards>
-//             </div>
-//           );
-//         })}
-//       </div>
-//     </div>
-//   );
-// };

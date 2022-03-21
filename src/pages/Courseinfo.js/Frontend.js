@@ -1,5 +1,6 @@
 import React from "react";
 import infoimage from "../../images/infoimage.png";
+import { BookIcon, AlarmIcon, CreditCardIcon } from "../../components/Icons";
 import { Link } from "react-router-dom";
 import { CourseinfoHero } from "../../components/Hero";
 import adamu from "../../images/adamu.png";
@@ -8,26 +9,27 @@ import { CourseCards } from "../../components/Card";
 import techacademy from "../../data/tech_academy_details/techacademy.json";
 
 let FrontendInfo = () => {
-  return (
-    <div>
-      <CourseinfoHero coursename="Frontend Development" />
-      <div className="row justify-content-center">
-        <div className="col-lg-7 col-md-6 col-sm-10">
-          <AboutFrontend />
-          <FrontendApplyHere />
-        </div>
-        <div className="col-lg-4 col-md-5 col-sm-10 sectiontwoBg mt-5 h-100">
-          <FrontendReq />
-          <FrontendEnrol />
-          <FrontendInstructor />
-        </div>
-      </div>
-      <FrontendRelated />
-    </div>
-  );
+	return (
+		<div>
+			<CourseinfoHero coursename="Frontend Development" />
+			<div className="row justify-content-center">
+				<div className="col-lg-7 col-md-6 col-sm-10">
+					<AboutFrontend />
+					<FrontendApplyHere />
+				</div>
+				<div className="col-lg-4 col-md-5 col-sm-10 sectiontwoBg mt-5 h-100">
+					<FrontendReq />
+					<FrontendEnrol />
+					<FrontendInstructor />
+				</div>
+			</div>
+			<FrontendRelated />
+		</div>
+	);
 };
 
 let AboutFrontend = () => {
+
   return (
     <div className="">
       <div className="navbar-expand col-lg-6 mx-auto">
@@ -87,142 +89,144 @@ let AboutFrontend = () => {
       </div>
     </div>
   );
+
 };
 
 let FrontendApplyHere = () => {
-  return (
-    <div className="card-body">
-      <h3 className="card-title">How to Apply</h3>
-      <ul className="list-content">
-        <li className="list-item pb-2">
-          Read about the course content and indicate interest.
-        </li>
-        <li className="list-item pb-2">Select a payment/enrolment method.</li>
-        <li className="list-item pb-2">
-          Except you pay the stipulated amount, every other course enrolment
-          method will require the admin to permit you to class.
-        </li>
-        <li className="list-item pb-2">
-          Alternatively, you can sign up to begin class HERE.
-        </li>
-        <li className="list-item pb-2">
-          Go to your e-mail and complete registration via the link that will be
-          sent to you.
-        </li>
-        <li className="list-item pb-2">
-          Then from your dashboard, click all courses to display the list of
-          courses available according to academy, then request for your desired
-          course.
-        </li>
-      </ul>
-    </div>
-  );
+	return (
+		<div className="card-body">
+			<h3 className="card-title">How to Apply</h3>
+			<ul className="list-content">
+				<li className="list-item pb-2">
+					Read about the course content and indicate interest.
+				</li>
+				<li className="list-item pb-2">
+					Select a payment/enrolment method HERE.
+				</li>
+				<li className="list-item pb-2">
+					Except you pay the stipulated amount, every other course enrolment
+					method will require the admin to permit you to class.
+				</li>
+				<li className="list-item pb-2">
+					Alternatively, you can sign up to begin class HERE.
+				</li>
+				<li className="list-item pb-2">
+					Go to your e-mail and complete registration via the link that will be
+					sent to you.
+				</li>
+				<li className="list-item pb-2">
+					Then from your dashboard, click all courses to display the list of
+					courses available according to academy, then request for your desired
+					course.
+				</li>
+			</ul>
+		</div>
+	);
 };
 
 let FrontendReq = () => {
-  return (
-    <div className="card-body">
-      <h3 className="card-title">Requirements</h3>
-      <ul className="list-content">
-        <li className="list-item pb-2">Good and functioning Laptop.</li>
-        <li className="list-item pb-2">Reliable Internet connection.</li>
-        <li className="list-item pb-2">Ability to operate a computer.</li>
-        <li className="list-item pb-2">Google/Yahoo account.</li>
-        <li className="list-item pb-2">Domain name and hosting server</li>
-        <li className="list-item pb-2">
-          Code editor software (e.g. notepad++, visual studio code, sublime text
-          etc)
-        </li>
-        <li className="list-item pb-2">Flash drive or external hard drive.</li>
-        <li className="list-item pb-2">
-          Basic knowledge of computer's software applications is useful.
-        </li>
-      </ul>
-    </div>
-  );
+	return (
+		<div className="card-body">
+			<h3 className="card-title">Requirements</h3>
+			<ul className="list-content">
+				<li className="list-item pb-2">Good and functioning Laptop.</li>
+				<li className="list-item pb-2">Reliable Internet connection.</li>
+				<li className="list-item pb-2">Ability to operate a computer.</li>
+				<li className="list-item pb-2">Google/Yahoo account.</li>
+				<li className="list-item pb-2">Domain name and hosting server</li>
+				<li className="list-item pb-2">
+					Code editor software (e.g. notepad++, visual studio code, sublime text
+					etc)
+				</li>
+				<li className="list-item pb-2">Flash drive or external hard drive.</li>
+				<li className="list-item pb-2">
+					Basic knowledge of computer's software applications is useful.
+				</li>
+			</ul>
+		</div>
+	);
 };
 
 let FrontendEnrol = () => {
-  return (
-    <div className="card-body">
-      <h3 className="card-title">Available Enrolment Options</h3>
-      <ul className="list-content">
-        <li className="list-item pb-2">
-          Click to{" "}
-          <Link
-            to="https://paystack.com/pay/innkeeper-frontend-development"
-            className="text-decoration-none"
-          >
-            <b>Pay Now</b>
-          </Link>
-        </li>
-        <p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
-        <li className="list-item pb-2">
-          Apply for Student loan{" "}
-          <Link to="" className="text-decoration-none">
-            <b>HERE</b>
-          </Link>
-        </li>
-        <li className="list-item pb-2">
-          Apply via our training bond{" "}
-          <Link to="" className="text-decoration-none">
-            <b>HERE</b>
-          </Link>
-        </li>
-        <li className="list-item pb-2">Apply for scholarship.</li>
-        <p className="">
-          (See available ones{" "}
-          <Link to="" className="text-decoration-none">
-            <b>HERE</b>
-          </Link>
-          )
-        </p>
-      </ul>
-    </div>
-  );
+	return (
+		<div className="card-body">
+			<h3 className="card-title">Available Enrolment Options</h3>
+			<ul className="list-content">
+				<li className="list-item pb-2">
+					Click to{" "}
+					<Link
+						to="https://paystack.com/pay/innkeeper-frontend-development"
+						className="text-decoration-none">
+						<b>Pay Now</b>
+					</Link>
+				</li>
+				<p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
+				<li className="list-item pb-2">
+					Apply for Student loan{" "}
+					<Link to="" className="text-decoration-none">
+						<b>HERE</b>
+					</Link>
+				</li>
+				<li className="list-item pb-2">
+					Apply via our training bond{" "}
+					<Link to="" className="text-decoration-none">
+						<b>HERE</b>
+					</Link>
+				</li>
+				<li className="list-item pb-2">Apply for scholarship.</li>
+				<p className="">
+					(See available ones{" "}
+					<Link to="" className="text-decoration-none">
+						<b>HERE</b>
+					</Link>
+					)
+				</p>
+			</ul>
+		</div>
+	);
 };
 
 let FrontendInstructor = () => {
-  return (
-    <div className="mb-3">
-      <div className="instructor_card d-flex align-items-md-center">
-        <div>
-          <img
-            src={adamu}
-            alt=""
-            width="100px"
-            height="100px"
-            className="rounded-circle"
-          />
-        </div>
+	return (
+		<div className="mb-3">
+			<div className="instructor_card d-flex align-items-md-center">
+				<div>
+					<img
+						src={adamu}
+						alt=""
+						width="100px"
+						height="100px"
+						className="rounded-circle"
+					/>
+				</div>
 
-        <div className="ms-3">
-          <h5>
-            <b>About Instructor</b>
-          </h5>
-          <p className="course-instructor">AbdulRahman Adamu</p>
-          <p className="course-instructor">Frontend Developer</p>
-        </div>
-        {/* <Link to=""></Link> */}
-      </div>
-    </div>
-  );
+				<div className="ms-3">
+					<h5>
+						<b>About Instructor</b>
+					</h5>
+					<p className="course-instructor">AbdulRahman Adamu</p>
+					<p className="course-instructor">Frontend Developer</p>
+				</div>
+				{/* <Link to=""></Link> */}
+			</div>
+		</div>
+	);
 };
 
 let FrontendRelated = () => {
-  return (
-    <div className="webDev mx-5 px-5 my-5 pb-5">
-      <h3 className="techHead px-5 my-5 pt-5">Related Courses</h3>
-      <div className="row">
-        {techacademy.bigdata.map((singlebig) => {
-          return (
-            <div className="col-lg-4 col-md-6 col-sm-12" key={singlebig.id}>
-              <CourseCards {...singlebig}></CourseCards>
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  );
+	return (
+		<div className="webDev mx-5 px-5 my-5 pb-5">
+			<h3 className="techHead px-5 my-5 pt-5">Related Courses</h3>
+			<div className="row">
+				{techacademy.bigdata.map((singlebig) => {
+					return (
+						<div className="col-lg-4 col-md-6 col-sm-12" key={singlebig.id}>
+							<CourseCards {...singlebig}></CourseCards>
+						</div>
+					);
+				})}
+			</div>
+		</div>
+	);
 };
 export default FrontendInfo;
