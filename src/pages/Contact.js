@@ -1,16 +1,15 @@
-import React, { useState } from 'react';
-import { SendButton } from '../components/Buttons';
-import contact_image1 from '../images/contact_image1.png';
-import contact_image2 from '../images/contact_image2.png';
-import Navbar from '../components/Navbar';
+import React, { useState } from "react";
+import { SendButton } from "../components/Buttons";
+import contact_image1 from "../images/contact_image1.png";
+import contact_image2 from "../images/contact_image2.png";
+import Navbar from "../components/Navbar";
 
 const Contact = () => {
-
   const [person, setPerson] = useState({
-    fullName: '',
-    email: '',
-    subject: '',
-    message: '',
+    fullName: "",
+    email: "",
+    subject: "",
+    message: "",
   });
   const [people, setPeople] = useState([]);
   const handleChange = (e) => {
@@ -24,10 +23,10 @@ const Contact = () => {
       const newPerson = { ...person, id: new Date().getTime().toString() };
       setPeople([...people, newPerson]);
       setPerson({
-        fullName: '',
-        email: '',
-        subject: '',
-        message: '',
+        fullName: "",
+        email: "",
+        subject: "",
+        message: "",
       });
     }
   };
@@ -77,40 +76,39 @@ const Contact = () => {
               onChange={handleChange}
             />
 
+            <input
+              type="text"
+              className="form-control mb-3"
+              placeholder="Your email"
+              aria-label="Your email"
+              id="email"
+              name="email"
+              value={person.email}
+              onChange={handleChange}
+            />
 
-						<input
-							type="text"
-							className="form-control mb-3"
-							placeholder="Your email"
-							aria-label="Your email"
-							id="email"
-							name="email"
-							value={person.email}
-							onChange={handleChange}
-						/>
-
-						<input
-							type="text"
-							className="form-control mb-3"
-							placeholder="Subject"
-							aria-label="Subject"
-							id="subject"
-							name="subject"
-							value={person.subject}
-							onChange={handleChange}
-						/>
-						<div>
-							<textarea
-								name="message"
-								aria-label="Subject"
-								className="form-control"
-								id="exampleFormControlTextarea1"
-								rows="3"
-								placeholder="Message"
-								value={person.message}
-								onChange={handleChange}></textarea>
-						</div>
-
+            <input
+              type="text"
+              className="form-control mb-3"
+              placeholder="Subject"
+              aria-label="Subject"
+              id="subject"
+              name="subject"
+              value={person.subject}
+              onChange={handleChange}
+            />
+            <div>
+              <textarea
+                name="message"
+                aria-label="Subject"
+                className="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                placeholder="Message"
+                value={person.message}
+                onChange={handleChange}
+              ></textarea>
+            </div>
 
             <a
               href={<SendButton />}
@@ -135,7 +133,6 @@ const Contact = () => {
       </div>
     </>
   );
-
 };
 
 export default Contact;

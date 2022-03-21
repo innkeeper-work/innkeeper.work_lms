@@ -1,12 +1,11 @@
-
-import React from 'react';
-import img404 from '../images/404.png';
-import { FacebookIcon } from '../components/Icons';
-import { WhatsAppIcon } from '../components/Icons';
-import { InstagramIcon } from '../components/Icons';
-import { LinkedInIcon } from '../components/Icons';
-import { Home } from '../components/Buttons';
-import { ContactUs } from '../components/Buttons';
+import React from "react";
+import img404 from "../images/404.png";
+import { FacebookIcon } from "../components/Icons";
+import { WhatsAppIcon } from "../components/Icons";
+import { InstagramIcon } from "../components/Icons";
+import { LinkedInIcon } from "../components/Icons";
+import { Home } from "../components/Buttons";
+import { ContactUs } from "../components/Buttons";
 
 const Error404 = () => {
   return (
@@ -54,7 +53,6 @@ const Error404 = () => {
       </div>
     </div>
   );
-
 };
 
 export default Error404;
