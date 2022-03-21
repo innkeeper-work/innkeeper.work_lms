@@ -226,46 +226,125 @@ let Testimonial = () => {
 };
 
 let Faq = () => {
-	return (
-		<div className="py-5 faqBg" id="faq">
-			<h3 className="text-center">Frequently Asked Questions</h3>
-			<div
-				className="container accordion accordion-flush"
-				id="accordionFlushExample">
-				{faqs.faqs.map((faq) => {
-					return (
-						<div key={faq.id}>
-							<FAQ {...faq}></FAQ>
-						</div>
-					);
-				})}
-			</div>
-			<div className="text-center py-4">
-				<ApplyNowButton />
-			</div>
-		</div>
-	);
+
+  return (
+    <div className="py-5 faqBg">
+      <h3 className="text-center">Frequently Asked Questions</h3>
+      <div
+        className="container accordion accordion-flush"
+        id="accordionFlushExample"
+      >
+        <div className="accordion-item">
+          <p className="accordion-header" id="flush-headingOne">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+              Accordion Item #1
+            </button>
+          </p>
+          <div
+            id="flush-collapseOne"
+            className="accordion-collapse collapse"
+            aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div className="accordion-body">
+              Placeholder content for this accordion, which is intended to
+              demonstrate the <code>.accordion-flush</code> class. This is the
+              first item's accordion body.
+            </div>
+          </div>
+        </div>
+        <div className="accordion-item">
+          <p className="accordion-header" id="flush-headingTwo">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              Accordion Item #2
+            </button>
+          </p>
+          <div
+            id="flush-collapseTwo"
+            className="accordion-collapse collapse"
+            aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div className="accordion-body">
+              Placeholder content for this accordion, which is intended to
+              demonstrate the <code>.accordion-flush</code> class. This is the
+              second item's accordion body. Let's imagine this being filled with
+              some actual content.
+            </div>
+          </div>
+        </div>
+        <div className="accordion-item">
+          <p className="accordion-header" id="flush-headingThree">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree"
+              aria-expanded="false"
+              aria-controls="flush-collapseThree"
+            >
+              Accordion Item #3
+            </button>
+          </p>
+          <div
+            id="flush-collapseThree"
+            className="accordion-collapse collapse"
+            aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div className="accordion-body">
+              Placeholder content for this accordion, which is intended to
+              demonstrate the <code>.accordion-flush</code> class. This is the
+              third item's accordion body. Nothing more exciting happening here
+              in terms of content, but just filling up the space to make it
+              look, at least at first glance, a bit more representative of how
+              this would look in a real-world application.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="text-center py-4">
+        <ApplyNowButton />
+      </div>
+    </div>
+  );
 };
 
 let Newsletter = () => {
-	return (
-		<div className="text-center py-5 newsBg">
-			<div className="card-body">
-				<h3 className="card-title">Our News Channel</h3>
-				<p className="card-text">
-					Welcome to our news channel, subscribe to receive daily updates.
-				</p>
-				<input
-					type="email"
-					className="form-control w-25 mx-auto"
-					id="exampleFormControlInput1"
-					placeholder="Your email"></input>
-				<div className="mt-3">
-					<SubscribeButton />
-				</div>
-			</div>
-		</div>
-	);
+  return (
+    <div className="text-center py-5 newsBg">
+      <div className="card-body">
+        <h3 className="card-title">Our News Channel</h3>
+        <p className="card-text">
+          Welcome to our news channel, subscribe to receive daily updates.
+        </p>
+        <input
+          type="email"
+          className="form-control w-25 mx-auto"
+          id="exampleFormControlInput1"
+          placeholder="Email"
+        ></input>
+        <div className="mt-3">
+          <SubscribeButton />
+        </div>
+      </div>
+    </div>
+  );
+
 };
 
 export default Homepage;
