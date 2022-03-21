@@ -2,12 +2,14 @@ import React from "react";
 import innkeeperlogo from "../images/innkeeperlogo.png";
 import {
 	FacebookIcon,
+	TwitterIcon,
 	InstagramIcon,
 	LinkedInIcon,
-	WhatsAppIcon,
 } from "../components/Icons";
 import { Link } from "react-router-dom";
+import Scroll from "react-scroll";
 
+const ScrollLink = Scroll.ScrollLink;
 const Footer = () => {
 	return (
 		<>
@@ -31,19 +33,54 @@ const Footer = () => {
 								<h5 className="text-uppercase fw-bold mb-4">Menu</h5>
 								<p>
 									<Link
+										to="/"
+										className="text-reset"
+										style={{ textDecoration: "none" }}>
+										Home
+									</Link>
+								</p>
+								<p>
+									<a
+										href="#!"
+										className="text-reset"
+										style={{ textDecoration: "none" }}>
+										Events
+									</a>
+								</p>
+								<p>
+									<Link
+										to="contact"
+										className="text-reset"
+										style={{ textDecoration: "none" }}>
+										Contact
+									</Link>
+								</p>
+								<a
+									href="#faq"
+									className="text-reset"
+									style={{ textDecoration: "none" }}>
+									FAQ
+								</a>
+							</div>
+
+							<div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 d-none d-md-block">
+								<h5 className="text-uppercase fw-bold mb-4">Courses</h5>
+								<p>
+									<Link
 										to="businessupport"
 										className="text-reset"
 										style={{ textDecoration: "none" }}>
 										Business Support Academy
 									</Link>
 								</p>
-								<Link
-									to="techacademy"
-									className="text-reset"
-									style={{ textDecoration: "none" }}>
-									Tech Academy
-								</Link>
-								{/* </p> */}
+								<p>
+									<Link
+										to="techacademy"
+										className="text-reset"
+										style={{ textDecoration: "none" }}>
+										Tech Academy
+									</Link>
+								</p>
 								<p>
 									<Link
 										to="employability"
@@ -86,7 +123,7 @@ const Footer = () => {
 											target="_blank"
 											rel="noreferrer"
 											style={{ textDecoration: "none", marginRight: "50px" }}>
-											<WhatsAppIcon />
+											<TwitterIcon />
 											<p
 												className="d-none d-md-block "
 												style={{ textDecoration: "none", marginLeft: "5px" }}>
@@ -133,7 +170,6 @@ const Footer = () => {
 					</div>
 				</div>
 			</footer>
-			//{" "}
 		</>
 	);
 };

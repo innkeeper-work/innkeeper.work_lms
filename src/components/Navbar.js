@@ -2,13 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import innkeeperlogo from "../images/innkeeperlogo.png";
 import { SignInButton } from "../components/Buttons";
-
 const Navbar = () => {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-dark">
 			<div className="container-fluid">
-				<Link to="/" className="navbar-brand ms-2">
-					{/* {" "} */}
+				<Link to="" className="navbar-brand ms-2">
+					{" "}
 					<img src={innkeeperlogo} className="" alt="" />
 				</Link>
 				<button
@@ -68,7 +67,7 @@ const Navbar = () => {
 								</li>
 							</ul>
 						</li>
-						{/* <li className="nav-item">
+						<li className="nav-item">
 							<Link
 								to="/blog"
 								className="nav-link mx-3"
@@ -84,7 +83,7 @@ const Navbar = () => {
 								style={{ color: "#fff" }}>
 								Community
 							</Link>
-						</li> */}
+						</li>
 						<li className="nav-item">
 							<Link
 								to="/contact"
