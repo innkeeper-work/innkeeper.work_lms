@@ -99,21 +99,18 @@ const Footer = () => {
 
 							<div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 sm-3">
 								<div className="d-flex d-md-block ms-5 flex-wrap">
-									<p>
-										<a
-											href="https://www.facebook.com/innkeeper.work/"
-											className="btnText d-flex"
-											target="_blank"
-											rel="noreferrer"
-											style={{ textDecoration: "none", marginRight: "50px" }}>
-											<FacebookIcon />
-											<p
-												className="d-none d-md-block "
-												style={{ textDecoration: "none", marginLeft: "5px" }}>
-												Facebook
-											</p>
-										</a>
-									</p>
+									<div className="d-flex">
+										<FacebookIcon
+											className="btnText"
+											style={{
+												marginRight: "50px",
+											}}></FacebookIcon>
+										<p
+											className="d-none d-md-block "
+											style={{ textDecoration: "none", marginLeft: "5px" }}>
+											Facebook
+										</p>
+									</div>
 									<p>
 										<a
 											href="https://twitter.com/"
