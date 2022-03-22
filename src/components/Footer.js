@@ -123,7 +123,7 @@ const Footer = () => {
                 <div className="d-flex justify-content-evenly d-md-block">
                   <a
                     href="https://www.facebook.com/innkeeper.work/"
-                    className="btnText d-flex justify-content-end px-4 pb-3 text-reset"
+                    className="btnText d-flex justify-content-end px-3 pb-3 text-reset"
                     target="_blank"
                     rel="noreferrer"
                     style={{ textDecoration: 'none' }}
@@ -134,7 +134,7 @@ const Footer = () => {
 
                   <a
                     href="https://wa.link/nc43zv"
-                    className="btnText d-flex justify-content-end px-4 pb-3 text-reset"
+                    className="btnText d-flex justify-content-end px-3 pb-3 text-reset"
                     target="_blank"
                     rel="noreferrer"
                     style={{ textDecoration: 'none' }}
@@ -145,7 +145,7 @@ const Footer = () => {
 
                   <a
                     href="https://www.instagram.com/innkeeper.work/"
-                    className="btnText d-flex justify-content-end px-4 pb-3 text-reset"
+                    className="btnText d-flex justify-content-end px-3 pb-3 text-reset"
                     target="_blank"
                     rel="noreferrer"
                     style={{ textDecoration: 'none' }}
@@ -156,7 +156,7 @@ const Footer = () => {
 
                   <a
                     href="https://www.linkedin.com/company/innkeeper-work/"
-                    className="btnText d-flex justify-content-end px-4 pb-3 text-reset"
+                    className="btnText d-flex justify-content-end px-3 pb-3 text-reset"
                     target="_blank"
                     rel="noreferrer"
                     style={{ textDecoration: 'none' }}

@@ -50,7 +50,7 @@ const Contact = () => {
         <h2 className="d-flex justify-content-center herotextColored ">
           <strong> Contact Us</strong>
         </h2>
-        <div className="col-md-7 col-sm-12 g-2 mb-5">
+        <div className="col-md-7 col-sm-12 g-2 mb-5 px-4">
           <li className="mb-4">
             Do you have other questions? Don't worry, there aren't any dumb
             questions. Just fill out the form below and we'll get back to you as
@@ -64,7 +64,7 @@ const Contact = () => {
             or you contact
             <a href="tel:+2348098468885"> +2348098468885</a>
           </li>
-          <form className="form">
+          <form className=" card-body form mx-4">
             <input
               type="text"
               className="form-control mb-3"
@@ -110,16 +110,20 @@ const Contact = () => {
               ></textarea>
             </div>
 
-            <a
-              href={<SendButton />}
-              type="submit"
-              className="btn contact-btn bg-bark"
-              onClick={handleSubmit}
-            >
-              <SendButton
-                onClick={() => <a href="mailto:sammiebechh@gmail.com">Send</a>}
-              />
-            </a>
+            <div className="d-flex justify-content-center mx-5">
+              <a
+                href={<SendButton />}
+                type="submit"
+                className="btn contact-btn bg-bark"
+                onClick={handleSubmit}
+              >
+                <SendButton
+                  onClick={() => (
+                    <a href="mailto:sammiebechh@gmail.com">Send</a>
+                  )}
+                />
+              </a>
+            </div>
           </form>
         </div>
 
