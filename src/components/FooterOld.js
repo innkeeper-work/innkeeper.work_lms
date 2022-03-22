@@ -1,4 +1,5 @@
 import React from 'react';
+
 import innkeeperlogo from '../images/innkeeperlogo.png';
 import {
   FacebookIcon,
@@ -40,26 +41,53 @@ const Footer = () => {
               <p>Entrepreneurship</p>
             </div>
 
-            <div className=" col-md-2 col-lg-2 col-xl-2 mx-auto gs-5 mx-auto mb-md-0 mb-4 sm-3">
-              <div className="btnText d-flex justify-content-evenly d-md-block">
-                <div className="btnText d-flex justify-content-end px-4 pb-3">
+            <di className=" col-md-2 col-lg-2 col-xl-2 mx-auto gs-5 mx-auto mb-md-0 mb-4 sm-3">
+              <div className="d-flex justify-content-evenly d-md-block">
+                <a
+                  href="https://www.facebook.com/innkeeper.work/"
+                  className="btnText d-flex justify-content-end px-4 pb-3"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ textDecoration: 'none' }}
+                >
                   <FacebookIcon />
                   <p className="d-none d-md-block ms-3">Facebook</p>
-                </div>
-                <div className="btnText d-flex justify-content-end px-4 pb-3">
+                </a>
+
+                <a
+                  href="https://wa.link/nc43zv"
+                  className="btnText d-flex justify-content-end px-4 pb-3"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ textDecoration: 'none' }}
+                >
                   <WhatsAppIcon />
                   <p className="d-none d-md-block ms-3">WhatsApp</p>
-                </div>
-                <div className="btnText d-flex justify-content-end px-4 pb-3">
+                </a>
+
+                <a
+                  href="https://www.instagram.com/innkeeper.work/"
+                  className="btnText d-flex justify-content-end px-4 pb-3"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ textDecoration: 'none' }}
+                >
                   <InstagramIcon />
                   <p className="d-none d-md-block ms-3">Instagram</p>
-                </div>
-                <div className="btnText d-flex justify-content-end px-4 pb-3">
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/company/innkeeper-work/"
+                  className="btnText d-flex justify-content-end px-4 pb-3"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{ textDecoration: 'none' }}
+                >
                   <LinkedInIcon />
                   <p className="d-none d-md-block ms-3 me-3">Linkedin</p>
-                </div>
+                </a>
               </div>
-            </div>
+            </di>
           </div>
         </div>
       </footer>
