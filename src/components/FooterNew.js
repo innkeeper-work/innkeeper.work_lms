@@ -1,5 +1,8 @@
 import React from 'react';
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 import innkeeperlogo from '../images/innkeeperlogo.png';
 import {
   FacebookIcon,
@@ -41,23 +44,37 @@ const Footer = () => {
               <p>Entrepreneurship</p>
             </div>
 
+<<<<<<< Updated upstream
             <div className=" col-md-2 col-lg-2 col-xl-2 mx-auto gs-5 mx-auto mb-md-0 mb-4 sm-3">
               <div className="btnText d-flex justify-content-evenly d-md-block">
+=======
+            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto gs-5 mx-auto mb-md-0 mb-4 sm-3">
+              <div className="d-flex justify-content-evenly d-md-block">
+>>>>>>> Stashed changes
                 <div className="btnText d-flex justify-content-end px-4 pb-3">
                   <FacebookIcon />
                   <p className="d-none d-md-block ms-3">Facebook</p>
                 </div>
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
                 <div className="btnText d-flex justify-content-end px-4 pb-3">
                   <WhatsAppIcon />
                   <p className="d-none d-md-block ms-3">WhatsApp</p>
                 </div>
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
                 <div className="btnText d-flex justify-content-end px-4 pb-3">
                   <InstagramIcon />
                   <p className="d-none d-md-block ms-3">Instagram</p>
                 </div>
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
                 <div className="btnText d-flex justify-content-end px-4 pb-3">
                   <LinkedInIcon />
                   <p className="d-none d-md-block ms-3 me-3">Linkedin</p>
@@ -71,4 +88,8 @@ const Footer = () => {
   );
 };
 
+<<<<<<< Updated upstream
 export default Footer;
+=======
+export default Footer;
+>>>>>>> Stashed changes

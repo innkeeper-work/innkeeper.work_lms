@@ -23,7 +23,7 @@ const Error404 = () => {
         <h5 className="herotextColored d-none d-sm-block">
           <strong>UH OH! Page Not Found</strong>
         </h5>
-        <p className="pb-4 g-4 d-flex justify-content-center">
+        <p className="g-4 d-flex justify-content-center">
           The page you are looking for does not exist. Please click on the
           buttons below to either go back to the homepage or contact us
         </p>
@@ -34,16 +34,45 @@ const Error404 = () => {
             <ContactUs />
           </div>
 
-          <div className="d-flex justify-content-evenly g-5 p-auto herotextColored m-4">
-            <FacebookIcon />
-            <InstagramIcon />
-            <WhatsAppIcon />
-            <LinkedInIcon />
+          <div className="d-flex justify-content-evenly g-5 p-auto herotextColored m-3">
+            <a
+              href="https://www.facebook.com/innkeeper.work/"
+              className="herotextColored d-flex justify-content-end px-4 pb-3"
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
+              <FacebookIcon />
+            </a>
+            <a
+              href="https://wa.link/nc43zv"
+              className="herotextColored d-flex justify-content-end px-4 pb-3"
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
+              <WhatsAppIcon />
+            </a>
+            <a
+              href="https://www.instagram.com/innkeeper.work/"
+              className="herotextColored d-flex justify-content-end px-4 pb-3"
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
+              <InstagramIcon />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/innkeeper-work/"
+              className="herotextColored d-flex justify-content-end px-4 pb-3"
+              target="_blank"
+              rel="noreferrer"
+              style={{ textDecoration: 'none' }}
+            >
+              <LinkedInIcon />
+            </a>
           </div>
 
-          <br />
-          <br />
-          <br />
           <br />
           <br />
           <br />
