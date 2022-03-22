@@ -27,17 +27,9 @@ export const CreditCardIcon = () => {
 // social media icons
 export const FacebookIcon = () => {
 	return (
-		// <div>
-		<a
-			href="https://www.facebook.com/innkeeper.work/"
-			target="_blank"
-			rel="noreferrer"
-			style={{
-				textDecoration: "none",
-			}}>
+		<div>
 			<i className="bi bi-facebook"></i>
-		</a>
-		// </div>
+		</div>
 	);
 };
 export const WhatsAppIcon = () => {
