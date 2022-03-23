@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import innkeeperdarlogo from "../images/innkeeperdarlogo.png";
 import { SignInButton } from "../components/Buttons";
 const Navbar = () => {
+
   return (
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid px-2">
@@ -111,6 +112,7 @@ const Navbar = () => {
       </div>
     </nav>
   );
+
 };
 
 export default Navbar;
