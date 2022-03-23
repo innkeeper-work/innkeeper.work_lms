@@ -57,7 +57,7 @@ export const SubscribeButton = () => {
 };
 export const SendButton = () => {
 	return (
-		<button type="button" className="btn signinbtnapply">
+		<button type="button" className="btn signinbtnapply px-5">
 			Send
 		</button>
 	);
@@ -65,7 +65,7 @@ export const SendButton = () => {
 export const Home = () => {
 	return (
 		<Link to="/">
-			<button type="button" className="btn callToAction px-5 me-2">
+			<button type="button" className="btn callToAction px-4 me-2">
 				<strong>Home</strong>
 			</button>
 		</Link>
@@ -75,7 +75,7 @@ export const Home = () => {
 export const ContactUs = () => {
 	return (
 		<Link to="contact">
-			<button type="button" className="btn callToAction px-4 ms-2">
+			<button type="button" className="btn callToAction px-2 ms-2">
 				<strong>Contact&nbsp;Us</strong>
 			</button>
 		</Link>
