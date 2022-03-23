@@ -1,32 +1,38 @@
 import React from "react";
-import heroimage from "../images/heroimage.png";
+import homehero4 from "../images/homehero4.png";
 import Navbar from "./Navbar";
 import { GetStartedButton } from "../components/Buttons";
 
 export let HomepageHero = () => {
   return (
-    <div className="px-4 heroBg container-fluid">
+    <div className="px-4 container-fluid homeheroBg py-3">
       <Navbar />
-      <div className="row flex-sm-row-reverse align-items-center">
-        <div className="col-lg-5 col-md-6 col-sm-12">
+      <div className="row align-items-center justify-content-center mt-4">
+        <div className="col-lg-6 col-md-7 col-sm-12 mt-5">
+          <h1 className="herotextWhite d-none d-lg-block d-md-none d-sm-none d-xs-none">
+            Upskill for this&nbsp;
+            <span className="herotextColored">Digital age.</span>
+          </h1>
+          <h2 className="herotextWhite d-xs-block d-sm-block d-md-block d-lg-none">
+            Upskill for this&nbsp;
+            <span className="herotextColored">Digital age.</span>
+          </h2>
+          <p className="herotextWhite d-flex">
+            Mentored Upskilling For Improved Learning Opportunities. Get the
+            needed skills for your desired job role.
+          </p>
+          <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none mt-4">
+            <GetStartedButton />
+          </div>
+        </div>
+        <div className="col-lg-5 col-md-5 col-sm-12">
           <img
-            src={heroimage}
+            src={homehero4}
             className="d-block mx-lg-auto img-fluid"
             alt=""
             loading=""
           />
-        </div>
-        <div className="col-lg-7 col-md-6 col-sm-12 ps-lg-5 ps-md-5 py-lg-5">
-          {/* <div className="col-lg-7 col-md-6 col-sm-6 py-5"> */}
-          <h1 className="herotextWhite">
-            Upskill for this&nbsp;
-            <span className="herotextColored">Digital age.</span>
-          </h1>
-          <p className="herotextWhite">
-            Mentored Upskilling For Improved Learning Opportunities. Get the
-            needed skills for your desired job role.
-          </p>
-          <div className="my-3">
+          <div className="d-xs-block d-sm-block d-md-none d-lg-none mt-4 text-center">
             <GetStartedButton />
           </div>
         </div>
