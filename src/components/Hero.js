@@ -5,10 +5,10 @@ import { GetStartedButton } from "../components/Buttons";
 
 export let HomepageHero = () => {
 	return (
-		<div className="px-4 py-2 heroBg container-fluid">
+		<div className="px-4 heroBg container-fluid">
 			<Navbar />
 			<div className="row flex-sm-row-reverse align-items-center">
-				<div className="col-lg-5 col-md-6">
+				<div className="col-lg-5 col-md-6 col-sm-12">
 					<img
 						src={heroimage}
 						className="d-block mx-lg-auto img-fluid"
@@ -16,7 +16,8 @@ export let HomepageHero = () => {
 						loading=""
 					/>
 				</div>
-				<div className="col-lg-7 ps-5 col-md-6 py-5">
+				<div className="col-lg-7 col-md-6 col-sm-12 ps-lg-5 ps-md-5 py-lg-5">
+					{/* <div className="col-lg-7 col-md-6 col-sm-6 py-5"> */}
 					<h1 className="herotextWhite">
 						Upskill for this&nbsp;
 						<span className="herotextColored">Digital age.</span>
@@ -25,7 +26,7 @@ export let HomepageHero = () => {
 						Mentored Upskilling For Improved Learning Opportunities. Get the
 						needed skills for your desired job role.
 					</p>
-					<div className="my-4">
+					<div className="my-3">
 						<GetStartedButton />
 					</div>
 				</div>
@@ -37,14 +38,16 @@ export let HomepageHero = () => {
 export const CoursepageHero = (props) => {
 	const { herotitle, Description } = props;
 	return (
-		<div className="px-4 py-2 heroBg">
+		// <div className="px-4 py-2 heroBg">
+		<div className="py-2 heroBg">
 			<Navbar />
-			<div className="row align-items-center g-5 p-md-4 m-5">
-				<div className="col-lg-6 col-sm-12">
+			{/* <div className="row align-items-center g-0 p-md-4 m-5"> */}
+			<div className="row g-0 px-5">
+				<div className="col-lg-10 col-sm-10">
 					<h1 className="herotextColored">
 						{herotitle} <br />
-						<p className="herotextWhite">{Description}</p>
 					</h1>
+					<p className="herotextWhite">{Description}</p>
 					<GetStartedButton />
 				</div>
 			</div>

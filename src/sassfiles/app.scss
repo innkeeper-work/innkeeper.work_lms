@@ -2,11 +2,8 @@
 // @import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 
 * {
-
-  box-sizing: border-box;
-  font-family: "poppins", sans-serif;
-  
-
+	box-sizing: border-box;
+	font-family: "poppins", sans-serif;
 }
 
 body {
@@ -22,6 +19,10 @@ body {
 	h3 {
 		font-size: 1.5rem;
 		font-weight: 600;
+	}
+
+	h5 {
+		font-weight: 500;
 	}
 
 	p {
@@ -88,11 +89,9 @@ body {
 	color: $btnBgColor;
 }
 .heroBg {
-
-  background-image: url("../images/homeherobg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-
+	background-image: url("../images/homeherobg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .ctaColor {
 	background-color: $callToActionBtn;
@@ -101,11 +100,9 @@ body {
 	background-color: $sectionColor;
 }
 .testBg {
-
-  background-image: url("../images/success.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-
+	background-image: url("../images/success.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .testTextBg {
 	background-color: $coursepagesectionBg;
@@ -141,6 +138,6 @@ body {
 }
 
 //Removed gutter-x from all row classes in order to removed horizontal scrolling from the entire pages
-.row {
-	--bs-gutter-x: 0rem;
-}
+// .row {
+// 	--bs-gutter-x: 0rem;
+// }

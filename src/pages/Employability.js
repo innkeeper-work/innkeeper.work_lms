@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import { CoursepageHero } from '../components/Hero';
-import { CourseCards } from '../components/Card';
-import { InstructorCards } from '../components/Card';
-import empsoftskill from '../data/employability_softskills/employability_softskills.json';
-import { OurInstructors } from '../components/Ourinstructors';
+import { CoursepageHero } from "../components/Hero";
+import { CourseCards } from "../components/Card";
+import { InstructorCards } from "../components/Card";
+import empsoftskill from "../data/employability_softskills/employability_softskills.json";
+import { OurInstructors } from "../components/Ourinstructors";
 
 const Employability = () => {
   return (
@@ -37,12 +37,10 @@ let EmpSoftSkills = () => {
       <div className="row p-1 d-flex justify-content-center">
         {empsoftskill.empsoftskills.map((singleEmp) => {
           return (
-
             <div
               className="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex align-items-stretch py-4"
               key={singleEmp.id}
             >
-
               <CourseCards {...singleEmp}></CourseCards>
             </div>
           );

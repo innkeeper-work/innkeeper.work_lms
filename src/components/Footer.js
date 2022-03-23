@@ -1,3 +1,4 @@
+
 import React from 'react';
 import innkeeperlogo from '../images/innkeeperlogo.png';
 import {
@@ -172,6 +173,7 @@ const Footer = () => {
       </footer>
     </>
   );
+
 };
 
 export default Footer;
