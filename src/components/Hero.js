@@ -48,7 +48,7 @@ export const CoursepageHero = (props) => {
 						{herotitle} <br />
 					</h1>
 					<p className="herotextWhite">{Description}</p>
-					<GetStartedButton />
+					{/* <GetStartedButton /> */}
 				</div>
 			</div>
 		</div>

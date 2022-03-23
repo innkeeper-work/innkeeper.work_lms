@@ -1,6 +1,6 @@
 import React from "react";
 import infoimage from "../../images/infoimage.png";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import adamu from "../../images/adamu.png";
 import { CourseinfoHero } from "../../components/Hero";
 import { ApplyNowButton } from "../../components/Buttons";
@@ -9,6 +9,8 @@ import techacademy from "../../data/tech_academy_details/techacademy.json";
 import { BookIcon } from "../../components/Icons";
 import { AlarmIcon } from "../../components/Icons";
 import { CreditCardIcon } from "../../components/Icons";
+import CourseEnroll from "../../components/CourseEnroll";
+import HowToApply from "../../components/HowToApply";
 
 let BackendInfo = () => {
 	return (
@@ -17,11 +19,11 @@ let BackendInfo = () => {
 			<div className="row justify-content-center">
 				<div className="col-lg-7 col-md-6 col-sm-10">
 					<AboutBackend />
-					<BackendApplyHere />
+					<HowToApply />
 				</div>
 				<div className="col-lg-4 col-md-5 col-sm-10 sectiontwoBg mt-5 h-100">
 					<BackendReq />
-					<BackendEnrol />
+					<CourseEnroll />
 					<BackendInstructor />
 				</div>
 			</div>
@@ -93,38 +95,6 @@ let AboutBackend = () => {
 	);
 };
 
-let BackendApplyHere = () => {
-	return (
-		<div className="card-body">
-			<h3 className="card-title">How to Apply</h3>
-			<ul className="list-content">
-				<li className="list-item pb-2">
-					Read about the course content and indicate interest.
-				</li>
-				<li className="list-item pb-2">
-					Select a payment/enrolment method HERE.
-				</li>
-				<li className="list-item pb-2">
-					Except you pay the stipulated amount, every other course enrolment
-					method will require the admin to permit you to class.
-				</li>
-				<li className="list-item pb-2">
-					Alternatively, you can sign up to begin class HERE.
-				</li>
-				<li className="list-item pb-2">
-					Go to your e-mail and complete registration via the link that will be
-					sent to you.
-				</li>
-				<li className="list-item pb-2">
-					Then from your dashboard, click all courses to display the list of
-					courses available according to academy, then request for your desired
-					course.
-				</li>
-			</ul>
-		</div>
-	);
-};
-
 let BackendReq = () => {
 	return (
 		<div className="card-body">
@@ -146,43 +116,6 @@ let BackendReq = () => {
 			</ul>
 		</div>
 	);
-};
-
-let BackendEnrol = () => {
-  return (
-    <div className="card-body">
-      <h3 className="card-title">Available Enrolment Options</h3>
-      <ul className="list-content">
-        <li className="list-item pb-2">
-          Click to{" "}
-          <Link to="" className="text-decoration-none">
-            <b>Pay Now</b>
-          </Link>
-        </li>
-        <p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
-        <li className="list-item pb-2">
-          Apply for Student loan{" "}
-          <Link to="" className="text-decoration-none">
-            <b>HERE</b>
-          </Link>
-        </li>
-        <li className="list-item pb-2">
-          Apply via our training bond{" "}
-          <Link to="" className="text-decoration-none">
-            <b>HERE</b>
-          </Link>
-        </li>
-        <li className="list-item pb-2">Apply for scholarship.</li>
-        <p className="">
-          (See available ones{" "}
-          <Link to="" className="text-decoration-none">
-            <b>HERE</b>
-          </Link>
-          )
-        </p>
-      </ul>
-    </div>
-  );
 };
 
 let BackendInstructor = () => {
