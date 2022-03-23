@@ -48,7 +48,7 @@ export const CoursepageHero = (props) => {
 		<div className="py-2 heroBg">
 			<Navbar />
 			{/* <div className="row align-items-center g-0 p-md-4 m-5"> */}
-			<div className="row g-0 px-5">
+			<div className="row g-0 px-5 py-5">
 				<div className="col-lg-10 col-sm-10">
 					<h1 className="herotextColored">
 						{herotitle} <br />
