@@ -16,6 +16,11 @@ body {
 		color: var(--white);
 	}
 
+	h2 {
+		font-size: 2rem;
+		font-weight: 600;
+	}
+
 	h3 {
 		font-size: 1.5rem;
 		font-weight: 600;
@@ -51,6 +56,9 @@ body {
 .errorPage {
 	@include contactusbtn;
 }
+.homeheroBg {
+	background-color: $coursepagesectionBg;
+}
 
 .webDev {
 	@include webDev;
@@ -83,7 +91,7 @@ body {
 	color: $btnText;
 }
 .herotextWhite {
-	color: $btnText;
+	color: #000000;
 }
 .herotextColored {
 	color: $btnBgColor;

@@ -1,14 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import innkeeperlogo from "../images/innkeeperlogo.png";
+// import innkeeperlogo from "../images/innkeeperlogo.png";
+import innkeeperdarlogo from "../images/innkeeperdarlogo.png";
 import { SignInButton } from "../components/Buttons";
 const Navbar = () => {
 	return (
-		<nav class="navbar navbar-expand-lg navbar-dark ">
+		<nav class="navbar navbar-expand-lg navbar-dark">
 			<div class="container-fluid px-2">
 				<Link to="" className="navbar-brand ms-2">
 					{" "}
-					<img src={innkeeperlogo} className="" alt="" />
+					<img src={innkeeperdarlogo} className="" alt="" />
 				</Link>
 				<button
 					class="navbar-toggler"
@@ -25,7 +26,11 @@ const Navbar = () => {
 					id="navbarNavDarkDropdown">
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<Link to="/" className="nav-link active mx-3" aria-current="page">
+							<Link
+								to="/"
+								className="nav-link active mx-3"
+								aria-current="page"
+								style={{ color: "#000" }}>
 								Home
 							</Link>
 						</li>
@@ -33,7 +38,7 @@ const Navbar = () => {
 							<Link
 								to=""
 								className="nav-link dropdown-toggle mx-3"
-								style={{ color: "#fff" }}
+								style={{ color: "#000" }}
 								id="navbarDarkDropdownMenuLink"
 								role="button"
 								data-bs-toggle="dropdown"
@@ -67,11 +72,11 @@ const Navbar = () => {
 								</li>
 							</ul>
 						</li>
-						{/* <li class="nav-item">
+						<li class="nav-item">
 							<Link
 								to="/blog"
 								className="nav-link mx-3"
-								style={{ color: "#fff" }}>
+								style={{ color: "#000" }}>
 								{" "}
 								Blog
 							</Link>
@@ -80,15 +85,15 @@ const Navbar = () => {
 							<Link
 								to="/community"
 								className="nav-link mx-3"
-								style={{ color: "#fff" }}>
+								style={{ color: "#000" }}>
 								Community
 							</Link>
-						</li> */}
+						</li>
 						<li class="nav-item">
 							<Link
 								to="/contact"
 								className="nav-link mx-3"
-								style={{ color: "#fff" }}>
+								style={{ color: "#000" }}>
 								Contact
 							</Link>
 						</li>
