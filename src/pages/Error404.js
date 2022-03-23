@@ -19,25 +19,25 @@ const Error404 = () => {
         <img className="card-img-top" src={img404} alt="error_page" />
       </div>
 
-      <div className="card-body  container col-md-6 col-lg-6 col-sm-6 col-xs-12 g-2 m-auto p-4">
+      <div className="card-body  container col-md-6 col-lg-6 col-sm-6 col-xs-12 g-2 m-auto p-3">
         <h5 className="herotextColored d-none d-sm-block">
           <strong>UH OH! Page Not Found</strong>
         </h5>
-        <p className="g-4 d-flex justify-content-center">
+        <p className="d-flex justify-content-center">
           The page you are looking for does not exist. Please click on the
           buttons below to either go back to the homepage or contact us
         </p>
 
-        <div className="row d-flex justify-content-center g-4 m-2">
-          <div className="btn d-flex justify-content-evenly g-4 p-auto">
+        <div className=" d-block justify-content-start my-5">
+          <div className=" d-xs-flex justify-content-start mb-4 d-block">
             <Home />
             <ContactUs />
           </div>
 
-          <div className="d-flex justify-content-evenly g-5 p-auto herotextColored m-3">
+          <div className="d-flex justify-content-start  herotextColored ">
             <a
               href="https://www.facebook.com/innkeeper.work/"
-              className="herotextColored d-flex justify-content-end px-4 pb-3"
+              className="herotextColored d-flex justify-content-end px-2 pb-3"
               target="_blank"
               rel="noreferrer"
               style={{ textDecoration: 'none' }}
@@ -46,7 +46,7 @@ const Error404 = () => {
             </a>
             <a
               href="https://wa.link/nc43zv"
-              className="herotextColored d-flex justify-content-end px-4 pb-3"
+              className="herotextColored d-flex justify-content-end px-2 pb-3"
               target="_blank"
               rel="noreferrer"
               style={{ textDecoration: 'none' }}
@@ -55,7 +55,7 @@ const Error404 = () => {
             </a>
             <a
               href="https://www.instagram.com/innkeeper.work/"
-              className="herotextColored d-flex justify-content-end px-4 pb-3"
+              className="herotextColored d-flex justify-content-end px-2 pb-3"
               target="_blank"
               rel="noreferrer"
               style={{ textDecoration: 'none' }}
@@ -64,7 +64,7 @@ const Error404 = () => {
             </a>
             <a
               href="https://www.linkedin.com/company/innkeeper-work/"
-              className="herotextColored d-flex justify-content-end px-4 pb-3"
+              className="herotextColored d-flex justify-content-end px-2 pb-3"
               target="_blank"
               rel="noreferrer"
               style={{ textDecoration: 'none' }}
@@ -72,12 +72,6 @@ const Error404 = () => {
               <LinkedInIcon />
             </a>
           </div>
-
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
         </div>
       </div>
     </div>
