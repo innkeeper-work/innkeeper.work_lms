@@ -7,17 +7,17 @@ export let HomepageHero = () => {
   return (
     <div className="px-4 container-fluid homeheroBg py-3">
       <Navbar />
-      <div className="row align-items-center justify-content-center mt-4">
+      <div className="row align-items-center justify-content-center mt-4 py-4">
         <div className="col-lg-6 col-md-7 col-sm-12 mt-5">
-          <h1 className="herotextWhite d-none d-lg-block d-md-none d-sm-none d-xs-none">
+          <h1 className="herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none">
             Upskill for this&nbsp;
             <span className="herotextColored">Digital age.</span>
           </h1>
-          <h2 className="herotextWhite d-xs-block d-sm-block d-md-block d-lg-none">
+          <h2 className="herotextblack d-xs-block d-sm-block d-md-block d-lg-none">
             Upskill for this&nbsp;
             <span className="herotextColored">Digital age.</span>
           </h2>
-          <p className="herotextWhite d-flex">
+          <p className="herotextblack d-flex">
             Mentored Upskilling For Improved Learning Opportunities. Get the
             needed skills for your desired job role.
           </p>
@@ -45,15 +45,15 @@ export const CoursepageHero = (props) => {
   const { herotitle, Description } = props;
   return (
     // <div className="px-4 py-2 heroBg">
-    <div className="py-2 heroBg">
+    <div className="py-2 homeheroBg">
       <Navbar />
       {/* <div className="row align-items-center g-0 p-md-4 m-5"> */}
       <div className="row g-0 px-5">
-        <div className="col-lg-10 col-sm-10">
+        <div className="col-lg-10 col-sm-10 py-5">
           <h1 className="herotextColored">
             {herotitle} <br />
           </h1>
-          <p className="herotextWhite">{Description}</p>
+          <p className="herotextblack">{Description}</p>
           <GetStartedButton />
         </div>
       </div>
@@ -64,7 +64,7 @@ export const CoursepageHero = (props) => {
 export const CourseinfoHero = (props) => {
   const { coursename } = props;
   return (
-    <div className="px-4 py-2 heroBg">
+    <div className="px-4 py-2 homeheroBg">
       <Navbar />
       <div className="row align-items-center g-5 p-md-4 my-5">
         <div className="col-lg-6 col-sm-12">

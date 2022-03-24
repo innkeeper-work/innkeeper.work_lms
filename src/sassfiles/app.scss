@@ -91,6 +91,9 @@ body {
   color: $btnText;
 }
 .herotextWhite {
+  color: #ffffff;
+}
+.herotextblack {
   color: #000000;
 }
 .herotextColored {
@@ -119,6 +122,9 @@ body {
 .iconCol {
   color: $btnBgColor;
 }
+.partnersBg {
+  background-color: #ffffff;
+}
 
 .categoryBg {
   background-color: $heroFooter2Color;
@@ -127,6 +133,9 @@ body {
   background-color: $coursepagesectionBg;
 }
 .mainBg {
+  background-color: $coursepagesectionBg;
+}
+.welcomeBg {
   background-color: $coursepagesectionBg;
 }
 .card-cut-one {

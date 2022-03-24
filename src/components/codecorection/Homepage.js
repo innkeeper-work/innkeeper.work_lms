@@ -57,7 +57,7 @@ let Homepagemain = () => {
             <div className="">
               <div className="m-5 p-5 card-cut-one d-none d-xs-none d-sm-none d-md-block d-lg-block"></div>
 
-              <i class="bi bi-book iconCol"></i>
+              <i className="bi bi-book iconCol"></i>
             </div>
             <div>
               <h3>Self-Paced Learning</h3>
@@ -70,7 +70,7 @@ let Homepagemain = () => {
           </div>
           <div className="row">
             <div className="mt-lg-5 mt-md-5 pt-lg-5 pt-md-5">
-              <i class="bi bi-credit-card-2-front iconCol"></i>
+              <i className="bi bi-credit-card-2-front iconCol"></i>
 
               <h3>Flexibility-support</h3>
               <p>Classes are stress-free with our flexible payment system.</p>
@@ -87,7 +87,7 @@ let Homepagemain = () => {
           <div className="row">
             <div className="">
               <div className="m-5 p-5 card-cut-three d-none d-xs-none d-sm-none d-md-block d-lg-block"></div>
-              <i class="bi bi-tv iconCol"></i>
+              <i className="bi bi-tv iconCol"></i>
             </div>
             <div>
               <h3>Instructor-Led Learning</h3>
@@ -99,7 +99,7 @@ let Homepagemain = () => {
           </div>
           <div className="row">
             <div className="mt-lg-5 mt-md-5 pt-lg-5 pt-md-5">
-              <i class="bi bi-pip iconCol"></i>
+              <i className="bi bi-pip iconCol"></i>
               <h3>Scholarship-Support</h3>
               <p>
                 We provide fully-funded training in collaboration with
@@ -276,7 +276,7 @@ let Faq = () => {
             aria-labelledby="flush-headingTwo"
             data-bs-parent="#accordionFlushExample"
           >
-            <div class="accordion-body">
+            <div className="accordion-body">
               Placeholder content for this accordion, which is intended to
               demonstrate the <code>.accordion-flush</code> class. This is the
               second item's accordion body. Let's imagine this being filled with

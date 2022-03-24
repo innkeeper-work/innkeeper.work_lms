@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 // pages
+// import Homepage from "./pages/Homepage";
 import Homepage from "./pages/Homepage";
 // import { CoursepageHero } from "./components/Hero";
 import Frontend from "./pages/Courseinfo.js/Frontend";
@@ -38,7 +39,6 @@ import Error404 from "./pages/Error404";
 import Footer from "./components/Footer";
 
 function App() {
-
   return (
     <div className="App">
       <Routes>
@@ -85,7 +85,6 @@ function App() {
       </footer>
     </div>
   );
-
 }
 
 export default App;
