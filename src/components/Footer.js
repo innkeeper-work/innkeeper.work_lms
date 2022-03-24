@@ -1,4 +1,3 @@
-
 import React from 'react';
 import innkeeperlogo from '../images/innkeeperlogo.png';
 import {
@@ -30,7 +29,7 @@ const Footer = () => {
                     The 8thGear Hub, 11b Colin Onabule Crescent, Diamond Estate
                     Off CMD Road (beside Secretariat/Magodo gate) Lagos Nigeria.
                   </a>
-                  <p className="mt-2 pt-2">
+                  <div className="mt-2 pt-2">
                     +234 (0) 809-846-8885
                     <p>
                       <a
@@ -43,7 +42,7 @@ const Footer = () => {
                         info@innkeeper.work
                       </a>
                     </p>
-                  </p>
+                  </div>
                 </div>
               </div>
 
@@ -173,7 +172,6 @@ const Footer = () => {
       </footer>
     </>
   );
-
 };
 
 export default Footer;
