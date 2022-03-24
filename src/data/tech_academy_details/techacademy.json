@@ -45,14 +45,14 @@
 			"img": "../../images/microsoftarchitect.gif",
 			"title": "Microsoft Azure Architect Design",
 			"description": "This course teaches Solutions Architects how to translate business requirements into secure, scalable, and reliable solutions.",
-			"Link": "architectdesign"
+			"Link": "architectdesigninfo"
 		},
 		{
 			"id": 3,
 			"img": "../../images/architecttechnology.gif",
 			"title": "Microsoft Azure Architect Technology",
 			"description": "This course teaches Solutions Architects how to translate business requirements into secure, and reliable solutions.",
-			"Link": "architecttech"
+			"Link": "architecttechnfo"
 		},
 
 		{

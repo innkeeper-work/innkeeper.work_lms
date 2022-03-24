@@ -7,8 +7,8 @@ import Frontend from "./pages/Courseinfo.js/Frontend";
 import Backend from "./pages/Courseinfo.js/Backend";
 import Fullstack from "./pages/Courseinfo.js/Fullstack";
 import Devops from "./pages/Courseinfo.js/Devops";
-import Architectdesign from "./pages/Courseinfo.js/Architectdesign";
-import Architecttech from "./pages/Courseinfo.js/Architecttech";
+import ArchitectdesignInfo from "./pages/Courseinfo.js/Architectdesign";
+import ArchitecttechInfo from "./pages/Courseinfo.js/Architecttech";
 import Relationaldb from "./pages/Courseinfo.js/Relationaldb";
 import Riskmgt from "./pages/Courseinfo.js/Riskmgt";
 import Reverseengineering from "./pages/Courseinfo.js/Reverseengineering";
@@ -55,8 +55,8 @@ function App() {
         <Route path="backend" element={<Backend />} />
         <Route path="fullstack" element={<Fullstack />} />
         <Route path="devops" element={<Devops />} />
-        <Route path=" architectdesign" element={<Architectdesign />} />
-        <Route path=" architecttech" element={<Architecttech />} />
+        <Route path=" architectdesigninfo" element={<ArchitectdesignInfo />} />
+        <Route path=" architecttechnfo" element={<ArchitecttechInfo />} />
         <Route path="relationaldb" element={<Relationaldb />} />
         <Route path="riskmgt" element={<Riskmgt />} />
         <Route path="reverseengineering" element={<Reverseengineering />} />
@@ -76,7 +76,7 @@ function App() {
         <Route path="criticalthinking" element={<Criticalthinking />} />
         <Route path="devopportunity" element={<Devopportunity />} />
         <Route path="business" element={<Business />} />
-        <Route path="growth" element={<Growth />} />
+        <Route path="growthstrategy" element={<Growth />} />
         <Route path="financing" element={<Financing />} />
         <Route path="*" element={<Error404 />} />
       </Routes>
