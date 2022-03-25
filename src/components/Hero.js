@@ -1,14 +1,15 @@
 import React from "react";
 import homehero4 from "../images/homehero4.png";
+import coursepage from "../images/coursepage.png";
 import Navbar from "./Navbar";
 import { GetStartedButton } from "../components/Buttons";
 
 export let HomepageHero = () => {
   return (
-    <div className="px-4 container-fluid homeheroBg py-3">
+    <div className="px-4 container-fluid homeheroBg pt-3 pb-4">
       <Navbar />
-      <div className="row align-items-center justify-content-center mt-4 py-4">
-        <div className="col-lg-6 col-md-7 col-sm-12 mt-5">
+      <div className="row align-items-center justify-content-center mt-4">
+        <div className="col-lg-6 col-md-7 col-sm-12">
           <h1 className="herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none">
             Upskill for this&nbsp;
             <span className="herotextColored">Digital age.</span>
@@ -44,17 +45,25 @@ export let HomepageHero = () => {
 export const CoursepageHero = (props) => {
   const { herotitle, Description } = props;
   return (
-    // <div className="px-4 py-2 heroBg">
     <div className="py-2 homeheroBg">
       <Navbar />
-      {/* <div className="row align-items-center g-0 p-md-4 m-5"> */}
-      <div className="row g-0 px-5">
-        <div className="col-lg-10 col-sm-10 py-5">
-          <h1 className="herotextColored">
+      <div className="row g-0 align-items-center justify-content-center px-4">
+        <div className="col-lg-6 col-md-7 col-sm-12 pt-3">
+          <h1 className="herotextColored d-none d-lg-block d-md-none d-sm-none d-xs-none">
             {herotitle} <br />
           </h1>
+          <h3 className="herotextColored d-xs-block d-sm-block d-md-block d-lg-none">
+            {herotitle} <br />
+          </h3>
           <p className="herotextblack">{Description}</p>
-          <GetStartedButton />
+        </div>
+        <div className="col-lg-5 col-md-5 col-sm-12">
+          <img
+            src={coursepage}
+            className="d-block mx-lg-auto img-fluid"
+            alt=""
+            loading=""
+          />
         </div>
       </div>
     </div>
