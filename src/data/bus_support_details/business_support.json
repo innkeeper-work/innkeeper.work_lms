@@ -61,21 +61,21 @@
 			"img": "../../images/facilitators/hussein.png",
 			"instructorname": "Hussein Sanni",
 			"role": "Digital MArketing Specialist",
-			"linkedinprofile": "get linkedin profile"
+			"linkedinprofile": "https://www.linkedin.com/in/sannihussein/"
 		},
 		{
 			"id": 2,
 			"img": "../../images/facilitators/esther.png",
 			"instructorname": "Esther Okoloeze",
 			"role": "Certified Copyeditor",
-			"linkedinprofile": "get linkedin profile"
+			"linkedinprofile": "https://www.linkedin.com/in/esther-okoloeze/"
 		},
 		{
 			"id": 3,
 			"img": "../../images/facilitators/dami.png",
 			"instructorname": "Damilola Obidairo",
 			"role": "Business Development Executive",
-			"linkedinprofile": "get linkedin profile"
+			"linkedinprofile": " https://www.linkedin.com/in/damilolaobidairo/"
 		}
 	]
 }
