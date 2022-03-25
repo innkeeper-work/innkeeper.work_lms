@@ -52,7 +52,7 @@ const Homepage = () => {
 
 let Homepagemain = () => {
 	return (
-		<div className="container-fluid p-5 mainBg">
+		<div className="container-fluid p-5">
 			<div className="card-group m-lg-5">
 				<div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<div className="row">
