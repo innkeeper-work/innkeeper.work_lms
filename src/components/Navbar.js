@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Link } from "react-router-dom";
 // import innkeeperlogo from "../images/innkeeperlogo.png";
@@ -20,6 +21,7 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
+
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
@@ -42,6 +44,7 @@ const Navbar = () => {
                 to=""
                 className="nav-link dropdown-toggle mx-3"
                 style={{ color: "#000" }}
+
                 id="navbarDarkDropdownMenuLink"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -66,6 +69,7 @@ const Navbar = () => {
                 </li>
                 <li>
                   <Link to="/employability" className="dropdown-item">
+
                     {" "}
                     Employability/Soft Skills
                   </Link>
@@ -77,6 +81,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </li>
+
             <li class="nav-item">
               <Link
                 to="/blog"
@@ -101,6 +106,7 @@ const Navbar = () => {
                 to="/contact"
                 className="nav-link mx-3"
                 style={{ color: "#000" }}
+
               >
                 Contact
               </Link>
