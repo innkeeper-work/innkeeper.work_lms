@@ -90,6 +90,10 @@ body p {
 }
 
 .herotextWhite {
+  color: #ffffff;
+}
+
+.herotextblack {
   color: #000000;
 }
 
@@ -125,6 +129,10 @@ body p {
   color: #27aae1;
 }
 
+.partnersBg {
+  background-color: #ffffff;
+}
+
 .categoryBg {
   background-color: #e6f4f1;
 }
@@ -134,6 +142,10 @@ body p {
 }
 
 .mainBg {
+  background-color: #e4fbff;
+}
+
+.welcomeBg {
   background-color: #e4fbff;
 }
 

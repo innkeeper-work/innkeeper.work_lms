@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { HomepageHero } from "../components/Hero";
 import aiki from "../images/aiki.png";
-import lady from "../images/lady.png";
+import whychooseus from "../images/whychooseus.png";
 import categories from "../data/categories.json";
 import faqs from "../data/faq.json";
 import { CourseCategoryCards } from "../components/Card";
@@ -13,13 +13,15 @@ import { BeginCoursesButton } from "../components/Buttons";
 import { SubscribeButton } from "../components/Buttons";
 import { FAQ } from "../components/FAQ";
 import { ApplyNowButton } from "../components/Buttons";
+import { OurPartners } from "../components/OurPartners";
 
 import videoicon from "../images/videoicon.png";
 
-const Homepage = () => {
+const Home = () => {
 	return (
 		<div>
 			<HomepageHero />
+			<OurPartners />
 			<Homepagemain />
 			<Homepagewelcome />
 			<Homepagesoft />
@@ -52,16 +54,17 @@ const Homepage = () => {
 
 let Homepagemain = () => {
 	return (
-		<div className="container-fluid p-5">
-			<div className="card-group m-lg-5">
-				<div className="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+		<div className="container-fluid p-5 mainBg">
+			{" "}
+			<h3 className="text-center pb-4">Why Choose Us</h3>
+			<div className="card-group justify-content-around">
+				<div className="col-lg-4 col-md-4 col-sm-12 pb-5">
+					<img src={whychooseus} className="card-img-top" alt="..." />
+				</div>
+				<div className="col-lg-3 col-md-3 col-sm-12 d-sm-flex d-md-block my-lg-auto">
 					<div className="row">
 						<div className="">
-							<div className="m-5 p-5 card-cut-one d-none d-xs-none d-sm-none d-md-block d-lg-block"></div>
-
 							<i className="bi bi-book iconCol"></i>
-						</div>
-						<div>
 							<h3>Self-Paced Learning</h3>
 
 							<p>
@@ -71,27 +74,20 @@ let Homepagemain = () => {
 						</div>
 					</div>
 					<div className="row">
-						<div className="mt-lg-5 mt-md-5 pt-lg-5 pt-md-5">
+						<div className="">
 							<i className="bi bi-credit-card-2-front iconCol"></i>
 
 							<h3>Flexibility-support</h3>
 							<p>Classes are stress-free with our flexible payment system.</p>
 						</div>
 					</div>
-					<div className="">
-						<div className=" m-5 p-5 card-cut-two d-none d-xs-none d-sm-none d-md-block d-lg-block"></div>
-					</div>
 				</div>
-				<div className="col-lg-6 col-md-6 col-sm-7 d-none d-xs-none d-sm-none d-md-block d-lg-block">
-					<img src={lady} className="card-img-top" alt="..." />
-				</div>
-				<div className="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+
+				<div className="col-lg-3 col-md-3 col-sm-12 d-sm-flex d-md-block my-lg-auto">
 					<div className="row">
-						<div className="">
-							<div className="m-5 p-5 card-cut-three d-none d-xs-none d-sm-none d-md-block d-lg-block"></div>
-							<i className="bi bi-tv iconCol"></i>
-						</div>
 						<div>
+							{" "}
+							<i className="bi bi-tv iconCol"></i>
 							<h3>Instructor-Led Learning</h3>
 							<p>
 								Our instructors are top- notch in the various courses of
@@ -100,7 +96,7 @@ let Homepagemain = () => {
 						</div>
 					</div>
 					<div className="row">
-						<div className="mt-lg-5 mt-md-5 pt-lg-5 pt-md-5">
+						<div className="">
 							<i className="bi bi-pip iconCol"></i>
 							<h3>Scholarship-Support</h3>
 							<p>
@@ -108,9 +104,6 @@ let Homepagemain = () => {
 								organizations that share the same goals so as to ensure
 								upskilling of youths in Nigeria.
 							</p>
-						</div>
-						<div className="">
-							<div className=" m-5 p-5 card-cut-four d-none d-xs-none d-sm-none d-md-block d-lg-block"></div>
 						</div>
 					</div>
 				</div>
@@ -227,7 +220,7 @@ let Testimonial = () => {
 
 let Faq = () => {
 	return (
-		<div className="py-5 faqBg" id="faq">
+		<div className="py-5 faqBg">
 			<h3 className="text-center">Frequently Asked Questions</h3>
 			<div
 				className="container accordion accordion-flush"
@@ -336,5 +329,4 @@ let Newsletter = () => {
 		</div>
 	);
 };
-
-export default Homepage;
+export default Home;
