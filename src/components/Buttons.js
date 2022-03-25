@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const SignInButton = () => {
 	return (
-		<a href="http://app.innkeeper.work" rel="noreferrer">
+		<a href="https://app.innkeeper.work/login/index.php" rel="noreferrer">
 			<button type="button" className="btn signinbtnapply">
 				Sign In
 			</button>
