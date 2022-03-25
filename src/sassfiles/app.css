@@ -12,6 +12,10 @@ body h1 {
   font-weight: 600;
   color: var(--white);
 }
+body h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
 body h3 {
   font-size: 1.5rem;
   font-weight: 600;
@@ -32,17 +36,17 @@ body p {
 
 .signinbtn {
   color: #ffffff;
-  background: #27aae1;
+  background: #00d8cf;
 }
 
 .signinbtnapply {
   color: #ffffff;
-  background: #27aae1;
+  background: #00d8cf;
 }
 
 .callToAction {
   color: #ffffff;
-  background: linear-gradient(112.74deg, #00d8cf 23.84%, #27aae1 79.07%);
+  background: #00d8cf;
 }
 
 .errorPage {
@@ -50,10 +54,23 @@ body p {
   background: #27aae1;
 }
 
+.homeheroBg {
+  background-color: #e4fbff;
+}
+
 .webDev {
-  background: #e4fbff;
+  background-color: #e4fbff;
   box-shadow: 4px 4px 4px 4px rgba(179, 174, 174, 0.25);
   border-radius: 15px;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent !important;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 .techHead {
@@ -83,6 +100,10 @@ body p {
 
 .herotextWhite {
   color: #ffffff;
+}
+
+.herotextblack {
+  color: #000000;
 }
 
 .herotextColored {
@@ -117,6 +138,10 @@ body p {
   color: #27aae1;
 }
 
+.partnersBg {
+  background-color: #ffffff;
+}
+
 .categoryBg {
   background-color: #e6f4f1;
 }
@@ -126,6 +151,10 @@ body p {
 }
 
 .mainBg {
+  background-color: #e4fbff;
+}
+
+.welcomeBg {
   background-color: #e4fbff;
 }
 

@@ -20,7 +20,7 @@
 			"img": "../../images/courses/lauch_biz.png",
 			"title": "Launching Your Business",
 			"description": "Having a dynamic system of presentation to catch more audience and customers is essential to setting up your business for greater earnings and popularity.",
-			"Link": "launchingbusiness"
+			"Link": "business"
 		},
 		{
 			"id": 3,
@@ -43,21 +43,21 @@
 			"img": "../../images/facilitators/biodun_lawal.png",
 			"instructorname": "Biodun Lawal",
 			"role": "Technology Entrepreneur",
-			"linkedinprofile": "get linkedin profile"
+			"linkedinprofile": "https://www.linkedin.com/in/lawalabiodun/"
 		},
 		{
 			"id": 2,
 			"img": "../../images/facilitators/temitayo samson-grace.png",
 			"instructorname": "Temitayo Samson-Grace",
 			"role": "HR Professional",
-			"linkedinprofile": "get linkedin profile"
+			"linkedinprofile": "https://www.linkedin.com/in/temitayosg/"
 		},
 		{
 			"id": 3,
 			"img": "../../images/facilitators/amaka-ezeh.png",
 			"instructorname": "Amaka Ezeh",
 			"role": "HR Business Partner",
-			"linkedinprofile": "get linkedin profile"
+			"linkedinprofile": " https://www.linkedin.com/in/amaka-ezeh/"
 		}
 	]
 }

@@ -45,14 +45,14 @@
 			"img": "../../images/microsoftarchitect.gif",
 			"title": "Microsoft Azure Architect Design",
 			"description": "This course teaches Solutions Architects how to translate business requirements into secure, scalable, and reliable solutions.",
-			"Link": "architectdesign"
+			"Link": "architectdesigninfo"
 		},
 		{
 			"id": 3,
 			"img": "../../images/architecttechnology.gif",
 			"title": "Microsoft Azure Architect Technology",
 			"description": "This course teaches Solutions Architects how to translate business requirements into secure, and reliable solutions.",
-			"Link": "architecttech"
+			"Link": "architecttechnfo"
 		},
 
 		{
@@ -122,42 +122,42 @@
 			"img": "../../images/facilitators/gbolabo.png",
 			"instructorname": "Gbolabo Awelewa",
 			"role": "Technology Strategist",
-			"linkedinprofile": "get linkedin profile"
+			"linkedinprofile": "https://www.linkedin.com/in/gbolabo-awelewa-256b4a5/"
 		},
 		{
 			"id": 2,
 			"img": "../../images/facilitators/sydney.png",
 			"instructorname": "Sosoo Sydney",
 			"role": "Cloud Computing",
-			"linkedinprofile": "get linkedin profile"
+			"linkedinprofile": " https://www.linkedin.com/in/sosoo-sydney-ab31a58/"
 		},
 		{
 			"id": 3,
 			"img": "../../images/facilitators/adamu.png",
 			"instructorname": "AbdulRahman Adamu",
 			"role": "Front-End Developer || Drone Pilot",
-			"linkedinprofile": "get linkedin profile"
+			"linkedinprofile": " https://www.linkedin.com/in/abdulrahman-adamu-05a92258/"
 		},
 		{
 			"id": 4,
 			"img": "../../images/facilitators/niyi.png",
 			"instructorname": "Niyi Osibeluwo",
 			"role": "Cloud and Enterprise Solutions Architect",
-			"linkedinprofile": "get linkedin profile"
+			"linkedinprofile": " https://www.linkedin.com/in/niyi-osibeluwo/"
 		},
 		{
 			"id": 5,
 			"img": "../../images/facilitators/kenny-noah.png",
 			"instructorname": "Kenny Noah",
 			"role": "IT Professional",
-			"linkedinprofile": "get linkedin profile"
+			"linkedinprofile": " https://www.linkedin.com/in/kenny-noah-b42b4137/"
 		},
 		{
 			"id": 6,
 			"img": "../../images/facilitators/lydia.png",
 			"instructorname": "Lydia Robert-Edia",
 			"role": "Software Engineer",
-			"linkedinprofile": "get linkedin profile"
+			"linkedinprofile": " https://www.linkedin.com/in/lydia-robert-edia-a36971121/"
 		}
 	]
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { ApplyNowButton } from "./Buttons";
+import { LinkedInIcon } from "./Icons";
 import event1 from "../images/event1.png";
 import event2 from "../images/event2.png";
 
@@ -116,7 +117,7 @@ export const InstructorCards = (props) => {
 							<p className="card-text">{role}</p>
 							<div className="card-text d-flex justify-content-end">
 								<a href={linkedinprofile} target="_blank" rel="noreferrer">
-									<i className="fa fa-linkedin iconCol" aria-hidden="true"></i>
+									<LinkedInIcon />
 								</a>
 							</div>
 						</div>

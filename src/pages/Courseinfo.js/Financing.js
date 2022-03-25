@@ -1,12 +1,14 @@
 import React from "react";
 import infoimage from "../../images/infoimage.png";
+import adamu from "../../images/adamu.png";
+import techacademy from "../../data/tech_academy_details/techacademy.json";
+import HowToApply from "../../components/HowToApply";
+import CourseEnroll from "../../components/CourseEnroll";
 import { BookIcon, AlarmIcon, CreditCardIcon } from "../../components/Icons";
 // import { Link } from "react-router-dom";
 import { CourseinfoHero } from "../../components/Hero";
-import adamu from "../../images/adamu.png";
 import { ApplyNowButton } from "../../components/Buttons";
 import { CourseCards } from "../../components/Card";
-import techacademy from "../../data/tech_academy_details/techacademy.json";
 
 let FinancingInfo = () => {
 	return (
@@ -15,11 +17,11 @@ let FinancingInfo = () => {
 			<div className="row justify-content-center">
 				<div className="col-lg-7 col-md-6 col-sm-10">
 					<AboutFinancing />
-					<FinancingApplyHere />
+					<HowToApply />
 				</div>
 				<div className="col-lg-4 col-md-5 col-sm-10 sectiontwoBg mt-5 h-100">
 					<FinancingReq />
-					<FinancingEnrol />
+					<CourseEnroll />
 					<FinancingInstructor />
 				</div>
 			</div>
@@ -94,38 +96,6 @@ let AboutFinancing = () => {
 	);
 };
 
-let FinancingApplyHere = () => {
-	return (
-		<div className="card-body">
-			<h3 className="card-title">How to Apply</h3>
-			<ul className="list-content">
-				<li className="list-item pb-2">
-					Read about the course content and indicate interest.
-				</li>
-				<li className="list-item pb-2">
-					Select a payment/enrolment method HERE.
-				</li>
-				<li className="list-item pb-2">
-					Except you pay the stipulated amount, every other course enrolment
-					method will require the admin to permit you to class.
-				</li>
-				<li className="list-item pb-2">
-					Alternatively, you can sign up to begin class HERE.
-				</li>
-				<li className="list-item pb-2">
-					Go to your e-mail and complete registration via the link that will be
-					sent to you.
-				</li>
-				<li className="list-item pb-2">
-					Then from your dashboard, click all courses to display the list of
-					courses available according to academy, then request for your desired
-					course.
-				</li>
-			</ul>
-		</div>
-	);
-};
-
 let FinancingReq = () => {
 	return (
 		<div className="card-body">
@@ -146,22 +116,6 @@ let FinancingReq = () => {
 					Foundational knowledge of physics including current, voltage,
 					resistance, and power.
 				</li>
-			</ul>
-		</div>
-	);
-};
-
-let FinancingEnrol = () => {
-	return (
-		<div className="card-body">
-			<h3 className="card-title">Available Enrolment Options</h3>
-			<ul className="list-content">
-				<li className="list-item pb-2">Click to Pay Now</li>
-				<p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
-				<li className="list-item pb-2">Apply for Student loan HERE</li>
-				<li className="list-item pb-2">Apply via our training bond HERE</li>
-				<li className="list-item pb-2">Apply for scholarship.</li>
-				<p className="">(See available ones HERE)</p>
 			</ul>
 		</div>
 	);

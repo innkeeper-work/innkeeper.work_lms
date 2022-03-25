@@ -1,33 +1,36 @@
-import React from 'react';
-import infoimage from '../../images/infoimage.png';
-import { Link } from 'react-router-dom';
-import adamu from '../../images/adamu.png';
-import { CourseinfoHero } from '../../components/Hero';
-import { ApplyNowButton } from '../../components/Buttons';
-import { CourseCards } from '../../components/Card';
-import techacademy from '../../data/tech_academy_details/techacademy.json';
-import { BookIcon } from '../../components/Icons';
-import { AlarmIcon } from '../../components/Icons';
-import { CreditCardIcon } from '../../components/Icons';
+
+import React from "react";
+import infoimage from "../../images/infoimage.png";
+// import { Link } from "react-router-dom";
+import adamu from "../../images/adamu.png";
+import { CourseinfoHero } from "../../components/Hero";
+import { ApplyNowButton } from "../../components/Buttons";
+import { CourseCards } from "../../components/Card";
+import techacademy from "../../data/tech_academy_details/techacademy.json";
+import { BookIcon } from "../../components/Icons";
+import { AlarmIcon } from "../../components/Icons";
+import { CreditCardIcon } from "../../components/Icons";
+import CourseEnroll from "../../components/CourseEnroll";
+import HowToApply from "../../components/HowToApply";
 
 let BackendInfo = () => {
-  return (
-    <div>
-      <CourseinfoHero courseName="Backend Development" />
-      <div className="row justify-content-center">
-        <div className="col-lg-7 col-md-6 col-sm-10">
-          <AboutBackend />
-          <BackendApplyHere />
-        </div>
-        <div className="col-lg-4 col-md-5 col-sm-10 sectiontwoBg mt-5 h-100">
-          <BackendReq />
-          <BackendEnrol />
-          <BackendInstructor />
-        </div>
-      </div>
-      <BackendRelated />
-    </div>
-  );
+	return (
+		<div>
+			<CourseinfoHero coursename="Backend Development" />
+			<div className="row justify-content-center">
+				<div className="col-lg-7 col-md-6 col-sm-10">
+					<AboutBackend />
+					<HowToApply />
+				</div>
+				<div className="col-lg-4 col-md-5 col-sm-10 sectiontwoBg mt-5 h-100">
+					<BackendReq />
+					<CourseEnroll />
+					<BackendInstructor />
+				</div>
+			</div>
+			<BackendRelated />
+		</div>
+	);
 };
 
 let AboutBackend = () => {
@@ -125,6 +128,7 @@ let BackendApplyHere = () => {
   );
 };
 
+
 let BackendReq = () => {
   return (
     <div className="card-body">
@@ -147,6 +151,7 @@ let BackendReq = () => {
     </div>
   );
 };
+
 
 let BackendEnrol = () => {
   return (
@@ -184,6 +189,7 @@ let BackendEnrol = () => {
     </div>
   );
 };
+
 
 let BackendInstructor = () => {
   return (

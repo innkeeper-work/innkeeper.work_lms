@@ -1,11 +1,13 @@
 import React from "react";
 import infoimage from "../../images/infoimage.png";
+import adamu from "../../images/adamu.png";
+import techacademy from "../../data/tech_academy_details/techacademy.json";
+import CourseEnroll from "../../components/CourseEnroll";
+import HowToApply from "../../components/HowToApply";
 import { Link } from "react-router-dom";
 import { CourseinfoHero } from "../../components/Hero";
-import adamu from "../../images/adamu.png";
 import { ApplyNowButton } from "../../components/Buttons";
 import { CourseCards } from "../../components/Card";
-import techacademy from "../../data/tech_academy_details/techacademy.json";
 import { BookIcon } from "../../components/Icons";
 import { AlarmIcon } from "../../components/Icons";
 import { CreditCardIcon } from "../../components/Icons";
@@ -16,11 +18,11 @@ let BigdataInfo = () => {
 			<div className="row justify-content-center">
 				<div className="col-lg-7 col-md-6 col-sm-10">
 					<AboutBigdata />
-					<BigdataApplyHere />
+					<HowToApply />
 				</div>
 				<div className="col-lg-4 col-md-5 col-sm-10 sectiontwoBg mt-5 h-100">
 					<BigdataReq />
-					<BigdataEnrol />
+					<CourseEnroll />
 					<BigdataInstructor />
 				</div>
 			</div>
@@ -143,40 +145,40 @@ let BigdataReq = () => {
 };
 
 let BigdataEnrol = () => {
-  return (
-    <div className="card-body">
-      <h3 className="card-title">Available Enrolment Options</h3>
-      <ul className="list-content">
-        <li className="list-item pb-2">
-          Click to{" "}
-          <Link to="" className="text-decoration-none">
-            <b>Pay Now</b>
-          </Link>
-        </li>
-        <p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
-        <li className="list-item pb-2">
-          Apply for Student loan{" "}
-          <Link to="" className="text-decoration-none">
-            <b>HERE</b>
-          </Link>
-        </li>
-        <li className="list-item pb-2">
-          Apply via our training bond{" "}
-          <Link to="" className="text-decoration-none">
-            <b>HERE</b>
-          </Link>
-        </li>
-        <li className="list-item pb-2">Apply for scholarship.</li>
-        <p className="">
-          (See available ones{" "}
-          <Link to="" className="text-decoration-none">
-            <b>HERE</b>
-          </Link>
-          )
-        </p>
-      </ul>
-    </div>
-  );
+	return (
+		<div className="card-body">
+			<h3 className="card-title">Available Enrolment Options</h3>
+			<ul className="list-content">
+				<li className="list-item pb-2">
+					Click to{" "}
+					<Link to="" className="text-decoration-none">
+						<b>Pay Now</b>
+					</Link>
+				</li>
+				<p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
+				<li className="list-item pb-2">
+					Apply for Student loan{" "}
+					<Link to="" className="text-decoration-none">
+						<b>HERE</b>
+					</Link>
+				</li>
+				<li className="list-item pb-2">
+					Apply via our training bond{" "}
+					<Link to="" className="text-decoration-none">
+						<b>HERE</b>
+					</Link>
+				</li>
+				<li className="list-item pb-2">Apply for scholarship.</li>
+				<p className="">
+					(See available ones{" "}
+					<Link to="" className="text-decoration-none">
+						<b>HERE</b>
+					</Link>
+					)
+				</p>
+			</ul>
+		</div>
+	);
 };
 
 let BigdataInstructor = () => {
