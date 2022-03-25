@@ -61,7 +61,7 @@ let Homepagemain = () => {
 				<div className="col-lg-4 col-md-4 col-sm-12 pb-5">
 					<img src={whychooseus} className="card-img-top" alt="..." />
 				</div>
-				<div className="col-lg-3 col-md-3 col-sm-12 d-sm-flex d-md-block my-lg-auto">
+				<div className="col-lg-3 col-md-3 col-sm-12 d-sm-flex d-md-block mt-lg-5">
 					<div className="row">
 						<div className="">
 							<i className="bi bi-book iconCol"></i>
@@ -176,8 +176,9 @@ let Homepagetest = () => {
 				<p className="card-title">
 					"My entire team was good to go at the end of the training! The soft
 					skills available on innkeeper platform was used to train my team. This
-					was needful because my teamrelates with people often. I witnessed some
-					part of the role plays and it was impactful. Thanks to innkeeper.work”
+					was needful because my team relates with people often. I witnessed
+					some part of the role plays and it was impactful. Thanks to
+					innkeeper.work”
 				</p>
 
 				<img src={aiki} className="img-fluid rounded-start mt-4" alt="..." />
@@ -322,9 +323,9 @@ let Newsletter = () => {
 					className="form-control w-25 mx-auto"
 					id="exampleFormControlInput1"
 					placeholder="Email"></input>
-				<a href="muoghaluchidinma@gmail.com">
+				<div className="mt-3">
 					<SubscribeButton />
-				</a>
+				</div>
 			</div>
 		</div>
 	);

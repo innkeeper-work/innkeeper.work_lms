@@ -59,9 +59,18 @@ body p {
 }
 
 .webDev {
-  background: #e4fbff;
+  background-color: #e4fbff;
   box-shadow: 4px 4px 4px 4px rgba(179, 174, 174, 0.25);
   border-radius: 15px;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent !important;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 .techHead {

@@ -32,7 +32,7 @@ let CourseHero = () => {
 
 let Enterpreneur = () => {
   return (
-    <div className="webDev p-4 mx-3 my-4">
+    <div className="p-4 mx-3 my-4">
       <div className="row lg-3 p-1 d-flex justify-content-center">
         {entskills.entrepreneur.map((singleEnt) => {
           return (
