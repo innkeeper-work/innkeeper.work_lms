@@ -52,7 +52,7 @@ export const ApplyNowButton = () => {
 };
 export const SubscribeButton = () => {
 	return (
-		<button type="button" className="btn callToAction">
+		<button type="button" className="btn callToAction mt-3">
 			Subscribe
 		</button>
 	);

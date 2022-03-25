@@ -322,9 +322,9 @@ let Newsletter = () => {
 					className="form-control w-25 mx-auto"
 					id="exampleFormControlInput1"
 					placeholder="Email"></input>
-				<div className="mt-3">
+				<a href="muoghaluchidinma@gmail.com">
 					<SubscribeButton />
-				</div>
+				</a>
 			</div>
 		</div>
 	);
