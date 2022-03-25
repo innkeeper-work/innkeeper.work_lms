@@ -33,7 +33,7 @@ let EmpCoursepageHero = () => {
 
 let EmpSoftSkills = () => {
   return (
-    <div className="webDev p-4 mx-3 my-4">
+    <div className="p-4 mx-3 my-4">
       <div className="row p-1 d-flex justify-content-center">
         {empsoftskill.empsoftskills.map((singleEmp) => {
           return (

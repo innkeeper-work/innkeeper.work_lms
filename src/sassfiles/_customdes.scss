@@ -26,7 +26,8 @@ $coursepagesectionBg: #e4fbff;
   background: $btnBgColor2;
 }
 @mixin webDev {
-  box-shadow: 4px 4px 20px 1.5px rgba(39, 170, 225, 0.2);
+  background-color: $coursepagesectionBg;
+  box-shadow: 4px 4px 4px 4px rgb(179, 174, 174, 0.25);
   border-radius: 15px;
 }
 @mixin techCards {

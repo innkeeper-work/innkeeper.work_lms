@@ -75,9 +75,14 @@ export const CourseinfoHero = (props) => {
   return (
     <div className="px-4 py-2 homeheroBg">
       <Navbar />
-      <div className="row align-items-center g-5 p-md-4 my-5">
+      <div className="row align-items-center my-5 ps-4">
         <div className="col-lg-6 col-sm-12">
-          <h1 className="herotextColored mb-5">{coursename}</h1>
+          <h1 className="herotextColored d-none d-lg-block d-md-none d-sm-none d-xs-none">
+            {coursename}
+          </h1>
+          <h3 className="herotextColored d-xs-block d-sm-block d-md-block d-lg-none">
+            {coursename}
+          </h3>
         </div>
       </div>
     </div>

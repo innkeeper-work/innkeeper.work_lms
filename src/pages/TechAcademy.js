@@ -42,7 +42,7 @@ let WebDev = () => {
         {techacademy.webdev.map((singleweb) => {
           return (
             <div
-              className="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex align-items-stretch py-4 webDev"
+              className="col-lg-4 col-md-6 col-sm-6 col-xs-12 d-flex align-items-stretch py-4 shadow-sm"
               key={singleweb.id}
             >
               <CourseCards {...singleweb}></CourseCards>
@@ -55,7 +55,7 @@ let WebDev = () => {
 };
 let CloudComputing = () => {
   return (
-    <div className="webDev p-4 mx-3 my-4">
+    <div className="p-4 mx-3 my-4">
       <h3 className="techHead ms-2 py-2">Cloud Computing</h3>
       <div className="row p-1 d-flex justify-content-center">
         {techacademy.cloudcomputing.map((singlecloud) => {
@@ -74,7 +74,7 @@ let CloudComputing = () => {
 };
 let CyberSecurity = () => {
   return (
-    <div className="webDev p-4 mx-3 my-4">
+    <div className="p-4 mx-3 my-4">
       <h3 className="techHead ms-2 py-2">Cyber Security</h3>
       <div className="row p-1 d-flex justify-content-center">
         {techacademy.cybersecurity.map((singlecyber) => {
@@ -93,7 +93,7 @@ let CyberSecurity = () => {
 };
 let BigData = () => {
   return (
-    <div className="webDev p-4 mx-3 my-4">
+    <div className="p-4 mx-3 my-4">
       <h3 className="techHead ms-2 py-2">Big Data</h3>
       <div className="row p-1 d-flex justify-content-center">
         {techacademy.bigdata.map((singlebig) => {

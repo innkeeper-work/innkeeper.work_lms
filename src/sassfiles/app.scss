@@ -63,6 +63,14 @@ body {
 .webDev {
   @include webDev;
 }
+.navbar-light .navbar-toggler {
+  border-color: transparent !important;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 .techHead {
   @include techHead;
 }
