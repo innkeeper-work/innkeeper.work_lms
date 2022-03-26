@@ -1,6 +1,5 @@
 {
 	"name": "innkeeper.work",
-	"homepage": "http://innkeeper-work/github.io/innkeeper.work_lms",
 	"version": "0.1.0",
 	"private": true,
 	"dependencies": {
