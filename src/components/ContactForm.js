@@ -6,10 +6,7 @@ function ContactForm() {
 		return <p>Thanks for contacting us</p>;
 	}
 	return (
-		<form
-			onSubmit={handleSubmit}
-			method="POST"
-			action="https://formspree.io/f/myyodwgk">
+		<form onSubmit={handleSubmit}>
 			{/* <label htmlFor="fullname">Fullname</label>
 			<input id="fullname" type="text" name="fullname" /> */}
 			<label htmlFor="email">Email Address</label>
