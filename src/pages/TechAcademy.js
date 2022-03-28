@@ -112,12 +112,12 @@ let BigData = () => {
 };
 let Instructors = () => {
   return (
-    <div className="webDev m-5 p-5">
+    <div className="webDev m-4 p-4">
       <div className="row d-flex justify-content-around">
         {techacademy.instructors.map((singleInstr) => {
           return (
             <div
-              className="col-lg-4 col-sm-6 col-md-6 d-flex align-items-stretch"
+              className="col-lg-4 col-sm-6 col-md-6 d-flex align-items-stretch mb-5"
               key={singleInstr.id}
             >
               <InstructorCards {...singleInstr}></InstructorCards>
