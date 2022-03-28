@@ -43,13 +43,21 @@ export const ForwardButton = () => {
 };
 export const ApplyNowButton = () => {
 	return (
-		<a href="http://" target="_blank" rel="noreferrer">
-			<button type="button" className="btn signinbtnapply">
-				Apply Now
-			</button>
-		</a>
+		<button type="button" className="btn signinbtnapply">
+			Apply Now
+		</button>
 	);
 };
+
+// export const ApplyButton = () => {
+// 	return (
+// 		<a href="http://" target="_blank" rel="noreferrer">
+// 			<button type="button" className="btn signinbtnapply">
+// 				Apply Now
+// 			</button>
+// 		</a>
+// 	);
+// };
 export const SubscribeButton = () => {
 	return (
 		<button type="button" className="btn callToAction mt-3">

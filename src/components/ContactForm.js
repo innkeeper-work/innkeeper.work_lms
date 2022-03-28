@@ -43,6 +43,7 @@ function ContactForm() {
 			})
 			.catch((err) => console.log(err));
 	};
+
 	return (
 		<form onSubmit={sendMessage}>
 			<label>Your Fullname: </label>

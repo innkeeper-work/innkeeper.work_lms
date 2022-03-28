@@ -1,4 +1,5 @@
 import React from "react";
+import emailjs from "emailjs-com";
 import { Link } from "react-router-dom";
 import { HomepageHero } from "../components/Hero";
 import aiki from "../images/aiki.png";
@@ -43,11 +44,9 @@ const Home = () => {
 					</BlogCardsTwo>
 				</div>
 			</div>
-			<div className="w-75 mx-auto">
-				<hr />
-			</div>
+			<div className="w-75 mx-auto">{/* <hr /> */}</div>
 
-			<Newsletter />
+			{/* <Newsletter /> */}
 		</div>
 	);
 };
@@ -310,24 +309,42 @@ let Faq = () => {
 	);
 };
 
-let Newsletter = () => {
-	return (
-		<div className="text-center py-5 newsBg">
-			<div className="card-body">
-				<h3 className="card-title">Our News Channel</h3>
-				<p className="card-text">
-					Welcome to our news channel, subscribe to receive daily updates.
-				</p>
-				<input
-					type="email"
-					className="form-control w-25 mx-auto"
-					id="exampleFormControlInput1"
-					placeholder="Email"></input>
-				<div className="mt-3">
-					<SubscribeButton />
-				</div>
-			</div>
-		</div>
-	);
-};
+// let Newsletter = () => {
+// 	const sendMessage = (e) => {
+// 		e.preventDefault();
+// 		emailjs
+// 			.sendForm(
+// 				"service_dll3w3m",
+// 				"template_1p9duns",
+// 				e.target,
+// 				"cwTEWIt7UFDMpdP1O"
+// 			)
+// 			.then((res) => {
+// 				console.log(res);
+// 			})
+// 			.catch((err) => console.log(err));
+// 	};
+// 	return (
+// 		<div className="text-center py-5 newsBg">
+// 			<div className="card-body">
+// 				<h3 className="card-title">Our News Channel</h3>
+// 				<p className="card-text">
+// 					Welcome to our news channel, subscribe to receive daily updates.
+// 				</p>
+
+// 				<form onSubmit={sendMessage}>
+// 					<input
+// 						type="email"
+// 						className="form-control w-25 mx-auto"
+// 						id="exampleFormControlInput1"
+// 						name="email"
+// 						placeholder="Email"></input>
+// 					<div className="mt-3">
+// 						<SubscribeButton />
+// 					</div>
+// 				</form>
+// 			</div>
+// 		</div>
+// 	);
+// };
 export default Home;
