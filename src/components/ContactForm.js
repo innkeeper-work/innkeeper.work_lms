@@ -1,3 +1,4 @@
+import emailjs from "emailjs-com";
 // import React from "react";
 // import { useForm, ValidationError } from "@formspree/react";
 // function ContactForm() {
@@ -28,17 +29,28 @@ function ContactForm() {
 	// if (state.succeeded) {
 	// 	return <p>Thanks for contacting us</p>;
 	// }
+	const sendMessage = (e) => {
+		e.preventDefault();
+		emailjs
+			.sendForm(
+				"service_dll3w3m",
+				"template_tyu5sq8",
+				e.target,
+				"cwTEWIt7UFDMpdP1O"
+			)
+			.then((res) => {
+				console.log(res);
+			})
+			.catch((err) => console.log(err));
+	};
 	return (
-		<form action="https://formspree.io/f/myyodwgk" method="POST">
-			<label>
-				Your email:
-				<input type="email" name="email" />
-			</label>
-			<label>
-				Your message:
-				<textarea name="message"></textarea>
-			</label>
-
+		<form onSubmit={sendMessage}>
+			<label>Your Fullname: </label>
+			<input type="text" name="fullname" className="form-control" />
+			<label>Your Email: </label>
+			<input type="email" name="email" className="form-control" />
+			<label>Your Message: </label>
+			<textarea name="message" rows="4" className="form-control"></textarea>
 			<button type="submit">Send</button>
 		</form>
 	);
