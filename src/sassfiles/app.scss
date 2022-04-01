@@ -44,8 +44,8 @@ body {
 .signinbtn {
   @include signin;
 }
-.signinbtnapply {
-  @include signin;
+.signupbtnapply {
+  @include signup;
 }
 // .signinbtn:hover {
 // 	@extend .signinbtn;
@@ -165,6 +165,9 @@ body {
 .partners {
   width: 15%;
   height: 15%;
+}
+.scholarship {
+  color: #27aae1;
 }
 
 @media only screen and (max-width: 600px) {
