@@ -1,5 +1,4 @@
 {
-
 	"businessheroinfo": [
 		{
 			"id": 1,
@@ -13,47 +12,49 @@
 			"img": "../../images/courses/sales.png",
 			"title": "Sales",
 			"description": "Find out what makes sales people effective, and learn specific strategies for prospecting and product positioning, and developing a sales process",
-			"Link": "sales"
+			"Link": "/sales"
 		},
 		{
 			"id": 2,
 			"img": "../../images/courses/customer service.png",
 			"title": "Customer Experience",
 			"description": "Find out what makes sales people effective, and learn specific strategies for prospecting and product positioning, and developing a sales process",
-			"Link": "customerexperience"
+			"Link": "/customerexperience"
 		},
 		{
 			"id": 3,
 			"img": "../../images/courses/digital marketing.png",
 			"title": "Digital Marketing",
 			"description": "Learn today's online marketing techniques and find out how to build a successful online marketing campaign for all digital channels: search, video, social, email, and display.",
-			"Link": "digitalmarketing"
+			"Link": "/digitalmarketing"
 		},
 		{
 			"id": 4,
 			"img": "../../images/courses/video editing.png",
 			"title": "Video Editing",
 			"description": "Video editing skills enable you to arrange and alter video shots in order to create a cohesive structure.",
-			"Link": "videoediting"
+			"Link": "/videoediting"
 		},
 		{
 			"id": 5,
 			"img": "../../images/courses/motion _ still.gif",
 			"title": "Motion & Still Graphics ",
 			"description": "The use of diverse visual effects, animation, and other cinematic techniques to bring life to their creations.",
-			"Link": "stillandmotion"
+			"Link": "/stillandmotion"
 		},
 		{
 			"id": 6,
 			"img": "../../images/courses/content dev_t.png",
 			"title": "Content Management",
-			"description": "Video editing skills enable you to arrange and alter video shots in order to create a cohesive structure."
+			"description": "Video editing skills enable you to arrange and alter video shots in order to create a cohesive structure.",
+			"Link": "/contentmgt"
 		},
 		{
 			"id": 7,
 			"img": "../../images/courses/admin.png",
 			"title": "Administration Digital Tools",
-			"description": "Video editing skills enable you to arrange and alter video shots in order to create a cohesive structure."
+			"description": "Video editing skills enable you to arrange and alter video shots in order to create a cohesive structure.",
+			"Link": "/admindigitaltools"
 		}
 	],
 	"instructors": [
@@ -79,5 +80,4 @@
 			"linkedinprofile": " https://www.linkedin.com/in/damilolaobidairo/"
 		}
 	]
-
 }

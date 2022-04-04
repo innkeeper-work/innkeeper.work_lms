@@ -73,6 +73,20 @@ body p {
   box-shadow: none;
 }
 
+.card-shadow {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.img-radius {
+  border-radius: 15px;
+}
+
+.ins-shadow {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
 .techHead {
   text-align: start;
 }

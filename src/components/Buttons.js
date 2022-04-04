@@ -67,13 +67,9 @@ export const SubscribeButton = () => {
 };
 export const SendButton = () => {
 	return (
-		<a
-			href="https://docs.google.com/spreadsheets/d/1OAS3wK7X4hmjYSmYlIEcc9RllA32OAkuyRgGvIHQ4rA/edit#gid=0"
-			rel="noreferrer">
-			<button type="button" className="btn signinbtnapply px-5">
-				Send
-			</button>
-		</a>
+		<button type="submit" className="btn signinbtnapply px-5">
+			Send
+		</button>
 	);
 };
 export const Home = () => {

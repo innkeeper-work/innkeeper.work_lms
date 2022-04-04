@@ -1,58 +1,134 @@
-import emailjs from "emailjs-com";
-// import React from "react";
-// import { useForm, ValidationError } from "@formspree/react";
-// function ContactForm() {
-// 	const [state, handleSubmit] = useForm("myyodwgk");
-// 	if (state.succeeded) {
-// 		return <p>Thanks for contacting us</p>;
-// 	}
-// 	return (
-// 		<form onSubmit={handleSubmit}>
-// 			{/* <label htmlFor="fullname">Fullname</label>
-// 			<input id="fullname" type="text" name="fullname" /> */}
-// 			<label htmlFor="email">Email Address</label>
-// 			<input id="email" type="email" name="email" />
-// 			<ValidationError prefix="Email" field="email" errors={state.errors} />
-// 			<textarea id="message" name="message" />
-// 			<ValidationError prefix="Message" field="message" errors={state.errors} />
-// 			<button type="submit" disabled={state.submitting}>
-// 				Submit
-// 			</button>
-// 		</form>
-// 	);
-// }
-// export default ContactForm;
+import React, { useRef, useState } from "react";
+import axios from "axios";
+import ReCAPTCHA from "react-google-recaptcha";
+import { SendButton } from "../components/Buttons";
 
-import React from "react";
 function ContactForm() {
-	// const [state, handleSubmit] = useForm("myyodwgk");
-	// if (state.succeeded) {
-	// 	return <p>Thanks for contacting us</p>;
-	// }
-	const sendMessage = (e) => {
+	const formID = "1nbz0s2E";
+	const formURL = `https://submit-form.com/${formID}`;
+	const recaptchaKey = "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI";
+	const recaptchaRef = useRef();
+
+	const initialFormState = {
+		fullname: "",
+		email: "",
+		message: "",
+	};
+
+	const [formState, setFormState] = useState(initialFormState);
+	const [submitting, setSubmitting] = useState(false);
+	const [submitMessage, setSubmitMessage] = useState();
+	const [recaptchaToken, setRecaptchaToken] = useState();
+
+	const sendMessage = async (e) => {
 		e.preventDefault();
-		emailjs
-			.sendForm(
-				"service_dll3w3m",
-				"template_tyu5sq8",
-				e.target,
-				"cwTEWIt7UFDMpdP1O"
-			)
-			.then((res) => {
-				console.log(res);
-			})
-			.catch((err) => console.log(err));
+		setSubmitting(true);
+		await submitForm();
+
+		setSubmitting(false);
+	};
+
+	const submitForm = async () => {
+		// const payload = {
+		// 	message: "Test form submission",
+		// };
+		const payload = {
+			...formState,
+			"g-recaptcha-response": recaptchaToken,
+		};
+
+		try {
+			const result = await axios.post(formURL, payload);
+			console.log(result);
+			setSubmitMessage({
+				class: "bg-success",
+				text: "Thanks, someone will be in touch with you soon",
+			});
+			// if (formState.fullName && formState.email && formState.message) {
+			setFormState(initialFormState);
+			recaptchaRef.current.reset();
+			// }
+		} catch (error) {
+			console.log(error);
+			setSubmitMessage({
+				class: "bg-danger",
+				text: "Sorry, there was a problem filling the form. Please try again",
+			});
+		}
+	};
+
+	const handleChange = (e) => {
+		const name = e.target.name;
+		const value = e.target.value;
+		setFormState({ ...formState, [name]: value });
+	};
+
+	const updateRecaptchaToken = (token) => {
+		setRecaptchaToken(token);
 	};
 
 	return (
 		<form onSubmit={sendMessage}>
-			<label>Your Fullname: </label>
-			<input type="text" name="fullname" className="form-control" />
-			<label>Your Email: </label>
-			<input type="email" name="email" className="form-control" />
-			<label>Your Message: </label>
-			<textarea name="message" rows="4" className="form-control"></textarea>
-			<button type="submit">Send</button>
+			<div>
+				{submitMessage && (
+					<div className={`m-2 text-white ${submitMessage.class}`}>
+						{submitMessage.text}
+					</div>
+				)}
+			</div>
+			<div className="pb-3">
+				<label htmlFor="fullname">Your Fullname: </label>
+				<input
+					type="text"
+					className="form-control"
+					name="fullname"
+					id="fullname"
+					onChange={handleChange}
+					value={formState.fullname}
+					required
+				/>
+			</div>
+
+			<div className="pb-3">
+				<label>Your Email: </label>
+				<input
+					type="email"
+					className="form-control"
+					name="email"
+					id="email"
+					onChange={handleChange}
+					value={formState.email}
+					required
+				/>
+			</div>
+
+			<div className="pb-3">
+				<label>Your Message: </label>
+				<textarea
+					name="message"
+					rows="4"
+					className="form-control"
+					id="message"
+					onChange={handleChange}
+					value={formState.message}
+					required></textarea>
+			</div>
+
+			<div className="d-flex justify-content-center">
+				<ReCAPTCHA
+					ref={recaptchaRef}
+					sitekey={recaptchaKey}
+					onChange={updateRecaptchaToken}
+				/>
+			</div>
+			<div className="pt-3 d-flex justify-content-center">
+				<button
+					disabled={submitting}
+					type="submit"
+					className="btn signinbtnapply px-5">
+					{submitting ? "Submitting..." : "Send"}
+				</button>
+			</div>
 		</form>
 	);
 }
