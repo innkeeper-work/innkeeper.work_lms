@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 // import innkeeperlogo from "../images/innkeeperlogo.png";
 import innkeeperlogo197 from "../images/innkeeperlogo197.png";
+import { SignInButton } from "../components/Buttons";
 import { SignUpButton } from "../components/Buttons";
 const Navbar = () => {
   return (

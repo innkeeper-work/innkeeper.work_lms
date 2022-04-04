@@ -1,5 +1,5 @@
 import { CourseinfoHero } from "../components/Hero";
-import scholarshipbg from "../images/scholarshipbg.png";
+import scholarship from "../images/scholarship.png";
 import { CreditCardIcon } from "../components/Icons";
 import { Link } from "react-router-dom";
 
@@ -16,10 +16,10 @@ let Scholarship = () => {
   return (
     <div className="container-fluid py-4">
       <div className="row justify-content-center">
-        <div className="col-lg-4 col-md-4 mt-5">
-          <img src={scholarshipbg} class="card-img" alt="..." />
+        <div className="col-lg-4 col-md-4 col-sm-6 my-3">
+          <img src={scholarship} class="card-img" alt="..." />
         </div>
-        <div className="col-lg-6 col-md-6 my-auto">
+        <div className="col-lg-6 col-md-6 col-sm-6 my-auto">
           <div className="card-body">
             <h5 className="card-title">
               Available scholarships are listed below, kindly select your choice

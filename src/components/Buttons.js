@@ -44,7 +44,7 @@ export const ForwardButton = () => {
 export const ApplyNowButton = () => {
   return (
     <a href="http://" target="_blank" rel="noreferrer">
-      <button type="button" className="btn signinbtnapply">
+      <button type="button" className="btn signupbtnapply">
         Apply Now
       </button>
     </a>

@@ -28,8 +28,11 @@ let Trainingbond = () => {
             <div className="card-body">
               <p className="card-title">
                 Get certified for a high demand skill in tech and business
-                support today. Carefully read through to see the terms and
-                conditions that qualifies you for the application.
+                support today.&nbsp;
+                <span className="scholarship">
+                  Carefully read through to see the terms and conditions that
+                  qualifies you for the application.
+                </span>
               </p>
               <p className="card-text">
                 Many organizations are in dire need of talents but there’s a gap
@@ -43,12 +46,12 @@ let Trainingbond = () => {
           </div>
         </div>
       </div>
-      <div className="text-center my-4 scholarship">
+      {/* <div className="text-center pb-4 scholarship">
         <p>
           Carefully read through to see the terms and conditions that qualifies
           you for the application
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };

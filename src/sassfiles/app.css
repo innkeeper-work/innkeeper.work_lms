@@ -30,16 +30,17 @@ body p {
   line-height: 1.75rem;
 }
 
+.studentLoan {
+  background-color: #ffffff;
+  box-shadow: 4px 4px 4px 4px rgba(179, 174, 174, 0.25);
+  border-radius: 15px;
+}
+
 .course-instructor {
   line-height: 0.8rem;
 }
 
-.signinbtn {
-  color: #ffffff;
-  background: #00d8cf;
-}
-
-.signinbtnapply {
+.signupbtnapply {
   color: #ffffff;
   background: #00d8cf;
 }

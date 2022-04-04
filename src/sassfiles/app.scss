@@ -37,6 +37,9 @@ body {
     line-height: 1.75rem;
   }
 }
+.studentLoan {
+  @include studentLoan;
+}
 
 .course-instructor {
   line-height: 0.8rem;
