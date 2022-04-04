@@ -5,28 +5,28 @@
 			"img": "../../images/techacademy.png",
 			"title": "Tech Academy",
 			"description": "The world of business presents a variety of roles and opportunities,and with the advent of technology.",
-			"Link": "techacademy"
+			"Link": "/techacademy"
 		},
 		{
 			"id": 2,
 			"img": "../../images/businessacademy.png",
 			"title": "Business Support Academy",
 			"description": "Want to learn what it takes to manage a business? you are considering a career change.",
-			"Link": "business"
+			"Link": "/businessupport"
 		},
 		{
 			"id": 3,
 			"img": "../../images/employability.png",
 			"title": "Employability/Soft Skills",
 			"description": "Use industry-leading tools to build innovative design projects.",
-			"Link": "employability"
+			"Link": "/employability"
 		},
 		{
 			"id": 4,
 			"img": "../../images/entrepreneurship.png",
 			"title": "Entreneurship",
 			"description": "This course teaches Solutions Architects how to translate business requirements into solutions.",
-			"Link": "entrepreneurship"
+			"Link": "/entrepreneurship"
 		}
 	]
 }

@@ -1,10 +1,11 @@
-import React from "react";
+import React, { Component } from "react";
+import Slider from "react-slick";
 import { Link } from "react-router-dom";
 import { HomepageHero } from "../components/Hero";
 import aiki from "../images/aiki.png";
 import whychooseus from "../images/whychooseus.png";
 import categories from "../data/categories.json";
-import faqs from "../data/faq.json";
+
 import { CourseCategoryCards } from "../components/Card";
 import { BlogCards } from "../components/Card";
 import { BlogCardsTwo } from "../components/Card";
@@ -337,4 +338,5 @@ let Newsletter = () => {
     </div>
   );
 };
+
 export default Home;

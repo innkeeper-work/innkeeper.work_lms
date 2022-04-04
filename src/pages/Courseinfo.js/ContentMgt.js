@@ -1,36 +1,36 @@
 import React from "react";
 import infoimage from "../../images/infoimage.png";
-import { BookIcon, AlarmIcon, CreditCardIcon } from "../../components/Icons";
-import HowToApply from "../../components/HowToApply";
-// import CourseEnroll from "../../components/CourseEnroll";
-import { CourseinfoHero } from "../../components/Hero";
 import adamu from "../../images/adamu.png";
+import techacademy from "../../data/tech_academy_details/techacademy.json";
+// import CourseEnroll from "../../components/CourseEnroll";
+import HowToApply from "../../components/HowToApply";
+import { Link } from "react-router-dom";
+import { BookIcon, AlarmIcon, CreditCardIcon } from "../../components/Icons";
+import { CourseinfoHero } from "../../components/Hero";
 import { ApplyNowButton } from "../../components/Buttons";
 import { CourseCards } from "../../components/Card";
-import techacademy from "../../data/tech_academy_details/techacademy.json";
-import { Link } from "react-router-dom";
 
-let StillandmotionInfo = () => {
+let ContentMgt = () => {
 	return (
 		<div>
-			<CourseinfoHero coursename="Still and Motion Graphics" />
+			<CourseinfoHero coursename="Content Management" />
 			<div className="row justify-content-center">
 				<div className="col-lg-7 col-md-6 col-sm-10">
-					<AboutStillandmotion />
+					<AboutCriticalthinking />
 					<HowToApply />
 				</div>
 				<div className="col-lg-4 col-md-5 col-sm-10 sectiontwoBg mt-5 h-100">
-					<StillandmotionReq />
+					<CriticalthinkingReq />
 					<CourseEnroll />
-					<StillandmotionInstructor />
+					<CriticalthinkingInstructor />
 				</div>
 			</div>
-			<StillandmotionRelated />
+			<CriticalthinkingRelated />
 		</div>
 	);
 };
 
-let AboutStillandmotion = () => {
+let AboutCriticalthinking = () => {
 	return (
 		<div className="">
 			<div className="navbar-expand-lg">
@@ -143,7 +143,7 @@ let CourseEnroll = () => {
 	);
 };
 
-let StillandmotionReq = () => {
+let CriticalthinkingReq = () => {
 	return (
 		<div className="card-body">
 			<h3 className="card-title">Requirement</h3>
@@ -168,7 +168,7 @@ let StillandmotionReq = () => {
 	);
 };
 
-let StillandmotionInstructor = () => {
+let CriticalthinkingInstructor = () => {
 	return (
 		<div className="mb-3">
 			<div className="instructor_card d-flex align-items-md-center">
@@ -193,7 +193,7 @@ let StillandmotionInstructor = () => {
 	);
 };
 
-let StillandmotionRelated = () => {
+let CriticalthinkingRelated = () => {
 	return (
 		<div className="webDev mx-5 px-5 my-5 pb-5">
 			<h3 className="techHead px-5 my-5 pt-5">Related Courses</h3>
@@ -209,4 +209,4 @@ let StillandmotionRelated = () => {
 		</div>
 	);
 };
-export default StillandmotionInfo;
+export default ContentMgt;

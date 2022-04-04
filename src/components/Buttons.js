@@ -50,6 +50,16 @@ export const ApplyNowButton = () => {
     </a>
   );
 };
+
+// export const ApplyButton = () => {
+// 	return (
+// 		<a href="http://" target="_blank" rel="noreferrer">
+// 			<button type="button" className="btn signinbtnapply">
+// 				Apply Now
+// 			</button>
+// 		</a>
+// 	);
+// };
 export const SubscribeButton = () => {
   return (
     <button type="button" className="btn callToAction mt-3">
@@ -59,7 +69,7 @@ export const SubscribeButton = () => {
 };
 export const SendButton = () => {
   return (
-    <button type="button" className="btn signinbtnapply px-5">
+    <button type="submit" className="btn signinbtnapply px-5">
       Send
     </button>
   );
