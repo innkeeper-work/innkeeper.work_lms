@@ -6,8 +6,8 @@ import { SendButton } from "../components/Buttons";
 function ContactForm() {
 	const formID = "1nbz0s2E";
 	const formURL = `https://submit-form.com/${formID}`;
-	const recaptchaKey = "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI";
-	const recaptchaRef = useRef();
+	// const recaptchaKey = "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI";
+	// const recaptchaRef = useRef();
 
 	const initialFormState = {
 		fullname: "",
@@ -18,7 +18,7 @@ function ContactForm() {
 	const [formState, setFormState] = useState(initialFormState);
 	const [submitting, setSubmitting] = useState(false);
 	const [submitMessage, setSubmitMessage] = useState();
-	const [recaptchaToken, setRecaptchaToken] = useState();
+	// const [recaptchaToken, setRecaptchaToken] = useState();
 
 	const sendMessage = async (e) => {
 		e.preventDefault();
@@ -34,7 +34,7 @@ function ContactForm() {
 		// };
 		const payload = {
 			...formState,
-			"g-recaptcha-response": recaptchaToken,
+			// "g-recaptcha-response": recaptchaToken,
 		};
 
 		try {
@@ -46,7 +46,7 @@ function ContactForm() {
 			});
 			// if (formState.fullName && formState.email && formState.message) {
 			setFormState(initialFormState);
-			recaptchaRef.current.reset();
+			// recaptchaRef.current.reset();
 			// }
 		} catch (error) {
 			console.log(error);
@@ -63,9 +63,9 @@ function ContactForm() {
 		setFormState({ ...formState, [name]: value });
 	};
 
-	const updateRecaptchaToken = (token) => {
-		setRecaptchaToken(token);
-	};
+	// const updateRecaptchaToken = (token) => {
+	// 	setRecaptchaToken(token);
+	// };
 
 	return (
 		<form onSubmit={sendMessage}>
@@ -114,13 +114,13 @@ function ContactForm() {
 					required></textarea>
 			</div>
 
-			<div className="d-flex justify-content-center">
+			{/* <div className="d-flex justify-content-center">
 				<ReCAPTCHA
 					ref={recaptchaRef}
 					sitekey={recaptchaKey}
 					onChange={updateRecaptchaToken}
 				/>
-			</div>
+			</div> */}
 			<div className="pt-3 d-flex justify-content-center">
 				<button
 					disabled={submitting}
