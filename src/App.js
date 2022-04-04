@@ -1,8 +1,20 @@
 import { Routes, Route } from "react-router-dom";
+// components
+import Footer from "./components/Footer";
+
 // pages
-// import Homepage from "./pages/Homepage";
 import Homepage from "./pages/Homepage";
-// import { CoursepageHero } from "./components/Hero";
+import Contact from "./pages/Contact";
+import TechAcademy from "./pages/TechAcademy";
+import BusinessSupportAcademy from "./pages/BusinessSupportAcademy";
+import Employability from "./pages/Employability";
+import Entrepreneurship from "./pages/Entrepreneurship";
+import Studentloan from "./pages/Studentloan";
+import Trainingbond from "./pages/Trainingbond";
+import Scholarships from "./pages/Scholarships";
+import Error404 from "./pages/Error404";
+
+// courseinfo pages
 import Frontend from "./pages/Courseinfo.js/Frontend";
 import Backend from "./pages/Courseinfo.js/Backend";
 import Fullstack from "./pages/Courseinfo.js/Fullstack";
@@ -30,21 +42,16 @@ import Business from "./pages/Courseinfo.js/Business";
 import Growth from "./pages/Courseinfo.js/Growth";
 import Financing from "./pages/Courseinfo.js/Financing";
 import Criticalthinking from "./pages/Courseinfo.js/Criticalthinking";
-import TechAcademy from "./pages/TechAcademy";
-import BusinessSupportAcademy from "./pages/BusinessSupportAcademy";
-import Employability from "./pages/Employability";
-import Entrepreneurship from "./pages/Entrepreneurship";
 import ContentMgt from "./pages/Courseinfo.js/ContentMgt";
 import AdminDigitalTools from "./pages/Courseinfo.js/AdminDigitalTools";
-import Contact from "./pages/Contact";
-import Error404 from "./pages/Error404";
-import Footer from "./components/Footer";
 
 function App() {
 	return (
 		<div className="App">
 			<Routes>
+				{/* pages */}
 				<Route path="/" element={<Homepage />} />
+				<Route path="contact" element={<Contact />} />
 				<Route path="techacademy" element={<TechAcademy />} />
 				<Route
 					path="businesssupportacademy"
@@ -52,7 +59,13 @@ function App() {
 				/>
 				<Route path="employability" element={<Employability />} />
 				<Route path="entrepreneurship" element={<Entrepreneurship />} />
-				<Route path="contact" element={<Contact />} />
+				<Route path="studentloan" element={<Studentloan />} />
+				<Route path="scholarships" element={<Scholarships />} />
+				<Route path="trainingbond" element={<Trainingbond />} />
+				<Route path="*" element={<Error404 />} />
+
+				{/* course info pages */}
+				{/* techacademy */}
 				<Route path="frontend" element={<Frontend />} />
 				<Route path="backend" element={<Backend />} />
 				<Route path="fullstack" element={<Fullstack />} />
@@ -65,10 +78,10 @@ function App() {
 				<Route path="pentesting" element={<Pentesting />} />
 				<Route path="bigdata" element={<Bigdata />} />
 				<Route path="python" element={<Python />} />
-				<Route path="contentmgt" element={<ContentMgt />} />
 				<Route path="iot" element={<IoT />} />
 				<Route path="securityaudit" element={<Securityaudit />} />
 				<Route path="sales" element={<Sales />} />
+				<Route path="contentmgt" element={<ContentMgt />} />
 				<Route path="customerexperience" element={<Customerexperience />} />
 				<Route path="digitalmarketing" element={<Digitalmarketing />} />
 				<Route path="videoediting" element={<Videoediting />} />
@@ -83,7 +96,6 @@ function App() {
 				<Route path="growthstrategy" element={<Growth />} />
 				<Route path="admindigitaltools" element={<AdminDigitalTools />} />
 				<Route path="financing" element={<Financing />} />
-				<Route path="*" element={<Error404 />} />
 			</Routes>
 
 			<footer>

@@ -30,7 +30,6 @@ const Home = () => {
 			<Homepagetest />
 			<Testimonial />
 			<Faq />
-			<Responsive />
 			<div className="row m-3">
 				<h3 className="text-center my-5">Blog</h3>
 				<div className="col-md-6 col-lg-6 col-sm-6 col-xs-12 d-flex align-items-stretch py-3">
@@ -146,45 +145,11 @@ let Homepagesoft = () => {
 };
 
 let CourseCategory = () => {
-	var settings = {
-		dots: true,
-		infinite: false,
-		speed: 500,
-		slidesToShow: 4,
-		slidesToScroll: 4,
-		initialSlide: 0,
-		responsive: [
-			{
-				breakpoint: 1024,
-				settings: {
-					slidesToShow: 3,
-					slidesToScroll: 3,
-					infinite: true,
-					dots: true,
-				},
-			},
-			{
-				breakpoint: 600,
-				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 2,
-					initialSlide: 2,
-				},
-			},
-			{
-				breakpoint: 480,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1,
-				},
-			},
-		],
-	};
 	return (
 		<div className="categoryBg py-4">
 			<div className="mx-md-5 px-md-3" id="categories">
 				<h3 className="text-center pt-5">Our Courses</h3>
-				<Slider className="row g-0 justify-content-center" {...settings}>
+				<div className="row g-0 justify-content-center">
 					{categories.coursecategories.map((category) => {
 						return (
 							<div
@@ -195,7 +160,7 @@ let CourseCategory = () => {
 							</div>
 						);
 					})}
-				</Slider>
+				</div>
 			</div>
 		</div>
 	);
@@ -337,9 +302,6 @@ let Faq = () => {
 					</div>
 				</div>
 			</div>
-			<div className="text-center py-4">
-				<ApplyNowButton />
-			</div>
 		</div>
 	);
 };
@@ -383,72 +345,72 @@ let Faq = () => {
 // 	);
 // };
 
-const Responsive = () => {
-	var settings = {
-		dots: true,
-		infinite: false,
-		speed: 500,
-		slidesToShow: 4,
-		slidesToScroll: 4,
-		initialSlide: 0,
-		responsive: [
-			{
-				breakpoint: 1024,
-				settings: {
-					slidesToShow: 3,
-					slidesToScroll: 3,
-					infinite: true,
-					dots: true,
-				},
-			},
-			{
-				breakpoint: 600,
-				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 2,
-					initialSlide: 2,
-				},
-			},
-			{
-				breakpoint: 480,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1,
-				},
-			},
-		],
-	};
-	return (
-		<div>
-			<h2> Responsive </h2>
-			<Slider {...settings}>
-				<div>
-					<h3>1</h3>
-				</div>
-				<div>
-					<h3>2</h3>
-				</div>
-				<div>
-					<h3>3</h3>
-				</div>
-				<div>
-					<h3>4</h3>
-				</div>
-				<div>
-					<h3>5</h3>
-				</div>
-				<div>
-					<h3>6</h3>
-				</div>
-				<div>
-					<h3>7</h3>
-				</div>
-				<div>
-					<h3>8</h3>
-				</div>
-			</Slider>
-		</div>
-	);
-};
+// const Responsive = () => {
+// 	var settings = {
+// 		dots: true,
+// 		infinite: false,
+// 		speed: 500,
+// 		slidesToShow: 4,
+// 		slidesToScroll: 4,
+// 		initialSlide: 0,
+// 		responsive: [
+// 			{
+// 				breakpoint: 1024,
+// 				settings: {
+// 					slidesToShow: 3,
+// 					slidesToScroll: 3,
+// 					infinite: true,
+// 					dots: true,
+// 				},
+// 			},
+// 			{
+// 				breakpoint: 600,
+// 				settings: {
+// 					slidesToShow: 2,
+// 					slidesToScroll: 2,
+// 					initialSlide: 2,
+// 				},
+// 			},
+// 			{
+// 				breakpoint: 480,
+// 				settings: {
+// 					slidesToShow: 1,
+// 					slidesToScroll: 1,
+// 				},
+// 			},
+// 		],
+// 	};
+// 	return (
+// 		<div>
+// 			<h2> Responsive </h2>
+// 			<Slider {...settings}>
+// 				<div>
+// 					<h3>1</h3>
+// 				</div>
+// 				<div>
+// 					<h3>2</h3>
+// 				</div>
+// 				<div>
+// 					<h3>3</h3>
+// 				</div>
+// 				<div>
+// 					<h3>4</h3>
+// 				</div>
+// 				<div>
+// 					<h3>5</h3>
+// 				</div>
+// 				<div>
+// 					<h3>6</h3>
+// 				</div>
+// 				<div>
+// 					<h3>7</h3>
+// 				</div>
+// 				<div>
+// 					<h3>8</h3>
+// 				</div>
+// 			</Slider>
+// 		</div>
+// 	);
+// };
 
 export default Home;

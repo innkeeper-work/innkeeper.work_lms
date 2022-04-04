@@ -37,6 +37,9 @@ body {
 		line-height: 1.75rem;
 	}
 }
+.studentLoan {
+	@include studentLoan;
+}
 
 .course-instructor {
 	line-height: 0.8rem;
@@ -46,6 +49,9 @@ body {
 }
 .signinbtnapply {
 	@include signin;
+}
+.signupbtnapply {
+	@include signup;
 }
 // .signinbtn:hover {
 // 	@extend .signinbtn;
@@ -179,6 +185,9 @@ body {
 .partners {
 	width: 15%;
 	height: 15%;
+}
+.scholarship {
+	color: #27aae1;
 }
 
 @media only screen and (max-width: 600px) {

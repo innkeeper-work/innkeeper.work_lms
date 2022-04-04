@@ -73,10 +73,10 @@ export const CoursepageHero = (props) => {
 export const CourseinfoHero = (props) => {
 	const { coursename } = props;
 	return (
-		<div className="p-4 homeheroBg">
+		<div className="px-4 py-2 homeheroBg">
 			<Navbar />
 			<div className="row align-items-center my-5 ps-4">
-				<div className="col-lg-6 col-sm-12">
+				<div className="col-lg-12 col-sm-12">
 					<h1 className="herotextColored d-none d-lg-block d-md-none d-sm-none d-xs-none">
 						{coursename}
 					</h1>

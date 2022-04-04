@@ -7,22 +7,14 @@ let CourseEnroll = () => {
 			<ul className="list-content">
 				<li className="list-item pb-2">
 					Click to{" "}
-					<a
-						href="https://soft.innkeeper.work/login/index.php"
-						rel="noreferrer">
-						<b>Pay Now</b>
-					</a>
-				</li>
-				<li className="list-item pb-2">
-					Click to{" "}
 					<Link to="" className="text-decoration-none">
-						<b>Installmental Payment</b>
+						<b>Pay Now</b>
 					</Link>
 				</li>
 				<p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
 				<li className="list-item pb-2">
 					Apply for Student loan{" "}
-					<Link to="" className="text-decoration-none">
+					<Link to="edubanc" className="text-decoration-none">
 						<b>HERE</b>
 					</Link>
 				</li>

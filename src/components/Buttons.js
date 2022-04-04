@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const SignInButton = () => {
+export const SignUpButton = () => {
 	return (
 		<a href="https://soft.innkeeper.work/login/index.php" rel="noreferrer">
-			<button type="button" className="btn signinbtnapply">
-				Sign In
+			<button type="button" className="btn signupbtnapply">
+				Sign Up
 			</button>
 		</a>
 	);
@@ -87,6 +87,15 @@ export const ContactUs = () => {
 		<Link to="contact">
 			<button type="button" className="btn callToAction px-2 ms-2">
 				<strong>Contact&nbsp;Us</strong>
+			</button>
+		</Link>
+	);
+};
+export const Submit = () => {
+	return (
+		<Link to="">
+			<button type="button" className="btn callToAction px-2 ms-2">
+				<strong>Submit</strong>
 			</button>
 		</Link>
 	);

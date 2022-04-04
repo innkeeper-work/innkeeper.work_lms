@@ -1,7 +1,8 @@
 import React, { useRef, useState } from "react";
 import axios from "axios";
+import { useForm } from "react-hook-form";
 import ReCAPTCHA from "react-google-recaptcha";
-import { SendButton } from "../components/Buttons";
+// import { SendButton } from "../components/Buttons";
 
 function ContactForm() {
 	const formID = "1nbz0s2E";
@@ -41,7 +42,7 @@ function ContactForm() {
 			const result = await axios.post(formURL, payload);
 			console.log(result);
 			setSubmitMessage({
-				class: "bg-success",
+				className: "bg-success",
 				text: "Thanks, someone will be in touch with you soon",
 			});
 			// if (formState.fullName && formState.email && formState.message) {
@@ -51,7 +52,7 @@ function ContactForm() {
 		} catch (error) {
 			console.log(error);
 			setSubmitMessage({
-				class: "bg-danger",
+				className: "bg-danger",
 				text: "Sorry, there was a problem filling the form. Please try again",
 			});
 		}
@@ -61,7 +62,13 @@ function ContactForm() {
 		const name = e.target.name;
 		const value = e.target.value;
 		setFormState({ ...formState, [name]: value });
+		// setFormState((prevState) => ({
+		// 	...prevState,
+		// 	[e.target.name]: e.target.value,
+		// }));
 	};
+
+	const { register, errors } = useForm();
 
 	// const updateRecaptchaToken = (token) => {
 	// 	setRecaptchaToken(token);
@@ -69,13 +76,13 @@ function ContactForm() {
 
 	return (
 		<form onSubmit={sendMessage}>
-			<div>
+			{/* <div>
 				{submitMessage && (
-					<div className={`m-2 text-white ${submitMessage.class}`}>
+					<div className={`m-2 text-white ${submitMessage.className}`}>
 						{submitMessage.text}
 					</div>
 				)}
-			</div>
+			</div> */}
 			<div className="pb-3">
 				<label htmlFor="fullname">Your Fullname: </label>
 				<input
@@ -85,8 +92,12 @@ function ContactForm() {
 					id="fullname"
 					onChange={handleChange}
 					value={formState.fullname}
-					required
+					// ref={register }
+					// required
 				/>
+				{/* {errors.name && errors.name.type === "required" && (
+					<p className="errorMsg">Name is required</p>
+				)} */}
 			</div>
 
 			<div className="pb-3">
@@ -98,7 +109,7 @@ function ContactForm() {
 					id="email"
 					onChange={handleChange}
 					value={formState.email}
-					required
+					// required
 				/>
 			</div>
 
@@ -111,7 +122,8 @@ function ContactForm() {
 					id="message"
 					onChange={handleChange}
 					value={formState.message}
-					required></textarea>
+					// required
+				></textarea>
 			</div>
 
 			{/* <div className="d-flex justify-content-center">
@@ -125,11 +137,12 @@ function ContactForm() {
 				<button
 					disabled={submitting}
 					type="submit"
-					className="btn signinbtnapply px-5">
+					className="btn signupbtnapply px-5">
 					{submitting ? "Submitting..." : "Send"}
 				</button>
 			</div>
 		</form>
 	);
 }
+
 export default ContactForm;
