@@ -1,17 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom";
+// import { BrowserRouter as Router } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
+import "bootstrap-icons/font/bootstrap-icons.css";
 import "./sassfiles/app.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-  document.getElementById("root")
+	<BrowserRouter>
+		<App />
+	</BrowserRouter>,
+	document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function

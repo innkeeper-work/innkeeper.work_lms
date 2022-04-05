@@ -1,0 +1,26 @@
+
+{
+	"faqs": [
+		{
+			"id": 1,
+			"question": "can we apply now?",
+			"answer": "this is the answer"
+		},
+		{
+			"id": 2,
+			"question": "can we apply now?",
+			"answer": "this is the answer"
+		},
+		{
+			"id": 3,
+			"question": "can we apply now?",
+			"answer": "this is the answer"
+		},
+		{
+			"id": 4,
+			"question": "can we apply now?",
+			"answer": "this is the answer"
+		}
+	]
+}
+
