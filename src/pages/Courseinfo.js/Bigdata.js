@@ -11,6 +11,7 @@ import { CourseCards } from "../../components/Card";
 import { BookIcon } from "../../components/Icons";
 import { AlarmIcon } from "../../components/Icons";
 import { CreditCardIcon } from "../../components/Icons";
+
 let BigdataInfo = () => {
 	return (
 		<div>
@@ -87,37 +88,52 @@ let AboutBigdata = () => {
 	);
 };
 
-let BigdataApplyHere = () => {
-	return (
-		<div className="card-body">
-			<h3 className="card-title">How to Apply</h3>
-			<ul className="list-content">
-				<li className="list-item pb-2">
-					Read about the course content and indicate interest.
-				</li>
-				<li className="list-item pb-2">
-					Select a payment/enrolment method HERE.
-				</li>
-				<li className="list-item pb-2">
-					Except you pay the stipulated amount, every other course enrolment
-					method will require the admin to permit you to class.
-				</li>
-				<li className="list-item pb-2">
-					Alternatively, you can sign up to begin class HERE.
-				</li>
-				<li className="list-item pb-2">
-					Go to your e-mail and complete registration via the link that will be
-					sent to you.
-				</li>
-				<li className="list-item pb-2">
-					Then from your dashboard, click all courses to display the list of
-					courses available according to academy, then request for your desired
-					course.
-				</li>
-			</ul>
-		</div>
-	);
-};
+// let CourseEnroll = () => {
+// 	return (
+// 		<div className="card-body">
+// 			<h3 className="card-title">Available Enrolment Options</h3>
+// 			<ul className="list-content">
+// 				<li className="list-item pb-2">
+// 					Click to{" "}
+// 					<a
+// 						className="text-decoration-none"
+// 						href="https://soft.innkeeper.work/enrol/index.php?id=3"
+// 						target="_blank"
+// 						rel="noreferrer">
+// 						<b>Pay Now</b>
+// 					</a>
+// 				</li>
+// 				<li className="list-item pb-2">
+// 					Click to{" "}
+// 					<Link to="" className="text-decoration-none">
+// 						<b>Installmental Payment</b>
+// 					</Link>
+// 				</li>
+// 				<p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
+// 				<li className="list-item pb-2">
+// 					Apply for Student loan{" "}
+// 					<Link to="" className="text-decoration-none">
+// 						<b>HERE</b>
+// 					</Link>
+// 				</li>
+// 				<li className="list-item pb-2">
+// 					Apply via our training bond{" "}
+// 					<Link to="" className="text-decoration-none">
+// 						<b>HERE</b>
+// 					</Link>
+// 				</li>
+// 				<li className="list-item pb-2">Apply for scholarship.</li>
+// 				<p className="">
+// 					(See available ones{" "}
+// 					<Link to="" className="text-decoration-none">
+// 						<b>HERE</b>
+// 					</Link>
+// 					)
+// 				</p>
+// 			</ul>
+// 		</div>
+// 	);
+// };
 
 let BigdataReq = () => {
 	return (

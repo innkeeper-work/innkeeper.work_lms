@@ -2,35 +2,35 @@ import React from "react";
 import infoimage from "../../images/infoimage.png";
 import adamu from "../../images/adamu.png";
 import techacademy from "../../data/tech_academy_details/techacademy.json";
-import HowToApply from "../../components/HowToApply";
 import CourseEnroll from "../../components/CourseEnroll";
-import { BookIcon, AlarmIcon, CreditCardIcon } from "../../components/Icons";
+import HowToApply from "../../components/HowToApply";
 import { Link } from "react-router-dom";
+import { BookIcon, AlarmIcon, CreditCardIcon } from "../../components/Icons";
 import { CourseinfoHero } from "../../components/Hero";
 import { ApplyNowButton } from "../../components/Buttons";
 import { CourseCards } from "../../components/Card";
 
-let RelationaldbInfo = () => {
+let ContentMgt = () => {
 	return (
 		<div>
-			<CourseinfoHero coursename="Administering Relational Databases on Microsoft Azure" />
+			<CourseinfoHero coursename="Content Management" />
 			<div className="row justify-content-center">
 				<div className="col-lg-7 col-md-6 col-sm-10">
-					<AboutRelationaldb />
+					<AboutCriticalthinking />
 					<HowToApply />
 				</div>
 				<div className="col-lg-4 col-md-5 col-sm-10 sectiontwoBg mt-5 h-100">
-					<RelationaldbReq />
+					<CriticalthinkingReq />
 					<CourseEnroll />
-					<RelationaldbInstructor />
+					<CriticalthinkingInstructor />
 				</div>
 			</div>
-			<RelationaldbRelated />
+			<CriticalthinkingRelated />
 		</div>
 	);
 };
 
-let AboutRelationaldb = () => {
+let AboutCriticalthinking = () => {
 	return (
 		<div className="">
 			<div className="navbar-expand-lg">
@@ -67,7 +67,7 @@ let AboutRelationaldb = () => {
 								</div>
 								<div>
 									<h3>FEE</h3>
-									<p>300,000.00</p>
+									<p>150,000.00</p>
 								</div>
 							</div>
 						</li>
@@ -81,30 +81,17 @@ let AboutRelationaldb = () => {
 			<div className="card-body">
 				<h3 className="card-title">About Course</h3>
 				<p className="card-text">
-					This course provides students with the knowledge and skills to
-					administer a SQL Server database infrastructure for cloud, on-premises
-					and hybrid relational databases and who work with the Microsoft PaaS
-					relational database offerings. Additionally, it will be of use to
-					individuals who develop applications that deliver content from
-					SQL-based relational databases.
+					Innkeeper.work in partnership with Cisco Networking Academy's IoT
+					Fundamentals curriculum provides students with a comprehensive
+					understanding of the Internet of Things (IoT). It develops
+					foundational skills using hands-on lab activities that stimulate the
+					students in applying creative problem-solving and rapid prototyping in
+					the interdisciplinary domain of electronics, networking, security,
+					data analytics, and business. The student- centric approach translates
+					into the student being able to ideate, design, prototype and present
+					an IoT solution for an identified business or society need.
 				</p>
 			</div>
-		</div>
-	);
-};
-
-let RelationaldbReq = () => {
-	return (
-		<div className="card-body">
-			<h3 className="card-title">Requirements</h3>
-			<ul className="list-content">
-				<li className="list-item pb-2">
-					Working with, maintaining, and developing with SQL Server.
-				</li>
-				<li className="list-item pb-2">
-					Experience with Azure, such as deploying and managing resources.
-				</li>
-			</ul>
 		</div>
 	);
 };
@@ -156,7 +143,32 @@ let RelationaldbReq = () => {
 // 	);
 // };
 
-let RelationaldbInstructor = () => {
+let CriticalthinkingReq = () => {
+	return (
+		<div className="card-body">
+			<h3 className="card-title">Requirement</h3>
+			<ul className="list-content">
+				<li className="list-item pb-2">
+					Basic TCP/IP networking including cabling, and connecting and
+					configuring devices in a LAN and to the Internet.
+				</li>
+				<li className="list-item pb-2">
+					Familiarity with Cisco Packet Tracer.
+				</li>
+				<li className="list-item pb-2">
+					Experience using any programming language to solve basic algorithmic
+					problems.
+				</li>
+				<li className="list-item pb-2">
+					Foundational knowledge of physics including current, voltage,
+					resistance, and power.
+				</li>
+			</ul>
+		</div>
+	);
+};
+
+let CriticalthinkingInstructor = () => {
 	return (
 		<div className="mb-3">
 			<div className="instructor_card d-flex align-items-md-center">
@@ -181,7 +193,7 @@ let RelationaldbInstructor = () => {
 	);
 };
 
-let RelationaldbRelated = () => {
+let CriticalthinkingRelated = () => {
 	return (
 		<div className="webDev mx-5 px-5 my-5 pb-5">
 			<h3 className="techHead px-5 my-5 pt-5">Related Courses</h3>
@@ -197,4 +209,4 @@ let RelationaldbRelated = () => {
 		</div>
 	);
 };
-export default RelationaldbInfo;
+export default ContentMgt;

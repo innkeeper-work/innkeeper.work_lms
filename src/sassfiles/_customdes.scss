@@ -8,64 +8,69 @@ $btnText: #ffffff;
 $techBg: #f9feff;
 $coursepagesectionBg: #e4fbff;
 
-@mixin signin {
-  color: $btnText;
-  background: $btnBgColor2;
-  // background: $callToActionBtn;
+@mixin signup {
+	color: $btnText;
+	background: $btnBgColor2;
+	// background: $callToActionBtn;
 }
 @mixin home {
-  color: $btnText;
-  background: $btnBgColor;
+	color: $btnText;
+	background: $btnBgColor;
 }
 @mixin contactusbtn {
-  color: $btnText;
-  background: $btnBgColor;
+	color: $btnText;
+	background: $btnBgColor;
 }
 @mixin callToActionBtn {
-  color: $btnText;
-  background: $btnBgColor2;
+	color: $btnText;
+	background: $btnBgColor2;
 }
 @mixin webDev {
-  background-color: $coursepagesectionBg;
-  box-shadow: 4px 4px 4px 4px rgb(179, 174, 174, 0.25);
-  border-radius: 15px;
+	background-color: $coursepagesectionBg;
+	box-shadow: 4px 4px 4px 4px rgb(179, 174, 174, 0.25);
+	border-radius: 15px;
+}
+@mixin studentLoan {
+	background-color: #ffffff;
+	box-shadow: 4px 4px 4px 4px rgb(179, 174, 174, 0.25);
+	border-radius: 15px;
 }
 @mixin techCards {
-  border-radius: 10px;
+	border-radius: 10px;
 }
 @mixin techHead {
-  text-align: start;
+	text-align: start;
 }
 @mixin techImages {
-  // border-radius: 1rem;
+	// border-radius: 1rem;
 }
 @mixin ourInstructor {
-  background: $sectionColor;
-  color: $btnText;
-  // max-width: 97%;
+	background: $sectionColor;
+	color: $btnText;
+	// max-width: 97%;
 }
 
 @mixin card-cut-one {
-  border-top: 1px dashed $btnBgColor;
-  border-right: none;
-  border-bottom: none;
-  border-left: 1px dashed $btnBgColor;
+	border-top: 1px dashed $btnBgColor;
+	border-right: none;
+	border-bottom: none;
+	border-left: 1px dashed $btnBgColor;
 }
 @mixin card-cut-two {
-  border-top: none;
-  border-right: none;
-  border-bottom: 1px dashed $btnBgColor;
-  border-left: 1px dashed $btnBgColor;
+	border-top: none;
+	border-right: none;
+	border-bottom: 1px dashed $btnBgColor;
+	border-left: 1px dashed $btnBgColor;
 }
 @mixin card-cut-three {
-  border-top: 1px dashed $btnBgColor;
-  border-right: 1px dashed $btnBgColor;
-  border-bottom: none;
-  border-left: none;
+	border-top: 1px dashed $btnBgColor;
+	border-right: 1px dashed $btnBgColor;
+	border-bottom: none;
+	border-left: none;
 }
 @mixin card-cut-four {
-  border-top: none;
-  border-right: 1px dashed $btnBgColor;
-  border-bottom: 1px dashed $btnBgColor;
-  border-left: none;
+	border-top: none;
+	border-right: 1px dashed $btnBgColor;
+	border-bottom: 1px dashed $btnBgColor;
+	border-left: none;
 }

@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const SignInButton = () => {
+export const SignUpButton = () => {
 	return (
-		<a href="https://app.innkeeper.work/login/index.php" rel="noreferrer">
-			<button type="button" className="btn signinbtnapply">
-				Sign In
+		<a href="https://soft.innkeeper.work/login/index.php" rel="noreferrer">
+			<button type="button" className="btn signupbtnapply">
+				Sign Up
 			</button>
 		</a>
 	);
@@ -43,13 +43,21 @@ export const ForwardButton = () => {
 };
 export const ApplyNowButton = () => {
 	return (
-		<a href="http://" target="_blank" rel="noreferrer">
-			<button type="button" className="btn signinbtnapply">
-				Apply Now
-			</button>
-		</a>
+		<button type="button" className="btn signupbtnapply">
+			Apply Now
+		</button>
 	);
 };
+
+// export const ApplyButton = () => {
+// 	return (
+// 		<a href="http://" target="_blank" rel="noreferrer">
+// 			<button type="button" className="btn signinbtnapply">
+// 				Apply Now
+// 			</button>
+// 		</a>
+// 	);
+// };
 export const SubscribeButton = () => {
 	return (
 		<button type="button" className="btn callToAction mt-3">
@@ -59,7 +67,7 @@ export const SubscribeButton = () => {
 };
 export const SendButton = () => {
 	return (
-		<button type="button" className="btn signinbtnapply px-5">
+		<button type="submit" className="btn signinbtnapply px-5">
 			Send
 		</button>
 	);
@@ -79,6 +87,15 @@ export const ContactUs = () => {
 		<Link to="contact">
 			<button type="button" className="btn callToAction px-2 ms-2">
 				<strong>Contact&nbsp;Us</strong>
+			</button>
+		</Link>
+	);
+};
+export const Submit = () => {
+	return (
+		<Link to="">
+			<button type="button" className="btn callToAction px-2 ms-2">
+				<strong>Submit</strong>
 			</button>
 		</Link>
 	);

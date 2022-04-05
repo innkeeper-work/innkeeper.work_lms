@@ -1,7 +1,5 @@
-
-import React from 'react';
-import innkeeperlogo from '../images/innkeeperlogo.png';
-
+import React from "react";
+import innkeeperlogo from "../images/innkeeperlogo.png";
 import {
 	FacebookIcon,
 	WhatsAppIcon,
@@ -11,44 +9,14 @@ import {
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-
-  return (
-    <>
-      <footer className="text-left text-lg-start bgSoft">
-        <div className="card-body herotextWhite">
-          <div className="container text-left text-lg-start mt-5">
-            <div className="row mt-3 ms-3">
-              <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <img src={innkeeperlogo} alt="Innkeeper.work" />
-
-                <div className="mt-2 pt-2">
-                  <a
-                    href=" https://goo.gl/maps/6TWAwZbE7ab3rLoz9"
-                    className="mt-4 pt-2 text-reset"
-                    target="_blank"
-                    rel="noreferrer"
-                    style={{ textDecoration: 'none' }}
-                  >
-                    The 8thGear Hub, 11b Colin Onabule Crescent, Diamond Estate
-                    Off CMD Road (beside Secretariat/Magodo gate) Lagos Nigeria.
-                  </a>
-                  <div className="mt-2 pt-2">
-                    +234 (0) 809-846-8885
-                    <p>
-                      <a
-                        href="mailto:info@innkeeper.work"
-                        className="text-reset"
-                        target="_blank"
-                        rel="noreferrer"
-                        style={{ textDecoration: 'none' }}
-                      >
-                        info@innkeeper.work
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-
+	return (
+		<>
+			<footer className="text-left text-lg-start bgSoft">
+				<div className="card-body herotextWhite">
+					<div className="container text-left text-lg-start mt-5">
+						<div className="row mt-3 ms-3">
+							<div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+								<img src={innkeeperlogo} alt="Innkeeper.work" />
 
 								<div className="mt-2 pt-2">
 									<a
@@ -163,26 +131,33 @@ const Footer = () => {
 										<p className="d-none d-md-block ms-3">WhatsApp</p>
 									</a>
 
+									<a
+										href="https://www.instagram.com/innkeeper.work/"
+										className="btnText d-flex justify-content-end px-3 pb-3 text-reset"
+										target="_blank"
+										rel="noreferrer"
+										style={{ textDecoration: "none" }}>
+										<InstagramIcon />
+										<p className="d-none d-md-block ms-3">Instagram</p>
+									</a>
 
-                  <a
-                    href="https://www.linkedin.com/company/innkeeper-work/"
-                    className="btnText d-flex justify-content-end px-3 pb-3 text-reset"
-                    target="_blank"
-                    rel="noreferrer"
-                    style={{ textDecoration: 'none' }}
-                  >
-                    <LinkedInIcon />
-                    <p className="d-none d-md-block ms-3 me-3">Linkedin</p>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </>
-  );
-
+									<a
+										href="https://www.linkedin.com/company/innkeeper-work/"
+										className="btnText d-flex justify-content-end px-3 pb-3 text-reset"
+										target="_blank"
+										rel="noreferrer"
+										style={{ textDecoration: "none" }}>
+										<LinkedInIcon />
+										<p className="d-none d-md-block ms-3 me-3">Linkedin</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</>
+	);
 };
 
 export default Footer;

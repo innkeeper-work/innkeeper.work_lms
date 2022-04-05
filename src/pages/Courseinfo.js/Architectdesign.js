@@ -9,6 +9,7 @@ import techacademy from "../../data/tech_academy_details/techacademy.json";
 import { BookIcon } from "../../components/Icons";
 import { AlarmIcon } from "../../components/Icons";
 import { CreditCardIcon } from "../../components/Icons";
+import CourseEnroll from "../../components/CourseEnroll";
 
 let ArchitectdesignInfo = () => {
 	return (
@@ -21,7 +22,7 @@ let ArchitectdesignInfo = () => {
 				</div>
 				<div className="col-lg-4 col-md-5 col-sm-10 sectiontwoBg mt-5 h-100">
 					<ArchitectdesignReq />
-					<ArchitectdesignEnrol />
+					<CourseEnroll />
 					<ArchitectdesignInstructor />
 				</div>
 			</div>
@@ -83,10 +84,10 @@ let AboutArchitectdesign = () => {
 				<p className="card-text">
 					This course teaches Solutions Architects how to translate business
 					requirements into secure, scalable, and reliable solutions. Lessons
-					include virtualization, automation, networking, storage, identity,
-					security, data platform, and application infrastructure. This course
-					outlines how decisions in each theses area affects an overall
-					solution.
+					include design considerations related to logging, cost analysis,
+					authentication and authorization, governance, security, storage, high
+					availability, and migration. This role requires decisions in multiple
+					areas that affect an overall design solution.
 				</p>
 			</div>
 		</div>
@@ -148,42 +149,52 @@ let ArchitectdesignReq = () => {
 	);
 };
 
-let ArchitectdesignEnrol = () => {
-  return (
-    <div className="card-body">
-      <h3 className="card-title">Available Enrolment Options</h3>
-      <ul className="list-content">
-        <li className="list-item pb-2">
-          Click to{" "}
-          <Link to="" className="text-decoration-none">
-            <b>Pay Now</b>
-          </Link>
-        </li>
-        <p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
-        <li className="list-item pb-2">
-          Apply for Student loan{" "}
-          <Link to="" className="text-decoration-none">
-            <b>HERE</b>
-          </Link>
-        </li>
-        <li className="list-item pb-2">
-          Apply via our training bond{" "}
-          <Link to="" className="text-decoration-none">
-            <b>HERE</b>
-          </Link>
-        </li>
-        <li className="list-item pb-2">Apply for scholarship.</li>
-        <p className="">
-          (See available ones{" "}
-          <Link to="" className="text-decoration-none">
-            <b>HERE</b>
-          </Link>
-          )
-        </p>
-      </ul>
-    </div>
-  );
-};
+// let CourseEnroll = () => {
+// 	return (
+// 		<div className="card-body">
+// 			<h3 className="card-title">Available Enrolment Options</h3>
+// 			<ul className="list-content">
+// 				<li className="list-item pb-2">
+// 					Click to{" "}
+// 					<a
+// 						className="text-decoration-none"
+// 						href="https://soft.innkeeper.work/enrol/index.php?id=3"
+// 						target="_blank"
+// 						rel="noreferrer">
+// 						<b>Pay Now</b>
+// 					</a>
+// 				</li>
+// 				<li className="list-item pb-2">
+// 					Click to{" "}
+// 					<Link to="" className="text-decoration-none">
+// 						<b>Installmental Payment</b>
+// 					</Link>
+// 				</li>
+// 				<p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
+// 				<li className="list-item pb-2">
+// 					Apply for Student loan{" "}
+// 					<Link to="" className="text-decoration-none">
+// 						<b>HERE</b>
+// 					</Link>
+// 				</li>
+// 				<li className="list-item pb-2">
+// 					Apply via our training bond{" "}
+// 					<Link to="" className="text-decoration-none">
+// 						<b>HERE</b>
+// 					</Link>
+// 				</li>
+// 				<li className="list-item pb-2">Apply for scholarship.</li>
+// 				<p className="">
+// 					(See available ones{" "}
+// 					<Link to="" className="text-decoration-none">
+// 						<b>HERE</b>
+// 					</Link>
+// 					)
+// 				</p>
+// 			</ul>
+// 		</div>
+// 	);
+// };
 
 let ArchitectdesignInstructor = () => {
 	return (
