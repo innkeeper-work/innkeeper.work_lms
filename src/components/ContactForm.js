@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import axios from "axios";
-import { useForm } from "react-hook-form";
+// import { useForm } from "react-hook-form";
 import ReCAPTCHA from "react-google-recaptcha";
 // import { SendButton } from "../components/Buttons";
 
@@ -68,7 +68,7 @@ function ContactForm() {
 		// }));
 	};
 
-	const { register, errors } = useForm();
+	// const { register, errors } = useForm();
 
 	// const updateRecaptchaToken = (token) => {
 	// 	setRecaptchaToken(token);
@@ -76,13 +76,13 @@ function ContactForm() {
 
 	return (
 		<form onSubmit={sendMessage}>
-			{/* <div>
+			<div>
 				{submitMessage && (
 					<div className={`m-2 text-white ${submitMessage.className}`}>
 						{submitMessage.text}
 					</div>
 				)}
-			</div> */}
+			</div>
 			<div className="pb-3">
 				<label htmlFor="fullname">Your Fullname: </label>
 				<input
@@ -93,7 +93,7 @@ function ContactForm() {
 					onChange={handleChange}
 					value={formState.fullname}
 					// ref={register }
-					// required
+					required
 				/>
 				{/* {errors.name && errors.name.type === "required" && (
 					<p className="errorMsg">Name is required</p>
@@ -109,7 +109,7 @@ function ContactForm() {
 					id="email"
 					onChange={handleChange}
 					value={formState.email}
-					// required
+					required
 				/>
 			</div>
 
@@ -122,8 +122,7 @@ function ContactForm() {
 					id="message"
 					onChange={handleChange}
 					value={formState.message}
-					// required
-				></textarea>
+					required></textarea>
 			</div>
 
 			{/* <div className="d-flex justify-content-center">

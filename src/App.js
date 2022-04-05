@@ -80,6 +80,7 @@ function App() {
 				<Route path="python" element={<Python />} />
 				<Route path="iot" element={<IoT />} />
 				<Route path="securityaudit" element={<Securityaudit />} />
+
 				<Route path="sales" element={<Sales />} />
 				<Route path="contentmgt" element={<ContentMgt />} />
 				<Route path="customerexperience" element={<Customerexperience />} />

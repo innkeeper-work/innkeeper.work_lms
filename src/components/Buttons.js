@@ -43,7 +43,7 @@ export const ForwardButton = () => {
 };
 export const ApplyNowButton = () => {
 	return (
-		<button type="button" className="btn signinbtnapply">
+		<button type="button" className="btn signupbtnapply">
 			Apply Now
 		</button>
 	);
