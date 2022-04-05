@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // import innkeeperlogo from "../images/innkeeperlogo.png";
-import innkeeperdarlogo from "../images/innkeeperdarlogo.png";
+import innkeeperlogo197 from "../images/innkeeperlogo197.png";
 import { SignInButton } from "../components/Buttons";
+import { SignUpButton } from "../components/Buttons";
 const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid px-2">
         <Link to="/" className="navbar-brand ms-2">
           {" "}
-          <img src={innkeeperdarlogo} className="" alt="" />
+          <img src={innkeeperlogo197} className="" alt="" />
         </Link>
         <button
           class="navbar-toggler btn"
@@ -106,7 +107,7 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-          <SignInButton />
+          <SignUpButton />
         </div>
       </div>
     </nav>

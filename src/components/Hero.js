@@ -49,9 +49,9 @@ export const CoursepageHero = (props) => {
       <Navbar />
       <div className="row g-0 align-items-center justify-content-center px-4">
         <div className="col-lg-6 col-md-7 col-sm-12 pt-3">
-          <h1 className="herotextColored d-none d-lg-block d-md-none d-sm-none d-xs-none">
+          <h2 className="herotextColored d-none d-lg-block d-md-none d-sm-none d-xs-none">
             {herotitle} <br />
-          </h1>
+          </h2>
           <h3 className="herotextColored d-xs-block d-sm-block d-md-block d-lg-none">
             {herotitle} <br />
           </h3>
@@ -76,7 +76,7 @@ export const CourseinfoHero = (props) => {
     <div className="px-4 py-2 homeheroBg">
       <Navbar />
       <div className="row align-items-center my-5 ps-4">
-        <div className="col-lg-6 col-sm-12">
+        <div className="col-lg-12 col-sm-12">
           <h1 className="herotextColored d-none d-lg-block d-md-none d-sm-none d-xs-none">
             {coursename}
           </h1>

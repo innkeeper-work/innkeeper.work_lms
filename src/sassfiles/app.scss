@@ -37,15 +37,18 @@ body {
     line-height: 1.75rem;
   }
 }
+.studentLoan {
+  @include studentLoan;
+}
 
 .course-instructor {
   line-height: 0.8rem;
 }
-.signinbtn {
-  @include signin;
-}
-.signinbtnapply {
-  @include signin;
+// .signinbtn {
+//   @include signin;
+// }
+.signupbtnapply {
+  @include signup;
 }
 // .signinbtn:hover {
 // 	@extend .signinbtn;
@@ -69,6 +72,20 @@ body {
 .btn:focus {
   outline: none;
   box-shadow: none;
+}
+
+.card-shadow {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.img-radius {
+  border-radius: 15px;
+}
+
+.ins-shadow {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 .techHead {
@@ -162,6 +179,65 @@ body {
   background-color: $heroFooter2Color;
 }
 
+.partners {
+  width: 15%;
+  height: 15%;
+}
+.scholarship {
+  color: #27aae1;
+}
+.whychooseus {
+  color: $btnBgColor;
+}
+.testimonial {
+  color: $btnBgColor2;
+}
+.testimonials {
+  background-color: ffffff;
+  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  // position: relative;
+  // top: 0;
+  // bottom: 0;
+  // right: 110px;
+  // opacity: 0.9;
+}
+.testimonialtext {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: var(--white);
+}
+.testimonialname {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--white);
+  line-height: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .partners {
+    width: 20%;
+    height: 20%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .testimonials {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 110px;
+    opacity: 0.9;
+  }
+}
+@media only screen and (max-width: 765px) {
+  .testimonials {
+    position: relative;
+    top: -60px;
+    bottom: 0px;
+    right: 0;
+    opacity: 0.9;
+  }
+}
 //Removed gutter-x from all row classes in order to removed horizontal scrolling from the entire pages
 // .row {
 // 	--bs-gutter-x: 0rem;

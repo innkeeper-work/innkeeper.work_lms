@@ -1,6 +1,6 @@
 import React from "react";
 import infoimage from "../../images/infoimage.png";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import adamu from "../../images/adamu.png";
 import { CourseinfoHero } from "../../components/Hero";
 import { ApplyNowButton } from "../../components/Buttons";
@@ -9,7 +9,7 @@ import techacademy from "../../data/tech_academy_details/techacademy.json";
 import { BookIcon } from "../../components/Icons";
 import { AlarmIcon } from "../../components/Icons";
 import { CreditCardIcon } from "../../components/Icons";
-import CourseEnroll from "../../components/CourseEnroll";
+// import CourseEnroll from "../../components/CourseEnroll";
 import HowToApply from "../../components/HowToApply";
 
 let BackendInfo = () => {
@@ -113,6 +113,53 @@ let BackendReq = () => {
 				<li className="list-item pb-2">
 					Basic knowledge of computer's software applications is useful.
 				</li>
+			</ul>
+		</div>
+	);
+};
+
+let CourseEnroll = () => {
+	return (
+		<div className="card-body">
+			<h3 className="card-title">Available Enrolment Options</h3>
+			<ul className="list-content">
+				<li className="list-item pb-2">
+					Click to{" "}
+					<a
+						className="text-decoration-none"
+						href="https://soft.innkeeper.work/enrol/index.php?id=3"
+						target="_blank"
+						rel="noreferrer">
+						<b>Pay Now</b>
+					</a>
+				</li>
+				<li className="list-item pb-2">
+					Click to{" "}
+					<Link to="" className="text-decoration-none">
+						<b>Installmental Payment</b>
+					</Link>
+				</li>
+				<p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
+				<li className="list-item pb-2">
+					Apply for Student loan{" "}
+					<Link to="" className="text-decoration-none">
+						<b>HERE</b>
+					</Link>
+				</li>
+				<li className="list-item pb-2">
+					Apply via our training bond{" "}
+					<Link to="" className="text-decoration-none">
+						<b>HERE</b>
+					</Link>
+				</li>
+				<li className="list-item pb-2">Apply for scholarship.</li>
+				<p className="">
+					(See available ones{" "}
+					<Link to="" className="text-decoration-none">
+						<b>HERE</b>
+					</Link>
+					)
+				</p>
 			</ul>
 		</div>
 	);

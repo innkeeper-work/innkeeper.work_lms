@@ -30,16 +30,17 @@ body p {
   line-height: 1.75rem;
 }
 
+.studentLoan {
+  background-color: #ffffff;
+  box-shadow: 4px 4px 4px 4px rgba(179, 174, 174, 0.25);
+  border-radius: 15px;
+}
+
 .course-instructor {
   line-height: 0.8rem;
 }
 
-.signinbtn {
-  color: #ffffff;
-  background: #00d8cf;
-}
-
-.signinbtnapply {
+.signupbtnapply {
   color: #ffffff;
   background: #00d8cf;
 }
@@ -71,6 +72,20 @@ body p {
 .btn:focus {
   outline: none;
   box-shadow: none;
+}
+
+.card-shadow {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.img-radius {
+  border-radius: 15px;
+}
+
+.ins-shadow {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 .techHead {
@@ -188,5 +203,66 @@ body p {
 
 .faqBg {
   background-color: #e6f4f1;
+}
+
+.partners {
+  width: 15%;
+  height: 15%;
+}
+
+.scholarship {
+  color: #27aae1;
+}
+
+.whychooseus {
+  color: #27aae1;
+}
+
+.testimonial {
+  color: #00d8cf;
+}
+
+.testimonials {
+  background-color: ffffff;
+  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.testimonialtext {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: var(--white);
+}
+
+.testimonialname {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--white);
+  line-height: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .partners {
+    width: 20%;
+    height: 20%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .testimonials {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 110px;
+    opacity: 0.9;
+  }
+}
+@media only screen and (max-width: 765px) {
+  .testimonials {
+    position: relative;
+    top: -60px;
+    bottom: 0px;
+    right: 0;
+    opacity: 0.9;
+  }
 }
 /*# sourceMappingURL=app.css.map */

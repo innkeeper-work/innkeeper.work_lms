@@ -1,5 +1,6 @@
 import React from "react";
 import { ApplyNowButton } from "./Buttons";
+import { LinkedInIcon } from "./Icons";
 import event1 from "../images/event1.png";
 import event2 from "../images/event2.png";
 
@@ -8,7 +9,7 @@ export const CourseCategoryCards = (props) => {
 	const { title, img, description, Link } = props;
 	return (
 		<div className="row p-3 g-0">
-			<div className="card rounded">
+			<div className="card rounded card-shadow">
 				<img src={img} alt="" />
 
 				<div className="card-body">
@@ -77,17 +78,34 @@ export const BlogCardsTwo = (props) => {
 
 export const CourseCards = (props) => {
 	const { img, title, description, Link } = props;
+
 	return (
-		<div className="card techCards">
+		// <div className="card">
+		// 	<div className="m-3">
+		// 		<img src={img} className="card-img-top" alt={title} />
+		// 	</div>
+		// 	<div className="card-body">
+		// 		<h5 className="card-title">{title}</h5>
+		// 		<p className="card-text">{description}</p>
+		// 		<div className="d-flex align-self-end">
+		// 			<a href={Link}>
+		// 				{" "}
+		// 				<ApplyNowButton />
+		// 			</a>
+		// 		</div>
+		// 	</div>
+		// </div>
+
+		<div className="card card-shadow">
 			<div className="m-3">
-				<img src={img} className="card-img-top techImages" alt={title} />
+				<img src={img} className="card-img-top img-radius" alt={title} />{" "}
 			</div>
 			<div className="card-body">
 				<h5 className="card-title">{title}</h5>
-				<p className="card-text">{description}</p>
+				<p className="card-text">{description}</p>{" "}
 				<div className="d-flex align-self-end">
+					{" "}
 					<a href={Link}>
-						{" "}
 						<ApplyNowButton />
 					</a>
 				</div>
@@ -100,7 +118,19 @@ export const InstructorCards = (props) => {
 	const { img, instructorname, role, linkedinprofile } = props;
 	return (
 		<>
-			<div className="card m-2">
+			<div className="card ins-shadow">
+				<img src={img} className="card-img-top" alt="..." />
+				<div className="card-body">
+					<h5 className="card-title">{instructorname}</h5>
+					<p className="card-text">{role}</p>
+					<div className="card-text d-flex justify-content-end">
+						<a href={linkedinprofile} target="_blank" rel="noreferrer">
+							<LinkedInIcon />
+						</a>
+					</div>
+				</div>
+			</div>
+			{/* <div className="card m-2">
 				<div className="row ">
 					<div className="col-md-6 d-flex justify-content-center">
 						<img
@@ -116,13 +146,14 @@ export const InstructorCards = (props) => {
 							<p className="card-text">{role}</p>
 							<div className="card-text d-flex justify-content-end">
 								<a href={linkedinprofile} target="_blank" rel="noreferrer">
-									<i className="fa fa-linkedin iconCol" aria-hidden="true"></i>
+									<LinkedInIcon />
 								</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+		</> */}
 		</>
 	);
 };

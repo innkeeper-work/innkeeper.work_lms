@@ -8,7 +8,7 @@ $btnText: #ffffff;
 $techBg: #f9feff;
 $coursepagesectionBg: #e4fbff;
 
-@mixin signin {
+@mixin signup {
   color: $btnText;
   background: $btnBgColor2;
   // background: $callToActionBtn;
@@ -27,6 +27,11 @@ $coursepagesectionBg: #e4fbff;
 }
 @mixin webDev {
   background-color: $coursepagesectionBg;
+  box-shadow: 4px 4px 4px 4px rgb(179, 174, 174, 0.25);
+  border-radius: 15px;
+}
+@mixin studentLoan {
+  background-color: #ffffff;
   box-shadow: 4px 4px 4px 4px rgb(179, 174, 174, 0.25);
   border-radius: 15px;
 }

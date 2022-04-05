@@ -1,10 +1,12 @@
-import React from "react";
+import React, { Component } from "react";
+import Slider from "react-slick";
 import { Link } from "react-router-dom";
 import { HomepageHero } from "../components/Hero";
 import aiki from "../images/aiki.png";
+import lady from "../images/lady.jpeg";
 import whychooseus from "../images/whychooseus.png";
 import categories from "../data/categories.json";
-import faqs from "../data/faq.json";
+
 import { CourseCategoryCards } from "../components/Card";
 import { BlogCards } from "../components/Card";
 import { BlogCardsTwo } from "../components/Card";
@@ -56,16 +58,16 @@ let Homepagemain = () => {
   return (
     <div className="container-fluid p-5 mainBg">
       {" "}
-      <h3 className="text-center pb-4">Why Choose Us</h3>
+      <h3 className="text-center pb-5">Why Choose Us</h3>
       <div className="card-group justify-content-around">
-        <div className="col-lg-4 col-md-4 col-sm-12 pb-5">
+        <div className="col-lg-4 col-md-4 col-sm-12 pb-5 mt-lg-5">
           <img src={whychooseus} className="card-img-top" alt="..." />
         </div>
         <div className="col-lg-3 col-md-3 col-sm-12 d-sm-flex d-md-block mt-lg-5">
           <div className="row">
             <div className="">
               <i className="bi bi-book iconCol"></i>
-              <h3>Self-Paced Learning</h3>
+              <h3 className="whychooseus">Self-Paced Learning</h3>
 
               <p>
                 We are empathic on serving you with the best based on your
@@ -77,7 +79,7 @@ let Homepagemain = () => {
             <div className="">
               <i className="bi bi-credit-card-2-front iconCol"></i>
 
-              <h3>Flexibility-support</h3>
+              <h3 className="whychooseus">Flexible Payment Plan</h3>
               <p>Classes are stress-free with our flexible payment system.</p>
             </div>
           </div>
@@ -88,7 +90,7 @@ let Homepagemain = () => {
             <div>
               {" "}
               <i className="bi bi-tv iconCol"></i>
-              <h3>Instructor-Led Learning</h3>
+              <h3 className="whychooseus">Instructor-Led Learning</h3>
               <p>
                 Our instructors are top- notch in the various courses of
                 interest Be assured of getting the best.
@@ -98,7 +100,7 @@ let Homepagemain = () => {
           <div className="row">
             <div className="">
               <i className="bi bi-pip iconCol"></i>
-              <h3>Scholarship-Support</h3>
+              <h3 className="whychooseus">Scholarship-Support</h3>
               <p>
                 We provide fully-funded training in collaboration with
                 organizations that share the same goals so as to ensure
@@ -193,6 +195,34 @@ let Homepagetest = () => {
 };
 
 // style={{ width: '25%' }}
+// let Testimonial = () => {
+//   return (
+//     <div className="row g-0 d-flex justify-content-around">
+//       <div className="col-lg-3 col-md-12 my-auto py-md-5 py-sm-5">
+//         <h3 className="testimonial ms-5">
+//           "What Our
+//           <br /> Students Are Saying
+//         </h3>
+//       </div>
+//       <div className="col-lg-3 col-md-4 p-lg-5 ps-4 pb-4">
+//         <img src={lady} className="card-img-top" alt="..." />
+//       </div>
+//       <div className="col-lg-5 col-md-6 testimonials card my-auto">
+//         <div className="card-body">
+//           <p className="card-text testimonialtext">
+//             It was a wonderful training session and I will encourage others
+//             especially youths to take advantage of it. Kudos to LSETF, USADF and
+//             8thGear.
+//           </p>
+//           <p className="card-title testimonialname">
+//             Bolarinwa Olayiwola Quadri
+//           </p>
+//           <p className="card-title testimonialname">Data Analyst Trainee</p>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
 let Testimonial = () => {
   return (
     <div className="col-xs-12 p-5 text-center testBg">
@@ -239,7 +269,7 @@ let Faq = () => {
               aria-expanded="false"
               aria-controls="flush-collapseOne"
             >
-              Accordion Item #1
+              What are the available payment options?
             </button>
           </p>
           <div
@@ -249,9 +279,24 @@ let Faq = () => {
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body">
-              Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> class. This is the
-              first item's accordion body.
+              We have various payment options available below:
+              <ul className="list-content">
+                <li className="list-item pb-2">
+                  Pay now: You can pay upfront. We also have an Installment
+                  payment plan that helps you to pay with ease.
+                </li>
+                <li className="list-item pb-2">
+                  Student loan: You can access the student loan on the sterling
+                  Edu banc platform{" "}
+                  <Link to="" className="text-decoration-none">
+                    here.
+                  </Link>
+                </li>
+                <li className="list-item pb-2">
+                  Pay as you earn: You are expected to Pay 20% upfront and Pay
+                  the rest as you earn.
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -265,7 +310,7 @@ let Faq = () => {
               aria-expanded="false"
               aria-controls="flush-collapseTwo"
             >
-              Accordion Item #2
+              What is the mode of learning?
             </button>
           </p>
           <div
@@ -275,10 +320,8 @@ let Faq = () => {
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body">
-              Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> class. This is the
-              second item's accordion body. Let's imagine this being filled with
-              some actual content.
+              We adopt both blends of virtual and in-class training that is
+              instructor-led and encourages self-paced learning.
             </div>
           </div>
         </div>
@@ -292,7 +335,7 @@ let Faq = () => {
               aria-expanded="false"
               aria-controls="flush-collapseThree"
             >
-              Accordion Item #3
+              Can I get a professional certification for these courses?
             </button>
           </p>
           <div
@@ -302,18 +345,99 @@ let Faq = () => {
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body">
-              Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> class. This is the
-              third item's accordion body. Nothing more exciting happening here
-              in terms of content, but just filling up the space to make it
-              look, at least at first glance, a bit more representative of how
-              this would look in a real-world application.
+              Yes, you can get a professional for our courses but the payment is
+              done independently of the training fee.
             </div>
           </div>
         </div>
-      </div>
-      <div className="text-center py-4">
-        <ApplyNowButton />
+        <div className="accordion-item">
+          <p className="accordion-header" id="flush-headingFour">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour"
+              aria-expanded="false"
+              aria-controls="flush-collapseFour"
+            >
+              How do I be a part of Innkeeper Fellow?
+            </button>
+          </p>
+          <div
+            id="flush-collapseFour"
+            className="accordion-collapse collapse"
+            aria-labelledby="flush-headingFour"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div className="accordion-body">
+              The Innkeeper fellow is a thriving community of individuals who
+              have gone through the innkeeper training academy. To be a part of
+              our Innkeeper fellows, you must have completed any of our training
+              programs.
+            </div>
+          </div>
+        </div>
+        <div className="accordion-item">
+          <p className="accordion-header" id="flush-headingFive">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFive"
+              aria-expanded="false"
+              aria-controls="flush-collapseFive"
+            >
+              What is the average duration of training at Innkeeper?
+            </button>
+          </p>
+          <div
+            id="flush-collapseFive"
+            className="accordion-collapse collapse"
+            aria-labelledby="flush-headingFive"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div className="accordion-body">
+              The average training ranges from between 4weeks to 10weeks
+              depending on the course being enrolled for. Kindly view the
+              training Calander{" "}
+              <Link to="https://docs.google.com/spreadsheets/d/1nv3J8chHfVVGy0_jKx6QgA5vPwv6YHhM7GmaqTSIXgE/edit?usp=sharing">
+                here
+              </Link>{" "}
+              for more details.
+            </div>
+          </div>
+        </div>
+        <div className="accordion-item">
+          <p className="accordion-header" id="flush-headingSix">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSix"
+              aria-expanded="false"
+              aria-controls="flush-collapseSix"
+            >
+              I have more questions, who can I talk to? 
+            </button>
+          </p>
+          <div
+            id="flush-collapseSix"
+            className="accordion-collapse collapse"
+            aria-labelledby="flush-headingSix"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div className="accordion-body">
+              Please fill out the contact us form or send us a mail to{" "}
+              <a
+                href="mailto:info@innkeeper.work"
+                className="text-decoration-none"
+              >
+                info@innkeeper.work
+              </a>
+              &nbsp;and we will get back to you as soon as possible.
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
@@ -340,4 +464,5 @@ let Newsletter = () => {
     </div>
   );
 };
+
 export default Home;
