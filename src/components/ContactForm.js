@@ -5,7 +5,7 @@ import ReCAPTCHA from "react-google-recaptcha";
 // import { SendButton } from "../components/Buttons";
 
 function ContactForm() {
-	const formID = "1nbz0s2E";
+	const formID = "wiqPD27Z";
 	const formURL = `https://submit-form.com/${formID}`;
 	// const recaptchaKey = "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI";
 	// const recaptchaRef = useRef();
