@@ -35,7 +35,7 @@ export const BlogCards = (props) => {
         </div>
         <div className="col-md-8">
           <div className="card-body">
-            <h3 className="card-title">Blog title</h3>
+            <h3 className="card-title">Fully funded scholarship</h3>
             <p className="card-text">{props.children}</p>
             <p className="card-text">
               <i className="fa fa-map-marker m-1" aria-hidden="true"></i>
@@ -61,7 +61,7 @@ export const BlogCardsTwo = (props) => {
         </div>
         <div className="col-md-8">
           <div className="card-body">
-            <h3 className="card-title">Blog title</h3>
+            <h3 className="card-title">Get trained, pay later</h3>
             <p className="card-text">{props.children}</p>
             <p className="card-text">
               <i className="fa fa-map-marker m-1" aria-hidden="true"></i>

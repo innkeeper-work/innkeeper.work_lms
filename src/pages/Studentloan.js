@@ -1,6 +1,6 @@
 import { CourseinfoHero } from "../components/Hero";
 import edubancimg from "../images/edubancimg.png";
-import { GetStartedButton } from "../components/Buttons";
+import { GetStartedLoan } from "../components/Buttons";
 
 let Studentloan = () => {
   return (
@@ -87,7 +87,9 @@ let RegProcess = () => {
             </div>
           </div>
         </div>
-        <GetStartedButton />
+        <div className="text-center mt-mb-5">
+          <GetStartedLoan />
+        </div>
       </div>
     </div>
   );

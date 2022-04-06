@@ -20,6 +20,15 @@ export const GetStartedButton = () => {
     </a>
   );
 };
+export const GetStartedLoan = () => {
+  return (
+    <a href="https://edubanc.ng/" target="_blank" rel="noreferrer">
+      <button type="button" className="btn callToAction">
+        Get Started
+      </button>
+    </a>
+  );
+};
 export const LearnMoreButton = () => {
   return (
     <button type="button" className="btn callToAction">
