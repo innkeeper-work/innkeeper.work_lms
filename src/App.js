@@ -98,6 +98,42 @@ function App() {
         <Route path="financing" element={<Financing />} />
       </Routes>
 
+				{/* course info pages */}
+				{/* techacademy */}
+				<Route path="frontend" element={<Frontend />} />
+				<Route path="backend" element={<Backend />} />
+				<Route path="fullstack" element={<Fullstack />} />
+				<Route path="devops" element={<Devops />} />
+				<Route path="architectdesigninfo" element={<ArchitectdesignInfo />} />
+				<Route path="architecttechnfo" element={<ArchitecttechInfo />} />
+				<Route path="relationaldb" element={<Relationaldb />} />
+				<Route path="riskmgt" element={<Riskmgt />} />
+				<Route path="reverseengineering" element={<Reverseengineering />} />
+				<Route path="pentesting" element={<Pentesting />} />
+				<Route path="bigdata" element={<Bigdata />} />
+				<Route path="python" element={<Python />} />
+				<Route path="iot" element={<IoT />} />
+				<Route path="securityaudit" element={<Securityaudit />} />
+
+				<Route path="sales" element={<Sales />} />
+				<Route path="contentmgt" element={<ContentMgt />} />
+				<Route path="customerexperience" element={<Customerexperience />} />
+				<Route path="digitalmarketing" element={<Digitalmarketing />} />
+				<Route path="videoediting" element={<Videoediting />} />
+				<Route path="personaldevt" element={<Personaldevt />} />
+				<Route path="successfulteam" element={<Successfulteam />} />
+				<Route path="workshop" element={<Workshop />} />
+				<Route path="stillandmotion" element={<Stillandmotion />} />
+				<Route path="criticalthinking" element={<Criticalthinking />} />
+				<Route path="devopportunity" element={<Devopportunity />} />
+				<Route path="business" element={<Business />} />
+				<Route path="businessupport" element={<BusinessSupportAcademy />} />
+				<Route path="growthstrategy" element={<Growth />} />
+				<Route path="admindigitaltools" element={<AdminDigitalTools />} />
+				<Route path="financing" element={<Financing />} />
+			</Routes>
+
+
       <footer>
         <Footer />
       </footer>

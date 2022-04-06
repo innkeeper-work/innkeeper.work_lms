@@ -10,6 +10,11 @@ function ContactForm() {
   // const recaptchaKey = "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI";
   // const recaptchaRef = useRef();
 
+	const formID = "wiqPD27Z";
+	const formURL = `https://submit-form.com/${formID}`;
+	// const recaptchaKey = "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI";
+	// const recaptchaRef = useRef();
+
   const initialFormState = {
     fullname: "",
     email: "",
@@ -68,7 +73,11 @@ function ContactForm() {
     // }));
   };
 
+
   // const { register, errors } = useForm();
+
+	// const { register, errors } = useForm();
+
 
   // const updateRecaptchaToken = (token) => {
   // 	setRecaptchaToken(token);
@@ -77,6 +86,10 @@ function ContactForm() {
   return (
     <form onSubmit={sendMessage}>
       {/* <div>
+
+	return (
+		<form onSubmit={sendMessage}>
+			<div>
 				{submitMessage && (
 					<div className={`m-2 text-white ${submitMessage.className}`}>
 						{submitMessage.text}
@@ -96,6 +109,22 @@ function ContactForm() {
           // required
         />
         {/* {errors.name && errors.name.type === "required" && (
+
+			</div>
+			<div className="pb-3">
+				<label htmlFor="fullname">Your Fullname: </label>
+				<input
+					type="text"
+					className="form-control"
+					name="fullname"
+					id="fullname"
+					onChange={handleChange}
+					value={formState.fullname}
+					// ref={register }
+					required
+				/>
+				{/* {errors.name && errors.name.type === "required" && (
+
 					<p className="errorMsg">Name is required</p>
 				)} */}
       </div>
@@ -125,7 +154,30 @@ function ContactForm() {
           // required
         ></textarea>
       </div>
+			<div className="pb-3">
+				<label>Your Email: </label>
+				<input
+					type="email"
+					className="form-control"
+					name="email"
+					id="email"
+					onChange={handleChange}
+					value={formState.email}
+					required
+				/>
+			</div>
 
+			<div className="pb-3">
+				<label>Your Message: </label>
+				<textarea
+					name="message"
+					rows="4"
+					className="form-control"
+					id="message"
+					onChange={handleChange}
+					value={formState.message}
+					required></textarea>
+			</div>
       {/* <div className="d-flex justify-content-center">
 				<ReCAPTCHA
 					ref={recaptchaRef}

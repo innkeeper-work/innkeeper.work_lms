@@ -42,11 +42,18 @@ export const ForwardButton = () => {
   );
 };
 export const ApplyNowButton = () => {
+
   return (
     <button type="button" className="btn signinbtnapply">
       Apply Now
     </button>
   );
+
+	return (
+		<button type="button" className="btn signupbtnapply">
+			Apply Now
+		</button>
+	);
 };
 
 // export const ApplyButton = () => {

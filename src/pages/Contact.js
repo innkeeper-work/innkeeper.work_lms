@@ -31,7 +31,7 @@ const Contact = () => {
 				<Navbar />
 			</div>
 
-			<div className="col-md-5 col-sm-12 heroBg d-block mx-lg-auto d-xs-block d-md-none col-12 mb-4">
+			<div className="col-md-5 col-sm-12 homeheroBg d-block mx-lg-auto d-xs-block d-md-none col-12 mb-4">
 				<Navbar />
 				<img
 					src={contact_image2}
@@ -59,39 +59,6 @@ const Contact = () => {
 						<a href="tel:+2348098468885"> +2348098468885</a>
 					</li>
 
-					{/* <form action="post" className="card-body form mx-4">
-						<input
-							type="text"
-							className="form-control mb-3"
-							placeholder="Please Enter Your Name"
-							name="fullName"
-							id="fullName"
-							value={details.fullName}
-							onChange={handleChange}
-						/>
-
-						<input
-							type="text"
-							className="form-control mb-3"
-							placeholder="Please Enter Your Email"
-							name="email"
-							id="email"
-							value={details.email}
-							onChange={handleChange}
-						/>
-
-						<textarea
-							type="text"
-							className="form-control"
-							placeholder="Please Enter Your Message"
-							name="message"
-							id="message"
-							value={details.message}
-							onChange={handleChange}></textarea>
-						<div className="d-flex justify-content-center my-4">
-							<SendButton onClick={handleSubmit}></SendButton>
-						</div>
-					</form> */}
 					<ContactForm />
 				</div>
 
