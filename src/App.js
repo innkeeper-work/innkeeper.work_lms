@@ -46,23 +46,57 @@ import ContentMgt from "./pages/Courseinfo.js/ContentMgt";
 import AdminDigitalTools from "./pages/Courseinfo.js/AdminDigitalTools";
 
 function App() {
-	return (
-		<div className="App">
-			<Routes>
-				{/* pages */}
-				<Route path="/" element={<Homepage />} />
-				<Route path="contact" element={<Contact />} />
-				<Route path="techacademy" element={<TechAcademy />} />
-				<Route
-					path="businesssupportacademy"
-					element={<BusinessSupportAcademy />}
-				/>
-				<Route path="employability" element={<Employability />} />
-				<Route path="entrepreneurship" element={<Entrepreneurship />} />
-				<Route path="studentloan" element={<Studentloan />} />
-				<Route path="scholarships" element={<Scholarships />} />
-				<Route path="trainingbond" element={<Trainingbond />} />
-				<Route path="*" element={<Error404 />} />
+  return (
+    <div className="App">
+      <Routes>
+        {/* pages */}
+        <Route path="/" element={<Homepage />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="techacademy" element={<TechAcademy />} />
+        <Route
+          path="businesssupportacademy"
+          element={<BusinessSupportAcademy />}
+        />
+        <Route path="employability" element={<Employability />} />
+        <Route path="entrepreneurship" element={<Entrepreneurship />} />
+        <Route path="studentloan" element={<Studentloan />} />
+        <Route path="scholarships" element={<Scholarships />} />
+        <Route path="trainingbond" element={<Trainingbond />} />
+        <Route path="*" element={<Error404 />} />
+
+        {/* course info pages */}
+        {/* techacademy */}
+        <Route path="frontend" element={<Frontend />} />
+        <Route path="backend" element={<Backend />} />
+        <Route path="fullstack" element={<Fullstack />} />
+        <Route path="devops" element={<Devops />} />
+        <Route path="architectdesigninfo" element={<ArchitectdesignInfo />} />
+        <Route path="architecttechnfo" element={<ArchitecttechInfo />} />
+        <Route path="relationaldb" element={<Relationaldb />} />
+        <Route path="riskmgt" element={<Riskmgt />} />
+        <Route path="reverseengineering" element={<Reverseengineering />} />
+        <Route path="pentesting" element={<Pentesting />} />
+        <Route path="bigdata" element={<Bigdata />} />
+        <Route path="python" element={<Python />} />
+        <Route path="iot" element={<IoT />} />
+        <Route path="securityaudit" element={<Securityaudit />} />
+        <Route path="sales" element={<Sales />} />
+        <Route path="contentmgt" element={<ContentMgt />} />
+        <Route path="customerexperience" element={<Customerexperience />} />
+        <Route path="digitalmarketing" element={<Digitalmarketing />} />
+        <Route path="videoediting" element={<Videoediting />} />
+        <Route path="personaldevt" element={<Personaldevt />} />
+        <Route path="successfulteam" element={<Successfulteam />} />
+        <Route path="workshop" element={<Workshop />} />
+        <Route path="stillandmotion" element={<Stillandmotion />} />
+        <Route path="criticalthinking" element={<Criticalthinking />} />
+        <Route path="devopportunity" element={<Devopportunity />} />
+        <Route path="business" element={<Business />} />
+        <Route path="businessupport" element={<BusinessSupportAcademy />} />
+        <Route path="growthstrategy" element={<Growth />} />
+        <Route path="admindigitaltools" element={<AdminDigitalTools />} />
+        <Route path="financing" element={<Financing />} />
+      </Routes>
 
 				{/* course info pages */}
 				{/* techacademy */}
@@ -99,11 +133,12 @@ function App() {
 				<Route path="financing" element={<Financing />} />
 			</Routes>
 
-			<footer>
-				<Footer />
-			</footer>
-		</div>
-	);
+
+      <footer>
+        <Footer />
+      </footer>
+    </div>
+  );
 }
 
 export default App;

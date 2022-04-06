@@ -2,200 +2,245 @@
 // @import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
 
 * {
-	box-sizing: border-box;
-	font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
 }
 
 body {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 
-	h1 {
-		font-size: 2.5rem;
-		font-weight: 600;
-		color: var(--white);
-	}
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--white);
+  }
 
-	h2 {
-		font-size: 2rem;
-		font-weight: 600;
-	}
+  h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
 
-	h3 {
-		font-size: 1.5rem;
-		font-weight: 600;
-	}
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
 
-	h5 {
-		font-weight: 500;
-	}
+  h5 {
+    font-weight: 500;
+  }
 
-	p {
-		font-size: 1rem;
-		font-weight: 300;
-		color: var(--white);
-		line-height: 1.75rem;
-	}
+  p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--white);
+    line-height: 1.75rem;
+  }
 }
 .studentLoan {
-	@include studentLoan;
+  @include studentLoan;
 }
 
 .course-instructor {
-	line-height: 0.8rem;
+  line-height: 0.8rem;
 }
-.signinbtn {
-	@include signin;
-}
-.signinbtnapply {
-	@include signin;
-}
+// .signinbtn {
+//   @include signin;
+// }
 .signupbtnapply {
-	@include signup;
+  @include signup;
 }
 // .signinbtn:hover {
 // 	@extend .signinbtn;
 // }
 .callToAction {
-	@include callToActionBtn;
+  @include callToActionBtn;
 }
 .errorPage {
-	@include contactusbtn;
+  @include contactusbtn;
 }
 .homeheroBg {
-	background-color: $coursepagesectionBg;
+  background-color: $coursepagesectionBg;
 }
 
 .webDev {
-	@include webDev;
+  @include webDev;
 }
 .navbar-light .navbar-toggler {
-	border-color: transparent !important;
+  border-color: transparent !important;
 }
 .btn:focus {
-	outline: none;
-	box-shadow: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .card-shadow {
-	box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
-	border-radius: 15px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
 }
 
 .img-radius {
-	border-radius: 15px;
+  border-radius: 15px;
 }
 
 .ins-shadow {
-	box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
-	border-radius: 10px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 .techHead {
-	@include techHead;
+  @include techHead;
 }
 .techCards {
-	@include techCards;
+  @include techCards;
 }
 .techImages {
-	@include techImages;
+  @include techImages;
 }
 .ourInstructor {
-	@include ourInstructor;
+  @include ourInstructor;
 }
 // .callToAction:hover {
 // 	@extend .signinbtn;
 // }
 
 .inst {
-	position: relative;
+  position: relative;
 }
 // home page
 .btnColor {
-	background-color: $btnBgColor;
+  background-color: $btnBgColor;
 }
 
 .btnText {
-	color: $btnText;
+  color: $btnText;
 }
 .herotextWhite {
-	color: #ffffff;
+  color: #ffffff;
 }
 .herotextblack {
-	color: #000000;
+  color: #000000;
 }
 .herotextColored {
-	color: $btnBgColor;
+  color: $btnBgColor;
 }
 .heroBg {
+  background-image: url("../images/homeherobg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 	background-image: url("../images/homeherobg.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: btnBgColor2;
 }
 .ctaColor {
-	background-color: $callToActionBtn;
+  background-color: $callToActionBtn;
 }
 .bgSoft {
-	background-color: $sectionColor;
+  background-color: $sectionColor;
 }
 .testBg {
-	background-image: url("../images/success.png");
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-image: url("../images/success.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .testTextBg {
-	background-color: $coursepagesectionBg;
+  background-color: $coursepagesectionBg;
 }
 
 .iconCol {
-	color: $btnBgColor;
+  color: $btnBgColor;
 }
 .partnersBg {
-	background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .categoryBg {
-	background-color: $heroFooter2Color;
+  background-color: $heroFooter2Color;
 }
 .sectiontwoBg {
-	background-color: $coursepagesectionBg;
+  background-color: $coursepagesectionBg;
 }
 .mainBg {
-	background-color: $coursepagesectionBg;
+  background-color: $coursepagesectionBg;
 }
 .welcomeBg {
-	background-color: $coursepagesectionBg;
+  background-color: $coursepagesectionBg;
 }
 .card-cut-one {
-	@include card-cut-one;
+  @include card-cut-one;
 }
 .card-cut-two {
-	@include card-cut-two;
+  @include card-cut-two;
 }
 .card-cut-three {
-	@include card-cut-three;
+  @include card-cut-three;
 }
 .card-cut-four {
-	@include card-cut-four;
+  @include card-cut-four;
 }
 .faqBg {
-	background-color: $heroFooter2Color;
+  background-color: $heroFooter2Color;
 }
 
 .partners {
-	width: 15%;
-	height: 15%;
+  width: 15%;
+  height: 15%;
 }
 .scholarship {
-	color: #27aae1;
+  color: #27aae1;
+}
+.whychooseus {
+  color: $btnBgColor;
+}
+.testimonial {
+  color: $btnBgColor2;
+}
+.testimonials {
+  background-color: ffffff;
+  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  // position: relative;
+  // top: 0;
+  // bottom: 0;
+  // right: 110px;
+  // opacity: 0.9;
+}
+.testimonialtext {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: var(--white);
+}
+.testimonialname {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--white);
+  line-height: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
-	.partners {
-		width: 20%;
-		height: 20%;
-	}
+  .partners {
+    width: 20%;
+    height: 20%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .testimonials {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 110px;
+    opacity: 0.9;
+  }
+}
+@media only screen and (max-width: 765px) {
+  .testimonials {
+    position: relative;
+    top: -60px;
+    bottom: 0px;
+    right: 0;
+    opacity: 0.9;
+  }
 }
 //Removed gutter-x from all row classes in order to removed horizontal scrolling from the entire pages
 // .row {
