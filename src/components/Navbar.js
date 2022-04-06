@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 // import innkeeperlogo from "../images/innkeeperlogo.png";
 import innkeeperlogo197 from "../images/innkeeperlogo197.png";
 import { SignInButton } from "../components/Buttons";
-import { SignUpButton } from "../components/Buttons";
+
 const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -107,7 +107,7 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-          <SignUpButton />
+          <SignInButton />
         </div>
       </div>
     </nav>

@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const SignUpButton = () => {
+export const SignInButton = () => {
   return (
     <a href="https://soft.innkeeper.work/login/index.php" rel="noreferrer">
-      <button type="button" className="btn signupbtnapply">
-        Sign Up
+      <button type="button" className="btn signinbtnapply">
+        Sign In
       </button>
     </a>
   );

@@ -14,7 +14,7 @@ let ArchitectdesignInfo = () => {
   return (
     <div>
       <CourseinfoHero coursename="Microsoft Azure Architect Technology" />
-      <div className="row justify-content-center">
+      <div className="row justify-content-center g-0">
         <div className="col-lg-7 col-md-6 col-sm-10">
           <AboutArchitectdesign />
           <ArchitectdesignApplyHere />
@@ -22,7 +22,7 @@ let ArchitectdesignInfo = () => {
         <div className="col-lg-4 col-md-5 col-sm-10 sectiontwoBg mt-5 h-100">
           <ArchitectdesignReq />
           <CourseEnroll />
-          <ArchitectdesignInstructor />
+          {/* <ArchitectdesignInstructor /> */}
         </div>
       </div>
       <ArchitectdesignRelated />
@@ -101,16 +101,12 @@ let ArchitectdesignApplyHere = () => {
         <li className="list-item pb-2">
           Read about the course content and indicate interest.
         </li>
-        <li className="list-item pb-2">
-          Select a payment/enrolment method HERE.
-        </li>
+        <li className="list-item pb-2">Select a payment/enrolment method.</li>
         <li className="list-item pb-2">
           Except you pay the stipulated amount, every other course enrolment
           method will require the admin to permit you to class.
         </li>
-        <li className="list-item pb-2">
-          Alternatively, you can sign up to begin class HERE.
-        </li>
+
         <li className="list-item pb-2">
           Go to your e-mail and complete registration via the link that will be
           sent to you.
@@ -167,7 +163,7 @@ let CourseEnroll = () => {
         <li className="list-item pb-2">
           Click to{" "}
           <Link to="" className="text-decoration-none">
-            <b>Installmental Payment</b>
+            <b>Make Part Payment</b>
           </Link>
         </li>
         <p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
@@ -196,30 +192,29 @@ let CourseEnroll = () => {
   );
 };
 
-let ArchitectdesignInstructor = () => {
-  return (
-    <div className="mb-3">
-      <div className="instructor_card d-flex align-items-md-center">
-        <div>
-          <img
-            src={adamu}
-            alt=""
-            width="100px"
-            height="100px"
-            className="rounded-circle"
-          />
-        </div>
+// let ArchitectdesignInstructor = () => {
+//   return (
+//     <div className="mb-3">
+//       <div className="instructor_card d-flex align-items-md-center">
+//         <div>
+//           <img
+//             src={adamu}
+//             alt=""
+//             width="100px"
+//             height="100px"
+//             className="rounded-circle"
+//           />
+//         </div>
 
-        <div className="ms-3">
-          <h5>About Instructor</h5>
-          <p>AbdulRahman Adamu</p>
-          <p>Frontend Developer</p>
-        </div>
-        {/* <Link to=""></Link> */}
-      </div>
-    </div>
-  );
-};
+//         <div className="ms-3">
+//           <h5>About Instructor</h5>
+//           <p>AbdulRahman Adamu</p>
+//           <p>Frontend Developer</p>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
 
 let ArchitectdesignRelated = () => {
   return (
