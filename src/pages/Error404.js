@@ -1,15 +1,15 @@
-import React from 'react';
-import img404 from '../images/404.png';
-import { FacebookIcon } from '../components/Icons';
-import { WhatsAppIcon } from '../components/Icons';
-import { InstagramIcon } from '../components/Icons';
-import { LinkedInIcon } from '../components/Icons';
-import { Home } from '../components/Buttons';
-import { ContactUs } from '../components/Buttons';
+import React from "react";
+import img404 from "../images/404.png";
+import { FacebookIcon } from "../components/Icons";
+import { WhatsAppIcon } from "../components/Icons";
+import { InstagramIcon } from "../components/Icons";
+import { LinkedInIcon } from "../components/Icons";
+import { Home } from "../components/Buttons";
+import { ContactUs } from "../components/Buttons";
 
 const Error404 = () => {
   return (
-    <div className="row">
+    <div className="row g-0">
       <div className="col-md-6 col-lg-6 col-sm-6 col-xs-12 g-4">
         <div className="card-body  col-md-6 col-lg-6 col-sm-6 col-xs-12 g-4 m-auto d-flex justify-content-center d-sm-none">
           <h5 className="herotextColored">
@@ -40,7 +40,7 @@ const Error404 = () => {
               className="herotextColored d-flex justify-content-end px-2 pb-3"
               target="_blank"
               rel="noreferrer"
-              style={{ textDecoration: 'none' }}
+              style={{ textDecoration: "none" }}
             >
               <FacebookIcon />
             </a>
@@ -49,7 +49,7 @@ const Error404 = () => {
               className="herotextColored d-flex justify-content-end px-2 pb-3"
               target="_blank"
               rel="noreferrer"
-              style={{ textDecoration: 'none' }}
+              style={{ textDecoration: "none" }}
             >
               <WhatsAppIcon />
             </a>
@@ -58,7 +58,7 @@ const Error404 = () => {
               className="herotextColored d-flex justify-content-end px-2 pb-3"
               target="_blank"
               rel="noreferrer"
-              style={{ textDecoration: 'none' }}
+              style={{ textDecoration: "none" }}
             >
               <InstagramIcon />
             </a>
@@ -67,7 +67,7 @@ const Error404 = () => {
               className="herotextColored d-flex justify-content-end px-2 pb-3"
               target="_blank"
               rel="noreferrer"
-              style={{ textDecoration: 'none' }}
+              style={{ textDecoration: "none" }}
             >
               <LinkedInIcon />
             </a>
