@@ -3,7 +3,7 @@ import infoimage from "../../images/infoimage.png";
 import adamu from "../../images/adamu.png";
 import techacademy from "../../data/tech_academy_details/techacademy.json";
 import HowToApply from "../../components/HowToApply";
-// import CourseEnroll from "../../components/CourseEnroll";
+import CourseEnroll from "../../components/CourseEnroll";
 import { BookIcon, AlarmIcon, CreditCardIcon } from "../../components/Icons";
 import { Link } from "react-router-dom";
 import { CourseinfoHero } from "../../components/Hero";
@@ -94,53 +94,52 @@ let AboutFrontend = () => {
   );
 };
 
-let CourseEnroll = () => {
-  return (
-    <div className="card-body">
-      <h3 className="card-title">Available Enrolment Options</h3>
-      <ul className="list-content">
-        <li className="list-item pb-2">
-          Click to{" "}
-          <a
-            className="text-decoration-none"
-            href="https://soft.innkeeper.work/enrol/index.php?id=3"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <b>Pay Now</b>
-          </a>
-        </li>
-        <li className="list-item pb-2">
-          Click to{" "}
-          <Link to="" className="text-decoration-none">
-            <b>Make Part Payment</b>
-          </Link>
-        </li>
-        <p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
-        <li className="list-item pb-2">
-          Apply for Student loan{" "}
-          <Link to="" className="text-decoration-none">
-            <b>HERE</b>
-          </Link>
-        </li>
-        <li className="list-item pb-2">
-          Apply via our training bond{" "}
-          <Link to="" className="text-decoration-none">
-            <b>HERE</b>
-          </Link>
-        </li>
-        <li className="list-item pb-2">Apply for scholarship.</li>
-        <p className="">
-          (See available ones{" "}
-          <Link to="" className="text-decoration-none">
-            <b>HERE</b>
-          </Link>
-          )
-        </p>
-      </ul>
-    </div>
-  );
-};
+// let CourseEnroll = () => {
+// 	return (
+// 		<div className="card-body">
+// 			<h3 className="card-title">Available Enrolment Options</h3>
+// 			<ul className="list-content">
+// 				<li className="list-item pb-2">
+// 					Click to{" "}
+// 					<a
+// 						className="text-decoration-none"
+// 						href="https://soft.innkeeper.work/enrol/index.php?id=3"
+// 						target="_blank"
+// 						rel="noreferrer">
+// 						<b>Pay Now</b>
+// 					</a>
+// 				</li>
+// 				<li className="list-item pb-2">
+// 					Click to{" "}
+// 					<Link to="" className="text-decoration-none">
+// 						<b>Installmental Payment</b>
+// 					</Link>
+// 				</li>
+// 				<p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
+// 				<li className="list-item pb-2">
+// 					Apply for Student loan{" "}
+// 					<Link to="studentloan" className="text-decoration-none">
+// 						<b>HERE</b>
+// 					</Link>
+// 				</li>
+// 				<li className="list-item pb-2">
+// 					Apply via our training bond{" "}
+// 					<Link to="trainingbond" className="text-decoration-none">
+// 						<b>HERE</b>
+// 					</Link>
+// 				</li>
+// 				<li className="list-item pb-2">Apply for scholarship.</li>
+// 				<p className="">
+// 					(See available ones{" "}
+// 					<Link to="scholarships" className="text-decoration-none">
+// 						<b>HERE</b>
+// 					</Link>
+// 					)
+// 				</p>
+// 			</ul>
+// 		</div>
+// 	);
+// };
 
 let FrontendReq = () => {
   return (
@@ -166,30 +165,30 @@ let FrontendReq = () => {
 };
 
 // let FrontendInstructor = () => {
-//   return (
-//     <div className="mb-3">
-//       <div className="instructor_card d-flex align-items-md-center">
-//         <div>
-//           <img
-//             src={adamu}
-//             alt=""
-//             width="100px"
-//             height="100px"
-//             className="rounded-circle"
-//           />
-//         </div>
+// 	return (
+// 		<div className="mb-3">
+// 			<div className="instructor_card d-flex align-items-md-center">
+// 				<div>
+// 					<img
+// 						src={adamu}
+// 						alt=""
+// 						width="100px"
+// 						height="100px"
+// 						className="rounded-circle"
+// 					/>
+// 				</div>
 
-//         <div className="ms-3">
-//           <h5>
-//             <b>About Instructor</b>
-//           </h5>
-//           <p className="course-instructor">AbdulRahman Adamu</p>
-//           <p className="course-instructor">Frontend Developer</p>
-//         </div>
-
-//       </div>
-//     </div>
-//   );
+// 				<div className="ms-3">
+// 					<h5>
+// 						<b>About Instructor</b>
+// 					</h5>
+// 					<p className="course-instructor">AbdulRahman Adamu</p>
+// 					<p className="course-instructor">Frontend Developer</p>
+// 				</div>
+// 				{/* <Link to=""></Link> */}
+// 			</div>
+// 		</div>
+// 	);
 // };
 
 let FrontendRelated = () => {

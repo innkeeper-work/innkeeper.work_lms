@@ -9,30 +9,30 @@ import techacademy from "../../data/tech_academy_details/techacademy.json";
 import { BookIcon } from "../../components/Icons";
 import { AlarmIcon } from "../../components/Icons";
 import { CreditCardIcon } from "../../components/Icons";
-// import CourseEnroll from "../../components/CourseEnroll";
+import CourseEnroll from "../../components/CourseEnroll";
 import HowToApply from "../../components/HowToApply";
 
-let AdminDigitalTools = () => {
+let DigitalAdminTools = () => {
   return (
     <div>
-      <CourseinfoHero coursename="Administration Digital Tools" />
+      <CourseinfoHero coursename="Digital Administration Tools" />
       <div className="row justify-content-center g-0">
         <div className="col-lg-7 col-md-6 col-sm-10">
-          <AboutBackend />
+          <AboutAdmin />
           <HowToApply />
         </div>
         <div className="col-lg-4 col-md-5 col-sm-10 sectiontwoBg mt-5 h-100">
-          <BackendReq />
+          {/* <AdminReq /> */}
           <CourseEnroll />
           {/* <BackendInstructor /> */}
         </div>
       </div>
-      <BackendRelated />
+      <AdminRelated />
     </div>
   );
 };
 
-let AboutBackend = () => {
+let AboutAdmin = () => {
   return (
     <div className="">
       <div className="navbar-expand-lg">
@@ -46,7 +46,7 @@ let AboutBackend = () => {
 
                 <div>
                   <h3>COURSES</h3>
-                  <p>08 Weeks</p>
+                  <p>04 Weeks</p>
                 </div>
               </div>
             </li>
@@ -58,7 +58,7 @@ let AboutBackend = () => {
 
                 <div>
                   <h3>DURATION</h3>
-                  <p>70 Hours</p>
+                  <p>80 Hours</p>
                 </div>
               </div>
             </li>
@@ -69,7 +69,7 @@ let AboutBackend = () => {
                 </div>
                 <div>
                   <h3>FEE</h3>
-                  <p>150,000.00</p>
+                  <p>100,000.00</p>
                 </div>
               </div>
             </li>
@@ -83,88 +83,87 @@ let AboutBackend = () => {
       <div className="card-body">
         <h3 className="card-title">About Course</h3>
         <p className="card-text">
-          This is a hybrid learning that blends self-paced and instructor-led
-          learning for 8 weeks. The training takes place for a period of 6 weeks
-          and a 2 weeks practical with live projects. Areas to be covered
-          include PHP, Node Js, and Express Js. Applicants are encouraged to pay
-          in instalments if full payment cannot be made. Instructors are
-          seasoned industry-based and can be reached for post-class activities.
+          This is a 4-week hybrid course that combines self-paced and
+          instructor-led instruction. Communication Tools, Project Management
+          Tools, File-Sharing Tools, and Calendar and Schedule Management are
+          some of the topics to be covered. Applicants are encouraged to pay in
+          installments if full payment cannot be made. Instructors are seasoned
+          industry-based and can be reached for post-class activities.
         </p>
       </div>
     </div>
   );
 };
 
-let BackendReq = () => {
-  return (
-    <div className="card-body">
-      <h3 className="card-title">Requirements</h3>
-      <ul className="list-content">
-        <li className="list-item pb-2">Good and functioning Laptop.</li>
-        <li className="list-item pb-2">Reliable Internet connection.</li>
-        <li className="list-item pb-2">Ability to operate a computer.</li>
-        <li className="list-item pb-2">Google/Yahoo account.</li>
-        <li className="list-item pb-2">Domain name and hosting server</li>
-        <li className="list-item pb-2">
-          Code editor software (e.g. notepad++, visual studio code, sublime text
-          etc)
-        </li>
-        <li className="list-item pb-2">Flash drive or external hard drive.</li>
-        <li className="list-item pb-2">
-          Basic knowledge of computer's software applications is useful.
-        </li>
-      </ul>
-    </div>
-  );
-};
+// let AdminReq = () => {
+//   return (
+//     <div className="card-body">
+//       <h3 className="card-title">Requirements</h3>
+//       <ul className="list-content">
+//         <li className="list-item pb-2">Good and functioning Laptop.</li>
+//         <li className="list-item pb-2">Reliable Internet connection.</li>
+//         <li className="list-item pb-2">Ability to operate a computer.</li>
+//         <li className="list-item pb-2">Google/Yahoo account.</li>
+//         <li className="list-item pb-2">Domain name and hosting server</li>
+//         <li className="list-item pb-2">
+//           Code editor software (e.g. notepad++, visual studio code, sublime text
+//           etc)
+//         </li>
+//         <li className="list-item pb-2">Flash drive or external hard drive.</li>
+//         <li className="list-item pb-2">
+//           Basic knowledge of computer's software applications is useful.
+//         </li>
+//       </ul>
+//     </div>
+//   );
+// };
 
-let CourseEnroll = () => {
-  return (
-    <div className="card-body">
-      <h3 className="card-title">Available Enrolment Options</h3>
-      <ul className="list-content">
-        <li className="list-item pb-2">
-          Click to{" "}
-          <a
-            className="text-decoration-none"
-            href="https://soft.innkeeper.work/enrol/index.php?id=3"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <b>Pay Now</b>
-          </a>
-        </li>
-        <li className="list-item pb-2">
-          Click to{" "}
-          <Link to="" className="text-decoration-none">
-            <b>Make Part Payment</b>
-          </Link>
-        </li>
-        <p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
-        <li className="list-item pb-2">
-          Apply for Student loan{" "}
-          <Link to="" className="text-decoration-none">
-            <b>HERE</b>
-          </Link>
-        </li>
-        <li className="list-item pb-2">
-          Apply via our training bond{" "}
-          <Link to="" className="text-decoration-none">
-            <b>HERE</b>
-          </Link>
-        </li>
-        <li className="list-item pb-2">Apply for scholarship.</li>
-        <p className="">
-          (See available ones{" "}
-          <Link to="" className="text-decoration-none">
-            <b>HERE</b>
-          </Link>
-          )
-        </p>
-      </ul>
-    </div>
-  );
-};
+// let CourseEnroll = () => {
+// 	return (
+// 		<div className="card-body">
+// 			<h3 className="card-title">Available Enrolment Options</h3>
+// 			<ul className="list-content">
+// 				<li className="list-item pb-2">
+// 					Click to{" "}
+// 					<a
+// 						className="text-decoration-none"
+// 						href="https://soft.innkeeper.work/enrol/index.php?id=3"
+// 						target="_blank"
+// 						rel="noreferrer">
+// 						<b>Pay Now</b>
+// 					</a>
+// 				</li>
+// 				<li className="list-item pb-2">
+// 					Click to{" "}
+// 					<Link to="" className="text-decoration-none">
+// 						<b>Installmental Payment</b>
+// 					</Link>
+// 				</li>
+// 				<p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
+// 				<li className="list-item pb-2">
+// 					Apply for Student loan{" "}
+// 					<Link to="" className="text-decoration-none">
+// 						<b>HERE</b>
+// 					</Link>
+// 				</li>
+// 				<li className="list-item pb-2">
+// 					Apply via our training bond{" "}
+// 					<Link to="" className="text-decoration-none">
+// 						<b>HERE</b>
+// 					</Link>
+// 				</li>
+// 				<li className="list-item pb-2">Apply for scholarship.</li>
+// 				<p className="">
+// 					(See available ones{" "}
+// 					<Link to="" className="text-decoration-none">
+// 						<b>HERE</b>
+// 					</Link>
+// 					)
+// 				</p>
+// 			</ul>
+// 		</div>
+// 	);
+// };
 
 // let BackendInstructor = () => {
 //   return (
@@ -191,7 +190,7 @@ let CourseEnroll = () => {
 //   );
 // };
 
-let BackendRelated = () => {
+let AdminRelated = () => {
   return (
     <div className="webDev mx-5 px-5 my-5 pb-5">
       <h3 className="techHead px-5 my-5 pt-5">Related Courses</h3>
@@ -207,4 +206,4 @@ let BackendRelated = () => {
     </div>
   );
 };
-export default AdminDigitalTools;
+export default DigitalAdminTools;

@@ -76,24 +76,24 @@ function ContactForm() {
 
   return (
     <form onSubmit={sendMessage}>
-      {/* <div>
-				{submitMessage && (
-					<div className={`m-2 text-white ${submitMessage.className}`}>
-						{submitMessage.text}
-					</div>
-				)}
-			</div> */}
+      <div>
+        {submitMessage && (
+          <div className={`m-2 text-white ${submitMessage.className}`}>
+            {submitMessage.text}
+          </div>
+        )}
+      </div>
       <div className="pb-3">
         <label htmlFor="fullname">Your Fullname: </label>
         <input
           type="text"
-          className="form-control"
+          className="form-control inputBg"
           name="fullname"
           id="fullname"
           onChange={handleChange}
           value={formState.fullname}
           // ref={register }
-          // required
+          required
         />
         {/* {errors.name && errors.name.type === "required" && (
 					<p className="errorMsg">Name is required</p>
@@ -104,12 +104,12 @@ function ContactForm() {
         <label>Your Email: </label>
         <input
           type="email"
-          className="form-control"
+          className="form-control inputBg"
           name="email"
           id="email"
           onChange={handleChange}
           value={formState.email}
-          // required
+          required
         />
       </div>
 
@@ -118,11 +118,11 @@ function ContactForm() {
         <textarea
           name="message"
           rows="4"
-          className="form-control"
+          className="form-control inputBg"
           id="message"
           onChange={handleChange}
           value={formState.message}
-          // required
+          required
         ></textarea>
       </div>
 
@@ -137,7 +137,7 @@ function ContactForm() {
         <button
           disabled={submitting}
           type="submit"
-          className="btn signupbtnapply px-5"
+          className="btn signinbtnapply px-5"
         >
           {submitting ? "Submitting..." : "Send"}
         </button>

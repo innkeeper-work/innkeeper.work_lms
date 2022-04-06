@@ -129,6 +129,7 @@ body p {
   background-image: url("../images/homeherobg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: btnBgColor2;
 }
 
 .ctaColor {
@@ -216,6 +217,16 @@ body p {
 
 .whychooseus {
   color: #27aae1;
+}
+
+.inputBg {
+  background-color: #fafafa;
+}
+
+.inputContainerBg {
+  background-color: #ffffff;
+  box-shadow: 4px 4px 4px 4px rgba(179, 174, 174, 0.25);
+  border-radius: 15px;
 }
 
 .testimonial {

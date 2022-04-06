@@ -3,7 +3,7 @@ import infoimage from "../../images/infoimage.png";
 import adamu from "../../images/adamu.png";
 import techacademy from "../../data/tech_academy_details/techacademy.json";
 import HowToApply from "../../components/HowToApply";
-// import CourseEnroll from "../../components/CourseEnroll";
+import CourseEnroll from "../../components/CourseEnroll";
 import { BookIcon, AlarmIcon, CreditCardIcon } from "../../components/Icons";
 import { Link } from "react-router-dom";
 import { CourseinfoHero } from "../../components/Hero";
@@ -14,7 +14,7 @@ let DigitalmarketingInfo = () => {
   return (
     <div>
       <CourseinfoHero coursename="Digital Marketing" />
-      <div className="row justify-content-center g-0">
+      <div className="row justify-content-center">
         <div className="col-lg-7 col-md-6 col-sm-10">
           <AboutDigitalmarketing />
           <HowToApply />
@@ -80,68 +80,67 @@ let AboutDigitalmarketing = () => {
       <div className="card-body">
         <h3 className="card-title">About Course</h3>
         <p className="card-text">
-          Innkeeper.work in partnership with Cisco Networking Academy's IoT
-          Fundamentals curriculum provides students with a comprehensive
-          understanding of the Internet of Things (IoT). It develops
-          foundational skills using hands-on lab activities that stimulate the
-          students in applying creative problem-solving and rapid prototyping in
-          the interdisciplinary domain of electronics, networking, security,
-          data analytics, and business. The student- centric approach translates
-          into the student being able to ideate, design, prototype and present
-          an IoT solution for an identified business or society need.
+          This is a hybrid learning that blends self-paced and instructor-led
+          learning for 4 weeks. Learn the fundamentals of digital marketing.
+          Online Marketing Foundations, Google Analytics Essential Training, SEO
+          Foundations, Google Ads (AdWords) Essential Training, Content
+          Marketing Foundation,Social Media Marketing Foundations, Step by Step
+          guide to setting up Facebook and Instagram Ads Campaign. Applicants
+          are encouraged to pay in installments if full payment cannot be made.
+          Instructors are seasoned industry-based and can be reached for
+          post-class activities.
         </p>
       </div>
     </div>
   );
 };
 
-let CourseEnroll = () => {
-  return (
-    <div className="card-body">
-      <h3 className="card-title">Available Enrolment Options</h3>
-      <ul className="list-content">
-        <li className="list-item pb-2">
-          Click to{" "}
-          <a
-            className="text-decoration-none"
-            href="https://soft.innkeeper.work/enrol/index.php?id=3"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <b>Pay Now</b>
-          </a>
-        </li>
-        <li className="list-item pb-2">
-          Click to{" "}
-          <Link to="" className="text-decoration-none">
-            <b>Make Part Payment</b>
-          </Link>
-        </li>
-        <p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
-        <li className="list-item pb-2">
-          Apply for Student loan{" "}
-          <Link to="" className="text-decoration-none">
-            <b>HERE</b>
-          </Link>
-        </li>
-        <li className="list-item pb-2">
-          Apply via our training bond{" "}
-          <Link to="" className="text-decoration-none">
-            <b>HERE</b>
-          </Link>
-        </li>
-        <li className="list-item pb-2">Apply for scholarship.</li>
-        <p className="">
-          (See available ones{" "}
-          <Link to="" className="text-decoration-none">
-            <b>HERE</b>
-          </Link>
-          )
-        </p>
-      </ul>
-    </div>
-  );
-};
+// let CourseEnroll = () => {
+// 	return (
+// 		<div className="card-body">
+// 			<h3 className="card-title">Available Enrolment Options</h3>
+// 			<ul className="list-content">
+// 				<li className="list-item pb-2">
+// 					Click to{" "}
+// 					<a
+// 						className="text-decoration-none"
+// 						href="https://soft.innkeeper.work/enrol/index.php?id=3"
+// 						target="_blank"
+// 						rel="noreferrer">
+// 						<b>Pay Now</b>
+// 					</a>
+// 				</li>
+// 				<li className="list-item pb-2">
+// 					Click to{" "}
+// 					<Link to="" className="text-decoration-none">
+// 						<b>Installmental Payment</b>
+// 					</Link>
+// 				</li>
+// 				<p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
+// 				<li className="list-item pb-2">
+// 					Apply for Student loan{" "}
+// 					<Link to="" className="text-decoration-none">
+// 						<b>HERE</b>
+// 					</Link>
+// 				</li>
+// 				<li className="list-item pb-2">
+// 					Apply via our training bond{" "}
+// 					<Link to="" className="text-decoration-none">
+// 						<b>HERE</b>
+// 					</Link>
+// 				</li>
+// 				<li className="list-item pb-2">Apply for scholarship.</li>
+// 				<p className="">
+// 					(See available ones{" "}
+// 					<Link to="" className="text-decoration-none">
+// 						<b>HERE</b>
+// 					</Link>
+// 					)
+// 				</p>
+// 			</ul>
+// 		</div>
+// 	);
+// };
 
 // let DigitalmarketingInstructor = () => {
 //   return (

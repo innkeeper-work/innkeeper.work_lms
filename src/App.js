@@ -43,7 +43,7 @@ import Growth from "./pages/Courseinfo.js/Growth";
 import Financing from "./pages/Courseinfo.js/Financing";
 import Criticalthinking from "./pages/Courseinfo.js/Criticalthinking";
 import ContentMgt from "./pages/Courseinfo.js/ContentMgt";
-import AdminDigitalTools from "./pages/Courseinfo.js/AdminDigitalTools";
+import DigitalAdminTools from "./pages/Courseinfo.js/DigitalAdminTools";
 
 function App() {
   return (
@@ -80,6 +80,7 @@ function App() {
         <Route path="python" element={<Python />} />
         <Route path="iot" element={<IoT />} />
         <Route path="securityaudit" element={<Securityaudit />} />
+
         <Route path="sales" element={<Sales />} />
         <Route path="contentmgt" element={<ContentMgt />} />
         <Route path="customerexperience" element={<Customerexperience />} />
@@ -94,7 +95,7 @@ function App() {
         <Route path="business" element={<Business />} />
         <Route path="businessupport" element={<BusinessSupportAcademy />} />
         <Route path="growthstrategy" element={<Growth />} />
-        <Route path="admindigitaltools" element={<AdminDigitalTools />} />
+        <Route path="digitaladmintools" element={<DigitalAdminTools />} />
         <Route path="financing" element={<Financing />} />
       </Routes>
 
