@@ -1,5 +1,6 @@
 import { CourseinfoHero } from "../components/Hero";
 import edubancimg from "../images/edubancimg.png";
+import { GetStartedLoan } from "../components/Buttons";
 
 let Studentloan = () => {
   return (
@@ -7,6 +8,7 @@ let Studentloan = () => {
       <CourseinfoHero coursename="Learn Now, Pay Later" />
       <AbouttheLoan />
       <RegProcess />
+      
     </>
   );
 };
@@ -70,7 +72,7 @@ let RegProcess = () => {
           <div className="card h-100 studentLoan">
             <div className="card-body">
               <h5 className="card-title">Step 3</h5>
-              <p className="card-text">Search for 8thGear Partners Ltd.</p>
+              <p className="card-text">Type <strong>"8thGear Partners Ltd"</strong> in the search box.</p>
             </div>
           </div>
         </div>
@@ -84,6 +86,9 @@ let RegProcess = () => {
               </p>
             </div>
           </div>
+        </div>
+        <div className="text-center mt-mb-5">
+          <GetStartedLoan />
         </div>
       </div>
     </div>

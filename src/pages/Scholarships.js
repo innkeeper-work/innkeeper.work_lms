@@ -30,7 +30,10 @@ let Scholarship = () => {
                 <div className="px-2">{/* <CreditCardIcon /> */}</div>
                 <div>
                   <li className="">
-                    <Link to="" className="scholarship text-decoration-none">
+                    <Link
+                      to="https://bit.ly/8thGear"
+                      className="scholarship text-decoration-none"
+                    >
                       <b>LSETF/USADF</b>
                     </Link>
                   </li>

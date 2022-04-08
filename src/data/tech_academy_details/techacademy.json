@@ -1,163 +1,257 @@
 {
-	"techacademyheroinfo": [
-		{
-			"id": 1,
-			"herotitle": "Tech Academy",
+  "techacademyheroinfo": [
+    {
+      "id": 1,
+      "herotitle": "Tech Academy",
 
-			"Description": "The world of business presents a variety of roles and opportunities, and with the advent of technology. Our range of courses includes Cyber Security, Big data & IoT, Cloud Computing, and Web Development; which will equip you with the required skills in the tech world."
-		}
-	],
+      "Description": "The world of business presents a variety of roles and opportunities, and with the advent of technology. Our range of courses includes Cyber Security, Big data & IoT, Cloud Computing, and Web Development; which will equip you with the required skills in the tech world."
+    }
+  ],
 
-	"webdev": [
-		{
-			"id": 1,
-			"img": "../../images/frontend.png",
-			"title": "Frontend Development",
-			"description": "Frontend programming often develops interfaces through which the application interacts with users.",
-			"Link": "/frontend"
-		},
-		{
-			"id": 2,
-			"img": "../../images/backend.png",
-			"title": "Backend Development",
-			"description": "The backend code communicates with the server and distributes information or data to the users.",
-			"Link": "/backend"
-		},
-		{
-			"id": 3,
-			"img": "../../images/frontend.png",
-			"title": "Fullstack Development",
-			"description": "Full stack web developers can create full-fledged web applications and websites.",
-			"Link": "/fullstack"
-		}
-	],
+  "webdev": [
+    {
+      "id": 1,
+      "img": "../../images/frontend.png",
+      "title": "Frontend Development",
+      "description": "Frontend programming often develops interfaces through which the application interacts with users.",
+      "Link": "/frontend"
+    },
+    {
+      "id": 2,
+      "img": "../../images/backend.png",
+      "title": "Backend Development",
+      "description": "The backend code communicates with the server and distributes information or data to the users.",
+      "Link": "/backend"
+    },
+    {
+      "id": 3,
+      "img": "../../images/frontend.png",
+      "title": "Fullstack Development",
+      "description": "Full stack web developers can create full-fledged web applications and websites.",
+      "Link": "/fullstack"
+    }
+  ],
 
-	"cloudcomputing": [
-		{
-			"id": 1,
-			"img": "../../images/microsoftfundamentals.gif",
-			"title": "Designing and Implementing Microsoft DevOps Solutions",
-			"description": "This course provides the knowledge and skills to design and implement DevOps processes and practices.",
-			"Link": "/devops"
-		},
-		{
-			"id": 2,
-			"img": "../../images/microsoftarchitect.gif",
-			"title": "Microsoft Azure Architect Design",
-			"description": "This course teaches Solutions Architects how to translate business requirements into secure, scalable, and reliable solutions.",
-			"Link": "/architectdesigninfo"
-		},
-		{
-			"id": 3,
-			"img": "../../images/architecttechnology.gif",
-			"title": "Microsoft Azure Architect Technology",
-			"description": "This course teaches Solutions Architects how to translate business requirements into secure, and reliable solutions.",
-			"Link": "/architecttechnfo"
-		},
+  "cloudcomputing": [
+    {
+      "id": 1,
+      "img": "../../images/microsoftfundamentals.gif",
+      "title": "Designing and Implementing Microsoft DevOps Solutions",
+      "description": "This course provides the knowledge and skills to design and implement DevOps processes and practices.",
+      "Link": "/devops"
+    },
+    {
+      "id": 2,
+      "img": "../../images/microsoftarchitect.gif",
+      "title": "Microsoft Azure Architect Design",
+      "description": "This course teaches Solutions Architects how to translate business requirements into secure, scalable, and reliable solutions.",
+      "Link": "/architectdesigninfo"
+    },
+    {
+      "id": 3,
+      "img": "../../images/architecttechnology.gif",
+      "title": "Microsoft Azure Architect Technology",
+      "description": "This course teaches Solutions Architects how to translate business requirements into secure, and reliable solutions.",
+      "Link": "/architecttechnfo"
+    },
 
-		{
-			"id": 4,
-			"img": "../../images/microsoftfundamentals2.png",
-			"title": "Administering Relational Databases on Microsoft Azure",
-			"description": "This course provides students with the knowledge and skills to administer a SQL Server database infrastructure.",
-			"Link": "/relationaldb"
-		}
-	],
-	"cybersecurity": [
-		{
-			"id": 1,
-			"img": "../../images/riskmgt.jpg",
-			"title": "Risk Management",
-			"description": "This course will introduce you to the cybersecurity and Information technology/security world of managing risks of projects.",
-			"Link": "/riskmgt"
-		},
-		{
-			"id": 2,
-			"img": "../../images/securityaudit.png",
-			"title": "Security Audit",
-			"description": "This course introduces key processes, systems, and documentation used in security auditing for organizations.",
-			"Link": "/securityaudit"
-		},
-		{
-			"id": 3,
-			"img": "../../images/reverseengineering.jpg",
-			"title": "Reverse Engineering",
-			"description": "This course introduces you to reverse engineering, the concepts, and tools used worldwide by professionals.",
-			"Link": "/reverseengineering"
-		},
-		{
-			"id": 4,
-			"img": "../../images/vunerability.jpg",
-			"title": "Vulnerability Assessment and Penetration Testing",
-			"description": "This course introduces you to identify vulnerabilities in networks, applications, and organizations' infrastructure.",
-			"Link": "/pentesting"
-		}
-	],
-	"bigdata": [
-		{
-			"id": 1,
-			"img": "../../images/bigdata.png",
-			"title": "Big Data & IoT",
-			"description": "This course is designed to provide foundational skills and knowledge prominently required across the emerging digitization technologies.",
-			"Link": "/bigdata"
-		},
-		{
-			"id": 2,
-			"img": "../../images/python.jpg",
-			"title": "Programming Essentials in Python I & II",
-			"description": "In this course, you'll gain the knowledge and skills to design, develop and improve multi-module computer application.",
-			"Link": "/python"
-		},
-		{
-			"id": 3,
-			"img": "../../images/iot.jpg",
-			"title": "IoT Fundamentals",
-			"description": "It develops foundational skills in the interdisciplinary domain of electronics, networking, security, data analytics, and business.",
-			"Link": "/iot"
-		}
-	],
-	"instructors": [
-		{
-			"id": 1,
-			"img": "../../images/facilitators/gbolabo.png",
-			"instructorname": "Gbolabo Awelewa",
-			"role": "Technology Strategist",
-			"linkedinprofile": "https://www.linkedin.com/in/gbolabo-awelewa-256b4a5/"
-		},
-		{
-			"id": 2,
-			"img": "../../images/facilitators/sydney.png",
-			"instructorname": "Sosoo Sydney",
-			"role": "Cloud Computing",
-			"linkedinprofile": " https://www.linkedin.com/in/sosoo-sydney-ab31a58/"
-		},
-		{
-			"id": 3,
-			"img": "../../images/facilitators/adamu.png",
-			"instructorname": "AbdulRahman Adamu",
-			"role": "Front-End Developer || Drone Pilot",
-			"linkedinprofile": " https://www.linkedin.com/in/abdulrahman-adamu-05a92258/"
-		},
-		{
-			"id": 4,
-			"img": "../../images/facilitators/niyi.png",
-			"instructorname": "Niyi Osibeluwo",
-			"role": "Cloud and Enterprise Solutions Architect",
-			"linkedinprofile": " https://www.linkedin.com/in/niyi-osibeluwo/"
-		},
-		{
-			"id": 5,
-			"img": "../../images/facilitators/kenny-noah.png",
-			"instructorname": "Kenny Noah",
-			"role": "IT Professional",
-			"linkedinprofile": " https://www.linkedin.com/in/kenny-noah-b42b4137/"
-		},
-		{
-			"id": 6,
-			"img": "../../images/facilitators/lydia.png",
-			"instructorname": "Lydia Robert-Edia",
-			"role": "Software Engineer",
-			"linkedinprofile": " https://www.linkedin.com/in/lydia-robert-edia-a36971121/"
-		}
-	]
+    {
+      "id": 4,
+      "img": "../../images/microsoftfundamentals2.png",
+      "title": "Administering Relational Databases on Microsoft Azure",
+      "description": "This course provides students with the knowledge and skills to administer a SQL Server database infrastructure.",
+      "Link": "/relationaldb"
+    }
+  ],
+  "cloudcomputing4": [
+    {
+      "id": 1,
+      "img": "../../images/microsoftfundamentals.gif",
+      "title": "Designing and Implementing Microsoft DevOps Solutions",
+      "description": "This course provides the knowledge and skills to design and implement DevOps processes and practices.",
+      "Link": "/devops"
+    },
+    {
+      "id": 2,
+      "img": "../../images/microsoftarchitect.gif",
+      "title": "Microsoft Azure Architect Design",
+      "description": "This course teaches Solutions Architects how to translate business requirements into secure, scalable, and reliable solutions.",
+      "Link": "/architectdesigninfo"
+    },
+    {
+      "id": 3,
+      "img": "../../images/architecttechnology.gif",
+      "title": "Microsoft Azure Architect Technology",
+      "description": "This course teaches Solutions Architects how to translate business requirements into secure, and reliable solutions.",
+      "Link": "/architecttechnfo"
+    }
+  ],
+  "cloudcomputing3": [
+    {
+      "id": 1,
+      "img": "../../images/microsoftfundamentals.gif",
+      "title": "Designing and Implementing Microsoft DevOps Solutions",
+      "description": "This course provides the knowledge and skills to design and implement DevOps processes and practices.",
+      "Link": "/devops"
+    },
+    {
+      "id": 2,
+      "img": "../../images/microsoftarchitect.gif",
+      "title": "Microsoft Azure Architect Design",
+      "description": "This course teaches Solutions Architects how to translate business requirements into secure, scalable, and reliable solutions.",
+      "Link": "/architectdesigninfo"
+    },
+    {
+      "id": 4,
+      "img": "../../images/microsoftfundamentals2.png",
+      "title": "Administering Relational Databases on Microsoft Azure",
+      "description": "This course provides students with the knowledge and skills to administer a SQL Server database infrastructure.",
+      "Link": "/relationaldb"
+    }
+  ],
+  "cloudcomputing2": [
+    {
+      "id": 1,
+      "img": "../../images/microsoftfundamentals.gif",
+      "title": "Designing and Implementing Microsoft DevOps Solutions",
+      "description": "This course provides the knowledge and skills to design and implement DevOps processes and practices.",
+      "Link": "/devops"
+    },
+    {
+      "id": 3,
+      "img": "../../images/architecttechnology.gif",
+      "title": "Microsoft Azure Architect Technology",
+      "description": "This course teaches Solutions Architects how to translate business requirements into secure, and reliable solutions.",
+      "Link": "/architecttechnfo"
+    },
+
+    {
+      "id": 4,
+      "img": "../../images/microsoftfundamentals2.png",
+      "title": "Administering Relational Databases on Microsoft Azure",
+      "description": "This course provides students with the knowledge and skills to administer a SQL Server database infrastructure.",
+      "Link": "/relationaldb"
+    }
+  ],
+  "cloudcomputing1": [
+    {
+      "id": 2,
+      "img": "../../images/microsoftarchitect.gif",
+      "title": "Microsoft Azure Architect Design",
+      "description": "This course teaches Solutions Architects how to translate business requirements into secure, scalable, and reliable solutions.",
+      "Link": "/architectdesigninfo"
+    },
+    {
+      "id": 3,
+      "img": "../../images/architecttechnology.gif",
+      "title": "Microsoft Azure Architect Technology",
+      "description": "This course teaches Solutions Architects how to translate business requirements into secure, and reliable solutions.",
+      "Link": "/architecttechnfo"
+    },
+
+    {
+      "id": 4,
+      "img": "../../images/microsoftfundamentals2.png",
+      "title": "Administering Relational Databases on Microsoft Azure",
+      "description": "This course provides students with the knowledge and skills to administer a SQL Server database infrastructure.",
+      "Link": "/relationaldb"
+    }
+  ],
+  "cybersecurity": [
+    {
+      "id": 1,
+      "img": "../../images/riskmgt.jpg",
+      "title": "Risk Management",
+      "description": "This course will introduce you to the cybersecurity and Information technology/security world of managing risks of projects.",
+      "Link": "/riskmgt"
+    },
+    {
+      "id": 2,
+      "img": "../../images/securityaudit.png",
+      "title": "Security Audit",
+      "description": "This course introduces key processes, systems, and documentation used in security auditing for organizations.",
+      "Link": "/securityaudit"
+    },
+    {
+      "id": 3,
+      "img": "../../images/reverseengineering.jpg",
+      "title": "Reverse Engineering",
+      "description": "This course introduces you to reverse engineering, the concepts, and tools used worldwide by professionals.",
+      "Link": "/reverseengineering"
+    },
+    {
+      "id": 4,
+      "img": "../../images/vunerability.jpg",
+      "title": "Vulnerability Assessment and Penetration Testing",
+      "description": "This course introduces you to identify vulnerabilities in networks, applications, and organizations' infrastructure.",
+      "Link": "/pentesting"
+    }
+  ],
+  "bigdata": [
+    {
+      "id": 1,
+      "img": "../../images/bigdata.png",
+      "title": "Big Data & IoT",
+      "description": "This course is designed to provide foundational skills and knowledge prominently required across the emerging digitization technologies.",
+      "Link": "/bigdata"
+    },
+    {
+      "id": 2,
+      "img": "../../images/python.jpg",
+      "title": "Programming Essentials in Python I & II",
+      "description": "In this course, you'll gain the knowledge and skills to design, develop and improve multi-module computer application.",
+      "Link": "/python"
+    },
+    {
+      "id": 3,
+      "img": "../../images/iot.jpg",
+      "title": "IoT Fundamentals",
+      "description": "It develops foundational skills in the interdisciplinary domain of electronics, networking, security, data analytics, and business.",
+      "Link": "/iot"
+    }
+  ],
+  "instructors": [
+    {
+      "id": 1,
+      "img": "../../images/facilitators/gbolabo.png",
+      "instructorname": "Gbolabo Awelewa",
+      "role": "Technology Strategist",
+      "linkedinprofile": "https://www.linkedin.com/in/gbolabo-awelewa-256b4a5/"
+    },
+    {
+      "id": 2,
+      "img": "../../images/facilitators/sydney.png",
+      "instructorname": "Sosoo Sydney",
+      "role": "Cloud Engineer",
+      "linkedinprofile": " https://www.linkedin.com/in/sosoo-sydney-ab31a58/"
+    },
+    {
+      "id": 3,
+      "img": "../../images/facilitators/adamu.png",
+      "instructorname": "AbdulRahman Adamu",
+      "role": "Front-End Developer || Drone Pilot",
+      "linkedinprofile": " https://www.linkedin.com/in/abdulrahman-adamu-05a92258/"
+    },
+    {
+      "id": 4,
+      "img": "../../images/facilitators/niyi.png",
+      "instructorname": "Niyi Osibeluwo",
+      "role": "Cloud and Enterprise Solutions Architect",
+      "linkedinprofile": " https://www.linkedin.com/in/niyi-osibeluwo/"
+    },
+    {
+      "id": 5,
+      "img": "../../images/facilitators/kenny-noah.png",
+      "instructorname": "Kenny Noah",
+      "role": "IT Professional",
+      "linkedinprofile": " https://www.linkedin.com/in/kenny-noah-b42b4137/"
+    },
+    {
+      "id": 6,
+      "img": "../../images/facilitators/lydia.png",
+      "instructorname": "Lydia Robert-Edia",
+      "role": "Software Engineer",
+      "linkedinprofile": " https://www.linkedin.com/in/lydia-robert-edia-a36971121/"
+    }
+  ]
 }
