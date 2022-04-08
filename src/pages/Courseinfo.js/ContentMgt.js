@@ -82,8 +82,8 @@ let AboutContentMgt = () => {
         <h3 className="card-title">About Course</h3>
         <p className="card-text">
           This is a 4-week hybrid course that combines self-paced and
-          instructor-led learning. Video editing, copywriting, and still and
-          motion graphics are some of the topics to be covered. Applicants are
+          instructor-led learning. Video editing, copywriting, still and motion
+          graphics are some of the topics to be covered. Applicants are
           encouraged to pay in installments if full payment cannot be made.
           Instructors are seasoned industry-based and can be reached for
           post-class activities.
