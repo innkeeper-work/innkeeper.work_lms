@@ -63,6 +63,100 @@
       "Link": "/relationaldb"
     }
   ],
+  "cloudcomputing4": [
+    {
+      "id": 1,
+      "img": "../../images/microsoftfundamentals.gif",
+      "title": "Designing and Implementing Microsoft DevOps Solutions",
+      "description": "This course provides the knowledge and skills to design and implement DevOps processes and practices.",
+      "Link": "/devops"
+    },
+    {
+      "id": 2,
+      "img": "../../images/microsoftarchitect.gif",
+      "title": "Microsoft Azure Architect Design",
+      "description": "This course teaches Solutions Architects how to translate business requirements into secure, scalable, and reliable solutions.",
+      "Link": "/architectdesigninfo"
+    },
+    {
+      "id": 3,
+      "img": "../../images/architecttechnology.gif",
+      "title": "Microsoft Azure Architect Technology",
+      "description": "This course teaches Solutions Architects how to translate business requirements into secure, and reliable solutions.",
+      "Link": "/architecttechnfo"
+    }
+  ],
+  "cloudcomputing3": [
+    {
+      "id": 1,
+      "img": "../../images/microsoftfundamentals.gif",
+      "title": "Designing and Implementing Microsoft DevOps Solutions",
+      "description": "This course provides the knowledge and skills to design and implement DevOps processes and practices.",
+      "Link": "/devops"
+    },
+    {
+      "id": 2,
+      "img": "../../images/microsoftarchitect.gif",
+      "title": "Microsoft Azure Architect Design",
+      "description": "This course teaches Solutions Architects how to translate business requirements into secure, scalable, and reliable solutions.",
+      "Link": "/architectdesigninfo"
+    },
+    {
+      "id": 4,
+      "img": "../../images/microsoftfundamentals2.png",
+      "title": "Administering Relational Databases on Microsoft Azure",
+      "description": "This course provides students with the knowledge and skills to administer a SQL Server database infrastructure.",
+      "Link": "/relationaldb"
+    }
+  ],
+  "cloudcomputing2": [
+    {
+      "id": 1,
+      "img": "../../images/microsoftfundamentals.gif",
+      "title": "Designing and Implementing Microsoft DevOps Solutions",
+      "description": "This course provides the knowledge and skills to design and implement DevOps processes and practices.",
+      "Link": "/devops"
+    },
+    {
+      "id": 3,
+      "img": "../../images/architecttechnology.gif",
+      "title": "Microsoft Azure Architect Technology",
+      "description": "This course teaches Solutions Architects how to translate business requirements into secure, and reliable solutions.",
+      "Link": "/architecttechnfo"
+    },
+
+    {
+      "id": 4,
+      "img": "../../images/microsoftfundamentals2.png",
+      "title": "Administering Relational Databases on Microsoft Azure",
+      "description": "This course provides students with the knowledge and skills to administer a SQL Server database infrastructure.",
+      "Link": "/relationaldb"
+    }
+  ],
+  "cloudcomputing1": [
+    {
+      "id": 2,
+      "img": "../../images/microsoftarchitect.gif",
+      "title": "Microsoft Azure Architect Design",
+      "description": "This course teaches Solutions Architects how to translate business requirements into secure, scalable, and reliable solutions.",
+      "Link": "/architectdesigninfo"
+    },
+    {
+      "id": 3,
+      "img": "../../images/architecttechnology.gif",
+      "title": "Microsoft Azure Architect Technology",
+      "description": "This course teaches Solutions Architects how to translate business requirements into secure, and reliable solutions.",
+      "Link": "/architecttechnfo"
+    },
+
+    {
+      "id": 4,
+      "img": "../../images/microsoftfundamentals2.png",
+      "title": "Administering Relational Databases on Microsoft Azure",
+      "description": "This course provides students with the knowledge and skills to administer a SQL Server database infrastructure.",
+      "Link": "/relationaldb"
+    }
+  ],
   "cybersecurity": [
     {
       "id": 1,
@@ -128,7 +222,7 @@
       "id": 2,
       "img": "../../images/facilitators/sydney.png",
       "instructorname": "Sosoo Sydney",
-      "role": "Cloud Computing",
+      "role": "Cloud Engineer",
       "linkedinprofile": " https://www.linkedin.com/in/sosoo-sydney-ab31a58/"
     },
     {

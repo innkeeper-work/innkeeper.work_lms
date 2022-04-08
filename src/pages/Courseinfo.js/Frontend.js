@@ -115,7 +115,7 @@ let AboutFrontend = () => {
 // 						<b>Installmental Payment</b>
 // 					</Link>
 // 				</li>
-// 				<p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
+// 				<p className="">NB: Payment in instalment is accepted (T and C Apply)</p>
 // 				<li className="list-item pb-2">
 // 					Apply for Student loan{" "}
 // 					<Link to="studentloan" className="text-decoration-none">
@@ -196,7 +196,7 @@ let FrontendRelated = () => {
     <div className="webDev mx-5 px-5 my-5 pb-5">
       <h3 className="techHead px-5 my-5 pt-5">Related Courses</h3>
       <div className="row">
-        {techacademy.bigdata.map((singlebig) => {
+        {techacademy.webdev.map((singlebig) => {
           return (
             <div className="col-lg-4 col-md-6 col-sm-12" key={singlebig.id}>
               <CourseCards {...singlebig}></CourseCards>

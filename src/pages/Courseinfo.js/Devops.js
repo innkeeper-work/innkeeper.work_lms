@@ -1,5 +1,5 @@
 import React from "react";
-import infoimage from "../../images/infoimage.png";
+import infoimage from "../../images/infobg.png";
 import adamu from "../../images/adamu.png";
 import techacademy from "../../data/tech_academy_details/techacademy.json";
 import HowToApply from "../../components/HowToApply";
@@ -139,7 +139,7 @@ let DevopsReq = () => {
 // 						<b>Installmental Payment</b>
 // 					</Link>
 // 				</li>
-// 				<p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
+// 				<p className="">NB: Payment in instalment is accepted (T and C Apply)</p>
 // 				<li className="list-item pb-2">
 // 					Apply for Student loan{" "}
 // 					<Link to="" className="text-decoration-none">
@@ -195,7 +195,7 @@ let DevopsRelated = () => {
     <div className="webDev mx-5 px-5 my-5 pb-5">
       <h3 className="techHead px-5 my-5 pt-5">Related Courses</h3>
       <div className="row">
-        {techacademy.bigdata.map((singlebig) => {
+        {techacademy.cloudcomputing1.map((singlebig) => {
           return (
             <div className="col-lg-4 col-md-6 col-sm-12" key={singlebig.id}>
               <CourseCards {...singlebig}></CourseCards>

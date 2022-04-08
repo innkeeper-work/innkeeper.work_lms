@@ -124,7 +124,7 @@ let ReverseReq = () => {
 // 						<b>Installmental Payment</b>
 // 					</Link>
 // 				</li>
-// 				<p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
+// 				<p className="">NB: Payment in instalment is accepted (T and C Apply)</p>
 // 				<li className="list-item pb-2">
 // 					Apply for Student loan{" "}
 // 					<Link to="" className="text-decoration-none">

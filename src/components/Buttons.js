@@ -29,6 +29,15 @@ export const GetStartedLoan = () => {
     </a>
   );
 };
+export const GetStartedBond = () => {
+  return (
+    <a href="#loanform" rel="noreferrer">
+      <button type="button" className="btn callToAction">
+        Request for bond
+      </button>
+    </a>
+  );
+};
 export const LearnMoreButton = () => {
   return (
     <button type="button" className="btn callToAction">
