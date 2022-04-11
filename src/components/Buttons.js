@@ -1,11 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 export const SignInButton = () => {
   return (
     <a href="https://app.innkeeper.work/login/index.php" rel="noreferrer">
       <button type="button" className="btn signinbtnapply">
         Sign In
+
+export const SignUpButton = () => {
+  return (
+    <a href="https://soft.innkeeper.work/login/index.php" rel="noreferrer">
+      <button type="button" className="btn signupbtnapply">
+        Sign Up
       </button>
     </a>
   );
@@ -60,11 +67,17 @@ export const ForwardButton = () => {
   );
 };
 export const ApplyNowButton = () => {
+
   return (
     <button type="button" className="btn signinbtnapply">
       Apply Now
     </button>
   );
+	return (
+		<button type="button" className="btn signupbtnapply">
+			Apply Now
+		</button>
+	);
 };
 
 // export const ApplyButton = () => {

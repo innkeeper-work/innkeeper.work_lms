@@ -5,6 +5,11 @@ import ReCAPTCHA from "react-google-recaptcha";
 // import { SendButton } from "../components/Buttons";
 
 function ContactForm() {
+  const formID = "1nbz0s2E";
+  const formURL = `https://submit-form.com/${formID}`;
+  // const recaptchaKey = "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI";
+  // const recaptchaRef = useRef();
+
 	const formID = "wiqPD27Z";
 	const formURL = `https://submit-form.com/${formID}`;
 	// const recaptchaKey = "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI";
@@ -67,6 +72,7 @@ function ContactForm() {
     // 	[e.target.name]: e.target.value,
     // }));
   };
+  // const { register, errors } = useForm();
 
   // const { register, errors } = useForm();
 
@@ -83,16 +89,40 @@ function ContactForm() {
           </div>
         )}
       </div>
+
+  // const updateRecaptchaToken = (token) => {
+  // 	setRecaptchaToken(token);
+  // };
+
+  return (
+    <form onSubmit={sendMessage}>
+      {/* <div>
+
+	return (
+		<form onSubmit={sendMessage}>
+			<div>
+				{submitMessage && (
+					<div className={`m-2 text-white ${submitMessage.className}`}>
+						{submitMessage.text}
+					</div>
+				)}
+			</div> */}
+
       <div className="pb-3">
         <label htmlFor="fullname">Your Fullname: </label>
         <input
           type="text"
+
           className="form-control inputBg"
+
+          className="form-control"
+
           name="fullname"
           id="fullname"
           onChange={handleChange}
           value={formState.fullname}
           // ref={register }
+
           required
         />
         {/* {errors.name && errors.name.type === "required" && (
@@ -126,6 +156,79 @@ function ContactForm() {
         ></textarea>
       </div>
 
+          // required
+        />
+        {/* {errors.name && errors.name.type === "required" && (
+
+			</div>
+			<div className="pb-3">
+				<label htmlFor="fullname">Your Fullname: </label>
+				<input
+					type="text"
+					className="form-control"
+					name="fullname"
+					id="fullname"
+					onChange={handleChange}
+					value={formState.fullname}
+					// ref={register }
+					required
+				/>
+				{/* {errors.name && errors.name.type === "required" && (
+
+					<p className="errorMsg">Name is required</p>
+				)} */}
+      </div>
+
+      <div className="pb-3">
+        <label>Your Email: </label>
+        <input
+          type="email"
+          className="form-control"
+          name="email"
+          id="email"
+          onChange={handleChange}
+          value={formState.email}
+          // required
+        />
+      </div>
+
+      <div className="pb-3">
+        <label>Your Message: </label>
+        <textarea
+          name="message"
+          rows="4"
+          className="form-control"
+          id="message"
+          onChange={handleChange}
+          value={formState.message}
+          // required
+        ></textarea>
+      </div>
+			<div className="pb-3">
+				<label>Your Email: </label>
+				<input
+					type="email"
+					className="form-control"
+					name="email"
+					id="email"
+					onChange={handleChange}
+					value={formState.email}
+					required
+				/>
+			</div>
+
+			<div className="pb-3">
+				<label>Your Message: </label>
+				<textarea
+					name="message"
+					rows="4"
+					className="form-control"
+					id="message"
+					onChange={handleChange}
+					value={formState.message}
+					required></textarea>
+			</div>
+
       {/* <div className="d-flex justify-content-center">
 				<ReCAPTCHA
 					ref={recaptchaRef}
@@ -137,7 +240,10 @@ function ContactForm() {
         <button
           disabled={submitting}
           type="submit"
+
           className="btn signinbtnapply px-5"
+
+          className="btn signupbtnapply px-5"
         >
           {submitting ? "Submitting..." : "Send"}
         </button>
