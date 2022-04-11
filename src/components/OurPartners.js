@@ -1,8 +1,8 @@
 import React from "react";
-import netacad from "../images/netacad.png";
-import vmware from "../images/vmware.png";
-import eightgear from "../images/eightgear.png";
-import microsoft from "../images/microsoft.png";
+import netacad from "../assets/images/logos/netacad.png";
+import vmware from "../assets/images/logos/vmware.png";
+import eightgear from "../assets/images/logos/eightgear.png";
+import microsoft from "../assets/images/logos/microsoft.png";
 
 export let OurPartners = () => {
   return (
@@ -11,7 +11,7 @@ export let OurPartners = () => {
         {/* <div className="col-lg-12 col-md-12 text-center position-relative"> */}
         <img
           src={netacad}
-          alt=""
+          alt="netacad logo"
           className="partners"
           // style={{ width: "25%", height: "30%" }}
         />
@@ -19,7 +19,7 @@ export let OurPartners = () => {
         {/* <div> */}
         <img
           src={vmware}
-          alt=""
+          alt="vmware logo"
           className="partners"
           // style={{ width: "25%", height: "30%" }}
         />
@@ -27,7 +27,7 @@ export let OurPartners = () => {
         {/* <div> */}
         <img
           src={eightgear}
-          alt=""
+          alt="8thGear logo"
           className="partners"
           // style={{ width: "25%", height: "30%" }}
         />
@@ -35,7 +35,7 @@ export let OurPartners = () => {
         {/* <div> */}
         <img
           src={microsoft}
-          alt=""
+          alt="microsoft logo"
           className="partners"
           // style={{ width: "25%", height: "30%" }}
         />

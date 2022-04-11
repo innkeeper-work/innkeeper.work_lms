@@ -1,8 +1,8 @@
 import React from "react";
-import infoimage from "../../images/infobg.png";
+import infoimage from "../../assets/images/techacademy/infoimage.png";
 import { Link } from "react-router-dom";
 import { CourseinfoHero } from "../../components/Hero";
-import adamu from "../../images/adamu.png";
+// import adamu from "../../images/adamu.png";
 import { ApplyNowButton } from "../../components/Buttons";
 import { CourseCards } from "../../components/Card";
 import techacademy from "../../data/tech_academy_details/techacademy.json";
@@ -78,7 +78,7 @@ let AboutArchitectdesign = () => {
           </ul>
         </div>
       </div>
-      <img src={infoimage} className="card-img-top" alt="..." />
+      <img src={infoimage} className="card-img-top" alt="architect design" />
       <div className="card-body">
         <h3 className="card-title">About Course</h3>
         <p className="card-text">

@@ -55,9 +55,9 @@ body p {
   background: #27aae1;
 }
 
-.homeheroBg {
+/* .homeheroBg {
   background-color: #e4fbff;
-}
+} */
 
 .webDev {
   background-color: #e4fbff;
@@ -126,7 +126,7 @@ body p {
 }
 
 .heroBg {
-  background-image: url("../images/homeherobg.png");
+  /* background-image: url("../images/homeherobg.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-color: btnBgColor2;
@@ -141,7 +141,7 @@ body p {
 }
 
 .testBg {
-  background-image: url("../images/success.png");
+  background-image: url("../assets/images/hero/success.png");
   background-repeat: no-repeat;
   background-size: cover;
 }

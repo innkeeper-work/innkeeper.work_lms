@@ -1,5 +1,5 @@
 import React from "react";
-import innkeeperlogo from "../images/innkeeperlogo.png";
+import innkeeperlogo from "../assets/images/innkeeperlogo.png";
 import {
   FacebookIcon,
   WhatsAppIcon,

@@ -1,6 +1,6 @@
 import { CourseinfoHero } from "../components/Hero";
-import scholarship from "../images/scholarship.png";
-import { CreditCardIcon } from "../components/Icons";
+import scholarship from "../assets/images/enrol/scholarship.png";
+// import { CreditCardIcon } from "../components/Icons";
 import { Link } from "react-router-dom";
 
 let Scholarships = () => {

@@ -1,8 +1,8 @@
 import { TrainingBondHero } from "../components/Hero";
-import trainingbond from "../images/trainingbond.png";
-import { Submit } from "../components/Buttons";
-import { CreditCardIcon } from "../components/Icons";
-import { Link } from "react-router-dom";
+// import trainingbond from "../images/trainingbond.png";
+// import { Submit } from "../components/Buttons";
+// import { CreditCardIcon } from "../components/Icons";
+// import { Link } from "react-router-dom";
 import { OurPartners } from "../components/OurPartners";
 import BondRequestForm from "../components/BondRequestForm";
 

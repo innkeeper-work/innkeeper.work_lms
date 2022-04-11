@@ -1,7 +1,7 @@
 import React from "react";
-import homehero4 from "../images/homehero4.png";
-import trainingbond from "../images/trainingbond.png";
-import coursepage from "../images/coursepage.png";
+import homehero4 from "../assets/images/hero/homehero4.png";
+import trainingbond from "../assets/images/hero/trainingbond.png";
+import coursepage from "../assets/images/hero/coursepage.png";
 import Navbar from "./Navbar";
 import { GetStartedBond, GetStartedButton } from "../components/Buttons";
 

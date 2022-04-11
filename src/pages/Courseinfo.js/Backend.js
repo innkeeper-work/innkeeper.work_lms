@@ -1,7 +1,7 @@
 import React from "react";
-import infoimage from "../../images/infoimage.png";
-import { Link } from "react-router-dom";
-import adamu from "../../images/adamu.png";
+import infoimage from "../../assets/images/techacademy/infoimage.png";
+// import { Link } from "react-router-dom";
+// import adamu from "../../images/adamu.png";
 import { CourseinfoHero } from "../../components/Hero";
 import { ApplyNowButton } from "../../components/Buttons";
 import { CourseCards } from "../../components/Card";

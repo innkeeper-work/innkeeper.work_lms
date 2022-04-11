@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 // import { SendButton } from "../components/Buttons";
-import contact_image1 from "../images/contact_image1.png";
-import contact_image2 from "../images/contact_image2.png";
+// import contact_image1 from "../assets/images/hero/contact_image1.png";
+// import contact_image2 from "../assets/images/hero/contact_image2.png";
 import Navbar from "../components/Navbar";
 import ContactForm from "../components/ContactForm";
 

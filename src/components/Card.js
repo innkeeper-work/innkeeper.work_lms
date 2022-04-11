@@ -1,8 +1,8 @@
 import React from "react";
 import { ApplyNowButton } from "./Buttons";
 import { LinkedInIcon } from "./Icons";
-import event1 from "../images/event1.png";
-import event2 from "../images/event2.png";
+import event1 from "../assets/images/home/event1.png";
+import event2 from "../assets/images/home/event2.png";
 
 //homepage cards
 export const CourseCategoryCards = (props) => {

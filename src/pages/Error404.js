@@ -1,5 +1,5 @@
 import React from "react";
-import img404 from "../images/404.png";
+import img404 from "../assets/images/hero/404.png";
 import { FacebookIcon } from "../components/Icons";
 import { WhatsAppIcon } from "../components/Icons";
 import { InstagramIcon } from "../components/Icons";
