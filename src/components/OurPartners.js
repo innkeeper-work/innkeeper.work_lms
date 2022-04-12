@@ -1,4 +1,7 @@
+// Externam import
 import React from "react";
+
+// Images
 import netacad from "../images/netacad.png";
 import vmware from "../images/vmware.png";
 import eightgear from "../images/eightgear.png";

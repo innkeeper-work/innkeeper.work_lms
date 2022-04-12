@@ -1,8 +1,8 @@
+// External import
 import React from "react";
-import infoimage from "../../images/infoimage.png";
-import { Link } from "react-router-dom";
+
+// Components
 import { CourseinfoHero } from "../../components/Hero";
-import adamu from "../../images/adamu.png";
 import { ApplyNowButton } from "../../components/Buttons";
 import { CourseCards } from "../../components/Card";
 import techacademy from "../../data/tech_academy_details/techacademy.json";
@@ -10,6 +10,9 @@ import { BookIcon } from "../../components/Icons";
 import { AlarmIcon } from "../../components/Icons";
 import { CreditCardIcon } from "../../components/Icons";
 import CourseEnroll from "../../components/CourseEnroll";
+
+// Images
+import infoimage from "../../images/infoimage.png";
 
 let ArchitectdesignInfo = () => {
   return (

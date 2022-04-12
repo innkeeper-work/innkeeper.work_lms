@@ -1,7 +1,9 @@
-import { CourseinfoHero } from "../components/Hero";
-import scholarship from "../images/scholarship.png";
-import { CreditCardIcon } from "../components/Icons";
+// External import
 import { Link } from "react-router-dom";
+import { CourseinfoHero } from "../components/Hero";
+
+// Images
+import scholarship from "../images/scholarship.png";
 
 let Scholarships = () => {
   return (

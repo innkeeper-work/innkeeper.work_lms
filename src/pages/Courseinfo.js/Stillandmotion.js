@@ -1,14 +1,17 @@
+//External import
 import React from "react";
-import infoimage from "../../images/infoimage.png";
+
+//Components
 import { BookIcon, AlarmIcon, CreditCardIcon } from "../../components/Icons";
 import HowToApply from "../../components/HowToApply";
 import CourseEnroll from "../../components/CourseEnroll";
 import { CourseinfoHero } from "../../components/Hero";
-import adamu from "../../images/adamu.png";
 import { ApplyNowButton } from "../../components/Buttons";
 import { CourseCards } from "../../components/Card";
 import techacademy from "../../data/tech_academy_details/techacademy.json";
-import { Link } from "react-router-dom";
+
+//Images
+import infoimage from "../../images/infoimage.png";
 
 let StillandmotionInfo = () => {
   return (

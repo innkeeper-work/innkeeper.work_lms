@@ -1,4 +1,8 @@
+// External import
 import React from "react";
+import { Link } from "react-router-dom";
+
+// Images
 import innkeeperlogo from "../images/innkeeperlogo.png";
 import {
   FacebookIcon,
@@ -6,7 +10,6 @@ import {
   InstagramIcon,
   LinkedInIcon,
 } from "../components/Icons";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -29,7 +32,7 @@ const Footer = () => {
                     The 8thGear Hub, 11b Colin Onabule Crescent, Diamond Estate
                     Off CMD Road (beside Secretariat/Magodo gate) Lagos Nigeria.
                   </a>
-                  <p className="mt-2 pt-2">
+                  <div className="mt-2 pt-2">
                     +234 (0) 809-846-8885
                     <p>
                       <a
@@ -42,7 +45,7 @@ const Footer = () => {
                         info@innkeeper.work
                       </a>
                     </p>
-                  </p>
+                  </div>
                 </div>
               </div>
 

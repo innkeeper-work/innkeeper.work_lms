@@ -1,5 +1,7 @@
+// External import
 import React from "react";
 
+// Components
 import { CoursepageHero } from "../components/Hero";
 import { CourseCards } from "../components/Card";
 import { InstructorCards } from "../components/Card";

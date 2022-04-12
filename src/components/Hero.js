@@ -1,8 +1,13 @@
+// External import
 import React from "react";
-import homehero4 from "../images/homehero4.png";
-import coursepage from "../images/coursepage.png";
+
+// Components
 import Navbar from "./Navbar";
 import { GetStartedButton } from "../components/Buttons";
+
+// Images
+import homehero4 from "../images/homehero4.png";
+import coursepage from "../images/coursepage.png";
 
 export let HomepageHero = () => {
   return (

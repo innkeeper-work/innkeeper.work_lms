@@ -1,6 +1,7 @@
+//External import
 import React from "react";
-import infoimage from "../../images/infoimage.png";
-import adamu from "../../images/adamu.png";
+
+//Components
 import techacademy from "../../data/tech_academy_details/techacademy.json";
 import HowToApply from "../../components/HowToApply";
 import CourseEnroll from "../../components/CourseEnroll";
@@ -8,7 +9,9 @@ import { BookIcon, AlarmIcon, CreditCardIcon } from "../../components/Icons";
 import { CourseinfoHero } from "../../components/Hero";
 import { ApplyNowButton } from "../../components/Buttons";
 import { CourseCards } from "../../components/Card";
-import { Link } from "react-router-dom";
+
+//Images
+import infoimage from "../../images/infoimage.png";
 
 let PythonInfo = () => {
   return (

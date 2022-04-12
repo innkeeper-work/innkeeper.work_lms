@@ -1,4 +1,7 @@
+// Components
 import { CourseinfoHero } from "../components/Hero";
+
+// Images
 import edubancimg from "../images/edubancimg.png";
 
 let Studentloan = () => {

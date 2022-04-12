@@ -1,6 +1,9 @@
+// External import
 import React from "react";
 import { ApplyNowButton } from "./Buttons";
 import { LinkedInIcon } from "./Icons";
+
+// Images
 import event1 from "../images/event1.png";
 import event2 from "../images/event2.png";
 
