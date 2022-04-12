@@ -1,5 +1,5 @@
 import React from "react";
-import infoimage from "../../assets/images/techacademy/infoimage.png";
+import infoimage from "../../assets/images/techacademy/dataanalysis/dataanalysis.png";
 import techacademy from "../../data/tech_academy_details/techacademy.json";
 import CourseEnroll from "../../components/CourseEnroll";
 import HowToApply from "../../components/HowToApply";

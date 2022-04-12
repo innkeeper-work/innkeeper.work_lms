@@ -1,5 +1,5 @@
 import React from "react";
-import infoimage from "../../assets/images/techacademy/infoimage.png";
+import infoimage from "../../assets/images/hero/infobg.png";
 import { Link } from "react-router-dom";
 import { CourseinfoHero } from "../../components/Hero";
 // import adamu from "../../images/adamu.png";

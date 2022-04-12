@@ -1,5 +1,5 @@
 import React from "react";
-import infobg from "../../assets/images/techacademy/infoimage.png";
+import infobg from "../../assets/images/hero/infobg.png";
 // import adamu from "../../images/adamu.png";
 import techacademy from "../../data/tech_academy_details/techacademy.json";
 import HowToApply from "../../components/HowToApply";

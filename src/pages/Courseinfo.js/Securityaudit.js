@@ -1,5 +1,5 @@
 import React from "react";
-import infoimage from "../../assets/images/techacademy/infoimage.png";
+import infoimage from "../../assets/images/techacademy/cybersecurity/cybersecurityhero.png";
 // import adamu from "../../images/adamu.png";
 import techacademy from "../../data/tech_academy_details/techacademy.json";
 import HowToApply from "../../components/HowToApply";
@@ -184,7 +184,7 @@ let SecurityauditRelated = () => {
     <div className="webDev mx-5 px-5 my-5 pb-5">
       <h3 className="techHead px-5 my-5 pt-5">Related Courses</h3>
       <div className="row">
-        {techacademy.bigdata.map((singlebig) => {
+        {techacademy.cybersecurity2.map((singlebig) => {
           return (
             <div className="col-lg-4 col-md-6 col-sm-12" key={singlebig.id}>
               <CourseCards {...singlebig}></CourseCards>

@@ -1,5 +1,5 @@
 import React from "react";
-import infoimage from "../../assets/images/techacademy/infoimage.png";
+import fullstack1 from "../../assets/images/techacademy/programming/fullstack.png";
 import techacademy from "../../data/tech_academy_details/techacademy.json";
 import CourseEnroll from "../../components/CourseEnroll";
 import HowToApply from "../../components/HowToApply";
@@ -77,7 +77,11 @@ let AboutFullstack = () => {
           </ul>
         </div>
       </div>
-      <img src={infoimage} className="card-img-top" alt="..." />
+      <img
+        src={fullstack1}
+        className="card-img-top"
+        alt="fullstack innkeeper"
+      />
       <div className="card-body">
         <h3 className="card-title">About Course</h3>
         <p className="card-text">
