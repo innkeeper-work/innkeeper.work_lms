@@ -289,6 +289,8 @@ let Faq = () => {
                   Student loan: You can access the student loan on the sterling
                   Edu banc platform{" "}
                   <Link to="studentloan" className="text-decoration-none">
+                    <Link to="" className="text-decoration-none">
+
                     here.
                   </Link>
                 </li>

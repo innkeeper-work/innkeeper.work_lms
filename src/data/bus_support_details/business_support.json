@@ -4,6 +4,8 @@
       "id": 1,
       "herotitle": "Business Support Academy",
       "Description": "Courses under this category involve Sales, Customer Experience, Digital Marketing, Video Editing, Motion & Still Graphics, and Admin Digital Tools."
+      "herotitle": "Welcome to Innkeeper Business Support Academy",
+      "Description": "Our range of courses includes Managing self & personal development, Working in highly successful team, Employability skills workshop, and Critical thinking- Creativity."
     }
   ],
   "business": [
@@ -48,6 +50,18 @@
       "title": " Admin Digital Tools",
       "description": "Communication Tools, Project Management Tools, File-Sharing Tools, and Calendar/Schedule Management.",
       "Link": "/digitaladmintools"
+      "id": 6,
+      "img": "../../images/courses/content dev_t.png",
+      "title": "Content Management",
+      "description": "Video editing skills enable you to arrange and alter video shots in order to create a cohesive structure.",
+      "Link": "/contentmgt"
+    },
+    {
+      "id": 7,
+      "img": "../../images/courses/admin.png",
+      "title": "Administration Digital Tools",
+      "description": "Video editing skills enable you to arrange and alter video shots in order to create a cohesive structure.",
+      "Link": "/admindigitaltools"
     }
   ],
   "business4": [
@@ -148,6 +162,7 @@
       "img": "../../images/facilitators/bizsupportacademy/hussein.png",
       "instructorname": "Hussein Sanni",
       "role": "Digital Marketing Specialist",
+      "role": "Digital MArketing Specialist",
       "linkedinprofile": "https://www.linkedin.com/in/sannihussein/"
     },
     {

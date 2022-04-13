@@ -47,8 +47,13 @@ body {
 // .signinbtn {
 //   @include signin;
 // }
+
 .signinbtnapply {
   @include signin;
+
+.signupbtnapply {
+  @include signup;
+
 }
 // .signinbtn:hover {
 // 	@extend .signinbtn;
@@ -128,7 +133,13 @@ body {
   background-image: url("../images/homeherobg.png");
   background-repeat: no-repeat;
   background-size: cover;
+
   background-color: btnBgColor2;
+
+	background-image: url("../images/homeherobg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: btnBgColor2;
 }
 .ctaColor {
   background-color: $callToActionBtn;
@@ -198,6 +209,7 @@ body {
   box-shadow: 4px 4px 4px 4px rgb(179, 174, 174, 0.25);
   border-radius: 15px;
 }
+
 .testimonial {
   color: $btnBgColor2;
 }
