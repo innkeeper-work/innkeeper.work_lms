@@ -1,4 +1,7 @@
+//External import
 import React, { useState } from "react";
+
+//Components
 import { SendButton } from "../components/Buttons";
 import contact_image1 from "../images/contact_image1.png";
 import contact_image2 from "../images/contact_image2.png";

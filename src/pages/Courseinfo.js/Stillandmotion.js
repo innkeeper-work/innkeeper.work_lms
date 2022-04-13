@@ -81,12 +81,18 @@ let AboutStillandmotion = () => {
         </div>
       </div>
       <img src={infoimage} className="card-img-top" alt="..." />
-      {/* <div className="card-body">
+      <div className="card-body">
         <h3 className="card-title">About Course</h3>
         <p className="card-text">
-        
+          This is a 4-week hybrid course that combines self-paced and
+          instructor-led instruction. The training will take place over the
+          course of four weeks. Become a professional designer by kick-starting
+          your learning process in the fundamentals of motion graphics and many
+          more. Applicants are encouraged to pay in installments if full payment
+          cannot be made. Instructors are seasoned industry-based and can be
+          reached for post-class activities.
         </p>
-      </div> */}
+      </div>
     </div>
   );
 };

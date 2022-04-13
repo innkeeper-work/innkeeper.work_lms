@@ -13,28 +13,28 @@
       "img": "../../images/courses/dev_opp.png",
       "title": "Developing the Opportunity",
       "description": "A successful entrepreneur is constantly on the lookout for new opportunities. A vital skill to learn is the capacity to enhance and exploit these commercial prospects.",
-      "Link": "https://soft.innkeeper.work/login/index.php"
+      "Link": "https://soft.innkeeper.work/course/view.php?id=28"
     },
     {
       "id": 2,
       "img": "../../images/courses/lauch_biz.png",
       "title": "Launching Your Business",
       "description": "Having a dynamic system of presentation to catch more audience and customers is essential to setting up your business for greater earnings and popularity.",
-      "Link": "https://soft.innkeeper.work/login/index.php"
+      "Link": "https://soft.innkeeper.work/course/view.php?id=29"
     },
     {
       "id": 3,
       "img": "../../images/courses/growth_strategy.png",
       "title": "Growth Strategy",
       "description": "You must develop growth strategies in order to achieve a target of overall growth. Growth strategies can simply be defined as the methods through which a company can develop or grow.",
-      "Link": "https://soft.innkeeper.work/login/index.php"
+      "Link": "https://soft.innkeeper.work/course/view.php?id=30"
     },
     {
       "id": 4,
       "img": "../../images/courses/fin_prof.png",
       "title": "Financing and Profitability",
       "description": "When your business begins to generate revenue (and the initial delight wears off), owners are faced with a new financial problem: how should this money be spent?",
-      "Link": "https://soft.innkeeper.work/login/index.php"
+      "Link": "https://soft.innkeeper.work/course/view.php?id=31"
     }
   ],
   "instructors": [
