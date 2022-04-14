@@ -1,14 +1,17 @@
+// External import
 import React from "react";
-import fullstack1 from "../../assets/images/techacademy/programming/fullstack.png";
+
+// Components
 import techacademy from "../../data/tech_academy_details/techacademy.json";
 import CourseEnroll from "../../components/CourseEnroll";
 import HowToApply from "../../components/HowToApply";
 import { BookIcon, AlarmIcon, CreditCardIcon } from "../../components/Icons";
-// import adamu from "../../images/adamu.png";
-// import { Link } from "react-router-dom";
 import { CourseinfoHero } from "../../components/Hero";
 import { ApplyNowButton } from "../../components/Buttons";
 import { CourseCards } from "../../components/Card";
+
+// Images
+import fullstack1 from "../../assets/images/techacademy/programming/fullstack.png";
 
 let FullstackInfo = () => {
   return (

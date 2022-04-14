@@ -1,6 +1,9 @@
+// Components
 import { CourseinfoHero } from "../components/Hero";
-import edubancimg from "../assets/images/enrol/edubancimg.png";
 import { GetStartedLoan } from "../components/Buttons";
+
+// Images
+import edubancimg from "../assets/images/enrol/edubancimg.png";
 
 let Studentloan = () => {
   return (

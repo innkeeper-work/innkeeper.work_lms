@@ -1,11 +1,16 @@
+// External import
 import React from "react";
-import img404 from "../assets/images/hero/404.png";
+
+// Components
 import { FacebookIcon } from "../components/Icons";
 import { WhatsAppIcon } from "../components/Icons";
 import { InstagramIcon } from "../components/Icons";
 import { LinkedInIcon } from "../components/Icons";
 import { Home } from "../components/Buttons";
 import { ContactUs } from "../components/Buttons";
+
+// Images
+import img404 from "../assets/images/hero/404.png";
 
 const Error404 = () => {
   return (

@@ -1,14 +1,17 @@
+// External import
 import React from "react";
-import infoimage from "../../assets/images/techacademy/infoimage.png";
+
+// Components
 import { BookIcon, AlarmIcon, CreditCardIcon } from "../../components/Icons";
 import techacademy from "../../data/tech_academy_details/techacademy.json";
 import CourseEnroll from "../../components/CourseEnroll";
 import HowToApply from "../../components/HowToApply";
 import { CourseinfoHero } from "../../components/Hero";
-// import { Link } from "react-router-dom";
-// import adamu from "../../images/adamu.png";
 import { ApplyNowButton } from "../../components/Buttons";
 import { CourseCards } from "../../components/Card";
+
+// Images
+import infoimage from "../../assets/images/techacademy/infoimage.png";
 
 let BusinessInfo = () => {
   return (

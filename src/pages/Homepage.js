@@ -1,22 +1,19 @@
-// import React, { Component } from "react";
-// import Slider from "react-slick";
+// External import
 import { Link } from "react-router-dom";
-import { HomepageHero } from "../components/Hero";
-import aiki from "../assets/images/home/aiki.png";
-// import lady from "../images/lady.jpeg";
-import whychooseus from "../assets/images/home/whychooseus.png";
-import categories from "../data/categories.json";
 
+// Components
+import { HomepageHero } from "../components/Hero";
+import { OurPartners } from "../components/OurPartners";
+import categories from "../data/categories.json";
 import { CourseCategoryCards } from "../components/Card";
+import { BeginCoursesButton } from "../components/Buttons";
 import { BlogCards } from "../components/Card";
 import { BlogCardsTwo } from "../components/Card";
-// import { LearnMoreButton } from "../components/Buttons";
-import { BeginCoursesButton } from "../components/Buttons";
 import { SubscribeButton } from "../components/Buttons";
-// import { FAQ } from "../components/FAQ";
-// import { ApplyNowButton } from "../components/Buttons";
-import { OurPartners } from "../components/OurPartners";
 
+// Images
+import aiki from "../assets/images/home/aiki.png";
+import whychooseus from "../assets/images/home/whychooseus.png";
 import videoicon from "../assets/images/logos/videoicon.png";
 
 const Home = () => {

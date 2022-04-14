@@ -1,4 +1,7 @@
+// External import
 import React from "react";
+
+// Components
 import { CourseCards } from "../components/Card";
 import { OurInstructors } from "../components/Ourinstructors";
 import businessSupport from "../data/bus_support_details/business_support.json";

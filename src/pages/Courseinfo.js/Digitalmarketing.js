@@ -1,14 +1,17 @@
+// External import
 import React from "react";
-import infoimage from "../../assets/images/bussupportacademy/digitalmarketing.png";
+
+// Components
 import business_support from "../../data/bus_support_details/business_support.json";
 import HowToApply from "../../components/HowToApply";
 import CourseEnroll from "../../components/CourseEnroll";
 import { BookIcon, AlarmIcon, CreditCardIcon } from "../../components/Icons";
-// import adamu from "../../images/adamu.png";
-// import { Link } from "react-router-dom";
 import { CourseinfoHero } from "../../components/Hero";
 import { ApplyNowButton } from "../../components/Buttons";
 import { CourseCards } from "../../components/Card";
+
+// Images
+import infoimage from "../../assets/images/bussupportacademy/digitalmarketing.png";
 
 let DigitalmarketingInfo = () => {
   return (

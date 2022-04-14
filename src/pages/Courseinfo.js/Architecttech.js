@@ -1,5 +1,7 @@
+// External import
 import React from "react";
-import infobg from "../../assets/images/hero/infobg.png";
+
+// Components
 import { CourseinfoHero } from "../../components/Hero";
 // import { Link } from "react-router-dom";
 // import adamu from "../../images/adamu.png";
@@ -10,6 +12,9 @@ import { BookIcon } from "../../components/Icons";
 import { AlarmIcon } from "../../components/Icons";
 import { CreditCardIcon } from "../../components/Icons";
 import CourseEnroll from "../../components/CourseEnroll";
+
+// Images
+import infobg from "../../assets/images/hero/infobg.png";
 
 let ArchitecttechInfo = () => {
   return (

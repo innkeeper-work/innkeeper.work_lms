@@ -1,4 +1,7 @@
+// External import
 import React from "react";
+
+// Components
 import { CourseCards } from "../components/Card";
 import { OurInstructors } from "../components/Ourinstructors";
 import techacademy from "../data/tech_academy_details/techacademy.json";

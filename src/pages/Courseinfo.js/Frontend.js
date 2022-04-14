@@ -1,14 +1,17 @@
+// External import
 import React from "react";
-import frontend from "../../assets/images/techacademy/programming/frontend.png";
+
+// Components
 import techacademy from "../../data/tech_academy_details/techacademy.json";
 import HowToApply from "../../components/HowToApply";
 import CourseEnroll from "../../components/CourseEnroll";
 import { BookIcon, AlarmIcon, CreditCardIcon } from "../../components/Icons";
-// import adamu from "../../images/adamu.png";
-// import { Link } from "react-router-dom";
 import { CourseinfoHero } from "../../components/Hero";
 import { ApplyNowButton } from "../../components/Buttons";
 import { CourseCards } from "../../components/Card";
+
+// Images
+import frontend from "../../assets/images/techacademy/programming/frontend.png";
 
 let FrontendInfo = () => {
   return (

@@ -1,6 +1,9 @@
+// External import
 import React from "react";
 import { ApplyNowButton } from "./Buttons";
 import { LinkedInIcon } from "./Icons";
+
+// Images
 import event1 from "../assets/images/home/event1.png";
 import event2 from "../assets/images/home/event2.png";
 
@@ -85,7 +88,7 @@ export const CourseCards = (props) => {
         <img src={img} className="card-img-top img-radius" alt={title} />{" "}
       </div>
       <div className="card-body">
-        <h5 className="card-title">{title}</h5>
+        <h4 className="card-title">{title}</h4>
         <p className="card-text">{description}</p>{" "}
         <div className="d-flex align-self-end">
           {" "}

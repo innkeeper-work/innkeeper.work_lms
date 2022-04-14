@@ -1,15 +1,17 @@
+// External import
 import React from "react";
-import infoimage from "../../assets/images/bussupportacademy/customerexperience.png";
+
+// Components
 import business_support from "../../data/bus_support_details/business_support.json";
 import CourseEnroll from "../../components/CourseEnroll";
 import HowToApply from "../../components/HowToApply";
 import { BookIcon, AlarmIcon, CreditCardIcon } from "../../components/Icons";
-// import { Link } from "react-router-dom";
-// import adamu from "../../images/adamu.png";
 import { CourseinfoHero } from "../../components/Hero";
 import { ApplyNowButton } from "../../components/Buttons";
 import { CourseCards } from "../../components/Card";
 
+// Images
+import infoimage from "../../assets/images/bussupportacademy/customerexperience.png";
 let CustomerInfo = () => {
   return (
     <div>

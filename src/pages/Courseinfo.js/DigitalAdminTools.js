@@ -1,7 +1,7 @@
+// External import
 import React from "react";
-import infoimage from "../../assets/images/bussupportacademy/admintools.png";
-// import { Link } from "react-router-dom";
-// import adamu from "../../images/adamu.png";
+
+// Components
 import { CourseinfoHero } from "../../components/Hero";
 import { ApplyNowButton } from "../../components/Buttons";
 import { CourseCards } from "../../components/Card";
@@ -11,6 +11,9 @@ import { AlarmIcon } from "../../components/Icons";
 import { CreditCardIcon } from "../../components/Icons";
 import CourseEnroll from "../../components/CourseEnroll";
 import HowToApply from "../../components/HowToApply";
+
+//  Images
+import infoimage from "../../assets/images/bussupportacademy/admintools.png";
 
 let DigitalAdminTools = () => {
   return (

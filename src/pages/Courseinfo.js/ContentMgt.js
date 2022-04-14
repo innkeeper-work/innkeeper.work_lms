@@ -1,14 +1,17 @@
+// External import
 import React from "react";
-import infoimage from "../../assets/images/techacademy/infoimage.png";
+
+// Components
 import business_support from "../../data/bus_support_details/business_support.json";
 import CourseEnroll from "../../components/CourseEnroll";
 import HowToApply from "../../components/HowToApply";
-// import adamu from "../../images/adamu.png";
-// import { Link } from "react-router-dom";
 import { BookIcon, AlarmIcon, CreditCardIcon } from "../../components/Icons";
 import { CourseinfoHero } from "../../components/Hero";
 import { ApplyNowButton } from "../../components/Buttons";
 import { CourseCards } from "../../components/Card";
+
+// Images
+import infoimage from "../../assets/images/techacademy/infoimage.png";
 
 let ContentMgt = () => {
   return (
@@ -82,8 +85,8 @@ let AboutContentMgt = () => {
         <h3 className="card-title">About Course</h3>
         <p className="card-text">
           This is a 4-week hybrid course that combines self-paced and
-          instructor-led learning. Video editing, copywriting, and still and
-          motion graphics are some of the topics to be covered. Applicants are
+          instructor-led learning. Video editing, copywriting, still and motion
+          graphics are some of the topics to be covered. Applicants are
           encouraged to pay in installments if full payment cannot be made.
           Instructors are seasoned industry-based and can be reached for
           post-class activities.

@@ -1,14 +1,17 @@
+//External import
 import React from "react";
-import infoimage from "../../assets/images/bussupportacademy/contentmgt.png";
+
+//Components
 import { BookIcon, AlarmIcon, CreditCardIcon } from "../../components/Icons";
 import HowToApply from "../../components/HowToApply";
 import CourseEnroll from "../../components/CourseEnroll";
 import { CourseinfoHero } from "../../components/Hero";
-// import adamu from "../../images/adamu.png";
 import { ApplyNowButton } from "../../components/Buttons";
 import { CourseCards } from "../../components/Card";
 import business_support from "../../data/bus_support_details/business_support.json";
-// import { Link } from "react-router-dom";
+
+//Images
+import infoimage from "../../assets/images/bussupportacademy/contentmgt.png";
 
 let StillandmotionInfo = () => {
   return (
@@ -78,12 +81,18 @@ let AboutStillandmotion = () => {
         </div>
       </div>
       <img src={infoimage} className="card-img-top" alt="..." />
-      {/* <div className="card-body">
+      <div className="card-body">
         <h3 className="card-title">About Course</h3>
         <p className="card-text">
-        
+          This is a 4-week hybrid course that combines self-paced and
+          instructor-led instruction. The training will take place over the
+          course of four weeks. Become a professional designer by kick-starting
+          your learning process in the fundamentals of motion graphics and many
+          more. Applicants are encouraged to pay in installments if full payment
+          cannot be made. Instructors are seasoned industry-based and can be
+          reached for post-class activities.
         </p>
-      </div> */}
+      </div>
     </div>
   );
 };

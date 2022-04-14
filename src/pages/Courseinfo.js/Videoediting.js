@@ -1,6 +1,7 @@
+//External import
 import React from "react";
-import infoimage from "../../assets/images/bussupportacademy/videoediting.png";
-// import adamu from "../../images/adamu.png";
+
+//Components
 import HowToApply from "../../components/HowToApply";
 import CourseEnroll from "../../components/CourseEnroll";
 import business_support from "../../data/bus_support_details/business_support.json";
@@ -8,7 +9,9 @@ import { BookIcon, AlarmIcon, CreditCardIcon } from "../../components/Icons";
 import { CourseinfoHero } from "../../components/Hero";
 import { ApplyNowButton } from "../../components/Buttons";
 import { CourseCards } from "../../components/Card";
-// import { Link } from "react-router-dom";
+
+//Images
+import infoimage from "../../assets/images/bussupportacademy/videoediting.png";
 
 let VideoeditingInfo = () => {
   return (
@@ -78,12 +81,17 @@ let AboutVideoediting = () => {
         </div>
       </div>
       <img src={infoimage} className="card-img-top" alt="..." />
-      {/* <div className="card-body">
+      <div className="card-body">
         <h3 className="card-title">About Course</h3>
         <p className="card-text">
-         
+          This is a 4-week hybrid course that combines self-paced and
+          instructor-led instruction. The training will take place over the
+          course of four weeks. Jumpstart your career to learn the fundamentals
+          of video editing and many more. Applicants are encouraged to pay in
+          installments if full payment cannot be made. Instructors are seasoned
+          industry-based and can be reached for post-class activities.
         </p>
-      </div> */}
+      </div>
     </div>
   );
 };
