@@ -11,6 +11,15 @@ export const SignInButton = () => {
     </a>
   );
 };
+export const SignUpButton = () => {
+  return (
+    <a href="https://soft.innkeeper.work/login/index.php" rel="noreferrer">
+      <button type="button" className="btn signupbtnapply">
+        Sign Up
+      </button>
+    </a>
+  );
+};
 
 export const GetStartedButton = () => {
   return (
@@ -67,7 +76,6 @@ export const ApplyNowButton = () => {
     </button>
   );
 };
-
 // export const ApplyButton = () => {
 // 	return (
 // 		<a href="http://" target="_blank" rel="noreferrer">

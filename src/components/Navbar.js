@@ -112,6 +112,8 @@ const Navbar = () => {
             </li>
           </ul>
           <SignInButton />
+
+          <SignUpButton />
         </div>
       </div>
     </nav>

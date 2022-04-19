@@ -21,17 +21,19 @@ let ArchitectdesignInfo = () => {
     <div>
       <CourseinfoHero coursename="Microsoft Azure Architect Technology" />
       <div className="row justify-content-center g-0">
-        <div className="col-lg-7 col-md-6 col-sm-10">
-          <AboutArchitectdesign />
-          <ArchitectdesignApplyHere />
+        <div className="row justify-content-center">
+          <div className="col-lg-7 col-md-6 col-sm-10">
+            <AboutArchitectdesign />
+            <ArchitectdesignApplyHere />
+          </div>
+          <div className="col-lg-4 col-md-5 col-sm-10 sectiontwoBg mt-5 h-100">
+            <ArchitectdesignReq />
+            <CourseEnroll />
+            {/* <ArchitectdesignInstructor /> */}
+          </div>
         </div>
-        <div className="col-lg-4 col-md-5 col-sm-10 sectiontwoBg mt-5 h-100">
-          <ArchitectdesignReq />
-          <CourseEnroll />
-          {/* <ArchitectdesignInstructor /> */}
-        </div>
+        <ArchitectdesignRelated />
       </div>
-      <ArchitectdesignRelated />
     </div>
   );
 };
@@ -109,10 +111,15 @@ let ArchitectdesignApplyHere = () => {
         </li>
         <li className="list-item pb-2">Select a payment/enrolment method.</li>
         <li className="list-item pb-2">
+          Select a payment/enrolment method HERE.
+        </li>
+        <li className="list-item pb-2">
           Except you pay the stipulated amount, every other course enrolment
           method will require the admin to permit you to class.
         </li>
-
+        <li className="list-item pb-2">
+          Alternatively, you can sign up to begin class HERE.
+        </li>
         <li className="list-item pb-2">
           Go to your e-mail and complete registration via the link that will be
           sent to you.
@@ -150,6 +157,53 @@ let ArchitectdesignReq = () => {
   );
 };
 
+// let CourseEnroll = () => {
+//   return (
+//     <div className="card-body">
+//       <h3 className="card-title">Available Enrolment Options</h3>
+//       <ul className="list-content">
+//         <li className="list-item pb-2">
+//           Click to{" "}
+//           <a
+//             className="text-decoration-none"
+//             href="https://soft.innkeeper.work/enrol/index.php?id=3"
+//             target="_blank"
+//             rel="noreferrer"
+//           >
+//             <b>Pay Now</b>
+//           </a>
+//         </li>
+//         <li className="list-item pb-2">
+//           Click to{" "}
+//           <Link to="" className="text-decoration-none">
+//             <b>Installmental Payment</b>
+//           </Link>
+//         </li>
+//         <p className="">NB: Instalmental payment is accepted (T and C Apply)</p>
+//         <li className="list-item pb-2">
+//           Apply for Student loan{" "}
+//           <Link to="" className="text-decoration-none">
+//             <b>HERE</b>
+//           </Link>
+//         </li>
+//         <li className="list-item pb-2">
+//           Apply via our training bond{" "}
+//           <Link to="" className="text-decoration-none">
+//             <b>HERE</b>
+//           </Link>
+//         </li>
+//         <li className="list-item pb-2">Apply for scholarship.</li>
+//         <p className="">
+//           (See available ones{" "}
+//           <Link to="" className="text-decoration-none">
+//             <b>HERE</b>
+//           </Link>
+//           )
+//         </p>
+//       </ul>
+//     </div>
+//   );
+// };
 // let CourseEnroll = () => {
 // 	return (
 // 		<div className="card-body">
@@ -220,6 +274,30 @@ let ArchitectdesignReq = () => {
 //     </div>
 //   );
 // };
+// let ArchitectdesignInstructor = () => {
+//   return (
+//     <div className="mb-3">
+//       <div className="instructor_card d-flex align-items-md-center">
+//         <div>
+//           <img
+//             src={adamu}
+//             alt=""
+//             width="100px"
+//             height="100px"
+//             className="rounded-circle"
+//           />
+//         </div>
+
+//         <div className="ms-3">
+//           <h5>About Instructor</h5>
+//           <p>AbdulRahman Adamu</p>
+//           <p>Frontend Developer</p>
+//         </div>
+//         {/* <Link to=""></Link> */}
+//       </div>
+//     </div>
+//   );
+// };
 
 let ArchitectdesignRelated = () => {
   return (
@@ -237,4 +315,5 @@ let ArchitectdesignRelated = () => {
     </div>
   );
 };
+
 export default ArchitectdesignInfo;
