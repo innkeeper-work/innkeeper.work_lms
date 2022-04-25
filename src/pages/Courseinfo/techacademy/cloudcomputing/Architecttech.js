@@ -155,7 +155,7 @@ let CourseEnroll = () => {
 						className="text-decoration-none"
 						href="https://paystack.com/pay/innkeeper-cloud-computing"
 						target="_blank"
-						rel="noreferrer">
+						rel="noopener noreferrer">
 						<b>Pay Now</b>
 					</a>
 				</li>
@@ -164,7 +164,8 @@ let CourseEnroll = () => {
 					<a
 						href="https://paystack.com/pay/innkeeper-cloud-computing-part-payment"
 						className="text-decoration-none"
-						target="_blank">
+						target="_blank"
+						rel="noopener noreferrer">
 						<b>Pay Installmentally</b>
 					</a>
 				</li>

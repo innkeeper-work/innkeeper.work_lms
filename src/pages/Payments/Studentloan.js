@@ -1,3 +1,4 @@
+import React from "react";
 import { CourseinfoHero } from "../../components/Hero";
 import edubancimg from "../../images/edubancimg.png";
 import { GetStartedLoan } from "../../components/Buttons";

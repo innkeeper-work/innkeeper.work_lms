@@ -1,20 +1,17 @@
-import React, { Component, useState } from "react";
-import Slider from "react-slick";
+import React from "react";
 import { Link } from "react-router-dom";
 import { HomepageHero } from "../components/Hero";
 import aiki from "../images/aiki.png";
-import lady from "../images/lady.jpeg";
 import whychooseus from "../images/whychooseus.png";
 import categories from "../data/categories.json";
-
 import { CourseCategoryCards } from "../components/Card";
 import { BlogCards } from "../components/Card";
 import { BlogCardsTwo } from "../components/Card";
 // import { LearnMoreButton } from "../components/Buttons";
 import { BeginCoursesButton } from "../components/Buttons";
 import { SubscribeButton } from "../components/Buttons";
-import { FAQ } from "../components/FAQ";
-import { ApplyNowButton } from "../components/Buttons";
+// import { FAQ } from "../components/FAQ";
+// import { ApplyNowButton } from "../components/Buttons";
 import { OurPartners } from "../components/OurPartners";
 
 import videoicon from "../images/videoicon.png";

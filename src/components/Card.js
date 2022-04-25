@@ -1,4 +1,5 @@
 // import { useState } from "react";
+import React from "react";
 import { ApplyNowButton } from "./Buttons";
 import { LinkedInIcon } from "./Icons";
 import event1 from "../images/event1.png";

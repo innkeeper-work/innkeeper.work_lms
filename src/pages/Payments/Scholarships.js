@@ -1,3 +1,4 @@
+import React from "react";
 import { CourseinfoHero } from "../../components/Hero";
 import scholarship from "../../images/scholarship.png";
 import { CreditCardIcon } from "../../components/Icons";

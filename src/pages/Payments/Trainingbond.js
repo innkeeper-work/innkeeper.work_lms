@@ -1,3 +1,4 @@
+import React from "react";
 import { TrainingBondHero } from "../../components/Hero";
 import trainingbond from "../../images/trainingbond.png";
 import { Submit } from "../../components/Buttons";

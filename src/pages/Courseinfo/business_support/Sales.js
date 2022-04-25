@@ -123,7 +123,7 @@ let CourseEnroll = () => {
 						className="text-decoration-none"
 						href="https://paystack.com/pay/innkeeper-business-support"
 						target="_blank"
-						rel="noreferrer">
+						rel="noopener noreferrer">
 						<b>Pay Now</b>
 					</a>
 				</li>
@@ -131,7 +131,9 @@ let CourseEnroll = () => {
 					Click to{" "}
 					<a
 						href="https://paystack.com/pay/innkeeper-business-support-part-payment"
-						className="text-decoration-none">
+						className="text-decoration-none"
+						target="_blank"
+						rel="noopener noreferrer">
 						<b>Pay Installmentally</b>
 					</a>
 				</li>

@@ -1,17 +1,18 @@
+import React from "react";
 import { Link } from "react-router-dom";
 
 let HowToApply = () => {
-  return (
-    <div className="card-body">
-      <h3 className="card-title">How to Apply</h3>
-      <ul className="list-content">
-        <li className="list-item pb-2">
-          Read about the course and indicate interest.
-        </li>
-        <li className="list-item pb-2">
-          Select a payment/enrolment method to begin class.
-        </li>
-        {/* <li className="list-item pb-2">
+	return (
+		<div className="card-body">
+			<h3 className="card-title">How to Apply</h3>
+			<ul className="list-content">
+				<li className="list-item pb-2">
+					Read about the course and indicate interest.
+				</li>
+				<li className="list-item pb-2">
+					Select a payment/enrolment method to begin class.
+				</li>
+				{/* <li className="list-item pb-2">
           Except you pay the stipulated amount, every other course enrolment
           method will require the admin to permit you to class.
         </li>
@@ -25,9 +26,9 @@ let HowToApply = () => {
           courses available according to academy, then request for your desired
           course.
         </li> */}
-      </ul>
-    </div>
-  );
+			</ul>
+		</div>
+	);
 };
 
 export default HowToApply;

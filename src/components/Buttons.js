@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export const SignInButton = () => {
 	return (
-		<a href="https://app.innkeeper.work/login/index.php" rel="noreferrer">
+		<a href="https://app.innkeeper.work/login/index.php">
 			<button type="button" className="btn signinbtnapply">
 				Sign In
 			</button>
@@ -13,7 +13,7 @@ export const SignInButton = () => {
 
 export const GetStartedButton = () => {
 	return (
-		<a href="#categories" rel="noreferrer">
+		<a href="#categories">
 			<button type="button" className="btn callToAction">
 				Get Started
 			</button>
@@ -22,7 +22,7 @@ export const GetStartedButton = () => {
 };
 export const GetStartedLoan = () => {
 	return (
-		<a href="https://edubanc.ng/" target="_blank" rel="noreferrer">
+		<a href="https://edubanc.ng/" target="_blank" rel="noopener noreferrer">
 			<button type="button" className="btn callToAction">
 				Get Started
 			</button>
@@ -31,7 +31,7 @@ export const GetStartedLoan = () => {
 };
 export const GetStartedBond = () => {
 	return (
-		<a href="#loanform" rel="noreferrer">
+		<a href="#loanform">
 			<button type="button" className="btn callToAction">
 				Request for bond
 			</button>
