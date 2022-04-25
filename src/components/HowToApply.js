@@ -6,10 +6,12 @@ let HowToApply = () => {
       <h3 className="card-title">How to Apply</h3>
       <ul className="list-content">
         <li className="list-item pb-2">
-          Read about the course content and indicate interest.
+          Read about the course and indicate interest.
         </li>
-        <li className="list-item pb-2">Select a payment/enrolment method.</li>
         <li className="list-item pb-2">
+          Select a payment/enrolment method to begin class.
+        </li>
+        {/* <li className="list-item pb-2">
           Except you pay the stipulated amount, every other course enrolment
           method will require the admin to permit you to class.
         </li>
@@ -22,7 +24,7 @@ let HowToApply = () => {
           Then from your dashboard, click all courses to display the list of
           courses available according to academy, then request for your desired
           course.
-        </li>
+        </li> */}
       </ul>
     </div>
   );

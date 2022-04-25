@@ -280,4 +280,20 @@ body p {
     opacity: 0.9;
   }
 }
+.slide-icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.prevCard {
+  left: 0;
+}
+
+.activeCard {
+  left: 50%;
+}
+
+.nextCard {
+  right: 0;
+}
 /*# sourceMappingURL=app.css.map */

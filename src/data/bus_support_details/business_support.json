@@ -3,7 +3,7 @@
     {
       "id": 1,
       "herotitle": "Business Support Academy",
-      "Description": "Our range of courses includes Managing self & personal development, Working in highly successful team, Employability skills workshop, and Critical thinking- Creativity."
+      "Description": "Courses under this category involve Sales, Customer Experience, Digital Marketing, Video Editing, Motion & Still Graphics, and Admin Digital Tools."
     }
   ],
   "business": [
@@ -43,16 +43,9 @@
       "Link": "/stillandmotion"
     },
     {
-      "id": 6,
-      "img": "../../images/courses/content dev_t.png",
-      "title": "Content Management",
-      "description": "Video editing, copywriting, still and  motion graphics are some of the topics to be covered.",
-      "Link": "/contentmgt"
-    },
-    {
       "id": 7,
       "img": "../../images/courses/admin.png",
-      "title": "Digital Administration Tools",
+      "title": " Admin Digital Tools",
       "description": "Communication Tools, Project Management Tools, File-Sharing Tools, and Calendar/Schedule Management.",
       "Link": "/digitaladmintools"
     }
@@ -62,7 +55,7 @@
       "id": 1,
       "img": "../../images/facilitators/hussein.png",
       "instructorname": "Hussein Sanni",
-      "role": "Digital MArketing Specialist",
+      "role": "Digital Marketing Specialist",
       "linkedinprofile": "https://www.linkedin.com/in/sannihussein/"
     },
     {
