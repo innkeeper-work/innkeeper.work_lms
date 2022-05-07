@@ -1,6 +1,6 @@
 import React from "react";
 import { CourseinfoHero } from "../../components/Hero";
-import edubancimg from "../../images/edubancimg.png";
+import edubancimg from "../../assets/images/scholarships_payments/edubancimg.png";
 import { GetStartedLoan } from "../../components/Buttons";
 
 let Studentloan = () => {

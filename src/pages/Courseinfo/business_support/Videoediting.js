@@ -1,5 +1,5 @@
 import React from "react";
-import infoimage from "../../../images/infoimage.png";
+import infoimage from "../../../assets/images/bussupportacademy/videoediting.png";
 import HowToApply from "../../../components/HowToApply";
 import { PaymentOptions } from "../../../components/CourseEnroll";
 import businessSupport from "../../../data/bus_support_details/business_support.json";

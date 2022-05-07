@@ -51,8 +51,13 @@ body {
 // .signinbtn {
 //   @include signin;
 // }
+
 .signinbtnapply {
-	@include signin;
+  @include signin;
+}
+.signupbtnapply {
+  @include signup;
+
 }
 // .signinbtn:hover {
 // 	@extend .signinbtn;
@@ -202,6 +207,7 @@ body {
 	box-shadow: 4px 4px 4px 4px rgb(179, 174, 174, 0.25);
 	border-radius: 15px;
 }
+
 .testimonial {
 	color: $btnBgColor2;
 }

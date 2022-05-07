@@ -1,12 +1,15 @@
+// External import
 import React from "react";
-import innkeeperlogo from "../images/innkeeperlogo.png";
+import { Link } from "react-router-dom";
 import {
 	FacebookIcon,
 	WhatsAppIcon,
 	InstagramIcon,
 	LinkedInIcon,
 } from "../components/Icons";
-import { Link } from "react-router-dom";
+
+// Images
+import innkeeperlogo from "../assets/images/innkeeperlogo.png";
 
 const Footer = () => {
 	return (
@@ -18,31 +21,33 @@ const Footer = () => {
 							<div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 								<img src={innkeeperlogo} alt="Innkeeper.work" />
 
-								<div className="mt-2 pt-2">
-									<a
-										href=" https://goo.gl/maps/6TWAwZbE7ab3rLoz9"
-										className="mt-4 pt-2 text-reset"
-										target="_blank"
-										rel="noopener noreferrer"
-										style={{ textDecoration: "none" }}>
-										The 8thGear Hub, 11b Colin Onabule Crescent, Diamond Estate
-										Off CMD Road (beside Secretariat/Magodo gate) Lagos Nigeria.
-									</a>
-									<p className="mt-2 pt-2">
-										+234 (0) 809-846-8885
-										<p>
-											<a
-												href="mailto:info@innkeeper.work"
-												className="text-reset"
-												target="_blank"
-												rel="noopener noreferrer"
-												style={{ textDecoration: "none" }}>
-												info@innkeeper.work
-											</a>
-										</p>
-									</p>
-								</div>
-							</div>
+                <div className="mt-2 pt-2">
+                  <a
+                    href=" https://goo.gl/maps/6TWAwZbE7ab3rLoz9"
+                    className="mt-4 pt-2 text-reset"
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{ textDecoration: "none" }}
+                  >
+                    The 8thGear Hub, 11b Colin Onabule Crescent, Diamond Estate
+                    Off CMD Road (beside Secretariat/Magodo gate) Lagos Nigeria.
+                  </a>
+                  <div className="mt-2 pt-2">
+                    +234 (0) 809-846-8885
+                    <p>
+                      <a
+                        href="mailto:info@innkeeper.work"
+                        className="text-reset"
+                        target="_blank"
+                        rel="noreferrer"
+                        style={{ textDecoration: "none" }}
+                      >
+                        info@innkeeper.work
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
 
 							<div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 d-none d-md-block ms-5 ">
 								<h5 className="text-uppercase fw-bold mb-4">Menu</h5>

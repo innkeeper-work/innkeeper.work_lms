@@ -1,5 +1,5 @@
 import React from "react";
-import infoimage from "../../../images/infoimage.png";
+import infoimage from "../../../assets/images/bussupportacademy/admintools.png";
 import { Link } from "react-router-dom";
 import { CourseinfoHero } from "../../../components/Hero";
 import { ApplyNowButton } from "../../../components/Buttons";

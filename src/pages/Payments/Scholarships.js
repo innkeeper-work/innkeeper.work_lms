@@ -1,6 +1,6 @@
 import React from "react";
 import { CourseinfoHero } from "../../components/Hero";
-import scholarship from "../../images/scholarship.png";
+import scholarship from "../../assets/images/scholarships_payments/scholarship.png";
 import { CreditCardIcon } from "../../components/Icons";
 import { Link } from "react-router-dom";
 

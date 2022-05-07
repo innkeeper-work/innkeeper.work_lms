@@ -1,6 +1,6 @@
 import React from "react";
 import { TrainingBondHero } from "../../components/Hero";
-import trainingbond from "../../images/trainingbond.png";
+import trainingbond from "../../assets/images/scholarships_payments/trainingbond.png";
 import { Submit } from "../../components/Buttons";
 import { CreditCardIcon } from "../../components/Icons";
 import { Link } from "react-router-dom";

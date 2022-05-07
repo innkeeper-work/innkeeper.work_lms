@@ -1,5 +1,5 @@
 import React from "react";
-import infobg from "../../../../images/infobg.png";
+import infobg from "../../../../assets/images/techacademy/cloudcomputing/devops.png";
 import techacademy from "../../../../data/tech_academy_details/techacademy.json";
 import HowToApply from "../../../../components/HowToApply";
 import { PaymentOptions } from "../../../../components/CourseEnroll";

@@ -1,5 +1,5 @@
 import React from "react";
-import infoimage from "../../../../images/infobg.png";
+import infoimage from "../../../../assets/images/techacademy/cloudcomputing/architecttechnology.gif";
 import { Link } from "react-router-dom";
 import { CourseinfoHero } from "../../../../components/Hero";
 import { ApplyNowButton } from "../../../../components/Buttons";

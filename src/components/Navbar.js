@@ -1,8 +1,12 @@
+// External import
 import React from "react";
 import { Link } from "react-router-dom";
-// import innkeeperlogo from "../images/innkeeperlogo.png";
-import innkeeperlogo197 from "../images/innkeeperlogo197.png";
+
+// Components
 import { SignInButton } from "../components/Buttons";
+
+// Images
+import innkeeperlogo197 from "../assets/images/innkeeperlogo197.png";
 
 const Navbar = () => {
 	return (

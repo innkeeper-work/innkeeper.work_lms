@@ -1,14 +1,24 @@
+// External import
 import React from "react";
 import { Link } from "react-router-dom";
 
 export const SignInButton = () => {
-	return (
-		<a href="https://app.innkeeper.work/login/index.php">
-			<button type="button" className="btn signinbtnapply">
-				Sign In
-			</button>
-		</a>
-	);
+  return (
+    <a href="https://soft.innkeeper.work/login/index.php" rel="noreferrer">
+      <button type="button" className="btn signinbtnapply">
+        Sign In
+      </button>
+    </a>
+  );
+};
+export const SignUpButton = () => {
+  return (
+    <a href="https://soft.innkeeper.work/login/index.php" rel="noreferrer">
+      <button type="button" className="btn signupbtnapply">
+        Sign Up
+      </button>
+    </a>
+  );
 };
 
 export const GetStartedButton = () => {
@@ -66,7 +76,6 @@ export const ApplyNowButton = () => {
 		</button>
 	);
 };
-
 // export const ApplyButton = () => {
 // 	return (
 // 		<a href="http://" target="_blank" rel="noreferrer">

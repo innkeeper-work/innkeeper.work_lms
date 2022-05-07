@@ -1,5 +1,5 @@
 import React from "react";
-import infoimage from "../../../images/infoimage.png";
+import infoimage from "../../../assets/images/bussupportacademy/contentmgt.png";
 import { BookIcon, AlarmIcon, CreditCardIcon } from "../../../components/Icons";
 import HowToApply from "../../../components/HowToApply";
 import { PaymentOptions } from "../../../components/CourseEnroll";
