@@ -1,0 +1,64 @@
+{
+  "openings": [
+    {
+      "id": 1,
+      "logo": "../../images/favicon.png",
+      "role": "Digital Marketer",
+      "company": "8thGear Partners Ltd",
+      "description": "The world of business presents a variety of roles and opportunities,and with the advent of technology.",
+      "location": "Remote",
+      "pay": "100,000",
+      "nature": "Fulltime"
+    },
+    {
+      "id": 2,
+      "logo": "../../images/favicon.png",
+      "role": "Digital Marketer",
+      "company": "8thGear Partners Ltd",
+      "description": "The world of business presents a variety of roles and opportunities,and with the advent of technology.",
+      "location": "Remote",
+      "pay": "100,000",
+      "nature": "Fulltime"
+    },
+    {
+      "id": 3,
+      "logo": "../../images/favicon.png",
+      "role": "Digital Marketer",
+      "company": "8thGear Partners Ltd",
+      "description": "The world of business presents a variety of roles and opportunities,and with the advent of technology.",
+      "location": "Remote",
+      "pay": "100,000",
+      "nature": "Fulltime"
+    },
+    {
+      "id": 4,
+      "logo": "../../images/favicon.png",
+      "role": "Digital Marketer",
+      "company": "8thGear Partners Ltd",
+      "description": "The world of business presents a variety of roles and opportunities,and with the advent of technology.",
+      "location": "Remote",
+      "pay": "100,000",
+      "nature": "Fulltime"
+    },
+    {
+      "id": 5,
+      "logo": "../../images/favicon.png",
+      "role": "Digital Marketer",
+      "company": "8thGear Partners Ltd",
+      "description": "The world of business presents a variety of roles and opportunities,and with the advent of technology.",
+      "type": "Remote",
+      "pay": "100,000",
+      "nature": "Fulltime"
+    },
+    {
+      "id": 6,
+      "logo": "../../images/favicon.png",
+      "role": "Digital Marketer",
+      "company": "8thGear Partners Ltd",
+      "description": "The world of business presents a variety of roles and opportunities,and with the advent of technology.",
+      "type": "Remote",
+      "pay": "100,000",
+      "nature": "Fulltime"
+    }
+  ]
+}

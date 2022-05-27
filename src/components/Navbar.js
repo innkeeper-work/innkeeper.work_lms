@@ -1,18 +1,23 @@
+// External import
 import React from "react";
 import { Link } from "react-router-dom";
-// import innkeeperlogo from "../images/innkeeperlogo.png";
-import innkeeperlogo197 from "../images/innkeeperlogo197.png";
+
+// Components
 import { SignInButton } from "../components/Buttons";
+
+// Images
+import innkeeperlogo197 from "../assets/images/innkeeperlogo197.png";
+
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid px-2">
+    <nav className="navbar navbar-expand-lg navbar-light">
+      <div className="container-fluid px-2">
         <Link to="/" className="navbar-brand ms-2">
           {" "}
           <img src={innkeeperlogo197} className="" alt="" />
         </Link>
         <button
-          class="navbar-toggler btn"
+          className="navbar-toggler btn"
           type=""
           data-bs-toggle="collapse"
           data-bs-target="#navbarNavDarkDropdown"
@@ -20,14 +25,14 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          class="collapse navbar-collapse justify-content-end"
+          className="collapse navbar-collapse justify-content-end"
           id="navbarNavDarkDropdown"
         >
-          <ul class="navbar-nav">
-            <li class="nav-item">
+          <ul className="navbar-nav">
+            <li className="nav-item">
               <Link
                 to="/"
                 className="nav-link active mx-3"
@@ -37,7 +42,7 @@ const Navbar = () => {
                 Home
               </Link>
             </li>
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <Link
                 to=""
                 className="nav-link dropdown-toggle mx-3"
@@ -47,7 +52,7 @@ const Navbar = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Courses
+                Upskill
               </Link>
 
               <ul
@@ -77,7 +82,17 @@ const Navbar = () => {
                 </li>
               </ul>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
+              <Link
+                to="/careers"
+                className="nav-link mx-3"
+                style={{ color: "#000" }}
+              >
+                {" "}
+                Careers
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link
                 to="/blog"
                 className="nav-link mx-3"
@@ -87,7 +102,7 @@ const Navbar = () => {
                 Blog
               </Link>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <Link
                 to="/community"
                 className="nav-link mx-3"
@@ -96,7 +111,7 @@ const Navbar = () => {
                 Community
               </Link>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <Link
                 to="/contact"
                 className="nav-link mx-3"

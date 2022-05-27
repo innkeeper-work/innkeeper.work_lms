@@ -1,21 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
+// Components
 import { HomepageHero } from "../components/Hero";
-import aiki from "../images/aiki.png";
-import whychooseus from "../images/whychooseus.png";
+import { OurPartners } from "../components/OurPartners";
 import categories from "../data/categories.json";
-import faqs from "../data/faq.json";
 import { CourseCategoryCards } from "../components/Card";
+import { BeginCoursesButton } from "../components/Buttons";
 import { BlogCards } from "../components/Card";
 import { BlogCardsTwo } from "../components/Card";
-// import { LearnMoreButton } from "../components/Buttons";
-import { BeginCoursesButton } from "../components/Buttons";
 import { SubscribeButton } from "../components/Buttons";
-import { FAQ } from "../components/FAQ";
-import { ApplyNowButton } from "../components/Buttons";
-import { OurPartners } from "../components/OurPartners";
 
-import videoicon from "../images/videoicon.png";
+// Images
+import aiki from "../assets/images/home/aiki.png";
+import whychooseus from "../assets/images/home/whychooseus.png";
+import videoicon from "../assets/images/partnerLogos/videoicon.png";
 
 const Home = () => {
   return (
@@ -243,6 +242,52 @@ let CourseCategory = () => {
     </div>
   );
 };
+// let CourseCategory = () => {
+// 	const [current, setCurrent] = useState(0);
+// 	const slidelength = categories.coursecategories.length;
+// 	// console.log(slidelength);
+// 	const nextSlide = () => {
+// 		setCurrent(current === slidelength - 1 ? 0 : current + 1);
+// 	};
+// 	const prevSlide = () => {
+// 		setCurrent(current === 0 ? slidelength - 1 : current - 1);
+// 	};
+
+// 	// console.log(current);
+// 	if (
+// 		!Array.isArray(categories.coursecategories) ||
+// 		categories.coursecategories.length <= 3
+// 	) {
+// 		return null;
+// 	}
+// 	return (
+// 		<div className="categoryBg py-4">
+// 			<div className="mx-md-5 px-md-3" id="categories">
+// 				<h3 className="text-center pt-5">Our Courses</h3>
+// 				<div className="row g-0 justify-content-center">
+// 					{categories.coursecategories.map((category) => {
+// 						return (
+// 							<div
+// 								className={`${
+// 									category.id === current ? `slide active` : `slide`
+// 								}col-lg-4 col-md-6 col-sm-6 col-xs-12
+//                 `}
+// 								key={category.id}>
+// 								{category.id === current && (
+// 									<CourseCategoryCards {...category}></CourseCategoryCards>
+// 								)}
+// 							</div>
+// 						);
+// 					})}
+// 				</div>
+// 				<div className="slide-icon d-flex justify-content-center">
+// 					<i className="bi-chevron-left left ps-3" onClick={prevSlide}></i>
+// 					<i className="bi-chevron-right right ps-3" onClick={nextSlide}></i>
+// 				</div>
+// 			</div>
+// 		</div>
+// 	);
+// };
 
 let Homepagetest = () => {
   return (
@@ -250,47 +295,85 @@ let Homepagetest = () => {
       className="text-center py-5
      bgSoft"
     >
-      <div className="card-body herotextWhite">
-        <p className="card-title">
-          "My entire team was good to go at the end of the training! The soft
-          skills available on innkeeper platform was used to train my team. This
-          was needful because my team relates with people often. I witnessed
-          some part of the role plays and it was impactful. Thanks to
-          innkeeper.work”
-        </p>
+      <div className="row g-0 justify-content-center">
+        <div className="col-xl-8 col-lg-8 col-md-10 col-sm-12">
+          <div className="card-body herotextWhite ">
+            <p className="card-title">
+              "My entire team was good to go at the end of the training! The
+              soft skills available on innkeeper platform was used to train my
+              team. This was needful because my team relates with people often.
+              I witnessed some part of the role plays and it was impactful.
+              Thanks to innkeeper.work”
+            </p>
 
-        <img src={aiki} className="img-fluid rounded-start mt-4" alt="..." />
+            <img
+              src={aiki}
+              className="img-fluid rounded-start mt-4"
+              alt="..."
+            />
 
-        <p className="card-title mt-3">Hafsatu Shinkafi</p>
-        <p className="card-text">CEO, AIKI Services</p>
+            <p className="card-title mt-3">Hafsatu Shinkafi</p>
+            <p className="card-text">CEO, AIKI Services</p>
+          </div>
+        </div>
       </div>
     </div>
   );
 };
 
 // style={{ width: '25%' }}
+// let Testimonial = () => {
+//   return (
+//     <div className="row g-0 d-flex justify-content-around">
+//       <div className="col-lg-3 col-md-12 my-auto py-md-5 py-sm-5">
+//         <h3 className="testimonial ms-5">
+//           "What Our
+//           <br /> Students Are Saying
+//         </h3>
+//       </div>
+//       <div className="col-lg-3 col-md-4 p-lg-5 ps-4 pb-4">
+//         <img src={lady} className="card-img-top" alt="..." />
+//       </div>
+//       <div className="col-lg-5 col-md-6 testimonials card my-auto">
+//         <div className="card-body">
+//           <p className="card-text testimonialtext">
+//             It was a wonderful training session and I will encourage others
+//             especially youths to take advantage of it. Kudos to LSETF, USADF and
+//             8thGear.
+//           </p>
+//           <p className="card-title testimonialname">
+//             Bolarinwa Olayiwola Quadri
+//           </p>
+//           <p className="card-title testimonialname">Data Analyst Trainee</p>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
 let Testimonial = () => {
   return (
-    <div className="col-xs-12 p-5 text-center testBg">
-      <div className="card testTextBg m-auto p-3">
-        <h3 className="">Success Story</h3>
-        <div className="">
-          <p>
-            I opted for the Sales/Customer Service course and I was not
-            disappointed. The trainers are competent and professionals.For me,
-            my confidence grew during the Course and my interest in Sales as a
-            career was ignited. I had a great experience and I will gladly
-            recommend this program.
-          </p>
-          <b className="">Jelilat Akinremi</b>
-          <p className="">Sales/Customer Service Graduate</p>
-          <Link to="" className="">
-            <img
-              src={videoicon}
-              className="d-block mx-auto img-fluid rounded-circle"
-              alt=""
-            />
-          </Link>
+    <div className="row g-0 justify-content-center">
+      <div className="col-xl-8 col-lg-8 col-md-10 col-sm-12 col-xs-12 p-5 text-center testBg">
+        <div className="card testTextBg m-auto p-3">
+          <h3 className="">Success Story</h3>
+          <div className="">
+            <p>
+              I opted for the Sales/Customer Service course and I was not
+              disappointed. The trainers are competent and professionals.For me,
+              my confidence grew during the Course and my interest in Sales as a
+              career was ignited. I had a great experience and I will gladly
+              recommend this program.
+            </p>
+            <b className="">Jelilat Akinremi</b>
+            <p className="">Sales/Customer Service Graduate</p>
+            <Link to="" className="">
+              <img
+                src={videoicon}
+                className="d-block mx-auto img-fluid rounded-circle"
+                alt=""
+              />
+            </Link>
+          </div>
         </div>
       </div>
     </div>
@@ -315,7 +398,7 @@ let Faq = () => {
               aria-expanded="false"
               aria-controls="flush-collapseOne"
             >
-              Accordion Item #1
+              What are the available payment options?
             </button>
           </p>
           <div
@@ -325,9 +408,24 @@ let Faq = () => {
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body">
-              Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> class. This is the
-              first item's accordion body.
+              We have various payment options available below:
+              <ul className="list-content">
+                <li className="list-item pb-2">
+                  Pay now: You can pay upfront. We also have an Installment
+                  payment plan that helps you to pay with ease.
+                </li>
+                <li className="list-item pb-2">
+                  Student loan: You can access the student loan on the sterling
+                  Edu banc platform{" "}
+                  <Link to="studentloan" className="text-decoration-none">
+                    here.
+                  </Link>
+                </li>
+                <li className="list-item pb-2">
+                  Pay as you earn: You are expected to Pay 20% upfront and Pay
+                  the rest as you earn.
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -341,7 +439,7 @@ let Faq = () => {
               aria-expanded="false"
               aria-controls="flush-collapseTwo"
             >
-              Accordion Item #2
+              What is the mode of learning?
             </button>
           </p>
           <div
@@ -351,10 +449,8 @@ let Faq = () => {
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body">
-              Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> class. This is the
-              second item's accordion body. Let's imagine this being filled with
-              some actual content.
+              We adopt both blends of virtual and in-class training that is
+              instructor-led and encourages self-paced learning.
             </div>
           </div>
         </div>
@@ -368,7 +464,7 @@ let Faq = () => {
               aria-expanded="false"
               aria-controls="flush-collapseThree"
             >
-              Accordion Item #3
+              Can I get a professional certification for these courses?
             </button>
           </p>
           <div
@@ -378,18 +474,99 @@ let Faq = () => {
             data-bs-parent="#accordionFlushExample"
           >
             <div className="accordion-body">
-              Placeholder content for this accordion, which is intended to
-              demonstrate the <code>.accordion-flush</code> class. This is the
-              third item's accordion body. Nothing more exciting happening here
-              in terms of content, but just filling up the space to make it
-              look, at least at first glance, a bit more representative of how
-              this would look in a real-world application.
+              Yes, you can get a professional for our courses but the payment is
+              done independently of the training fee.
             </div>
           </div>
         </div>
-      </div>
-      <div className="text-center py-4">
-        <ApplyNowButton />
+        <div className="accordion-item">
+          <p className="accordion-header" id="flush-headingFour">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFour"
+              aria-expanded="false"
+              aria-controls="flush-collapseFour"
+            >
+              How do I be a part of Innkeeper Fellow?
+            </button>
+          </p>
+          <div
+            id="flush-collapseFour"
+            className="accordion-collapse collapse"
+            aria-labelledby="flush-headingFour"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div className="accordion-body">
+              The Innkeeper fellow is a thriving community of individuals who
+              have gone through the innkeeper training academy. To be a part of
+              our Innkeeper fellows, you must have completed any of our training
+              programs.
+            </div>
+          </div>
+        </div>
+        <div className="accordion-item">
+          <p className="accordion-header" id="flush-headingFive">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseFive"
+              aria-expanded="false"
+              aria-controls="flush-collapseFive"
+            >
+              What is the average duration of training at Innkeeper?
+            </button>
+          </p>
+          <div
+            id="flush-collapseFive"
+            className="accordion-collapse collapse"
+            aria-labelledby="flush-headingFive"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div className="accordion-body">
+              The average training ranges from between 4weeks to 10weeks
+              depending on the course being enrolled for. Kindly view the
+              training Calander{" "}
+              <Link to="https://docs.google.com/spreadsheets/d/1nv3J8chHfVVGy0_jKx6QgA5vPwv6YHhM7GmaqTSIXgE/edit?usp=sharing">
+                here
+              </Link>{" "}
+              for more details.
+            </div>
+          </div>
+        </div>
+        <div className="accordion-item">
+          <p className="accordion-header" id="flush-headingSix">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseSix"
+              aria-expanded="false"
+              aria-controls="flush-collapseSix"
+            >
+              I have more questions, who can I talk to? 
+            </button>
+          </p>
+          <div
+            id="flush-collapseSix"
+            className="accordion-collapse collapse"
+            aria-labelledby="flush-headingSix"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div className="accordion-body">
+              Please fill out the contact us form or send us a mail to{" "}
+              <a
+                href="mailto:info@innkeeper.work"
+                className="text-decoration-none"
+              >
+                info@innkeeper.work
+              </a>
+              &nbsp;and we will get back to you as soon as possible.
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
@@ -416,4 +593,5 @@ let Newsletter = () => {
     </div>
   );
 };
+
 export default Home;

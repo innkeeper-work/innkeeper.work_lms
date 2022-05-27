@@ -1,62 +1,69 @@
 {
-	"empsoftskillsheroinfo": [
-		{
-			"id": 1,
-			"herotitle": "Employability/Soft Skills",
-			"Description": "Our range of courses includes Managing self & personal development, Working in highly successful team, Employability skills workshop, and Critical thinking- Creativity."
-		}
-	],
-	"empsoftskills": [
-		{
-			"id": 1,
-			"img": "../../images/courses/personal dev_t.png",
-			"title": "Managing Self & Personal development",
-			"description": "A personal development plan can help you grow and develop your potential, attain your goals, and undergo self-transformation.",
-			"Link": "personaldevt"
-		},
-		{
-			"id": 2,
-			"img": "../../images/courses/team-success.png",
-			"title": "Working in Highly Successful Team",
-			"description": "Teams and individuals may recognize their strengths and weaknesses, facts and assumptions through having informed and constructive talks.",
-			"Link": "successfulteam"
-		},
-		{
-			"id": 3,
-			"img": "../../images/courses/emp_skills.png",
-			"title": "Employability Skills Workshop",
-			"description": "Whether you work for a company that is owned by someone else or run your own business, you will undoubtedly need to attend some organizational skills training.",
-			"Link": "workshop"
-		},
-		{
-			"id": 4,
-			"img": "../../images/courses/creativity.png",
-			"title": "Critical thinking- Creativity",
-			"description": "Critical thinking helps you to get rid of prejudices, and assertions that are thrown at you through various means and make sense of what is offered.",
-			"Link": "criticalthinking"
-		}
-	],
-	"instructors": [
-		{
-			"id": 1,
-			"img": "../../images/facilitators/daramola.png",
-			"instructorname": "Olabode Daramola",
-			"role": "Clinical Psychologist",
-			"linkedinprofile": "get linkedin profile"
-		},
-		{
-			"id": 2,
-			"img": "../../images/facilitators/temitayo samson-grace.png",
-			"instructorname": "Temitayo Samson-Grace",
-			"role": "HR Professional",
-			"linkedinprofile": " https://www.linkedin.com/in/temitayosg/"
-		},
-		{
-			"id": 3,
-			"img": "../../images/facilitators/amaka-ezeh.png",
-			"instructorname": "Amaka Ezeh",
-			"role": "HR Business Partner",
-			"linkedinprofile": " https://www.linkedin.com/in/amaka-ezeh/"
-		}
-	]
+  "empsoftskillsheroinfo": [
+    {
+      "id": 1,
+      "herotitle": "Employability/Soft Skills",
+      "Description": "Our range of courses includes Managing self & personal development, Working in highly successful team, Employability skills workshop, and Critical thinking- Creativity."
+    }
+  ],
+  "empsoftskills": [
+    {
+      "id": 1,
+      "img": "../../images/employability/personal dev_t.png",
+      "title": "Managing Self & Personal development",
+      "description": "A personal development plan can help you grow and develop your potential, attain your goals, and undergo self-transformation.",
+      "Link": "https://soft.innkeeper.work/course/view.php?id=24"
+    },
+    {
+      "id": 2,
+      "img": "../../images/employability/team-success.png",
+      "title": "Working in Highly Successful Team",
+      "description": "Teams and individuals may recognize their strengths and weaknesses, facts and assumptions through having informed and constructive talks.",
+      "Link": "https://soft.innkeeper.work/course/view.php?id=25"
+    },
+    {
+      "id": 3,
+      "img": "../../images/employability/emp_skills.png",
+      "title": "Employability Skills Workshop",
+      "description": "Whether you work for a company that is owned by someone else or run your own business, you will undoubtedly need to attend some organizational skills training.",
+      "Link": "https://soft.innkeeper.work/course/view.php?id=26"
+    },
+    {
+      "id": 4,
+      "img": "../../images/employability/creativity.png",
+      "title": "Critical thinking- Creativity",
+      "description": "Critical thinking helps you to get rid of prejudices, and assertions that are thrown at you through various means and make sense of what is offered.",
+      "Link": "https://soft.innkeeper.work/course/view.php?id=27"
+    }
+  ],
+  "instructors": [
+    {
+      "id": 1,
+      "img": "../../images/facilitators/employability/daramola.png",
+      "instructorname": "Olabode Daramola",
+      "role": "Clinical Psychologist",
+      "linkedinprofile": "https://www.linkedin.com/in/olabode-daramola-mnacp-ldp-5b500628/"
+    },
+    {
+      "id": 2,
+      "img": "../../images/facilitators/employability/temitayo samson-grace.png",
+      "instructorname": "Temitayo Samson-Grace",
+      "role": "HR Professional",
+      "linkedinprofile": " https://www.linkedin.com/in/temitayosg/"
+    },
+    {
+      "id": 3,
+      "img": "../../images/facilitators/employability/amaka-ezeh.png",
+      "instructorname": "Amaka Ezeh",
+      "role": "HR Business Partner",
+      "linkedinprofile": " https://www.linkedin.com/in/amaka-ezeh/"
+    },
+    {
+      "id": 4,
+      "img": "",
+      "instructorname": "Toluwase Olaniyan",
+      "role": "Development Professional",
+      "linkedinprofile": "https://www.linkedin.com/in/toluwase-olaniyan/"
+    }
+  ]
 }

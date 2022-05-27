@@ -25,6 +25,10 @@ body {
     font-size: 1.5rem;
     font-weight: 600;
   }
+  h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
 
   h5 {
     font-weight: 500;
@@ -37,21 +41,31 @@ body {
     line-height: 1.75rem;
   }
 }
+.studentLoan {
+  @include studentLoan;
+}
 
 .course-instructor {
   line-height: 0.8rem;
 }
-.signinbtn {
-  @include signin;
-}
+// .signinbtn {
+//   @include signin;
+// }
+
 .signinbtnapply {
   @include signin;
 }
+// .signupbtnapply {
+//   @include signup;
+// }
 // .signinbtn:hover {
 // 	@extend .signinbtn;
 // }
 .callToAction {
   @include callToActionBtn;
+}
+.callToAction2 {
+  @include callToActionBtn2;
 }
 .errorPage {
   @include contactusbtn;
@@ -69,6 +83,20 @@ body {
 .btn:focus {
   outline: none;
   box-shadow: none;
+}
+
+.card-shadow {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.img-radius {
+  border-radius: 15px;
+}
+
+.ins-shadow {
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 .techHead {
@@ -108,9 +136,10 @@ body {
   color: $btnBgColor;
 }
 .heroBg {
-  background-image: url("../images/homeherobg.png");
+  //   background-image: url("../images/homeherobg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: btnBgColor2;
 }
 .ctaColor {
   background-color: $callToActionBtn;
@@ -119,7 +148,7 @@ body {
   background-color: $sectionColor;
 }
 .testBg {
-  background-image: url("../images/success.png");
+  //   background-image: url("../images/success.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -166,6 +195,45 @@ body {
   width: 15%;
   height: 15%;
 }
+.scholarship {
+  color: #27aae1;
+}
+.whychooseus {
+  color: $btnBgColor;
+}
+.inputBg {
+  background-color: #fafafa;
+}
+.inputContainerBg {
+  background-color: #ffffff;
+  box-shadow: 4px 4px 4px 4px rgb(179, 174, 174, 0.25);
+  border-radius: 15px;
+}
+
+.testimonial {
+  color: $btnBgColor2;
+}
+.testimonials {
+  background-color: ffffff;
+  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  // position: relative;
+  // top: 0;
+  // bottom: 0;
+  // right: 110px;
+  // opacity: 0.9;
+}
+.testimonialtext {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: var(--white);
+}
+.testimonialname {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--white);
+  line-height: 1rem;
+}
 
 @media only screen and (max-width: 600px) {
   .partners {
@@ -173,7 +241,61 @@ body {
     height: 20%;
   }
 }
+@media only screen and (min-width: 600px) {
+  .testimonials {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 110px;
+    opacity: 0.9;
+  }
+}
+@media only screen and (max-width: 765px) {
+  .testimonials {
+    position: relative;
+    top: -60px;
+    bottom: 0px;
+    right: 0;
+    opacity: 0.9;
+  }
+}
+
+// Design for CardScrollLogic.js
+.slide-icon {
+  // position: relative;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.prevCard {
+  left: 0;
+}
+
+.activeCard {
+  left: 50%;
+}
+
+.nextCard {
+  right: 0;
+}
+
 //Removed gutter-x from all row classes in order to removed horizontal scrolling from the entire pages
 // .row {
 // 	--bs-gutter-x: 0rem;
 // }
+
+//Careers
+.pricingCard {
+  @include pricingCard;
+}
+
+.pricingHeadText {
+  color: $btnBgColor2;
+}
+.vacancyheroBg {
+  background: $vacancyheroBg;
+}
+.priceText {
+  font-size: 1.5rem;
+  font-weight: 600;
+}

@@ -1,83 +1,112 @@
 {
+  "businessheroinfo": [
+    {
+      "id": 1,
+      "herotitle": "Business Support Academy",
+      "Description": "Courses under this category involve Sales, Customer Experience, Digital Marketing, Video Editing, Motion & Still Graphics, and Admin Digital Tools."
+    }
+  ],
+  "business": [
+    {
+      "id": 1,
+      "img": "../../images/sales/sales.png",
+      "title": "Sales",
+      "description": "Find out what makes sales people effective, and learn specific strategies for prospecting and product positioning, and developing a sales process",
+      "Link": "/sales"
+    },
+    {
+      "id": 2,
+      "img": "../../images/customerexperience/customerservice.png",
+      "title": "Customer Experience",
+      "description": "Find out what makes sales people effective, and learn specific strategies for prospecting and product positioning, and developing a sales process",
+      "Link": "/customerexperience"
+    },
+    {
+      "id": 3,
+      "img": "../../images/digitalmarketing/digital marketing.png",
+      "title": "Digital Marketing",
+      "description": "Learn today's online marketing techniques and find out how to build a successful online marketing campaign for all digital channels: search, video, social, email, and display.",
+      "Link": "/digitalmarketing"
+    },
+    {
+      "id": 4,
+      "img": "../../images/videoediting/video editing.png",
+      "title": "Video Editing",
+      "description": "Video editing skills enable you to arrange and alter video shots in order to create a cohesive structure.",
+      "Link": "/videoediting"
+    },
+    {
+      "id": 5,
+      "img": "../../images/graphics/motion _ still.gif",
+      "title": "Motion & Still Graphics ",
+      "description": "The use of diverse visual effects, animation, and other cinematic techniques to bring life to their creations.",
+      "Link": "/stillandmotion"
+    },
+    {
+      "id": 6,
+      "img": "../../images/courses/content dev_t.png",
+      "title": "Content Management",
+      "description": "Video editing skills enable you to arrange and alter video shots in order to create a cohesive structure.",
+      "Link": "/contentmgt"
+    },
+    {
+      "id": 7,
+      "img": "../../images/courses/admin.png",
+      "title": "Administration Digital Tools",
+      "description": "Video editing skills enable you to arrange and alter video shots in order to create a cohesive structure.",
+      "Link": "/admindigitaltools"
+    }
+  ],
 
-	"businessheroinfo": [
-		{
-			"id": 1,
-			"herotitle": "Business Support Academy",
-			"Description": "Our range of courses includes Managing self & personal development, Working in highly successful team, Employability skills workshop, and Critical thinking- Creativity."
-		}
-	],
-	"business": [
-		{
-			"id": 1,
-			"img": "../../images/courses/sales.png",
-			"title": "Sales",
-			"description": "Find out what makes sales people effective, and learn specific strategies for prospecting and product positioning, and developing a sales process",
-			"Link": "sales"
-		},
-		{
-			"id": 2,
-			"img": "../../images/courses/customer service.png",
-			"title": "Customer Experience",
-			"description": "Find out what makes sales people effective, and learn specific strategies for prospecting and product positioning, and developing a sales process",
-			"Link": "customerexperience"
-		},
-		{
-			"id": 3,
-			"img": "../../images/courses/digital marketing.png",
-			"title": "Digital Marketing",
-			"description": "Learn today's online marketing techniques and find out how to build a successful online marketing campaign for all digital channels: search, video, social, email, and display.",
-			"Link": "digitalmarketing"
-		},
-		{
-			"id": 4,
-			"img": "../../images/courses/video editing.png",
-			"title": "Video Editing",
-			"description": "Video editing skills enable you to arrange and alter video shots in order to create a cohesive structure.",
-			"Link": "videoediting"
-		},
-		{
-			"id": 5,
-			"img": "../../images/courses/motion _ still.gif",
-			"title": "Motion & Still Graphics ",
-			"description": "The use of diverse visual effects, animation, and other cinematic techniques to bring life to their creations.",
-			"Link": "stillandmotion"
-		},
-		{
-			"id": 6,
-			"img": "../../images/courses/content dev_t.png",
-			"title": "Content Management",
-			"description": "Video editing skills enable you to arrange and alter video shots in order to create a cohesive structure."
-		},
-		{
-			"id": 7,
-			"img": "../../images/courses/admin.png",
-			"title": "Administration Digital Tools",
-			"description": "Video editing skills enable you to arrange and alter video shots in order to create a cohesive structure."
-		}
-	],
-	"instructors": [
-		{
-			"id": 1,
-			"img": "../../images/facilitators/hussein.png",
-			"instructorname": "Hussein Sanni",
-			"role": "Digital MArketing Specialist",
-			"linkedinprofile": "https://www.linkedin.com/in/sannihussein/"
-		},
-		{
-			"id": 2,
-			"img": "../../images/facilitators/esther.png",
-			"instructorname": "Esther Okoloeze",
-			"role": "Certified Copyeditor",
-			"linkedinprofile": "https://www.linkedin.com/in/esther-okoloeze/"
-		},
-		{
-			"id": 3,
-			"img": "../../images/facilitators/dami.png",
-			"instructorname": "Damilola Obidairo",
-			"role": "Business Development Executive",
-			"linkedinprofile": " https://www.linkedin.com/in/damilolaobidairo/"
-		}
-	]
-
+  "instructors": [
+    {
+      "id": 1,
+      "img": "../../images/facilitators/bizsupportacademy/hussein.png",
+      "instructorname": "Hussein Sanni",
+      "role": "Digital Marketing Specialist",
+      "linkedinprofile": "https://www.linkedin.com/in/sannihussein/"
+    },
+    {
+      "id": 2,
+      "img": "../../images/facilitators/bizsupportacademy/esther.png",
+      "instructorname": "Esther Okoloeze",
+      "role": "Certified Copyeditor",
+      "linkedinprofile": "https://www.linkedin.com/in/esther-okoloeze/"
+    },
+    {
+      "id": 3,
+      "img": "../../images/facilitators/bizsupportacademy/dami.png",
+      "instructorname": "Damilola Obidairo",
+      "role": "Business Development Executive",
+      "linkedinprofile": " https://www.linkedin.com/in/damilolaobidairo/"
+    },
+    {
+      "id": 4,
+      "img": "../../images/facilitators/bizsupportacademy/folake.jpg",
+      "instructorname": "Folake Rolat-Abiola",
+      "role": "Copywriter and Content Curator/Digital Storyteller",
+      "linkedinprofile": "https://www.linkedin.com/in/folake-rolat-abiola-016449156/"
+    },
+    {
+      "id": 5,
+      "img": "../../images/facilitators/bizsupportacademy/kelechi.jpg",
+      "instructorname": "Kelechi Onwumere",
+      "role": "Business Development Manager",
+      "linkedinprofile": "https://www.linkedin.com/in/kelechi-onwumere/"
+    },
+    {
+      "id": 6,
+      "img": "",
+      "instructorname": "Wuni Daniels",
+      "role": "Marketing and Sales Strategy Expert",
+      "linkedinprofile": "https://www.linkedin.com/in/wuni-daniels-48343b217/"
+    },
+    {
+      "id": 7,
+      "img": "",
+      "instructorname": "Olaitan Lawal",
+      "role": "Customer Experience Consultant",
+      "linkedinprofile": "https://www.linkedin.com/in/olaitan-lawal-94919828/"
+    }
+  ]
 }

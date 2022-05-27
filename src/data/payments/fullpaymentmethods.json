@@ -1,0 +1,121 @@
+{
+	"webdevfullpayment": [
+		{
+			"id": 1,
+			"Course": "Frontend Development",
+			"anchor": "https://paystack.com/pay/innkeeper-frontend-development"
+		},
+		{
+			"id": 2,
+			"Course": "Backend Development",
+			"anchor": "https://paystack.com/pay/innkeeper-backend-development"
+		},
+		{
+			"id": 3,
+			"Course": "Fullstack Development",
+			"anchor": "https://paystack.com/pay/innkeeper-fullstack-development"
+		}
+	],
+
+	"cloudfullpayment": [
+		{
+			"id": 1,
+			"Course": "Designing and Implementing Microsoft DevOps Solutions",
+			"anchor": "https://paystack.com/pay/innkeeper-cloud-computing"
+		},
+		{
+			"id": 2,
+			"Course": "Microsoft Azure Architect Design",
+			"anchor": "https://paystack.com/pay/innkeeper-cloud-computing"
+		},
+		{
+			"id": 3,
+			"Course": "Microsoft Azure Architect Technology",
+			"anchor": "https://paystack.com/pay/innkeeper-cloud-computing"
+		},
+		{
+			"id": 4,
+			"Course": "Administering Relational Databases on Microsoft Azure",
+			"anchor": "https://paystack.com/pay/innkeeper-cloud-computing"
+		}
+	],
+
+	"cyberfullpayment": [
+		{
+			"id": 1,
+			"Course": "Risk Management",
+			"anchor": "https://paystack.com/pay/innkeeper-cybersecurity-risk-management"
+		},
+		{
+			"id": 2,
+			"Course": "Security Audit",
+			"anchor": "https://paystack.com/pay/innkeeper-cyber-security-audit"
+		},
+		{
+			"id": 3,
+			"Course": "Reverse Engineering",
+			"anchor": "https://paystack.com/pay/innkeeper-cyber-security-reverse-engineering"
+		},
+		{
+			"id": 4,
+			"Course": "Vulnerability Assessment and Penetration Testing",
+			"anchor": "https://paystack.com/pay/innkeeper-vulnerability-assessment-and-penetration-testing"
+		}
+	],
+
+	"bigdatafullpayment": [
+		{
+			"id": 1,
+			"Course": "Big Data & IoT",
+			"anchor": "https://paystack.com/pay/innkeeper-data-fundamentals"
+		},
+		{
+			"id": 2,
+			"Course": "Programming Essentials in Python I & II",
+			"anchor": "https://paystack.com/pay/innkeeper-python"
+		},
+		{
+			"id": 3,
+			"Course": "IoT Fundamentals",
+			"anchor": "https://paystack.com/pay/innkeeper-data-fundamentals"
+		}
+	],
+
+	"businessfullpayment": [
+		{
+			"id": 1,
+			"Course": "Sales",
+			"anchor": "https://paystack.com/pay/innkeeper-business-support"
+		},
+		{
+			"id": 2,
+			"Course": "Customer Experience",
+			"anchor": "https://paystack.com/pay/innkeeper-business-support"
+		},
+		{
+			"id": 3,
+			"Course": "Digital Marketing",
+			"anchor": "https://paystack.com/pay/innkeeper-business-support"
+		},
+		{
+			"id": 4,
+			"Course": "Video Editing",
+			"anchor": "https://paystack.com/pay/innkeeper-business-support"
+		},
+		{
+			"id": 5,
+			"Course": "Motion & Still Graphics",
+			"anchor": "https://paystack.com/pay/innkeeper-business-support"
+		},
+		{
+			"id": 6,
+			"Course": "Digital Administration Tools",
+			"anchor": "https://paystack.com/pay/innkeeper-business-support"
+		},
+		{
+			"id": 7,
+			"Course": "Content Management",
+			"anchor": "https://paystack.com/pay/innkeeper-business-support"
+		}
+	]
+}

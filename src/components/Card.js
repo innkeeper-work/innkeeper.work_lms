@@ -1,15 +1,31 @@
+// import { useState } from "react";
 import React from "react";
 import { ApplyNowButton } from "./Buttons";
-import { LinkedInIcon } from "./Icons";
-import event1 from "../images/event1.png";
-import event2 from "../images/event2.png";
+import { LinkedInIcon, LocationIcon, PayIcon, NatureIcon } from "./Icons";
+
+//Components
+import { VacancyApplyButton, ReviewCVButton } from "../components/Buttons";
+
+// Images
+import event1 from "../assets/images/home/event1.png";
+import event2 from "../assets/images/home/event2.png";
+import cloud from "../assets/images/careers/cloud.png";
+import favicon from "../assets/images/vacancy/favicon.png";
 
 //homepage cards
-export const CourseCategoryCards = (props) => {
-  const { title, img, description, Link } = props;
+export const CourseCategoryCards = ({
+  title,
+  img,
+  description,
+  Link,
+  cardStyle,
+}) => {
+  // const [current, setCurrent] = useState(0);
+  // const slidelength = slides.length;
+  // const { title, img, description, Link } = props;
   return (
     <div className="row p-3 g-0">
-      <div className="card rounded">
+      <div className={`card rounded card-shadow ${cardStyle}`}>
         <img src={img} alt="" />
 
         <div className="card-body">
@@ -35,7 +51,7 @@ export const BlogCards = (props) => {
         </div>
         <div className="col-md-8">
           <div className="card-body">
-            <h3 className="card-title">Blog title</h3>
+            <h3 className="card-title">Fully funded scholarship</h3>
             <p className="card-text">{props.children}</p>
             <p className="card-text">
               <i className="fa fa-map-marker m-1" aria-hidden="true"></i>
@@ -61,7 +77,7 @@ export const BlogCardsTwo = (props) => {
         </div>
         <div className="col-md-8">
           <div className="card-body">
-            <h3 className="card-title">Blog title</h3>
+            <h3 className="card-title">Get trained, pay later</h3>
             <p className="card-text">{props.children}</p>
             <p className="card-text">
               <i className="fa fa-map-marker m-1" aria-hidden="true"></i>
@@ -78,17 +94,18 @@ export const BlogCardsTwo = (props) => {
 
 export const CourseCards = (props) => {
   const { img, title, description, Link } = props;
+
   return (
-    <div className="card techCards">
+    <div className="card card-shadow">
       <div className="m-3">
-        <img src={img} className="card-img-top techImages" alt={title} />
+        <img src={img} className="card-img-top img-radius" alt={title} />{" "}
       </div>
       <div className="card-body">
-        <h5 className="card-title">{title}</h5>
-        <p className="card-text">{description}</p>
+        <h4 className="card-title">{title}</h4>
+        <p className="card-text">{description}</p>{" "}
         <div className="d-flex align-self-end">
+          {" "}
           <a href={Link}>
-            {" "}
             <ApplyNowButton />
           </a>
         </div>
@@ -101,7 +118,7 @@ export const InstructorCards = (props) => {
   const { img, instructorname, role, linkedinprofile } = props;
   return (
     <>
-      <div className="card">
+      <div className="card ins-shadow">
         <img src={img} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">{instructorname}</h5>
@@ -138,5 +155,111 @@ export const InstructorCards = (props) => {
 			</div>
 		</> */}
     </>
+  );
+};
+
+export const AvailableOpenings = ({
+  logo,
+  role,
+  company,
+  description,
+  location,
+  pay,
+  nature,
+}) => {
+  return (
+    <div className="card pricingCard my-3">
+      <div className="d-flex">
+        <div className="pt-3">
+          <img
+            src={logo}
+            alt=""
+            width="100px"
+            height="100px"
+            className="rounded-circle ms-3 border border-light border-5"
+          />
+        </div>
+        <div className="mt-5 mx-5">
+          {" "}
+          <h5 class="card-title">{role}</h5>
+          <p class="card-text">{company}</p>
+        </div>
+      </div>
+
+      <div className="px-4 pt-4 pb-3">
+        <h5 class="card-title">Job Description</h5>
+        <p class="card-text">{description}</p>
+        <div className="d-flex justify-content-between pb-3">
+          <div className="d-flex">
+            <LocationIcon />
+            <p class="card-text ms-2">{location}</p>
+          </div>
+          <div className="d-flex">
+            <PayIcon />
+            <p class="card-text ms-2">{pay}</p>
+          </div>
+          <div className="d-flex">
+            <NatureIcon />
+            <p class="card-text ms-2">{nature}</p>
+          </div>
+          {/* <div className="text-center">
+            <LocationIcon />
+            <p class="card-text">{location}</p>
+          </div>
+          <div className="text-center">
+            <PayIcon />
+            <p class="card-text">{pay}</p>
+          </div>
+          <div className="text-center">
+            <NatureIcon />
+            <p class="card-text">{nature}</p>
+          </div> */}
+        </div>
+        <div className="float-end">
+          <VacancyApplyButton />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export let Pricing = ({
+  plan,
+  price,
+  offer1,
+  offer2,
+  offer3,
+  offer4,
+  offer5,
+}) => {
+  return (
+    // <div className="row justify-content-around">
+    <div className="card pricingCard mt-5">
+      <div className="card-body">
+        <div className="pt-3">
+          <img
+            src={cloud}
+            alt=""
+            width="100px"
+            height="100px"
+            className="rounded-circle border border-light border-5"
+          />
+        </div>
+
+        <h5 className="card-title pricingHeadText mt-4">{plan}</h5>
+        <p className="card-text priceText">{price}</p>
+      </div>
+      <ul className="list-group list-group-flush">
+        <li className="list-group-item">{offer1}</li>
+        <li className="list-group-item">{offer2}</li>
+        <li className="list-group-item">{offer3}</li>
+        <li className="list-group-item">{offer4}</li>
+        <li className="list-group-item">{offer5}</li>
+      </ul>
+      <div className="card-body">
+        <ReviewCVButton />
+      </div>
+    </div>
+    // </div>
   );
 };

@@ -7,7 +7,13 @@ $offWhite: #f6f6f6;
 $btnText: #ffffff;
 $techBg: #f9feff;
 $coursepagesectionBg: #e4fbff;
+$vacancyheroBg: linear-gradient(
+  102.37deg,
+  rgba(0, 216, 207, 0.08) 35.19%,
+  rgba(39, 170, 225, 0.29) 75.64%
+);
 
+// @mixin signin {
 @mixin signin {
   color: $btnText;
   background: $btnBgColor2;
@@ -25,8 +31,18 @@ $coursepagesectionBg: #e4fbff;
   color: $btnText;
   background: $btnBgColor2;
 }
+@mixin callToActionBtn2 {
+  color: $btnBgColor2;
+  background: #e4fbff;
+  border: 2px solid #00d8cf !important;
+}
 @mixin webDev {
   background-color: $coursepagesectionBg;
+  box-shadow: 4px 4px 4px 4px rgb(179, 174, 174, 0.25);
+  border-radius: 15px;
+}
+@mixin studentLoan {
+  background-color: #ffffff;
   box-shadow: 4px 4px 4px 4px rgb(179, 174, 174, 0.25);
   border-radius: 15px;
 }
@@ -68,4 +84,8 @@ $coursepagesectionBg: #e4fbff;
   border-right: 1px dashed $btnBgColor;
   border-bottom: 1px dashed $btnBgColor;
   border-left: none;
+}
+@mixin pricingCard {
+  box-shadow: 4px 4px 4px 4px rgb(179, 174, 174, 0.25);
+  border-radius: 6px;
 }

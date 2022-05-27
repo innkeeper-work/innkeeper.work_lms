@@ -1,0 +1,34 @@
+{
+  "pricings": [
+    {
+      "id": 1,
+      "plan": "Basic",
+      "price": "3,000",
+      "offer1": "An item",
+      "offer2": "A second item",
+      "offer3": "A third item",
+      "offer4": "A four item",
+      "offer5": "A fifth item"
+    },
+    {
+      "id": 2,
+      "plan": "Basic",
+      "price": "3,000",
+      "offer1": "An item",
+      "offer2": "A second item",
+      "offer3": "A third item",
+      "offer4": "A four item",
+      "offer5": "A fifth item"
+    },
+    {
+      "id": 3,
+      "plan": "Basic",
+      "price": "3,000",
+      "offer1": "An item",
+      "offer2": "A second item",
+      "offer3": "A third item",
+      "offer4": "A four item",
+      "offer5": "A fifth item"
+    }
+  ]
+}
