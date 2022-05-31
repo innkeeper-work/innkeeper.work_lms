@@ -21,14 +21,14 @@ const Vacancy = () => {
 
 export let Openings = () => {
   return (
-    <div className="container-fluid py-4">
+    <div className="container-fluid py-4 ">
       <div className="card-body">
         <h3 className="card-title text-center">Available Openings</h3>
-        <div className="row justify-content-center mt-4">
+        <div className="row justify-content-evenly mt-4 p-2">
           {availableopenings.openings.map((opening) => {
             return (
               <div
-                className="col-lg-4 col-md-6 col-sm-10
+                className="col-lg-4 col-md-6 col-sm-12
                     "
                 key={opening.id}
               >

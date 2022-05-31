@@ -168,26 +168,29 @@ export const AvailableOpenings = ({
   nature,
 }) => {
   return (
-    <div className="card pricingCard my-3">
+    <div className="card pricingCard mb-5">
       <div className="d-flex">
         <div className="pt-3">
           <img
             src={logo}
             alt=""
-            width="100px"
-            height="100px"
+            width="60px"
+            height="60px"
             className="rounded-circle ms-3 border border-light border-5"
           />
         </div>
-        <div className="mt-5 mx-5">
+        <div className="mt-4 mx-2">
           {" "}
-          <h5 class="card-title">{role}</h5>
+          <h5 class="card-title">
+            {" "}
+            <b>{role}</b>
+          </h5>
           <p class="card-text">{company}</p>
         </div>
       </div>
 
       <div className="px-4 pt-4 pb-3">
-        <h5 class="card-title">Job Description</h5>
+        <h6 class="card-title">Job Description</h6>
         <p class="card-text">{description}</p>
         <div className="d-flex justify-content-between pb-3">
           <div className="d-flex">
@@ -234,7 +237,7 @@ export let Pricing = ({
 }) => {
   return (
     // <div className="row justify-content-around">
-    <div className="card pricingCard mt-5">
+    <div className="card pricingCard mb-5">
       <div className="card-body">
         <div className="pt-3">
           <img

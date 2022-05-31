@@ -6,6 +6,7 @@ import Navbar from "./Navbar";
 import {
   GetStartedBond,
   GetStartedButton,
+  ApplyforjobButton,
   UpskillButton,
   HireTalentButton,
 } from "../components/Buttons";
@@ -15,6 +16,7 @@ import homehero4 from "../assets/images/hero/homehero4.png";
 import trainingbond from "../assets/images/scholarships_payments/trainingbond.png";
 import coursepage from "../assets/images/hero/coursepage.png";
 import careerheroimage2 from "../assets/images/hero/careerheroimage2.png";
+import careerheroimage from "../assets/images/hero/careerheroimage.png";
 
 export let HomepageHero = () => {
   return (
@@ -138,16 +140,16 @@ export const CourseinfoHero = (props) => {
 
 export let CareerpageHero = () => {
   return (
-    <div className="px-4 container-fluid homeheroBg pt-3 pb-4">
+    <div className="px-4 container-fluid homeheroBg py-4">
       <Navbar />
       <div className="row align-items-center justify-content-center mt-4">
         <div className="col-lg-6 col-md-7 col-sm-12">
-          <h1 className="herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none">
-            Lorem Ipsum is simply dummy text of the printing.&nbsp;
+          <h1 className="herotextblack d-none d-xl-block d-lg-block d-md-none d-sm-none d-xs-none">
+            Lorem Ipsum is simply dummy.&nbsp;
             {/* <span className="herotextColored">Digital age.</span> */}
           </h1>
-          <h2 className="herotextblack d-xs-block d-sm-block d-md-block d-lg-none">
-            Lorem Ipsum is simply dummy text of the printing.&nbsp;
+          <h2 className="herotextblack d-xs-block d-sm-block d-md-block d-lg-none d-xl-none">
+            Lorem Ipsum is simply dummy.&nbsp;
             {/* <span className="herotextColored">Digital age.</span> */}
           </h2>
           <p className="herotextblack d-flex">
@@ -157,22 +159,22 @@ export let CareerpageHero = () => {
           <div className="d-flex">
             {" "}
             <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none mt-4">
-              <UpskillButton />
+              <ApplyforjobButton />
             </div>
             <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none mt-4 ms-2">
               <HireTalentButton />
             </div>
           </div>
         </div>
-        <div className="col-lg-5 col-md-5 col-sm-12">
+        <div className="col-lg-5 col-md-5 col-sm-10">
           <img
-            src={careerheroimage2}
-            className="d-block mx-lg-auto img-fluid "
+            src={careerheroimage}
+            className="mx-lg-auto img-fluid"
             alt=""
             loading=""
           />
           <div className="d-xs-block d-sm-block d-md-none d-lg-none mt-4 text-center">
-            <UpskillButton /> <HireTalentButton />
+            <ApplyforjobButton /> <HireTalentButton />
           </div>
         </div>
       </div>
@@ -181,9 +183,9 @@ export let CareerpageHero = () => {
 };
 export let VacancypageHero = () => {
   return (
-    <div className="px-4 container-fluid vacancyheroBg py-4">
+    <div className="px-3 container-fluid vacancyheroBg py-4">
       <Navbar />
-      <div className="row align-items-center justify-content-center mt-4 py-5">
+      <div className="row align-items-center justify-content-center mt-4 py-2">
         <div className="col-lg-6 col-md-7 col-sm-12">
           <h2 className="herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none text-center">
             Find your Dream job here.&nbsp;
@@ -196,6 +198,9 @@ export let VacancypageHero = () => {
             industry. Lorem Ipsum industry. Lorem Ipsum is simplly industry
             lorem.
           </p>
+          <div className="d-xs-block d-sm-block d-md-none d-lg-none mt-4 text-center">
+            <UpskillButton />
+          </div>
         </div>
       </div>
     </div>

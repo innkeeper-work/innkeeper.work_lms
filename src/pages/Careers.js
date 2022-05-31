@@ -40,7 +40,7 @@ const Career = () => {
 
 let Vacancies = () => {
   return (
-    <div className="container-fluid text-center py-5">
+    <div className="container-fluid text-center py-3">
       <div className="card-body">
         <h3 className="card-title">Our Vacancies</h3>
         <p className="card-text herotextColored mx-4">
@@ -109,7 +109,7 @@ let Vacancies = () => {
             </div>
           </div>
         </div>
-        <div className="mt-5">
+        <div className="mt-3">
           <ViewOpeningsButton />
         </div>
       </div>
@@ -119,28 +119,18 @@ let Vacancies = () => {
 
 export let CVWriting = () => {
   return (
-    <div className="px-4 container-fluid homeheroBg py-5">
-      <div className="row align-items-center justify-content-center my-5">
-        <div className="col-lg-5 col-md-5 col-sm-12">
-          <img
-            src={cvwritingimage2}
-            className="d-block mx-lg-auto img-fluid"
-            alt=""
-            loading=""
-          />
-          {/* <div className="d-xs-block d-sm-block d-md-none d-lg-none mt-4 text-center">
-            <GetStartedButton />
-          </div> */}
+    <div className="container-fluid homeheroBg pt-4">
+      <div className="row align-items-center justify-content-center mt-4 mx-2">
+        <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center">
+          <img src={cvwritingimage2} className="img-fluid" alt="" loading="" />
         </div>
-        <div className="col-lg-6 col-md-7 col-sm-12">
-          <h3 className="herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none">
+        <div className="col-lg-6 col-md-7 col-sm-10">
+          <h2 className="herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none mt-4">
             CV Writing
-            {/* <span className="herotextColored">Digital age.</span> */}
-          </h3>
-          <h2 className="herotextblack d-xs-block d-sm-block d-md-block d-lg-none">
-            CV Writing
-            {/* <span className="herotextColored">Digital age.</span> */}
           </h2>
+          <h3 className="herotextblack d-xs-block d-sm-block d-md-block d-lg-none mt-5">
+            CV Writing
+          </h3>
           <p className="herotextblack d-flex">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum industry. Lorem Ipsum is simplly industry.
@@ -148,23 +138,20 @@ export let CVWriting = () => {
           </p>
           <div className="d-flex">
             {" "}
-            <div className="d-none d-lg-block d-md-block d-sm-block d-xs-block mt-4">
+            <div className="">
               <RateCVButton />
             </div>
-            <div className="d-none d-lg-block d-md-block d-sm-block d-xs-block mt-4 ms-2">
+            <div className="ms-2">
               <ReviewCVButton />
             </div>
           </div>
-          {/* <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none mt-4">
-            <GetStartedButton />
-          </div> */}
         </div>
       </div>
-      <div className="row justify-content-evenly text-center py-5 g-0 px-5">
+      <div className="row justify-content-evenly text-center p-5 mt-5">
         {pricings.pricings.map((pricing) => {
           return (
             <div
-              className="col-lg-3 col-md-4 col-sm-8
+              className="col-md-4 col-sm-10
                     "
               key={pricing.id}
             >
@@ -179,17 +166,17 @@ export let CVWriting = () => {
 
 export let LinkedIn = () => {
   return (
-    <div className="px-4 container py-5" style={{ backgroundColor: "#ffffff" }}>
-      <div className="row align-items-center justify-content-center mt-4">
-        <div className="col-lg-6 col-md-7 col-sm-12">
-          <h3 className="herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none">
-            LinkedIn Optimization
-            {/* <span className="herotextColored">Digital age.</span> */}
-          </h3>
-          <h2 className="herotextblack d-xs-block d-sm-block d-md-block d-lg-none">
-            LinkedIn Optimization
+    <div className="container-fluid" style={{ backgroundColor: "#ffffff" }}>
+      <div className="row align-items-center justify-content-center my-2 mx-3">
+        <div className="col-lg-6 col-md-7 col-sm-10">
+          <h2 className="herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none mt-2">
+            Linkedin Optimization
             {/* <span className="herotextColored">Digital age.</span> */}
           </h2>
+          <h3 className="herotextblack d-xs-block d-sm-block d-md-block d-lg-none mt-2">
+            Linkedin Optimization
+            {/* <span className="herotextColored">Digital age.</span> */}
+          </h3>
           <p className="herotextblack d-flex">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum industry. Lorem Ipsum is simplly industry.
@@ -197,69 +184,62 @@ export let LinkedIn = () => {
           </p>
           <div className="d-flex">
             {" "}
-            <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none mt-4">
+            <div className="">
               <RateCVButton />
             </div>
-            <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none mt-4 ms-2">
+            <div className="ms-2">
               <ReviewCVButton />
             </div>
           </div>
-          {/* <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none mt-4">
-            <GetStartedButton />
-          </div> */}
         </div>
-        <div className="col-lg-5 col-md-5 col-sm-12">
-          <img
-            src={linkedinimage}
-            className="d-block mx-lg-auto img-fluid"
-            alt=""
-            loading=""
-          />
-          {/* <div className="d-xs-block d-sm-block d-md-none d-lg-none mt-4 text-center">
-            <GetStartedButton />
-          </div> */}
+        <div className="col-lg-5 col-md-5 col-sm-12 d-flex justify-content-center mt-4">
+          <img src={linkedinimage} className="img-fluid" alt="" loading="" />
         </div>
+      </div>
+      <div className="row justify-content-evenly text-center p-5">
+        {pricings.pricings.map((pricing) => {
+          return (
+            <div
+              className="col-md-4 col-sm-8
+                    "
+              key={pricing.id}
+            >
+              <Pricing {...pricing}></Pricing>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
 };
 export let MockInterview = () => {
   return (
-    <div className="p-4 container bgSoft rounded my-5 w-75">
-      <div className="row align-items-center justify-content-around my-2">
-        <div className="col-lg-6 col-md-7 col-sm-12">
-          <h3 className="btnText d-none d-lg-block d-md-none d-sm-none d-xs-none">
+    <div className="p-5 container bgSoft rounded mb-5">
+      <div className="row align-items-center justify-content-around">
+        <div className="col-lg-6 col-md-12 col-sm-12">
+          <h2 className="btnText d-none d-lg-block d-md-none d-sm-none d-xs-none">
             Attend a Mock Interview
-            {/* <span className="herotextColored">Digital age.</span> */}
-          </h3>
-          <h2 className="btnText d-xs-block d-sm-block d-md-block d-lg-none">
-            Attend a Mock Interview
-            {/* <span className="herotextColored">Digital age.</span> */}
           </h2>
+          <h3 className="btnText d-xs-block d-sm-block d-md-block d-lg-none">
+            Attend a Mock Interview
+          </h3>
           <p className="btnText d-flex">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum industry. Lorem Ipsum is simplly industry.
             Lorem Ipsum industry. Lorem Ipsum is simplly.
           </p>
 
-          <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none mt-4">
+          <div className="d-block my-4">
             <ReviewCVButton />
           </div>
-
-          {/* <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none mt-4">
-            <GetStartedButton />
-          </div> */}
         </div>
-        <div className="col-lg-5 col-md-5 col-sm-12">
+        <div className="col-lg-5 col-md-12 col-sm-12 justify-content-center">
           <img
             src={mockinterviewimage2}
-            className="d-block mx-lg-auto img-fluid"
+            className="d-block mx-lg-auto img-fluid w-100 h-auto"
             alt=""
             loading=""
           />
-          {/* <div className="d-xs-block d-sm-block d-md-none d-lg-none mt-4 text-center">
-            <GetStartedButton />
-          </div> */}
         </div>
       </div>
     </div>

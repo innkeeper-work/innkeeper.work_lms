@@ -127,6 +127,15 @@ export const Submit = () => {
     </Link>
   );
 };
+export const ApplyforjobButton = () => {
+  return (
+    <Link to="">
+      <button type="button" className="btn callToAction px-2 ">
+        Apply for job
+      </button>
+    </Link>
+  );
+};
 
 export const UpskillButton = () => {
   return (
