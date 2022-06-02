@@ -167,7 +167,7 @@ export let CVWriting = () => {
 export let LinkedIn = () => {
   return (
     <div className="container-fluid" style={{ backgroundColor: "#ffffff" }}>
-      <div className="row align-items-center justify-content-center my-2 mx-3">
+      <div className="row align-items-center justify-content-center my-4 mx-3">
         <div className="col-lg-6 col-md-7 col-sm-10">
           <h2 className="herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none mt-2">
             Linkedin Optimization
@@ -214,7 +214,7 @@ export let LinkedIn = () => {
 };
 export let MockInterview = () => {
   return (
-    <div className="p-5 container bgSoft rounded mb-5">
+    <div className="p-4 container bgSoft rounded mb-5">
       <div className="row align-items-center justify-content-around">
         <div className="col-lg-6 col-md-12 col-sm-12">
           <h2 className="btnText d-none d-lg-block d-md-none d-sm-none d-xs-none">
