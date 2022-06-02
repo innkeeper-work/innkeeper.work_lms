@@ -185,7 +185,7 @@ export let VacancypageHero = () => {
   return (
     <div className="px-3 container-fluid vacancyheroBg py-4">
       <Navbar />
-      <div className="row align-items-center justify-content-center mt-4 py-2">
+      <div className="row align-items-center justify-content-center mt-4 py-5">
         <div className="col-lg-6 col-md-7 col-sm-12">
           <h2 className="herotextblack d-none d-lg-block d-md-none d-sm-none d-xs-none text-center">
             Find your Dream job here.&nbsp;
