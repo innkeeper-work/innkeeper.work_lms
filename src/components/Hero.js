@@ -33,7 +33,7 @@ export let HomepageHero = () => {
             <span className="herotextColored">Digital age.</span>
           </h2>
           <p className="herotextblack d-flex">
-            Mentored Upskilling For Improved Learning Opportunities. Get the
+            Mentored Upskilling For Improved Earning Opportunities. Get the
             needed skills for your desired job role.
           </p>
           <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none mt-4">
@@ -201,6 +201,24 @@ export let VacancypageHero = () => {
           <div className="d-xs-block d-sm-block d-md-none d-lg-none mt-4 text-center">
             <UpskillButton />
           </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+export const PrivacyPolicyHero = (props) => {
+  // const { coursename } = props;
+  return (
+    <div className="px-4 py-4 homeheroBg">
+      <Navbar />
+      <div className="row align-items-center my-5 ps-4">
+        <div className="col-lg-12 col-sm-12">
+          <h1 className="herotextColored d-none d-lg-block d-md-none d-sm-none d-xs-none px-5">
+            INNKEEPER PRIVACY POLICY
+          </h1>
+          <h3 className="herotextColored d-xs-block d-sm-block d-md-block d-lg-none">
+            INNKEEPER PRIVACY POLICY
+          </h3>
         </div>
       </div>
     </div>

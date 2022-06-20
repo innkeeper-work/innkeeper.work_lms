@@ -82,31 +82,24 @@
     },
     {
       "id": 4,
-      "img": "../../images/facilitators/bizsupportacademy/folake.jpg",
+      "img": "../../images/facilitators/bizsupportacademy/folake.png",
       "instructorname": "Folake Rolat-Abiola",
       "role": "Copywriter and Content Curator/Digital Storyteller",
       "linkedinprofile": "https://www.linkedin.com/in/folake-rolat-abiola-016449156/"
     },
     {
       "id": 5,
-      "img": "../../images/facilitators/bizsupportacademy/kelechi.jpg",
+      "img": "../../images/facilitators/bizsupportacademy/kelech.png",
       "instructorname": "Kelechi Onwumere",
       "role": "Business Development Manager",
       "linkedinprofile": "https://www.linkedin.com/in/kelechi-onwumere/"
     },
     {
       "id": 6,
-      "img": "",
+      "img": "../../images/facilitators/bizsupportacademy/wuni.png",
       "instructorname": "Wuni Daniels",
       "role": "Marketing and Sales Strategy Expert",
       "linkedinprofile": "https://www.linkedin.com/in/wuni-daniels-48343b217/"
-    },
-    {
-      "id": 7,
-      "img": "",
-      "instructorname": "Olaitan Lawal",
-      "role": "Customer Experience Consultant",
-      "linkedinprofile": "https://www.linkedin.com/in/olaitan-lawal-94919828/"
     }
   ]
 }

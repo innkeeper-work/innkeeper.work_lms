@@ -10,6 +10,12 @@ import microsoft from "../assets/images/partnerLogos/microsoft.png";
 export let OurPartners = () => {
   return (
     <div className="container partnersBg">
+      <h3 className="text-center my-5 d-none d-lg-block d-md-none d-sm-none d-xs-none">
+        Our Partners
+      </h3>
+      <h4 className="text-center my-5 d-xs-block d-sm-block d-md-block d-lg-none">
+        Our Partners
+      </h4>
       <div className="row my-3 d-flex justify-content-around align-items-center">
         {/* <div className="col-4">
           <h1>Our Partners</h1>

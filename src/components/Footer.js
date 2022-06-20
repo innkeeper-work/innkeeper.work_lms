@@ -33,7 +33,14 @@ const Footer = () => {
                     Off CMD Road (beside Secretariat/Magodo gate) Lagos Nigeria.
                   </a>
                   <div className="mt-2 pt-2">
-                    +234 (0) 809-846-8885
+                    <a
+                      href="tel:+2348098468885"
+                      className="text-reset"
+                      style={{ textDecoration: "none" }}
+                    >
+                      {" "}
+                      +234 (0) 809-846-8885
+                    </a>
                     <p>
                       <a
                         href="mailto:info@innkeeper.work"
@@ -45,6 +52,15 @@ const Footer = () => {
                         info@innkeeper.work
                       </a>
                     </p>
+                    <a
+                      href="/privacypolicy"
+                      className="text-reset"
+                      target="_blank"
+                      rel="noreferrer"
+                      style={{ textDecoration: "none" }}
+                    >
+                      Privacy and Terms
+                    </a>
                   </div>
                 </div>
               </div>
@@ -178,3 +194,47 @@ const Footer = () => {
 };
 
 export default Footer;
+
+// {
+//    <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 d-none d-md-block ms-5 ">
+//                 <h5 className="text-uppercase fw-bold mb-4">Menu</h5>
+//                 <ul className="list-unstyled lh-lg">
+//                   <li className="">
+//                     <Link
+//                       to="/"
+//                       className="text-reset"
+//                       style={{ textDecoration: "none" }}
+//                     >
+//                       Home
+//                     </Link>
+//                   </li>
+//                   <li>
+//                     <Link
+//                       to="/careers"
+//                       className="text-reset"
+//                       style={{ textDecoration: "none" }}
+//                     >
+//                       Careers
+//                     </Link>
+//                   </li>
+//                   <li>
+//                     <Link
+//                       to="contact"
+//                       className="text-reset"
+//                       style={{ textDecoration: "none" }}
+//                     >
+//                       Contact
+//                     </Link>
+//                   </li>
+//                   <li>
+//                     <a
+//                       href="#faq"
+//                       className="text-reset"
+//                       style={{ textDecoration: "none" }}
+//                     >
+//                       FAQ
+//                     </a>{" "}
+//                   </li>
+//                 </ul>
+//               </div>
+// }
