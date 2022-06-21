@@ -85,12 +85,12 @@ let Business = () => {
 
 let BusinessInstructors = () => {
   return (
-    <div className="webDev m-5 p-5">
+    <div className="webDev m-4 p-4">
       <div className="row d-flex justify-content-around">
         {businessSupport.instructors.map((singleInstr) => {
           return (
             <div
-              className="col-lg-4 col-sm-4 col-md-4 d-flex align-items-stretch"
+              className="col-lg-4 col-sm-6 col-md-6 d-flex align-items-stretch mb-5"
               key={singleInstr.id}
             >
               <InstructorCards {...singleInstr}></InstructorCards>
@@ -101,6 +101,14 @@ let BusinessInstructors = () => {
     </div>
   );
 };
+
+// {
+//   "id": 7,
+//   "img": "",
+//   "instructorname": "Olaitan Lawal",
+//   "role": "Customer Experience Consultant",
+//   "linkedinprofile": "https://www.linkedin.com/in/olaitan-lawal-94919828/"
+// }
 export default BusinessSupportAcademy;
 
 // let Instructors = () => {

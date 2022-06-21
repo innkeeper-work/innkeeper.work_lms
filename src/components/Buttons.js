@@ -139,7 +139,7 @@ export const ApplyforjobButton = () => {
 
 export const UpskillButton = () => {
   return (
-    <a href="#categories">
+    <a href="/#categories">
       <button type="button" className="btn callToAction">
         Upskill
       </button>

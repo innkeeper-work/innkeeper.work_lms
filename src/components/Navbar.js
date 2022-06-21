@@ -84,7 +84,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link
-                to="/careers"
+                to="/underconstruction"
                 className="nav-link mx-3"
                 style={{ color: "#000" }}
               >
@@ -94,7 +94,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link
-                to="/blog"
+                to="/underconstruction"
                 className="nav-link mx-3"
                 style={{ color: "#000" }}
               >
@@ -104,7 +104,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link
-                to="/community"
+                to="/underconstruction"
                 className="nav-link mx-3"
                 style={{ color: "#000" }}
               >

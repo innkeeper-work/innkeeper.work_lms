@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+
 // components
 import Footer from "./components/Footer";
 
@@ -16,6 +17,8 @@ import Scholarships from "./pages/Payments/Scholarships";
 import Error404 from "./pages/Error404";
 import Careers from "./pages/Careers";
 import Vacancy from "./pages/Vacancy";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import UnderConstruction from "./pages/UnderConstruction";
 
 // courseinfo pages
 import Frontend from "./pages/Courseinfo/techacademy/prog_web_dev/Frontend";
@@ -66,7 +69,9 @@ function App() {
         <Route path="scholarships" element={<Scholarships />} />
         <Route path="trainingbond" element={<Trainingbond />} />
         <Route path="careers" element={<Careers />} />
-        <Route path="vacancy" element={<Vacancy />} />
+        {/* <Route path="vacancy" element={<Vacancy />} /> */}
+        <Route path="privacypolicy" element={<PrivacyPolicy />} />
+        <Route path="underconstruction" element={<UnderConstruction />} />
         <Route path="*" element={<Error404 />} />
 
         {/* course info pages */}

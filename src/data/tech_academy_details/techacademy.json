@@ -141,7 +141,7 @@
     },
     {
       "id": 4,
-      "img": "../../images/facilitators/techacademy/niyi.png",
+      "img": "../../images/facilitators/techacademy/niyiosibeluwo.png",
       "instructorname": "Niyi Osibeluwo",
       "role": "Cloud and Enterprise Solutions Architect",
       "linkedinprofile": " https://www.linkedin.com/in/niyi-osibeluwo/"
@@ -159,13 +159,6 @@
       "instructorname": "Lydia Robert-Edia",
       "role": "Software Engineer",
       "linkedinprofile": " https://www.linkedin.com/in/lydia-robert-edia-a36971121/"
-    },
-    {
-      "id": 7,
-      "img": "",
-      "instructorname": "Chidinma Muoghalu",
-      "role": " Fullstack Developer and AI Specialist",
-      "linkedinprofile": " https://www.linkedin.com/in/chidinma-esther-muoghalu-31a612173/"
     }
   ]
 }

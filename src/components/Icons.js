@@ -53,6 +53,14 @@ export const LinkedInIcon = () => {
     </div>
   );
 };
+//Homepage icons
+export const LearningIcon = () => {
+  return (
+    <div>
+      <i className="bi bi-book iconCol" style={{ fontSize: "40px" }}></i>
+    </div>
+  );
+};
 
 //Vacancy page icons
 export const LocationIcon = () => {

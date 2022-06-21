@@ -63,23 +63,31 @@ let Homepagemain = () => {
         <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 m-auto ">
           <div className="col d-lg-flex d-md-flex mb-5 ">
             <div className="col">
-              <i className="bi bi-book iconCol"></i>
+              <i
+                className="bi bi-book iconCol"
+                style={{ fontSize: "23px" }}
+              ></i>
               <h3>Self-Paced Learning</h3>
-
               <p>
                 We are empathic on serving you with the best based on your
                 convenience.
               </p>
             </div>
             <div className="col">
-              <i className="bi bi-credit-card-2-front iconCol"></i>
+              <i
+                className="bi bi-credit-card-2-front iconCol"
+                style={{ fontSize: "23px" }}
+              ></i>
               <h3>Flexibility-support</h3>
               <p>Classes are stress-free with our flexible payment system.</p>
             </div>
           </div>
           <div className="col d-lg-flex d-md-flex ">
             <div className="col">
-              <i className="bi bi-credit-card-2-front iconCol"></i>
+              <i
+                className="bi bi-bookmarks iconCol"
+                style={{ fontSize: "23px" }}
+              ></i>
               <h3>Instructor-Led Learning</h3>
               <p>
                 Our instructors are top- notch in the various courses of
@@ -87,7 +95,10 @@ let Homepagemain = () => {
               </p>
             </div>
             <div className="col">
-              <i className="bi bi-credit-card-2-front iconCol"></i>
+              <i
+                className="bi bi-wallet2 iconCol"
+                style={{ fontSize: "23px" }}
+              ></i>
               <h3>Scholarship-Support</h3>
               <p>
                 {" "}
