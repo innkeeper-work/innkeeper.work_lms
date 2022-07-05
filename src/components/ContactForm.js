@@ -172,7 +172,7 @@ function ContactForm() {
 				)} */}
       {/* </div> */}
 
-      <div className="pb-3">
+      {/* <div className="pb-3">
         <label>Your Email: </label>
         <input
           type="email"
@@ -183,9 +183,9 @@ function ContactForm() {
           value={formState.email}
           // required
         />
-      </div>
+      </div> */}
 
-      <div className="pb-3">
+      {/* <div className="pb-3">
         <label>Your Message: </label>
         <textarea
           name="message"
@@ -221,7 +221,7 @@ function ContactForm() {
           value={formState.message}
           required
         ></textarea>
-      </div>
+      </div> */}
 
       {/* <div className="d-flex justify-content-center">
 				<ReCAPTCHA

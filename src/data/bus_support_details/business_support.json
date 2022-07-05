@@ -44,17 +44,17 @@
     },
     {
       "id": 6,
-      "img": "../../images/courses/content dev_t.png",
+      "img": "../../images/contentdev/contentdev_t.png",
       "title": "Content Management",
       "description": "Video editing skills enable you to arrange and alter video shots in order to create a cohesive structure.",
       "Link": "/contentmgt"
     },
     {
       "id": 7,
-      "img": "../../images/courses/admin.png",
-      "title": "Administration Digital Tools",
-      "description": "Video editing skills enable you to arrange and alter video shots in order to create a cohesive structure.",
-      "Link": "/admindigitaltools"
+      "img": "../../images/admintools/admin.png",
+      "title": "Digital Administration Tools",
+      "description": "Communication Tools, Project Management Tools, File-Sharing Tools, and Calendar and Schedule Management are some of the topics to be covered.",
+      "Link": "/digitaladmintools"
     }
   ],
 
