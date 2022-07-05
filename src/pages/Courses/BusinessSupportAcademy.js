@@ -102,7 +102,6 @@ let BusinessInstructors = () => {
   );
 };
 
-
 // {
 //   "id": 7,
 //   "img": "",
