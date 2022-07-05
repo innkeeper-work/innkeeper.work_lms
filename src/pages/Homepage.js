@@ -65,7 +65,7 @@ let Homepagemain = () => {
             <div className="col">
               <i
                 className="bi bi-book iconCol"
-                style={{ fontSize: "23px" }}
+                style={{ fontSize: "28px" }}
               ></i>
               <h3>Self-Paced Learning</h3>
               <p>
@@ -76,7 +76,7 @@ let Homepagemain = () => {
             <div className="col">
               <i
                 className="bi bi-credit-card-2-front iconCol"
-                style={{ fontSize: "23px" }}
+                style={{ fontSize: "28px" }}
               ></i>
               <h3>Flexibility-support</h3>
               <p>Classes are stress-free with our flexible payment system.</p>
@@ -86,7 +86,7 @@ let Homepagemain = () => {
             <div className="col">
               <i
                 className="bi bi-bookmarks iconCol"
-                style={{ fontSize: "23px" }}
+                style={{ fontSize: "28px" }}
               ></i>
               <h3>Instructor-Led Learning</h3>
               <p>
@@ -97,7 +97,7 @@ let Homepagemain = () => {
             <div className="col">
               <i
                 className="bi bi-wallet2 iconCol"
-                style={{ fontSize: "23px" }}
+                style={{ fontSize: "28px" }}
               ></i>
               <h3>Scholarship-Support</h3>
               <p>
