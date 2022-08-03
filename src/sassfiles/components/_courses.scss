@@ -1,0 +1,11 @@
+@use "../colors" as *;
+
+@mixin webDev {
+  background-color: $coursepagesectionBg;
+  box-shadow: 4px 4px 4px 4px rgb(179, 174, 174, 0.25);
+  border-radius: 15px;
+}
+
+.webDev {
+  @include webDev;
+}

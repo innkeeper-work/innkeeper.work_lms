@@ -1,0 +1,32 @@
+@use "../colors" as *;
+// @use "../font" as *;
+.partnersBg {
+  background-color: #ffffff;
+}
+
+.categoryBg {
+  background-color: $heroFooter2Color;
+}
+.sectiontwoBg {
+  background-color: $coursepagesectionBg;
+}
+.mainBg {
+  background-color: $coursepagesectionBg;
+}
+.welcomeBg {
+  background-color: $coursepagesectionBg;
+}
+.bgSoft {
+  background-color: $sectionColor;
+}
+.testBg {
+  //   background-image: url("../images/success.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.testTextBg {
+  background-color: $coursepagesectionBg;
+}
+.faqBg {
+  background-color: $heroFooter2Color;
+}
