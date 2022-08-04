@@ -1,0 +1,23 @@
+@use "../colors" as *;
+
+.homeheroBg {
+  background-color: $coursepagesectionBg;
+}
+.herotextWhite {
+  color: #ffffff;
+}
+.herotextblack {
+  color: #000000;
+}
+.herotextColored {
+  color: $btnBgColor;
+}
+.heroBg {
+  //   background-image: url("../images/homeherobg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: btnBgColor2;
+}
+.vacancyheroBg {
+  background: $vacancyheroBg;
+}

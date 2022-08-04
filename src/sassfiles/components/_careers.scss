@@ -1,0 +1,17 @@
+@use "../colors" as *;
+@use "../font" as *;
+
+.pricingCard {
+  @include pricingCard;
+}
+
+.pricingHeadText {
+  color: $btnBgColor2;
+}
+.vacancyheroBg {
+  background: $vacancyheroBg;
+}
+.priceText {
+  font-size: 1.5rem;
+  font-weight: 600;
+}

@@ -1,0 +1,52 @@
+//mixins
+@use "../colors" as *;
+@use "../font" as *;
+
+@mixin signin {
+  color: $btnText;
+  background: $btnBgColor2;
+}
+@mixin home {
+  color: $btnText;
+  background: $btnBgColor;
+}
+@mixin contactusbtn {
+  color: $btnText;
+  background: $btnBgColor;
+}
+@mixin callToActionBtn {
+  color: $btnText;
+  background: $btnBgColor2;
+}
+@mixin callToActionBtn2 {
+  color: $btnBgColor2;
+  background: #e4fbff;
+  border: 2px solid #00d8cf !important;
+}
+
+//include
+.signinbtnapply {
+  @include signin;
+}
+.callToAction {
+  @include callToActionBtn;
+}
+.callToAction2 {
+  @include callToActionBtn2;
+}
+.errorPage {
+  @include contactusbtn;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.btnColor {
+  background-color: $btnBgColor;
+}
+.btnText {
+  color: $btnText;
+}
+.ctaColor {
+  background-color: $callToActionBtn;
+}

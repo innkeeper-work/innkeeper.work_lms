@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 // Components
 import { HomepageHero } from "../components/Hero";
-import { OurPartners } from "../components/OurPartners";
+// import { OurPartners } from "../components/OurPartners";
 import categories from "../data/categories.json";
 import { CourseCategoryCards } from "../components/Card";
 import { BeginCoursesButton } from "../components/Buttons";
@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <div>
       <HomepageHero />
-      <OurPartners />
+      {/* <OurPartners /> */}
       <Homepagemain />
       <Homepagewelcome />
       <Homepagesoft />
