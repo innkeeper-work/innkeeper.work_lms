@@ -1,13 +1,12 @@
 // @use "./customdes" as *;
-@use "./colors" as *;
-@use "./font" as *;
 @use "./reset" as *;
 @use "./components/navbar";
+@use "./components/homepage";
 @use "./components/buttons";
 @use "./components/card";
 @use "./components/hero";
 @use "./components/icons";
 @use "./components/ourInstructors";
-@use "./components/studentLoan";
 @use "./components/ourPartners";
+@use "./components/studentLoan";
 @use "./components/footer";

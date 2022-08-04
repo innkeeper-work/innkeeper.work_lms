@@ -1,0 +1,16 @@
+@use "../colors" as *;
+
+@mixin techHead {
+  text-align: start;
+}
+@mixin ourInstructor {
+  background: $sectionColor;
+  color: $btnText;
+  // max-width: 97%;
+}
+.ourInstructor {
+  @include ourInstructor;
+}
+.techHead {
+  @include techHead;
+}
