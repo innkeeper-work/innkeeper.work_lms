@@ -8,7 +8,7 @@ import techacademy from "../../data/tech_academy_details/techacademy.json";
 import { BookIcon, AlarmIcon, CreditCardIcon } from "../../components/Icons";
 import { CourseinfoHero } from "../../components/Hero";
 import { ApplyNowButton } from "../../components/Buttons";
-import { CourseCards } from "../../components/Card";
+import { CourseCards } from "../../components/AllCards/InnkeeperPhaseOneCards";
 
 //Images
 import infoimage from "../../assets/images/techacademy/infoimage.png";

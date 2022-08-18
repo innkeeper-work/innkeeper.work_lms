@@ -1,9 +1,9 @@
 // @use "./customdes" as *;
 @use "./reset" as *;
-@use "./components/navbar";
+@use "./components/AllNavbars/innkeeperphaseonenavbar";
 @use "./components/homepage";
-@use "./components/buttons";
-@use "./components/card";
+@use "./components/Buttons/innkeeperphaseonebuttons";
+@use "./components/AllCards/innkeeperphaseonecards";
 @use "./components/hero";
 @use "./components/icons";
 @use "./components/ourInstructors";

@@ -3,10 +3,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 // Components
-import { SignInButton } from "../components/Buttons";
+import { SignInButton } from "../../components/Buttons/InnkeeperPhaseOneButtons";
 
 // Images
-import innkeeperlogo197 from "../assets/images/innkeeperlogo197.png";
+import innkeeperlogo197 from "../../assets/images/innkeeperlogo197.png";
 
 const Navbar = () => {
   return (

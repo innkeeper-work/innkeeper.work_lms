@@ -8,7 +8,7 @@ import CourseEnroll from "../../components/CourseEnroll";
 import HowToApply from "../../components/HowToApply";
 import { CourseinfoHero } from "../../components/Hero";
 import { ApplyNowButton } from "../../components/Buttons";
-import { CourseCards } from "../../components/Card";
+import { CourseCards } from "../../components/AllCards/InnkeeperPhaseOneCards";
 
 //Image
 import infoimage from "../../assets/images/techacademy/infoimage.png";

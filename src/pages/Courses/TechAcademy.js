@@ -1,10 +1,10 @@
 // External import
 import React from "react";
-import { CourseCards } from "../../components/Card";
+import { CourseCards } from "../../components/AllCards/InnkeeperPhaseOneCards";
 import { OurInstructors } from "../../components/Ourinstructors";
 import techacademy from "../../data/tech_academy_details/techacademy.json";
 import { CoursepageHero } from "../../components/Hero";
-import { InstructorCards } from "../../components/Card";
+import { InstructorCards } from "../../components/AllCards/InnkeeperPhaseOneCards";
 
 const TechAcademy = () => {
   return (

@@ -8,7 +8,7 @@ import business_support from "../../data/bus_support_details/business_support.js
 import { BookIcon, AlarmIcon, CreditCardIcon } from "../../components/Icons";
 import { CourseinfoHero } from "../../components/Hero";
 import { ApplyNowButton } from "../../components/Buttons";
-import { CourseCards } from "../../components/Card";
+import { CourseCards } from "../../components/AllCards/InnkeeperPhaseOneCards";
 
 //Images
 import infoimage from "../../assets/images/bussupportacademy/videoediting.png";

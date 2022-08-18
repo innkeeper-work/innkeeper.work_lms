@@ -1,16 +1,19 @@
 // import { useState } from "react";
 import React from "react";
-import { ApplyNowButton } from "./Buttons";
-import { LinkedInIcon, LocationIcon, PayIcon, NatureIcon } from "./Icons";
+import { ApplyNowButton } from "../Buttons/InnkeeperPhaseOneButtons";
+import { LinkedInIcon, LocationIcon, PayIcon, NatureIcon } from "../Icons";
 
 //Components
-import { VacancyApplyButton, ReviewCVButton } from "../components/Buttons";
+import {
+  VacancyApplyButton,
+  ReviewCVButton,
+} from "../../components/Buttons/InnkeeperPhaseOneButtons";
 
 // Images
-import event1 from "../assets/images/home/event1.png";
-import event2 from "../assets/images/home/event2.png";
-import cloud from "../assets/images/careers/cloud.png";
-import favicon from "../assets/images/vacancy/favicon.png";
+import event1 from "../../assets/images/home/event1.png";
+import event2 from "../../assets/images/home/event2.png";
+import cloud from "../../assets/images/careers/cloud.png";
+// import favicon from "../../assets/images/vacancy/favicon.png";
 
 //homepage cards
 export const CourseCategoryCards = ({
