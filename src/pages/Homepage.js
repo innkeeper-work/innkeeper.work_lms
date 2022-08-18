@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 import { HomepageHero } from "../components/Hero";
 // import { OurPartners } from "../components/OurPartners";
 import categories from "../data/categories.json";
-import { CourseCategoryCards } from "../components/Card";
-import { BeginCoursesButton } from "../components/Buttons";
-import { BlogCards } from "../components/Card";
-import { BlogCardsTwo } from "../components/Card";
-import { SubscribeButton } from "../components/Buttons";
+import { CourseCategoryCards } from "../components/AllCards/InnkeeperPhaseOneCards";
+import { BeginCoursesButton } from "../components/Buttons/InnkeeperPhaseOneButtons";
+import { BlogCards } from "../components/AllCards/InnkeeperPhaseOneCards";
+import { BlogCardsTwo } from "../components/AllCards/InnkeeperPhaseOneCards";
+import { SubscribeButton } from "../components/Buttons/InnkeeperPhaseOneButtons";
 
 // Images
 import aiki from "../assets/images/home/aiki.png";

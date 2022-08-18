@@ -1,9 +1,9 @@
 import React from "react";
-import { CourseCards } from "../../components/Card";
+import { CourseCards } from "../../components/AllCards/InnkeeperPhaseOneCards";
 import { OurInstructors } from "../../components/Ourinstructors";
 import businessSupport from "../../data/bus_support_details/business_support.json";
 import { CoursepageHero } from "../../components/Hero";
-import { InstructorCards } from "../../components/Card";
+import { InstructorCards } from "../../components/AllCards/InnkeeperPhaseOneCards";
 
 const BusinessSupportAcademy = () => {
   return (

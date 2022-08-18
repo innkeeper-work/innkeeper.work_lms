@@ -7,7 +7,7 @@ import HowToApply from "../../components/HowToApply";
 import CourseEnroll from "../../components/CourseEnroll";
 import { CourseinfoHero } from "../../components/Hero";
 import { ApplyNowButton } from "../../components/Buttons";
-import { CourseCards } from "../../components/Card";
+import { CourseCards } from "../../components/AllCards/InnkeeperPhaseOneCards";
 import business_support from "../../data/bus_support_details/business_support.json";
 
 //Images

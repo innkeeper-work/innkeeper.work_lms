@@ -1,6 +1,6 @@
 //mixins
-@use "../colors" as *;
-@use "../font" as *;
+@use "../../colors" as *;
+@use "../../font" as *;
 
 @mixin signin {
   color: $btnText;

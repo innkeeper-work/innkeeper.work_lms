@@ -6,14 +6,14 @@ import {
   ApplyforjobButton,
   UpskillButton,
   HireTalentButton,
-} from "../components/Buttons";
+} from "../components/Buttons/InnkeeperPhaseOneButtons";
 import { FacebookIcon } from "../components/Icons";
 import { WhatsAppIcon } from "../components/Icons";
 import { InstagramIcon } from "../components/Icons";
 import { LinkedInIcon } from "../components/Icons";
-import { Home } from "../components/Buttons";
-import { ContactUs } from "../components/Buttons";
-import Navbar from "../components/Navbar";
+import { Home } from "../components/Buttons/InnkeeperPhaseOneButtons";
+import { ContactUs } from "../components/Buttons/InnkeeperPhaseOneButtons";
+import Navbar from "../components/AllNavbars/GuestNavbar";
 
 // Images
 import underconstruction from "../assets/images/hero/underconstruction.png";

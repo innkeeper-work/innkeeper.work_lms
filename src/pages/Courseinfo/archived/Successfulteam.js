@@ -6,7 +6,7 @@
 // import { BookIcon, AlarmIcon, CreditCardIcon } from "../../../components/Icons";
 // import { CourseinfoHero } from "../../../components/Hero";
 // import { ApplyNowButton } from "../../../components/Buttons";
-// import { CourseCards } from "../../../components/Card";
+// import { CourseCards } from "../../../components/AllCards/InnkeeperPhaseOneCards";
 // import { Link } from "react-router-dom";
 
 // let SuccessfulteamInfo = () => {

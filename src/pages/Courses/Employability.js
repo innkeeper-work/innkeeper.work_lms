@@ -1,8 +1,8 @@
 import React from "react";
 
 import { CoursepageHero } from "../../components/Hero";
-import { CourseCards } from "../../components/Card";
-import { InstructorCards } from "../../components/Card";
+import { CourseCards } from "../../components/AllCards/InnkeeperPhaseOneCards";
+import { InstructorCards } from "../../components/AllCards/InnkeeperPhaseOneCards";
 import empsoftskill from "../../data/employability_softskills/employability_softskills.json";
 import { OurInstructors } from "../../components/Ourinstructors";
 

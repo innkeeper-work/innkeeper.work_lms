@@ -2,14 +2,14 @@
 import React from "react";
 
 // Components
-import Navbar from "./Navbar";
+import Navbar from "./AllNavbars/GuestNavbar";
 import {
   GetStartedBond,
   GetStartedButton,
   ApplyforjobButton,
   UpskillButton,
   HireTalentButton,
-} from "../components/Buttons";
+} from "../components/Buttons/InnkeeperPhaseOneButtons";
 
 // Images
 import homehero4 from "../assets/images/hero/homehero4.png";

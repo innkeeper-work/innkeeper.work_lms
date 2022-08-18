@@ -7,7 +7,7 @@
 // import { Link } from "react-router-dom";
 // import { CourseinfoHero } from "../../../components/Hero";
 // import { ApplyNowButton } from "../../../components/Buttons";
-// import { CourseCards } from "../../../components/Card";
+// import { CourseCards } from "../../../components/AllCards/InnkeeperPhaseOneCards";
 
 // let FinancingInfo = () => {
 // 	return (

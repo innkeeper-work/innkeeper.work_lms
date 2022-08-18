@@ -1,53 +1,53 @@
 import React from "react";
 import { TrainingBondHero } from "../../components/Hero";
 import trainingbond from "../../assets/images/scholarships_payments/trainingbond.png";
-import { Submit } from "../../components/Buttons";
+import { Submit } from "../../components/Buttons/InnkeeperPhaseOneButtons";
 import { CreditCardIcon } from "../../components/Icons";
 import { Link } from "react-router-dom";
 import { OurPartners } from "../../components/OurPartners";
 import BondRequestForm from "../../components/BondRequestForm";
 
 let Trainingbondpage = () => {
-	return (
-		<>
-			<TrainingBondHero />
-			{/* <CourseinfoHero coursename="Apply for training via training bond" /> */}
-			<OurPartners />
-			<Trainingbond />
-			{/* <Trainingbonddetails /> */}
-		</>
-	);
+  return (
+    <>
+      <TrainingBondHero />
+      {/* <CourseinfoHero coursename="Apply for training via training bond" /> */}
+      <OurPartners />
+      <Trainingbond />
+      {/* <Trainingbonddetails /> */}
+    </>
+  );
 };
 
 let Trainingbond = () => {
-	return (
-		<div>
-			<div className="container-fluid py-4">
-				<div className="row justify-content-center id=loanform">
-					<div className="col-lg-4 col-md-5 mt-lg-5 mt-md-5">
-						<p className="card-text">
-							Many organizations are in dire need of talents but there’s a gap
-							in harnessing the available talents as they even seem not
-							employable.{" "}
-						</p>
-						<p className="card-text">
-							This is what innkeeper.work has emphatically come to bridge. We’ve
-							made our payment flexible to accommodate your excuse.
-						</p>
-						<p className="card-text">
-							{" "}
-							Kindly fill the form below to receive your request for the bond.
-						</p>
-					</div>
-					<div className="col-lg-6 col-md-7 my-auto mt-lg-5 mt-md-5 mainBg">
-						<div className="card-body">
-							<BondRequestForm />
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	);
+  return (
+    <div>
+      <div className="container-fluid py-4">
+        <div className="row justify-content-center id=loanform">
+          <div className="col-lg-4 col-md-5 mt-lg-5 mt-md-5">
+            <p className="card-text">
+              Many organizations are in dire need of talents but there’s a gap
+              in harnessing the available talents as they even seem not
+              employable.{" "}
+            </p>
+            <p className="card-text">
+              This is what innkeeper.work has emphatically come to bridge. We’ve
+              made our payment flexible to accommodate your excuse.
+            </p>
+            <p className="card-text">
+              {" "}
+              Kindly fill the form below to receive your request for the bond.
+            </p>
+          </div>
+          <div className="col-lg-6 col-md-7 my-auto mt-lg-5 mt-md-5 mainBg">
+            <div className="card-body">
+              <BondRequestForm />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 // let Trainingbonddetails = () => {

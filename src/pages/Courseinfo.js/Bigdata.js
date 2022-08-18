@@ -7,7 +7,7 @@ import CourseEnroll from "../../components/CourseEnroll";
 import HowToApply from "../../components/HowToApply";
 import { CourseinfoHero } from "../../components/Hero";
 import { ApplyNowButton } from "../../components/Buttons";
-import { CourseCards } from "../../components/Card";
+import { CourseCards } from "../../components/AllCards/InnkeeperPhaseOneCards";
 import { BookIcon } from "../../components/Icons";
 import { AlarmIcon } from "../../components/Icons";
 import { CreditCardIcon } from "../../components/Icons";

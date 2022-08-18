@@ -4,7 +4,7 @@ import React from "react";
 // Components
 import { CourseinfoHero } from "../../components/Hero";
 import { ApplyNowButton } from "../../components/Buttons";
-import { CourseCards } from "../../components/Card";
+import { CourseCards } from "../../components/AllCards/InnkeeperPhaseOneCards";
 import techacademy from "../../data/tech_academy_details/techacademy.json";
 import { BookIcon } from "../../components/Icons";
 import { AlarmIcon } from "../../components/Icons";
