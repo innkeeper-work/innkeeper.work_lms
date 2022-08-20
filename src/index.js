@@ -2,7 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 // import { BrowserRouter as Router } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
-import App from "./App";
+// import App from "./App";
+import { TeamsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
+import { CreateTeamsStudentsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
+import { AllStudentsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
@@ -11,7 +14,10 @@ import "./sassfiles/styles.min.css";
 
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    {/* <App /> */}
+    <TeamsCard />
+    <CreateTeamsStudentsCard />
+    <AllStudentsCard />
   </BrowserRouter>,
   document.getElementById("root")
 );
