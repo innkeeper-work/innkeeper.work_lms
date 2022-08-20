@@ -6,6 +6,9 @@ import { BrowserRouter } from "react-router-dom";
 import { TeamsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
 import { CreateTeamsStudentsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
 import { AllStudentsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
+import { FacilitatorsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
+import { StudentsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
+import { CustomerCareCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
@@ -18,6 +21,9 @@ ReactDOM.render(
     <TeamsCard />
     <CreateTeamsStudentsCard />
     <AllStudentsCard />
+    <FacilitatorsCard />
+    <StudentsCard />
+    <CustomerCareCard />
   </BrowserRouter>,
   document.getElementById("root")
 );

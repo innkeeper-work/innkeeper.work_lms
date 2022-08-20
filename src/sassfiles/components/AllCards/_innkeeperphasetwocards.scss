@@ -8,6 +8,12 @@ $fontStyle: "Roboto", sans-serif;
   border-radius: 16px !important;
   padding-bottom: 50px;
 }
+@mixin allUsersCard {
+  max-width: 1100px;
+  margin-top: 50px;
+  border-radius: 16px !important;
+  padding-bottom: 50px;
+}
 @mixin tableBorderStyle {
   border-bottom: 1px solid $tableLinesColor !important;
   padding: 10px;
@@ -16,10 +22,18 @@ $fontStyle: "Roboto", sans-serif;
 @mixin usersCardHead {
   font-weight: 900;
   letter-spacing: 0.005em;
-  font-size: 2em;
+  font-size: 1.5em;
+}
+@mixin usersCardHead1 {
+  font-weight: 700;
+  letter-spacing: 0.005em;
+  font-size: 1.5em;
 }
 .usersCard {
   @include usersCard;
+}
+.allUsersCard {
+  @include allUsersCard;
 }
 
 .usersCardHead {
@@ -69,5 +83,22 @@ $fontStyle: "Roboto", sans-serif;
   }
   .taskInstructions {
     font-size: 0.5em;
+  }
+  .allUsersCard {
+    font-size: 12px;
+  }
+  .usersCard {
+    font-size: 12px;
+  }
+  .usersCardHead {
+    @include usersCardHead1;
+  }
+  .smallHide {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .tabHide {
+    display: none;
   }
 }

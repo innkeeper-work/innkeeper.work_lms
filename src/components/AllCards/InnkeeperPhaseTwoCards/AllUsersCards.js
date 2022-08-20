@@ -1,14 +1,96 @@
 // List of components to be created
 
 // FacilitatorsCard
+export const FacilitatorsCard = () => {
+  return (
+    <>
+      <div className="card allUsersCard mx-auto pt-5 shadow">
+        <table className="usersTable">
+          <thead>
+            <tr className="text-center">
+              <th className="blueText">NAME</th>
+              <th className="blueText">FACILITATOR ID</th>
+              <th className="blueText">PHONE NUMBER</th>
+              <th className="blueText smallHide">E-MAIL</th>
+              <th className="blueText smallHide tabHide">COURSE</th>
+              <th className="blueText">...</th>
+            </tr>
+          </thead>
+          <tr className="text-center">
+            <td>Chidinma Moughalu</td>
+            <td>I4G016994XIN</td>
+            <td>+2349024604200</td>
+            <td className="smallHide">something@gmail.com</td>
+            <td className="smallHide tabHide">Data Analysis</td>
+            <td className="blueText">Profile</td>
+          </tr>
+        </table>
+      </div>
+    </>
+  );
+};
 // StudentsCard
+export const StudentsCard = () => {
+  return (
+    <>
+      <div className="card allUsersCard mx-auto pt-5 shadow">
+        <table className="usersTable">
+          <thead>
+            <tr className="text-center">
+              <th className="blueText">NAME</th>
+              <th className="blueText">STUDENT ID</th>
+              <th className="blueText">PHONE NUMBER</th>
+              <th className="blueText smallHide">E-MAIL</th>
+              <th className="blueText smallHide tabHide">COURSE</th>
+              <th className="blueText">...</th>
+            </tr>
+          </thead>
+          <tr className="text-center">
+            <td>Chidinma Moughalu</td>
+            <td>I4G016994XIN</td>
+            <td>+2349024604200</td>
+            <td className="smallHide">something@gmail.com</td>
+            <td className="smallHide tabHide">Data Analysis</td>
+            <td className="blueText">Profile</td>
+          </tr>
+        </table>
+      </div>
+    </>
+  );
+};
 // CustomerCareCard
+export const CustomerCareCard = () => {
+  return (
+    <>
+      <div className="card usersCard mx-auto pt-5 shadow">
+        <table className="usersTable">
+          <thead>
+            <tr className="text-center">
+              <th className="blueText">NAME</th>
+              <th className="blueText">STAFF ID</th>
+              <th className="blueText">PHONE NUMBER</th>
+              <th className="blueText smallHide">E-MAIL</th>
+              <th className="blueText">...</th>
+            </tr>
+          </thead>
+          <tr className="text-center">
+            <td>Chidinma Moughalu</td>
+            <td>I4G016994XIN</td>
+            <td>+2349024604200</td>
+            <td className="smallHide">something@gmail.com</td>
+            <td className="blueText">Profile</td>
+          </tr>
+        </table>
+      </div>
+    </>
+  );
+};
 // AllStudentsCard
 export const AllStudentsCard = () => {
   let courseTitle = "Frontend Development";
   return (
     <>
-      <div className="card usersCard mx-auto">
+      <div className="card usersCard mx-auto shadow">
         <h3 className="card-title usersCardHead  text-center mb-3 p-4 blueText">
           {courseTitle}
         </h3>
@@ -43,7 +125,7 @@ export const TeamsCard = () => {
   let courseTitle = "Frontend Development";
   return (
     <>
-      <div className="card shadow mx-auto usersCard px-3 ">
+      <div className="card shadow mx-auto usersCard">
         <h3 className="card-title usersCardHead  text-center mb-3 p-4 blueText">
           {courseTitle}
         </h3>
