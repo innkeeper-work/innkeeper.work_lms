@@ -1,0 +1,26 @@
+$authBtnColor: linear-gradient(112.74deg, #00d8cf 23.84%, #27aae1 79.07%);
+$authBtnTextColor: #fff;
+$authBtn2BorderColor: #2c6a84;
+
+@mixin authBtnStyle {
+  background: $authBtnColor;
+  color: $authBtnTextColor;
+  //   border: 1px solid $authBtnTextColor !important;
+  border-radius: 5px;
+  font-weight: 700;
+  width: 180px;
+}
+@mixin authBtnStyle2 {
+  background: none;
+  width: 150px;
+  border-radius: 7px;
+  border: 1px solid $authBtn2BorderColor;
+}
+
+.authBtn {
+  @include authBtnStyle;
+}
+
+.authBtn2 {
+  @include authBtnStyle2;
+}

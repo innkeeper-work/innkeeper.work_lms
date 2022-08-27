@@ -41,6 +41,18 @@ import Digitalmarketing from "./pages/Courseinfo/business_support/Digitalmarketi
 import Stillandmotion from "./pages/Courseinfo/business_support/Stillandmotion";
 import Videoediting from "./pages/Courseinfo/business_support/Videoediting";
 import DigitalAdminTools from "./pages/Courseinfo/business_support/DigitalAdminTools";
+import { TeamsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
+import { CreateTeamsStudentsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
+import { AllStudentsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
+import { FacilitatorsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
+import { StudentsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
+import { CustomerCareCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
+import { CreateAccountButton } from "./components/Buttons/AuthenticationButtons";
+import { LinkedInSignInButton } from "./components/Buttons/AuthenticationButtons";
+import { GoogleSignUpButton } from "./components/Buttons/AuthenticationButtons";
+import { LoginButton } from "./components/Buttons/AuthenticationButtons";
+import { SignUpButton } from "./components/Buttons/AuthenticationButtons";
+import { SignInButton } from "./components/Buttons/InnkeeperPhaseOneButtons";
 // import Business from "./pages/Courseinfo/archived/Business";
 // import ContentMgt from "./pages/Courseinfo/archived/ContentMgt";
 // import Criticalthinking from "./pages/Courseinfo/archived/Criticalthinking";
@@ -54,9 +66,21 @@ import DigitalAdminTools from "./pages/Courseinfo/business_support/DigitalAdminT
 function App() {
   return (
     <div className="App">
+      <TeamsCard />
+      <AllStudentsCard />
+      <CreateTeamsStudentsCard />
+      <FacilitatorsCard />
+      <StudentsCard />
+      <CustomerCareCard />
+      <CreateAccountButton />
+      <SignUpButton />
+      <LoginButton />
+      <GoogleSignUpButton />
+      <LinkedInSignInButton />
+
       <Routes>
         {/* pages */}
-        <Route path="/" element={<Homepage />} />
+        {/* <Route path="/" element={<Homepage />} />
         <Route path="contact" element={<Contact />} />
         <Route path="techacademy" element={<TechAcademy />} />
         <Route
@@ -68,15 +92,15 @@ function App() {
         <Route path="studentloan" element={<Studentloan />} />
         <Route path="scholarships" element={<Scholarships />} />
         <Route path="trainingbond" element={<Trainingbond />} />
-        <Route path="careers" element={<Careers />} />
+        <Route path="careers" element={<Careers />} /> */}
         {/* <Route path="vacancy" element={<Vacancy />} /> */}
-        <Route path="privacypolicy" element={<PrivacyPolicy />} />
+        {/* <Route path="privacypolicy" element={<PrivacyPolicy />} />
         <Route path="underconstruction" element={<UnderConstruction />} />
-        <Route path="*" element={<Error404 />} />
+        <Route path="*" element={<Error404 />} /> */}
 
         {/* course info pages */}
         {/* techacademy */}
-        <Route path="frontend" element={<Frontend />} />
+        {/* <Route path="frontend" element={<Frontend />} />
         <Route path="backend" element={<Backend />} />
         <Route path="fullstack" element={<Fullstack />} />
         <Route path="devops" element={<Devops />} />
@@ -97,7 +121,7 @@ function App() {
         <Route path="videoediting" element={<Videoediting />} />
         <Route path="stillandmotion" element={<Stillandmotion />} />
         <Route path="businessupport" element={<BusinessSupportAcademy />} />
-        <Route path="digitaladmintools" element={<DigitalAdminTools />} />
+        <Route path="digitaladmintools" element={<DigitalAdminTools />} /> */}
         {/* <Route path="business" element={<Business />} />
 				<Route path="contentmgt" element={<ContentMgt />} />
 				<Route path="criticalthinking" element={<Criticalthinking />} />

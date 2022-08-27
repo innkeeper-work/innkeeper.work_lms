@@ -146,6 +146,15 @@ export const TeamsCard = () => {
               debitis.
             </td>
           </tr>
+          <tr className="text-center">
+            <td className="blueText">Flee</td>
+            <td className="blueText">Flee</td>
+            <td className="taskInstructions text-start w-50">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+              tempore sed quasi distinctio. Est vel earum sit, assumenda harum
+              debitis.
+            </td>
+          </tr>
         </table>
       </div>
     </>

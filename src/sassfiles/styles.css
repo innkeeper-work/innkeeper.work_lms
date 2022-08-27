@@ -327,4 +327,18 @@ p {
     display: none;
   }
 }
+.authBtn {
+  background: linear-gradient(112.74deg, #00d8cf 23.84%, #27aae1 79.07%);
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 700;
+  width: 180px;
+}
+
+.authBtn2 {
+  background: none;
+  width: 150px;
+  border-radius: 7px;
+  border: 1px solid #2c6a84;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -2,13 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 // import { BrowserRouter as Router } from "react-router-dom";
 import { BrowserRouter } from "react-router-dom";
-// import App from "./App";
-import { TeamsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
-import { CreateTeamsStudentsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
-import { AllStudentsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
-import { FacilitatorsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
-import { StudentsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
-import { CustomerCareCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
+import App from "./App";
+
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
@@ -17,13 +12,7 @@ import "./sassfiles/styles.min.css";
 
 ReactDOM.render(
   <BrowserRouter>
-    {/* <App /> */}
-    <TeamsCard />
-    <CreateTeamsStudentsCard />
-    <AllStudentsCard />
-    <FacilitatorsCard />
-    <StudentsCard />
-    <CustomerCareCard />
+    <App />
   </BrowserRouter>,
   document.getElementById("root")
 );
