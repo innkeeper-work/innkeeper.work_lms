@@ -110,3 +110,108 @@ $textColor: #626262;
     line-height: 0.7rem;
   }
 }
+
+$pryColor: #27aae1;
+$tableLinesColor: #c0c0c0b2;
+$fontStyle: "Roboto", sans-serif;
+
+@mixin usersCard {
+  max-width: 900px;
+  margin-top: 50px;
+  border-radius: 16px !important;
+  padding-bottom: 50px;
+}
+@mixin allUsersCard {
+  max-width: 1100px;
+  margin-top: 50px;
+  border-radius: 16px !important;
+  padding-bottom: 50px;
+}
+@mixin tableBorderStyle {
+  border-bottom: 1px solid $tableLinesColor !important;
+  padding: 10px;
+}
+
+@mixin usersCardHead {
+  font-weight: 900;
+  letter-spacing: 0.005em;
+  font-size: 1.5em;
+}
+@mixin usersCardHead1 {
+  font-weight: 700;
+  letter-spacing: 0.005em;
+  font-size: 1.5em;
+}
+.usersCard {
+  @include usersCard;
+}
+.allUsersCard {
+  @include allUsersCard;
+}
+
+.usersCardHead {
+  @include usersCardHead;
+}
+.blueText {
+  color: $pryColor;
+}
+
+.usersTable {
+  tr {
+    td {
+      @include tableBorderStyle;
+    }
+  }
+}
+.usersTable {
+  tr {
+    th {
+      @include tableBorderStyle;
+    }
+  }
+}
+
+.studentTeamsCardHead {
+  background-color: $pryColor;
+  padding: 30px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  color: white;
+  font-size: 1.5em;
+}
+
+.studentTeamsCard {
+  max-width: 300px;
+  border-radius: 16px !important;
+  padding-bottom: 20px;
+}
+
+.taskInstructions {
+  font-size: 0.75em;
+}
+
+@media only screen and (max-width: 600px) {
+  .usersTable {
+    font-size: smaller;
+  }
+  .taskInstructions {
+    font-size: 0.5em;
+  }
+  .allUsersCard {
+    font-size: 12px;
+  }
+  .usersCard {
+    font-size: 12px;
+  }
+  .usersCardHead {
+    @include usersCardHead1;
+  }
+  .smallHide {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .tabHide {
+    display: none;
+  }
+}

@@ -41,6 +41,18 @@ import Digitalmarketing from "./pages/Courseinfo/business_support/Digitalmarketi
 import Stillandmotion from "./pages/Courseinfo/business_support/Stillandmotion";
 import Videoediting from "./pages/Courseinfo/business_support/Videoediting";
 import DigitalAdminTools from "./pages/Courseinfo/business_support/DigitalAdminTools";
+import { TeamsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
+import { CreateTeamsStudentsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
+import { AllStudentsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
+import { FacilitatorsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
+import { StudentsCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
+import { CustomerCareCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllUsersCards";
+import { CreateAccountButton } from "./components/Buttons/AuthenticationButtons";
+import { LinkedInSignInButton } from "./components/Buttons/AuthenticationButtons";
+import { GoogleSignUpButton } from "./components/Buttons/AuthenticationButtons";
+import { LoginButton } from "./components/Buttons/AuthenticationButtons";
+import { SignUpButton } from "./components/Buttons/AuthenticationButtons";
+import { SignInButton } from "./components/Buttons/InnkeeperPhaseOneButtons";
 // import Business from "./pages/Courseinfo/archived/Business";
 // import ContentMgt from "./pages/Courseinfo/archived/ContentMgt";
 // import Criticalthinking from "./pages/Courseinfo/archived/Criticalthinking";
@@ -54,69 +66,81 @@ import DigitalAdminTools from "./pages/Courseinfo/business_support/DigitalAdminT
 import { LeaderboardCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllTasksCards";
 function App() {
   return (
-    // <div className="App">
-    //   <Routes>
-    //     {/* pages */}
-    //     <Route path="/" element={<Homepage />} />
-    //     <Route path="contact" element={<Contact />} />
-    //     <Route path="techacademy" element={<TechAcademy />} />
-    //     <Route
-    //       path="businesssupportacademy"
-    //       element={<BusinessSupportAcademy />}
-    //     />
-    //     <Route path="employability" element={<Employability />} />
-    //     <Route path="entrepreneurship" element={<Entrepreneurship />} />
-    //     <Route path="studentloan" element={<Studentloan />} />
-    //     <Route path="scholarships" element={<Scholarships />} />
-    //     <Route path="trainingbond" element={<Trainingbond />} />
-    //     <Route path="careers" element={<Careers />} />
-    //     {/* <Route path="vacancy" element={<Vacancy />} /> */}
-    //     <Route path="privacypolicy" element={<PrivacyPolicy />} />
-    //     <Route path="underconstruction" element={<UnderConstruction />} />
-    //     <Route path="*" element={<Error404 />} />
+    <div className="App">
+      <TeamsCard />
+      <AllStudentsCard />
+      <CreateTeamsStudentsCard />
+      <FacilitatorsCard />
+      <StudentsCard />
+      <CustomerCareCard />
+      <CreateAccountButton />
+      <SignUpButton />
+      <LoginButton />
+      <GoogleSignUpButton />
+      <LinkedInSignInButton />
 
-    //     {/* course info pages */}
-    //     {/* techacademy */}
-    //     <Route path="frontend" element={<Frontend />} />
-    //     <Route path="backend" element={<Backend />} />
-    //     <Route path="fullstack" element={<Fullstack />} />
-    //     <Route path="devops" element={<Devops />} />
-    //     <Route path="architectdesign" element={<Architectdesign />} />
-    //     <Route path="architecttech" element={<Architecttech />} />
-    //     <Route path="relationaldb" element={<Relationaldb />} />
-    //     <Route path="riskmgt" element={<Riskmgt />} />
-    //     <Route path="reverseengineering" element={<Reverseengineering />} />
-    //     <Route path="pentesting" element={<Pentesting />} />
-    //     <Route path="bigdata" element={<Bigdata />} />
-    //     <Route path="python" element={<Python />} />
-    //     <Route path="iot" element={<IoT />} />
-    //     <Route path="securityaudit" element={<Securityaudit />} />
+      <Routes>
+        {/* pages */}
+        {/* <Route path="/" element={<Homepage />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="techacademy" element={<TechAcademy />} />
+        <Route
+          path="businesssupportacademy"
+          element={<BusinessSupportAcademy />}
+        />
+        <Route path="employability" element={<Employability />} />
+        <Route path="entrepreneurship" element={<Entrepreneurship />} />
+        <Route path="studentloan" element={<Studentloan />} />
+        <Route path="scholarships" element={<Scholarships />} />
+        <Route path="trainingbond" element={<Trainingbond />} />
+        <Route path="careers" element={<Careers />} /> */}
+        {/* <Route path="vacancy" element={<Vacancy />} /> */}
+        {/* <Route path="privacypolicy" element={<PrivacyPolicy />} />
+        <Route path="underconstruction" element={<UnderConstruction />} />
+        <Route path="*" element={<Error404 />} /> */}
 
-    //     <Route path="sales" element={<Sales />} />
-    //     <Route path="customerexperience" element={<Customerexperience />} />
-    //     <Route path="digitalmarketing" element={<Digitalmarketing />} />
-    //     <Route path="videoediting" element={<Videoediting />} />
-    //     <Route path="stillandmotion" element={<Stillandmotion />} />
-    //     <Route path="businessupport" element={<BusinessSupportAcademy />} />
-    //     <Route path="digitaladmintools" element={<DigitalAdminTools />} />
-    //     {/* <Route path="business" element={<Business />} />
-    // 		<Route path="contentmgt" element={<ContentMgt />} />
-    // 		<Route path="criticalthinking" element={<Criticalthinking />} />
-    // 		<Route path="devopportunity" element={<Devopportunity />} />
-    // 		<Route path="financing" element={<Financing />} />
-    // 		<Route path="growthstrategy" element={<Growth />} />
-    // 		<Route path="personaldevt" element={<Personaldevt />} />
-    // 		<Route path="successfulteam" element={<Successfulteam />} />
-    // 		<Route path="workshop" element={<Workshop />} /> */}
-    //   </Routes>
+        {/* course info pages */}
+        {/* techacademy */}
+        {/* <Route path="frontend" element={<Frontend />} />
+        <Route path="backend" element={<Backend />} />
+        <Route path="fullstack" element={<Fullstack />} />
+        <Route path="devops" element={<Devops />} />
+        <Route path="architectdesign" element={<Architectdesign />} />
+        <Route path="architecttech" element={<Architecttech />} />
+        <Route path="relationaldb" element={<Relationaldb />} />
+        <Route path="riskmgt" element={<Riskmgt />} />
+        <Route path="reverseengineering" element={<Reverseengineering />} />
+        <Route path="pentesting" element={<Pentesting />} />
+        <Route path="bigdata" element={<Bigdata />} />
+        <Route path="python" element={<Python />} />
+        <Route path="iot" element={<IoT />} />
+        <Route path="securityaudit" element={<Securityaudit />} />
 
-    //   <footer>
-    //     <Footer />
-    //   </footer>
-    // </div>
-    <div>
-      <LeaderboardCard />
+        <Route path="sales" element={<Sales />} />
+        <Route path="customerexperience" element={<Customerexperience />} />
+        <Route path="digitalmarketing" element={<Digitalmarketing />} />
+        <Route path="videoediting" element={<Videoediting />} />
+        <Route path="stillandmotion" element={<Stillandmotion />} />
+        <Route path="businessupport" element={<BusinessSupportAcademy />} />
+        <Route path="digitaladmintools" element={<DigitalAdminTools />} /> */}
+        {/* <Route path="business" element={<Business />} />
+				<Route path="contentmgt" element={<ContentMgt />} />
+				<Route path="criticalthinking" element={<Criticalthinking />} />
+				<Route path="devopportunity" element={<Devopportunity />} />
+				<Route path="financing" element={<Financing />} />
+				<Route path="growthstrategy" element={<Growth />} />
+				<Route path="personaldevt" element={<Personaldevt />} />
+				<Route path="successfulteam" element={<Successfulteam />} />
+				<Route path="workshop" element={<Workshop />} /> */}
+      </Routes>
+
+      <footer>
+        <Footer />
+      </footer>
     </div>
+    // <div>
+    //   <LeaderboardCard />
+    // </div>
   );
 }
 
