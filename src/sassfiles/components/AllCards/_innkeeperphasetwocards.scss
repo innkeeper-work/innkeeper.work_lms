@@ -1,6 +1,13 @@
 @use "../../colors" as *;
 
+$pryColor: #27aae1;
+$tableLinesColor: #c0c0c0b2;
+$fontStyle: "Roboto", sans-serif;
+$fontStyle2: "Open Sans", sans-serif;
 $textColor: #626262;
+$muteTextColor: #7a7a7a;
+$fontweight6: 600;
+$fontweight5: 500;
 
 @mixin heading-fontStyle {
   font-family: "Roboto", sans-serif !important;
@@ -111,10 +118,137 @@ $textColor: #626262;
   }
 }
 
-$pryColor: #27aae1;
-$tableLinesColor: #c0c0c0b2;
-$fontStyle: "Roboto", sans-serif;
+// LeaderboardExplanationCard
 
+.lec-background {
+  width: 51rem;
+  height: 31rem;
+  padding: 15%;
+
+  .mb-4 {
+    margin-bottom: 1rem !important;
+  }
+}
+.lec-close {
+  position: absolute;
+  left: 93.45%;
+  right: 4.96%;
+  top: 6.22%;
+  bottom: 91.07%;
+  // border: 1.5px solid #6c6c6c;
+}
+
+.lec-title {
+  @include CardDetails-fontStyle();
+  font-size: 1.2rem !important;
+  color: $textColor !important;
+}
+.lec-img {
+  margin-right: 0.6rem;
+  width: 2rem;
+}
+.lec-explainTitle {
+  @include CardDetails-fontStyle();
+  font-size: 1.2rem !important;
+  color: $textColor;
+  margin: 0 !important;
+  text-align: start !important;
+}
+.lec-explainDetail {
+  @include CardDetails-fontStyle();
+  font-size: 14px;
+  color: $muteTextColor;
+  text-align: start;
+  margin: 0 !important;
+}
+
+//Responsiveness
+
+@media screen and (max-width: 990px) {
+  .lec-background {
+    width: 20rem;
+    height: 15rem;
+    border-radius: 3.99856px;
+    padding: 7.5%;
+  }
+  .lec-close {
+    width: 10px;
+    left: 93.45%;
+    right: 4.96%;
+    top: 6.22%;
+    bottom: 91.07%;
+  }
+
+  .lec-title,
+  .lec-explainTitle {
+    font-size: 0.7rem !important;
+    line-height: 0.9rem;
+  }
+  .lec-img {
+    margin-right: 0.6rem;
+    width: 1rem;
+  }
+
+  .lec-explainDetail {
+    font-size: 0.5rem;
+    line-height: 0.7rem;
+  }
+  @media screen and (min-width: 681px) {
+    .lec-background {
+      padding: 3%;
+    }
+  }
+}
+
+//SubmissionsCard
+.sc-background {
+  width: 18rem;
+  height: 14rem;
+  padding: 1rem;
+  box-shadow: 2.14168px 2.14168px 26.771px 4.28336px rgba(0, 0, 0, 0.25);
+  border-radius: 17.1335px;
+}
+.sc-topic {
+  font-family: $fontStyle2;
+  font-weight: $fontweight6;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: $btnBgColor;
+}
+.sc-date {
+  font-family: $fontStyle2;
+  font-weight: $fontweight6;
+  font-size: 0.6rem;
+  line-height: 0.8rem;
+  color: $muteTextColor;
+}
+
+//Grading Card
+.gc-text {
+  font-family: $fontStyle;
+  font-weight: $fontweight5;
+  color: $sectionColor;
+}
+.gc-studentId {
+  font-size: 1rem;
+}
+.grading-btn {
+  border: 1.4359px solid $btnBgColor !important;
+  border-radius: 14.359px !important;
+  // width: 4rem !important;
+  height: 2rem !important;
+  font-size: 1.2rem !important;
+  color: $sectionColor !important;
+  background-color: $btnText;
+  padding: 0.1rem 0.5rem !important;
+}
+.grading-btn:hover,
+.grading-btn:focus {
+  border: 2px solid $btnBgColor !important;
+  background-color: $btnText;
+}
+
+// UsersCard
 @mixin usersCard {
   max-width: 900px;
   margin-top: 50px;

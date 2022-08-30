@@ -63,22 +63,22 @@ import { SignInButton } from "./components/Buttons/InnkeeperPhaseOneButtons";
 // import Successfulteam from "./pages/Courseinfo/archived/Successfulteam";
 // import Workshop from "./pages/Courseinfo/archived/Workshop";
 
-import { LeaderboardCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllTasksCards";
+import { GradingCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllTasksCards";
 function App() {
   return (
     <div className="App">
-      <TeamsCard />
-      <AllStudentsCard />
-      <CreateTeamsStudentsCard />
-      <FacilitatorsCard />
-      <StudentsCard />
-      <CustomerCareCard />
-      <CreateAccountButton />
-      <SignUpButton />
-      <LoginButton />
-      <GoogleSignUpButton />
-      <LinkedInSignInButton />
-
+      <GradingCard />
+      {/* <TeamsCard /> */}
+      {/* <AllStudentsCard /> */}
+      {/* <CreateTeamsStudentsCard /> */}
+      {/* <FacilitatorsCard /> */}
+      {/* <StudentsCard /> */}
+      {/* <CustomerCareCard /> */}
+      {/* <CreateAccountButton /> */}
+      {/* <SignUpButton /> */}
+      {/* <LoginButton /> */}
+      {/* <GoogleSignUpButton /> */}
+      {/* <LinkedInSignInButton /> */}
       <Routes>
         {/* pages */}
         {/* <Route path="/" element={<Homepage />} />
@@ -133,14 +133,10 @@ function App() {
 				<Route path="successfulteam" element={<Successfulteam />} />
 				<Route path="workshop" element={<Workshop />} /> */}
       </Routes>
-
-      <footer>
+      {/* <footer>
         <Footer />
-      </footer>
+      </footer> */}
     </div>
-    // <div>
-    //   <LeaderboardCard />
-    // </div>
   );
 }
 

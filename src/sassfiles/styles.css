@@ -334,52 +334,200 @@ p {
     font-size: 0.6rem;
     line-height: 0.7rem;
   }
-  .usersCard {
-    max-width: 900px;
-    margin-top: 50px;
-    border-radius: 16px !important;
-    padding-bottom: 50px;
+}
+.lec-background {
+  width: 51rem;
+  height: 31rem;
+  padding: 15%;
+}
+.lec-background .mb-4 {
+  margin-bottom: 1rem !important;
+}
+
+.lec-close {
+  position: absolute;
+  left: 93.45%;
+  right: 4.96%;
+  top: 6.22%;
+  bottom: 91.07%;
+}
+
+.lec-title {
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5rem;
+  text-align: center;
+  font-size: 1.2rem !important;
+  color: #626262 !important;
+}
+
+.lec-img {
+  margin-right: 0.6rem;
+  width: 2rem;
+}
+
+.lec-explainTitle {
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5rem;
+  text-align: center;
+  font-size: 1.2rem !important;
+  color: #626262;
+  margin: 0 !important;
+  text-align: start !important;
+}
+
+.lec-explainDetail {
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5rem;
+  text-align: center;
+  font-size: 14px;
+  color: #7a7a7a;
+  text-align: start;
+  margin: 0 !important;
+}
+
+@media screen and (max-width: 990px) {
+  .lec-background {
+    width: 20rem;
+    height: 15rem;
+    border-radius: 3.99856px;
+    padding: 7.5%;
   }
-  .allUsersCard {
-    max-width: 1100px;
-    margin-top: 50px;
-    border-radius: 16px !important;
-    padding-bottom: 50px;
+  .lec-close {
+    width: 10px;
+    left: 93.45%;
+    right: 4.96%;
+    top: 6.22%;
+    bottom: 91.07%;
   }
-  .usersCardHead {
-    font-weight: 900;
-    letter-spacing: 0.005em;
-    font-size: 1.5em;
+  .lec-title,
+.lec-explainTitle {
+    font-size: 0.7rem !important;
+    line-height: 0.9rem;
   }
-  .blueText {
-    color: #27aae1;
+  .lec-img {
+    margin-right: 0.6rem;
+    width: 1rem;
   }
-  .usersTable tr td {
-    border-bottom: 1px solid rgba(192, 192, 192, 0.6980392157) !important;
-    padding: 10px;
-  }
-  .usersTable tr th {
-    border-bottom: 1px solid rgba(192, 192, 192, 0.6980392157) !important;
-    padding: 10px;
-  }
-  .studentTeamsCardHead {
-    background-color: #27aae1;
-    padding: 30px;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-    color: white;
-    font-size: 1.5em;
-  }
-  .studentTeamsCard {
-    max-width: 300px;
-    border-radius: 16px !important;
-    padding-bottom: 20px;
-  }
-  .taskInstructions {
-    font-size: 0.75em;
+  .lec-explainDetail {
+    font-size: 0.5rem;
+    line-height: 0.7rem;
   }
 }
-@media only screen and (max-width: 680px) and (max-width: 600px) {
+@media screen and (max-width: 990px) and (min-width: 681px) {
+  .lec-background {
+    padding: 3%;
+  }
+}
+.sc-background {
+  width: 18rem;
+  height: 14rem;
+  padding: 1rem;
+  box-shadow: 2.14168px 2.14168px 26.771px 4.28336px rgba(0, 0, 0, 0.25);
+  border-radius: 17.1335px;
+}
+
+.sc-topic {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: #27aae1;
+}
+
+.sc-date {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 0.6rem;
+  line-height: 0.8rem;
+  color: #7a7a7a;
+}
+
+.gc-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #2c6a84;
+}
+
+.gc-studentId {
+  font-size: 1rem;
+}
+
+.grading-btn {
+  border: 1.4359px solid #27aae1 !important;
+  border-radius: 14.359px !important;
+  height: 2rem !important;
+  font-size: 1.2rem !important;
+  color: #2c6a84 !important;
+  background-color: #ffffff;
+  padding: 0.1rem 0.5rem !important;
+}
+
+.grading-btn:hover,
+.grading-btn:focus {
+  border: 2px solid #27aae1 !important;
+  background-color: #ffffff;
+}
+
+.usersCard {
+  max-width: 900px;
+  margin-top: 50px;
+  border-radius: 16px !important;
+  padding-bottom: 50px;
+}
+
+.allUsersCard {
+  max-width: 1100px;
+  margin-top: 50px;
+  border-radius: 16px !important;
+  padding-bottom: 50px;
+}
+
+.usersCardHead {
+  font-weight: 900;
+  letter-spacing: 0.005em;
+  font-size: 1.5em;
+}
+
+.blueText {
+  color: #27aae1;
+}
+
+.usersTable tr td {
+  border-bottom: 1px solid rgba(192, 192, 192, 0.6980392157) !important;
+  padding: 10px;
+}
+
+.usersTable tr th {
+  border-bottom: 1px solid rgba(192, 192, 192, 0.6980392157) !important;
+  padding: 10px;
+}
+
+.studentTeamsCardHead {
+  background-color: #27aae1;
+  padding: 30px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  color: white;
+  font-size: 1.5em;
+}
+
+.studentTeamsCard {
+  max-width: 300px;
+  border-radius: 16px !important;
+  padding-bottom: 20px;
+}
+
+.taskInstructions {
+  font-size: 0.75em;
+}
+
+@media only screen and (max-width: 600px) {
   .usersTable {
     font-size: smaller;
   }
@@ -401,7 +549,7 @@ p {
     display: none;
   }
 }
-@media only screen and (max-width: 680px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .tabHide {
     display: none;
   }
