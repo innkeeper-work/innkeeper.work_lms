@@ -236,8 +236,8 @@ $fontweight5: 500;
   border: 1.4359px solid $btnBgColor !important;
   border-radius: 14.359px !important;
   // width: 4rem !important;
-  height: 2rem !important;
-  font-size: 1.2rem !important;
+  height: fit-content;
+  font-size: 1.2rem;
   color: $sectionColor !important;
   background-color: $btnText;
   padding: 0.1rem 0.5rem !important;
@@ -246,6 +246,27 @@ $fontweight5: 500;
 .grading-btn:focus {
   border: 2px solid $btnBgColor !important;
   background-color: $btnText;
+}
+@media screen and (max-width: 1000px) {
+  .grading-btn,
+  .gc-studentId,
+  .gc-text {
+    font-size: small;
+  }
+}
+@media screen and (max-width: 600px) {
+  .grading-btn,
+  .gc-studentId,
+  .gc-text {
+    font-size: x-small;
+  }
+}
+@media screen and (max-width: 310px) {
+  .grading-btn,
+  .gc-studentId,
+  .gc-text {
+    font-size: smaller;
+  }
 }
 
 // UsersCard

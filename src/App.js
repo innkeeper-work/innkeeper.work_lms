@@ -63,11 +63,28 @@ import { SignInButton } from "./components/Buttons/InnkeeperPhaseOneButtons";
 // import Successfulteam from "./pages/Courseinfo/archived/Successfulteam";
 // import Workshop from "./pages/Courseinfo/archived/Workshop";
 
-import { GradingCard } from "./components/AllCards/InnkeeperPhaseTwoCards/AllTasksCards";
+import {
+  ReportIssueButton,
+  SubmitIssueButton,
+  UploadFromDeviceButton,
+  UploadButton,
+} from "./components/Buttons/UploadsandReportIssueButtons";
+
+import {
+  SaveProfileButton,
+  UpdateProfileButton,
+} from "./components/Buttons/UserProfileButtons";
+
 function App() {
   return (
     <div className="App">
-      <GradingCard />
+      <ReportIssueButton />
+      <SubmitIssueButton />
+      <UploadFromDeviceButton />
+      <UploadButton />
+      <SaveProfileButton />
+      <UpdateProfileButton />
+
       {/* <TeamsCard /> */}
       {/* <AllStudentsCard /> */}
       {/* <CreateTeamsStudentsCard /> */}

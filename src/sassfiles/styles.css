@@ -461,8 +461,10 @@ p {
 .grading-btn {
   border: 1.4359px solid #27aae1 !important;
   border-radius: 14.359px !important;
-  height: 2rem !important;
-  font-size: 1.2rem !important;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 1.2rem;
   color: #2c6a84 !important;
   background-color: #ffffff;
   padding: 0.1rem 0.5rem !important;
@@ -474,6 +476,27 @@ p {
   background-color: #ffffff;
 }
 
+@media screen and (max-width: 1000px) {
+  .grading-btn,
+.gc-studentId,
+.gc-text {
+    font-size: small;
+  }
+}
+@media screen and (max-width: 600px) {
+  .grading-btn,
+.gc-studentId,
+.gc-text {
+    font-size: x-small;
+  }
+}
+@media screen and (max-width: 310px) {
+  .grading-btn,
+.gc-studentId,
+.gc-text {
+    font-size: smaller;
+  }
+}
 .usersCard {
   max-width: 900px;
   margin-top: 50px;
@@ -567,5 +590,102 @@ p {
   width: 150px;
   border-radius: 7px;
   border: 1px solid #2c6a84;
+}
+
+.teamBtn1 {
+  background-color: #ff7a00;
+  box-shadow: 0px 3.15254px 3.15254px rgba(0, 0, 0, 0.25);
+  border-radius: 7.88136px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  color: #fff;
+  font-size: 1rem;
+  width: 11.5rem;
+  height: 3rem;
+}
+
+.teamBtn2 {
+  background-color: #ff7a00;
+  box-shadow: 0px 3.15254px 3.15254px rgba(0, 0, 0, 0.25);
+  border-radius: 7.88136px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  color: #fff;
+  font-size: 1rem;
+  width: 14rem;
+  height: 3rem;
+}
+
+.issueBtn {
+  background-color: #ff7a00;
+  box-shadow: 0px 3.15254px 3.15254px rgba(0, 0, 0, 0.25);
+  border-radius: 7.88136px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 10px;
+  width: 11rem;
+  height: 3rem;
+}
+
+.uploadBtn2 {
+  background-color: #ff7a00;
+  box-shadow: 0px 3.15254px 3.15254px rgba(0, 0, 0, 0.25);
+  border-radius: 7.88136px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  color: #fff;
+  font-size: 1rem;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #00b67f;
+  width: 20rem;
+  height: 3rem;
+}
+
+.uploadBtn1 {
+  background-color: #ff7a00;
+  box-shadow: 0px 3.15254px 3.15254px rgba(0, 0, 0, 0.25);
+  border-radius: 7.88136px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  color: #fff;
+  font-size: 1rem;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #00b67f;
+  text-transform: uppercase;
+  width: 13rem;
+  height: 3.5rem;
+}
+
+.profileBtn1 {
+  background-color: #ff7a00;
+  box-shadow: 0px 3.15254px 3.15254px rgba(0, 0, 0, 0.25);
+  border-radius: 7.88136px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 10px;
+  width: 8rem;
+  height: 3rem;
+}
+
+.profileBtn2 {
+  background-color: #ff7a00;
+  box-shadow: 0px 3.15254px 3.15254px rgba(0, 0, 0, 0.25);
+  border-radius: 7.88136px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 10px;
+  width: 9.5rem;
+  height: 3rem;
 }
 /*# sourceMappingURL=styles.css.map */

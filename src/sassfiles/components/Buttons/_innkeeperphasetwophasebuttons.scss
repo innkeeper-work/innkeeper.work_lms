@@ -1,6 +1,12 @@
 $authBtnColor: linear-gradient(112.74deg, #00d8cf 23.84%, #27aae1 79.07%);
 $authBtnTextColor: #fff;
 $authBtn2BorderColor: #2c6a84;
+$btnTextColor1: #fff;
+$btnTextWt4: 400;
+$fontFamily: "Roboto", sans-serif;
+$btnColorOrange: #ff7a00;
+$btnColorGreen: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  #00b67f;
 
 @mixin authBtnStyle {
   background: $authBtnColor;
@@ -23,4 +29,65 @@ $authBtn2BorderColor: #2c6a84;
 
 .authBtn2 {
   @include authBtnStyle2;
+}
+
+//TeamsButton
+
+@mixin teamBtnStyle {
+  background-color: $btnColorOrange;
+  // border: 2.36441px solid #FF7A00;
+  box-shadow: 0px 3.15254px 3.15254px rgba(0, 0, 0, 0.25);
+  border-radius: 7.88136px;
+  font-family: $fontFamily;
+  font-weight: $btnTextWt4;
+  letter-spacing: 0.005em;
+  color: $btnTextColor1;
+  font-size: 1rem;
+}
+
+.teamBtn1 {
+  @include teamBtnStyle();
+  width: 11.5rem;
+  height: 3rem;
+}
+.teamBtn2 {
+  @include teamBtnStyle();
+  width: 14rem;
+  height: 3rem;
+}
+
+//UserProfileButtons
+
+.issueBtn {
+  @include teamBtnStyle();
+  border-radius: 10px;
+  width: 11rem;
+  height: 3rem;
+}
+
+.uploadBtn2 {
+  @include teamBtnStyle();
+  background: $btnColorGreen;
+  width: 20rem;
+  height: 3rem;
+}
+.uploadBtn1 {
+  @include teamBtnStyle();
+  background: $btnColorGreen;
+  text-transform: uppercase;
+  width: 13rem;
+  height: 3.5rem;
+}
+
+.profileBtn1 {
+  @include teamBtnStyle();
+  border-radius: 10px;
+  width: 8rem;
+  height: 3rem;
+}
+.profileBtn2 {
+  @include teamBtnStyle();
+  border-radius: 10px;
+  width: 9.5rem;
+  height: 3rem;
 }
