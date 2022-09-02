@@ -246,4 +246,99 @@ p {
 .herotextWhite {
   color: #ffffff;
 }
+
+.usersCard {
+  max-width: 900px;
+  margin-top: 50px;
+  border-radius: 16px !important;
+  padding-bottom: 50px;
+}
+
+.allUsersCard {
+  max-width: 1100px;
+  margin-top: 50px;
+  border-radius: 16px !important;
+  padding-bottom: 50px;
+}
+
+.usersCardHead {
+  font-weight: 900;
+  letter-spacing: 0.005em;
+  font-size: 1.5em;
+}
+
+.blueText {
+  color: #27aae1;
+}
+
+.usersTable tr td {
+  border-bottom: 1px solid rgba(192, 192, 192, 0.6980392157) !important;
+  padding: 10px;
+}
+
+.usersTable tr th {
+  border-bottom: 1px solid rgba(192, 192, 192, 0.6980392157) !important;
+  padding: 10px;
+}
+
+.studentTeamsCardHead {
+  background-color: #27aae1;
+  padding: 30px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  color: white;
+  font-size: 1.5em;
+}
+
+.studentTeamsCard {
+  max-width: 300px;
+  border-radius: 16px !important;
+  padding-bottom: 20px;
+}
+
+.taskInstructions {
+  font-size: 0.75em;
+}
+
+@media only screen and (max-width: 600px) {
+  .usersTable {
+    font-size: smaller;
+  }
+  .taskInstructions {
+    font-size: 0.5em;
+  }
+  .allUsersCard {
+    font-size: 12px;
+  }
+  .usersCard {
+    font-size: 12px;
+  }
+  .usersCardHead {
+    font-weight: 700;
+    letter-spacing: 0.005em;
+    font-size: 1.5em;
+  }
+  .smallHide {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .tabHide {
+    display: none;
+  }
+}
+.authBtn {
+  background: linear-gradient(112.74deg, #00d8cf 23.84%, #27aae1 79.07%);
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 700;
+  width: 180px;
+}
+
+.authBtn2 {
+  background: none;
+  width: 150px;
+  border-radius: 7px;
+  border: 1px solid #2c6a84;
+}
 /*# sourceMappingURL=styles.css.map */
