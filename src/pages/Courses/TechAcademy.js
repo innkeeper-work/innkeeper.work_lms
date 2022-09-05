@@ -39,7 +39,7 @@ let WebDev = () => {
     <div className="p-4 m-3">
       {/* <h3 className="techHead mx-5 px-5 my-5 pt-5"> */}
       <h3 className="techHead ms-2 py-2">Programming and Web Development</h3>
-      <div className="row p-1 d-flex justify-content-center">
+      <div className="row p-1 d-flex justify-content-between">
         {techacademy.webdev.map((singleweb) => {
           return (
             <div

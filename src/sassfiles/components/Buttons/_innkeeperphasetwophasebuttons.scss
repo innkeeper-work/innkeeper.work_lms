@@ -1,0 +1,109 @@
+$allTaskButtonPryColor: #00b67f;
+$allTaskButtonSecColor: #ff7a00;
+$allTaskButtonTextColor: #fff;
+
+@mixin allTaskButtonPry {
+  background: $allTaskButtonPryColor;
+  color: $allTaskButtonTextColor;
+  border-radius: 10px;
+  border: none;
+}
+
+@mixin allTaskButtonSec {
+  background: $allTaskButtonSecColor;
+  color: $allTaskButtonTextColor;
+  border-radius: 10px;
+  border: none;
+}
+
+@mixin allBtnBorderStyle {
+  border: 2px solid $allTaskButtonPryColor;
+  color: $allTaskButtonPryColor;
+  border-radius: 10px;
+}
+
+// Button styling
+
+// Button Styling Primary Color
+
+.SubmitTaskButtonPryStyle {
+  width: 140px;
+  height: 50px;
+  font-weight: 500;
+  @include allTaskButtonPry;
+}
+
+.ViewAllTasksButtonStyle {
+  width: 170px;
+  height: 50px;
+  font-weight: 500;
+  @include allTaskButtonPry;
+}
+
+.ViewSubmissionsButtonStyle {
+  width: 190px;
+  height: 50px;
+  font-weight: 550;
+  @include allTaskButtonPry;
+}
+
+.ViewTaskButton2Style {
+  width: 80px;
+  height: 50px;
+  font-weight: 350;
+  @include allTaskButtonPry;
+}
+
+.GotItButtonStyle {
+  width: 100px;
+  height: 50px;
+  font-weight: 300;
+  @include allTaskButtonPry;
+}
+
+// Button Styling Secondary Color
+
+.CreateTaskButtonStyle {
+  width: 100px;
+  height: 50px;
+  font-weight: 550;
+  @include allTaskButtonSec;
+}
+
+.PublishTaskButtonStyle {
+  width: 150px;
+  height: 50px;
+  @include allTaskButtonSec;
+}
+
+.UpdateTaskButtonStyle {
+  width: 150px;
+  height: 50px;
+  @include allTaskButtonSec;
+}
+
+.SubmitTaskButtonStyle {
+  width: 120px;
+  height: 50px;
+  @include allTaskButtonSec;
+}
+
+.HowItWorksButtonStyle {
+  width: 164px;
+  height: 52.45px;
+  font-weight: 550;
+  @include allTaskButtonSec;
+}
+
+// Button Styling with border
+
+.ViewTaskButtonStyle {
+  width: 71px;
+  height: 38px;
+  @include allBtnBorderStyle;
+}
+.EditTaskButtonStyle {
+  width: 71px;
+  height: 38px;
+  @include allBtnBorderStyle;
+}

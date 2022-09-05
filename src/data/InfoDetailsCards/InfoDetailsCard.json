@@ -1,0 +1,30 @@
+{
+  "Announcement": [
+    {
+      "id": 1,
+      "intro": "Introduction to Javascript: Live Class Materials",
+      "content": "Sales",
+      "day": "Fri 24, Jun 2022",
+      "time": "11::00PM .........Read more",
+      "author": "Olasunkanmi Idris -Facilitator"
+    }
+  ],
+
+  "CurriculumCard": [
+    {
+      "id": 1,
+      "week": "Week 1",
+      "title": "Semantics Tag"
+    },
+    {
+      "id": 1,
+      "week": "Week 1",
+      "title": "Semantics Tag"
+    },
+    {
+      "id": 1,
+      "week": "Week 1",
+      "title": "Semantics Tag"
+    }
+  ]
+}

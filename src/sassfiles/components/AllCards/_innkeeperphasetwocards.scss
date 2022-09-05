@@ -1,0 +1,111 @@
+// PARTIAL STORE
+$pryColor: #27aae1;
+$tableLinesColor: #c0c0c0b2;
+$fontStyle: "Roboto", sans-serif;
+
+//MIXIN STORE
+@mixin allinfodetailsCard {
+  max-width: 1100px;
+  margin-top: 50px;
+  border-radius: 10px !important;
+}
+
+@mixin infodetailsCard {
+  max-width: 900px;
+  margin-top: 50px;
+  border-radius: 16px !important;
+  padding-bottom: 50px;
+}
+
+@mixin tableBorderStyle {
+  border-bottom: 1px solid $tableLinesColor !important;
+  padding: 20px;
+}
+
+// GENERAL STYLING
+.colorText {
+  color: $pryColor;
+}
+
+// ANNOUNCEMENT CARD STYING
+
+.announcementCard {
+  margin-top: 50px;
+  border-radius: 16px !important;
+  padding-bottom: 20px;
+  width: 880px !important;
+  margin-left: 250px !important;
+}
+
+.announcementTable {
+  @include tableBorderStyle;
+}
+
+.announcementContentStyle {
+  color: #2c6a84;
+}
+
+.announcementintrostyle {
+  font-weight: bold;
+}
+
+// CURRICULUM STYLING
+
+.curriculumCardBody {
+  @include allinfodetailsCard;
+}
+
+.usersInfoTable {
+  th {
+    @include tableBorderStyle;
+  }
+}
+
+// MATERIALS CARD STYLING
+
+.materialsCard {
+  @include infodetailsCard;
+}
+
+.materialsCard {
+  @include allinfodetailsCard;
+}
+
+.materialsTable {
+  tr {
+    th {
+      @include tableBorderStyle;
+    }
+  }
+}
+
+.materialsTable {
+  tr {
+    td {
+      @include tableBorderStyle;
+    }
+  }
+}
+
+.iconStyle {
+  position: absolute;
+  margin-bottom: 75px;
+  margin-left: 55px;
+}
+
+// MEDIA QUERIES
+@media only screen and (max-width: 600px) {
+  .smallScreenFontSize {
+    font-size: 10px;
+  }
+
+  .announcementSMFontSize {
+    font-size: 9px;
+  }
+
+  .iconStyle {
+    position: absolute;
+    margin-top: 30px !important;
+    margin-left: 0.1px;
+  }
+}

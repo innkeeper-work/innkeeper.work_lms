@@ -2,7 +2,8 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 // components
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
+import InfoDetailsCards from "./components/AllCards/InnkeeperPhaseTwoCards/InfoDetailsCards";
 
 // pages
 import Homepage from "./pages/Homepage";
@@ -73,7 +74,6 @@ function App() {
         <Route path="privacypolicy" element={<PrivacyPolicy />} />
         <Route path="underconstruction" element={<UnderConstruction />} />
         <Route path="*" element={<Error404 />} />
-
         {/* course info pages */}
         {/* techacademy */}
         <Route path="frontend" element={<Frontend />} />
@@ -90,7 +90,6 @@ function App() {
         <Route path="python" element={<Python />} />
         <Route path="iot" element={<IoT />} />
         <Route path="securityaudit" element={<Securityaudit />} />
-
         <Route path="sales" element={<Sales />} />
         <Route path="customerexperience" element={<Customerexperience />} />
         <Route path="digitalmarketing" element={<Digitalmarketing />} />
@@ -107,11 +106,10 @@ function App() {
 				<Route path="personaldevt" element={<Personaldevt />} />
 				<Route path="successfulteam" element={<Successfulteam />} />
 				<Route path="workshop" element={<Workshop />} /> */}
+        <Route path="infodetailscard" element={<InfoDetailsCards />} />
       </Routes>
 
-      <footer>
-        <Footer />
-      </footer>
+      <footer>{/* <Footer /> */}</footer>
     </div>
   );
 }

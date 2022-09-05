@@ -119,18 +119,195 @@ p {
   background-color: linear-gradient(112.74deg, #00d8cf 23.84%, #27aae1 79.07%);
 }
 
-.card-shadow {
-  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 15px;
+.colorText {
+  color: #27aae1;
 }
 
-.pricingCard {
-  box-shadow: 4px 4px 4px 4px rgba(179, 174, 174, 0.25);
-  border-radius: 6px;
+.announcementCard {
+  margin-top: 50px;
+  border-radius: 16px !important;
+  padding-bottom: 20px;
+  width: 880px !important;
+  margin-left: 250px !important;
 }
 
-.pricingHeadText {
-  color: #00d8cf;
+.announcementTable {
+  border-bottom: 1px solid rgba(192, 192, 192, 0.6980392157) !important;
+  padding: 20px;
+}
+
+.announcementContentStyle {
+  color: #2c6a84;
+}
+
+.announcementintrostyle {
+  font-weight: bold;
+}
+
+.curriculumCardBody {
+  max-width: 1100px;
+  margin-top: 50px;
+  border-radius: 10px !important;
+}
+
+.usersInfoTable th {
+  border-bottom: 1px solid rgba(192, 192, 192, 0.6980392157) !important;
+  padding: 20px;
+}
+
+.materialsCard {
+  max-width: 900px;
+  margin-top: 50px;
+  border-radius: 16px !important;
+  padding-bottom: 50px;
+}
+
+.materialsCard {
+  max-width: 1100px;
+  margin-top: 50px;
+  border-radius: 10px !important;
+}
+
+.materialsTable tr th {
+  border-bottom: 1px solid rgba(192, 192, 192, 0.6980392157) !important;
+  padding: 20px;
+}
+
+.materialsTable tr td {
+  border-bottom: 1px solid rgba(192, 192, 192, 0.6980392157) !important;
+  padding: 20px;
+}
+
+.iconStyle {
+  position: absolute;
+  margin-bottom: 75px;
+  margin-left: 55px;
+}
+
+@media only screen and (max-width: 600px) {
+  .smallScreenFontSize {
+    font-size: 10px;
+  }
+  .announcementSMFontSize {
+    font-size: 9px;
+  }
+  .iconStyle {
+    position: absolute;
+    margin-top: 30px !important;
+    margin-left: 0.1px;
+  }
+}
+.SubmitTaskButtonPryStyle {
+  width: 140px;
+  height: 50px;
+  font-weight: 500;
+  background: #00b67f;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+
+.ViewAllTasksButtonStyle {
+  width: 170px;
+  height: 50px;
+  font-weight: 500;
+  background: #00b67f;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+
+.ViewSubmissionsButtonStyle {
+  width: 190px;
+  height: 50px;
+  font-weight: 550;
+  background: #00b67f;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+
+.ViewTaskButton2Style {
+  width: 80px;
+  height: 50px;
+  font-weight: 350;
+  background: #00b67f;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+
+.GotItButtonStyle {
+  width: 100px;
+  height: 50px;
+  font-weight: 300;
+  background: #00b67f;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+
+.CreateTaskButtonStyle {
+  width: 100px;
+  height: 50px;
+  font-weight: 550;
+  background: #ff7a00;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+
+.PublishTaskButtonStyle {
+  width: 150px;
+  height: 50px;
+  background: #ff7a00;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+
+.UpdateTaskButtonStyle {
+  width: 150px;
+  height: 50px;
+  background: #ff7a00;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+
+.SubmitTaskButtonStyle {
+  width: 120px;
+  height: 50px;
+  background: #ff7a00;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+
+.HowItWorksButtonStyle {
+  width: 164px;
+  height: 52.45px;
+  font-weight: 550;
+  background: #ff7a00;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+}
+
+.ViewTaskButtonStyle {
+  width: 71px;
+  height: 38px;
+  border: 2px solid #00b67f;
+  color: #00b67f;
+  border-radius: 10px;
+}
+
+.EditTaskButtonStyle {
+  width: 71px;
+  height: 38px;
+  border: 2px solid #00b67f;
+  color: #00b67f;
+  border-radius: 10px;
 }
 
 .homeheroBg {
