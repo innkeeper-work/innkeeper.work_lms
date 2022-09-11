@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "innkeeperlogo1": "innkeeperlogo.png",
+        "innkeeperlogo2": "innkeeper.jpeg",
+        "Googleicon": "google-logo.png",
+        "Linkedinicon": "icons8-linkedin-circled-48.png",
+        "text1": "Welcome!",
+        "text2a": "Create an account for full access to the ",
+        "text2b": "Inkeeper courses",
+        "text3a": "By clicking Sign Up, you agree to the",
+        "text3b": "Privacy Policy ",
+        "text3c": "to create an Innkeeper account",
+        "text4": "Or continue with ",
+        "text5": "Terms| Privacy "
+    }
+]

@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+import { useState } from 'react';
 
 // components
 import Footer from "./components/Footer";
@@ -41,6 +42,7 @@ import Digitalmarketing from "./pages/Courseinfo/business_support/Digitalmarketi
 import Stillandmotion from "./pages/Courseinfo/business_support/Stillandmotion";
 import Videoediting from "./pages/Courseinfo/business_support/Videoediting";
 import DigitalAdminTools from "./pages/Courseinfo/business_support/DigitalAdminTools";
+import SignUpForm from "../src/components/Forms/AuthenticationForms";
 // import Business from "./pages/Courseinfo/archived/Business";
 // import ContentMgt from "./pages/Courseinfo/archived/ContentMgt";
 // import Criticalthinking from "./pages/Courseinfo/archived/Criticalthinking";
@@ -56,7 +58,7 @@ function App() {
     <div className="App">
       <Routes>
         {/* pages */}
-        <Route path="/" element={<Homepage />} />
+        <Route path="/" element={<SignUpForm />} />
         <Route path="contact" element={<Contact />} />
         <Route path="techacademy" element={<TechAcademy />} />
         <Route

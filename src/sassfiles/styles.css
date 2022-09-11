@@ -246,4 +246,95 @@ p {
 .herotextWhite {
   color: #ffffff;
 }
+
+body {
+  text-align: center;
+}
+
+.myInput {
+  border: 0;
+  background: transparent;
+  font-size: 0.938rem;
+  width: 17.25rem;
+  outline: 0px;
+  padding-top: 2%;
+}
+
+.Vessel {
+  border: 2px solid #aec7d1;
+  border-radius: 6px; /*There's a difference between % and px for border*/
+  width: 17.25rem;
+  height: 2.5rem;
+  display: flex; /*placing at center*/
+  margin: 0 auto 10px;
+}
+
+.text {
+  font-weight: 700;
+  font-size: 2.25rem;
+  color: #2c6a84;
+}
+
+.signUpButton {
+  background-image: linear-gradient(to bottom right, #00D8CF, #27AAE1);
+  width: 9.625rem;
+  height: 2.375rem;
+  border-radius: 0rem;
+  border: none;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: white;
+}
+
+.button {
+  border: 2px solid #aec7d1;
+  border-radius: 6px; /*There's a difference between % and px for border*/
+  width: 8.5rem;
+  height: 2.5rem;
+  background-color: transparent;
+}
+
+.icon {
+  margin: 5%;
+  font-size: 0.875rem;
+  margin-top: 5px;
+}
+
+.welcomeContainer {
+  background-image: url("file:///C:/Users/Doctor/Desktop/React/Cloned/innkeeper_lms/src/assets/images/image1.jpg");
+  height: 40rem;
+  background-size: cover;
+}
+
+.signUpForm-Container {
+  text-align: center;
+}
+
+.signUpText {
+  color: white;
+  font-size: 2.25rem;
+  font-weight: 600;
+  font-family: mixed;
+}
+
+.shiftedimage {
+  margin-left: 3.125rem;
+}
+
+.shift {
+  margin-left: 3.125rem;
+}
+
+.fullContainer {
+  text-align: center;
+  height: 40rem;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.w-17 {
+  width: 17%;
+}
 /*# sourceMappingURL=styles.css.map */
