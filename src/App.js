@@ -58,7 +58,8 @@ function App() {
     <div className="App">
       <Routes>
         {/* pages */}
-        <Route path="/" element={<SignUpForm />} />
+        <Route path="/" element={<Homepage />} />
+        <Route path="signupform" element={<SignUpForm />} />
         <Route path="contact" element={<Contact />} />
         <Route path="techacademy" element={<TechAcademy />} />
         <Route

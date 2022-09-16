@@ -64,12 +64,12 @@ Record && Record.map(record => {
 
             <div className="Vessel">
             	<p className="icon">📖 </p>
-                <input list='courses' onChange={(e) => setFormData({...formData, courseOfInterest: e.target.value})} value={formData.courseOfInterest} type="text" name="courseOfInterest" id="courseOfInterest" className="myInput" placeholder="Course of interest" />
-               <datalist id="courses">
-               <option value="course1"></option>
-               <option value="course2"></option>
-               <option value="course3"></option>
-               <option value="course4"></option>
+                <input list='Services' onChange={(e) => setFormData({...formData, courseOfInterest: e.target.value})} value={formData.courseOfInterest} type="text" name="courseOfInterest" id="courseOfInterest" className="myInput" placeholder="Course of interest" />
+               <datalist id="Services">
+               <option value="service1"></option>
+               <option value="service2"></option>
+               <option value="service"></option>
+               <option value="service4"></option>
                </datalist>
                <br/>
                </div>
