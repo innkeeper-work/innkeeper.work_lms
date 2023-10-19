@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 
 // Components
 import { HomepageHero } from "../components/Hero";
-// import { OurPartners } from "../components/OurPartners";
+
+import { OurPartners } from "../components/OurPartners";
 import categories from "../data/categories.json";
 import { CourseCategoryCards } from "../components/AllCards/InnkeeperPhaseOneCards";
 import { BeginCoursesButton } from "../components/Buttons/InnkeeperPhaseOneButtons";
@@ -20,7 +21,7 @@ const Home = () => {
   return (
     <div>
       <HomepageHero />
-      {/* <OurPartners /> */}
+      <OurPartners />
       <Homepagemain />
       <Homepagewelcome />
       <Homepagesoft />
@@ -60,7 +61,7 @@ let Homepagemain = () => {
         <div className="col-lg-4 col-md-4 col-sm-12 col-xs-12 pb-5">
           <img src={whychooseus} className="card-img-top" alt="..." />
         </div>
-        <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 m-auto ">
+        <div className="col-lg-8 col-md-8 col-sm-12 col-xs-12 m-auto">
           <div className="col d-lg-flex d-md-flex mb-5 ">
             <div className="col">
               <i

@@ -74,11 +74,37 @@ h5 {
   font-weight: 500;
 }
 
+h6 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
 p {
   font-size: 1rem;
   font-weight: 300;
   color: var(--white);
   line-height: 1.75rem;
+}
+
+.activeBtnColor:active {
+  background: #22308a;
+  color: #fff;
+}
+
+.focusBtnColor:focus {
+  background: #22308a;
+  color: #fff;
+}
+
+.newBtnColor {
+  background-color: #22308a;
+  color: #ffffff;
+}
+
+.newBtnBorderColor {
+  color: #22308a;
+  background: #f4f7fa;
+  border: 2px solid #22308a !important;
 }
 
 .signinbtnapply {
@@ -119,6 +145,10 @@ p {
   background-color: linear-gradient(112.74deg, #00d8cf 23.84%, #27aae1 79.07%);
 }
 
+.textBold {
+  font-weight: 600;
+}
+
 .card-shadow {
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
@@ -131,6 +161,66 @@ p {
 
 .pricingHeadText {
   color: #00d8cf;
+}
+
+.scrolling--wrapper {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  overflow-x: scroll !important;
+  justify-content: unset !important;
+  scroll-behavior: smooth !important;
+  margin-inline: 1rem !important;
+}
+.scrolling--wrapper::-webkit-scrollbar {
+  display: none !important;
+}
+.scrolling--wrapper .desktop--scroll {
+  flex: unset !important;
+}
+
+.arrow-right {
+  position: absolute !important;
+  left: 1rem;
+}
+
+.arrow-left {
+  position: absolute !important;
+  right: 1rem;
+}
+
+.bullet::marker {
+  color: #F27216 !important;
+}
+
+.pricingHeadText {
+  color: #00d8cf;
+}
+
+.vacancyheroBg {
+  background: linear-gradient(102.37deg, rgba(0, 216, 207, 0.08) 35.19%, rgba(39, 170, 225, 0.29) 75.64%);
+}
+
+.pricePlanText {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.priceText {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.titleFontColor {
+  color: #111845;
+}
+
+.bgMockInterview {
+  background-color: #dee4eb;
+  box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+.corporateOffer {
+  border: 1px solid #ff9c2b;
 }
 
 .homeheroBg {
@@ -157,6 +247,10 @@ p {
 
 .vacancyheroBg {
   background: linear-gradient(102.37deg, rgba(0, 216, 207, 0.08) 35.19%, rgba(39, 170, 225, 0.29) 75.64%);
+}
+
+.newHeroBg {
+  background-color: #f4f7fa;
 }
 
 .iconCol {
@@ -209,9 +303,9 @@ p {
   border-radius: 15px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1400px) {
   .partners {
-    width: 20%;
+    width: 15%;
     height: 20%;
   }
 }
@@ -245,5 +339,9 @@ p {
 
 .herotextWhite {
   color: #ffffff;
+}
+
+.salesPageFooter {
+  background-color: #00114c !important;
 }
 /*# sourceMappingURL=styles.css.map */

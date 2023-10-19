@@ -1,9 +1,9 @@
 @use "../colors" as *;
 @use "../font" as *;
 
-.pricingCard {
-  @include pricingCard;
-}
+// .pricingCard {
+//   @include pricingCard;
+// }
 
 .pricingHeadText {
   color: $btnBgColor2;
@@ -11,7 +11,22 @@
 .vacancyheroBg {
   background: $vacancyheroBg;
 }
-.priceText {
+.pricePlanText {
   font-size: 1.5rem;
   font-weight: 600;
+}
+.priceText {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.titleFontColor {
+  color: $newSecTextColor;
+}
+.bgMockInterview {
+  background-color: #dee4eb;
+  box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+.corporateOffer {
+  border: 1px solid #ff9c2b;
 }

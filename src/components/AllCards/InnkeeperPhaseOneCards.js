@@ -242,7 +242,7 @@ export let Pricing = ({
     // <div className="row justify-content-around">
     <div className="card pricingCard mb-5">
       <div className="card-body">
-        <div className="pt-3">
+        {/* <div className="pt-3">
           <img
             src={cloud}
             alt=""
@@ -250,10 +250,11 @@ export let Pricing = ({
             height="100px"
             className="rounded-circle border border-light border-5"
           />
-        </div>
-
-        <h5 className="card-title pricingHeadText mt-4">{plan}</h5>
-        <p className="card-text priceText">{price}</p>
+        </div> */}
+        <h5 className="card-title  pricePlanText mt-4 titleFontColor">
+          {plan}
+        </h5>
+        <p className="card-text priceText">&#8358;{price}</p>
       </div>
       <ul className="list-group list-group-flush">
         <li className="list-group-item">{offer1}</li>

@@ -1,6 +1,6 @@
 //External import
 import React from "react";
-
+import { Link } from "react-router-dom";
 // Components
 import {
   ApplyforjobButton,
@@ -29,27 +29,50 @@ const UnderConstruction = () => {
 
 const UnderConstructionText = () => {
   return (
-    <div className="px-4 container-fluid homeheroBg py-4">
+    <div className="px-4 container-fluid py-4">
       <Navbar />
       <div className="row align-items-center justify-content-center mt-5 mb-2 g-0">
         <div className="col-lg-6 col-md-7 col-sm-12 text-center">
-          <h2 className="herotextColored d-none d-xl-block d-lg-block d-md-none d-sm-none d-xs-none">
-            This page is under construction.&nbsp;
+          <h2 className=" d-none d-xl-block d-lg-block d-md-none d-sm-none d-xs-none">
+            We are building something great with you in mind.&nbsp;
             {/* <span className="herotextColored">Digital age.</span> */}
           </h2>
-          <h3 className="herotextColored d-xs-block d-sm-block d-md-block d-lg-none d-xl-none">
-            This page is under construction.&nbsp;
+          <h3 className=" d-xs-block d-sm-block d-md-block d-lg-none d-xl-none">
+            We are building something great with you in mind.&nbsp;
             {/* <span className="herotextColored">Digital age.</span> */}
           </h3>
-          <p className="herotextblack d-flex">
-            We will be back shortly. Go back to home page or click on Upskill to
-            learn a new skill.
-          </p>
+          {/* <p className="herotextblack ">
+            Visit our social media platorms for more details
+          </p> */}
           <div className="">
             {" "}
-            <div className="">
-              <UpskillButton />
-            </div>
+            <Link to="/innkeeperTraining">
+              {" "}
+              <div
+                className="herotextColored d-flex justify-content-center pt-4"
+                style={{ fontSize: "1.1rem" }}
+              >
+                <strong>View Our Available Courses</strong>
+                {/* <UpskillButton /> */}
+              </div>
+            </Link>
+            {/* <div className=""> */}
+            {/* <div className="pt-3">
+              {" "}
+              <a
+                href="mailto:info@innkeeper.work"
+                className="mx-2 text-decoration-none herotextblack"
+              >
+                info@innkeeper.work
+              </a>
+              <a
+                href="tel:+2348098468885"
+                className="mx-2 text-decoration-none herotextblack"
+              >
+                +234 (0) 809-846-8885
+              </a>
+            </div> */}
+            {/* </div> */}
             {/* <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none mt-4 ms-2">
               <HireTalentButton />
             </div> */}
@@ -66,6 +89,24 @@ const UnderConstructionText = () => {
             <UpskillButton />
           </div> */}
         </div>
+      </div>
+      <div className="row d-flex text-center">
+        {" "}
+        {/* <p className="herotextblack ">
+          Visit our social media platorms for more details
+        </p> */}
+        <a
+          href="mailto:info@innkeeper.work"
+          className="mx-2 mt-5 text-decoration-none herotextblack"
+        >
+          info@innkeeper.work
+        </a>
+        <a
+          href="tel:+2348098468885"
+          className="mx-2 mt-2 text-decoration-none herotextblack"
+        >
+          +234 (0) 809-846-8885
+        </a>
       </div>
     </div>
   );

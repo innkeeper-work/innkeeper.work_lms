@@ -1,8 +1,9 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 
 // components
 import Footer from "./components/Footer";
+import { SalesPageFooter } from "./components/Footer";
 
 // pages
 import Homepage from "./pages/Homepage";
@@ -15,10 +16,12 @@ import Studentloan from "./pages/Payments/Studentloan";
 import Trainingbond from "./pages/Payments/Trainingbond";
 import Scholarships from "./pages/Payments/Scholarships";
 import Error404 from "./pages/Error404";
-import Careers from "./pages/Careers";
+import Talent from "./pages/Talent";
 import Vacancy from "./pages/Vacancy";
+import CorporatePage from "./pages/Corporate";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import UnderConstruction from "./pages/UnderConstruction";
+import InnkeeperTraining from "./pages/InnkeeperTraining";
 
 // courseinfo pages
 import Frontend from "./pages/Courseinfo/techacademy/prog_web_dev/Frontend";
@@ -52,11 +55,13 @@ import DigitalAdminTools from "./pages/Courseinfo/business_support/DigitalAdminT
 // import Workshop from "./pages/Courseinfo/archived/Workshop";
 
 function App() {
+  // const { pathname } = useLocation();
+
   return (
     <div className="App">
       <Routes>
         {/* pages */}
-        <Route path="/" element={<Homepage />} />
+        {/* <Route path="/" element={<Homepage />} />
         <Route path="contact" element={<Contact />} />
         <Route path="techacademy" element={<TechAcademy />} />
         <Route
@@ -67,16 +72,16 @@ function App() {
         <Route path="entrepreneurship" element={<Entrepreneurship />} />
         <Route path="studentloan" element={<Studentloan />} />
         <Route path="scholarships" element={<Scholarships />} />
-        <Route path="trainingbond" element={<Trainingbond />} />
-        <Route path="careers" element={<Careers />} />
-        {/* <Route path="vacancy" element={<Vacancy />} /> */}
-        <Route path="privacypolicy" element={<PrivacyPolicy />} />
-        <Route path="underconstruction" element={<UnderConstruction />} />
+        <Route path="trainingbond" element={<Trainingbond />} /> */}
+        <Route path="talent" element={<Talent />} />
+        <Route path="vacancy" element={<Vacancy />} />
+        <Route path="corporate" element={<CorporatePage />} />
+        {/* <Route path="privacypolicy" element={<PrivacyPolicy />} /> */}
+        {/* <Route path="/" element={<UnderConstruction />} /> */}
         <Route path="*" element={<Error404 />} />
-
         {/* course info pages */}
         {/* techacademy */}
-        <Route path="frontend" element={<Frontend />} />
+        {/* <Route path="frontend" element={<Frontend />} />
         <Route path="backend" element={<Backend />} />
         <Route path="fullstack" element={<Fullstack />} />
         <Route path="devops" element={<Devops />} />
@@ -90,14 +95,15 @@ function App() {
         <Route path="python" element={<Python />} />
         <Route path="iot" element={<IoT />} />
         <Route path="securityaudit" element={<Securityaudit />} />
-
         <Route path="sales" element={<Sales />} />
         <Route path="customerexperience" element={<Customerexperience />} />
         <Route path="digitalmarketing" element={<Digitalmarketing />} />
         <Route path="videoediting" element={<Videoediting />} />
         <Route path="stillandmotion" element={<Stillandmotion />} />
         <Route path="businessupport" element={<BusinessSupportAcademy />} />
-        <Route path="digitaladmintools" element={<DigitalAdminTools />} />
+        <Route path="digitaladmintools" element={<DigitalAdminTools />} /> */}
+        <Route path="/" element={<InnkeeperTraining />} />
+        {/* <Route path="innkeeperTraining" element={<InnkeeperTraining />} /> */}
         {/* <Route path="business" element={<Business />} />
 				<Route path="contentmgt" element={<ContentMgt />} />
 				<Route path="criticalthinking" element={<Criticalthinking />} />
@@ -106,11 +112,18 @@ function App() {
 				<Route path="growthstrategy" element={<Growth />} />
 				<Route path="personaldevt" element={<Personaldevt />} />
 				<Route path="successfulteam" element={<Successfulteam />} />
-				<Route path="workshop" element={<Workshop />} /> */}
+				<Route path="workshop" element={<Workshop />} /> */}{" "}
+        {/* <Route */}
       </Routes>
 
-      <footer>
+      {/* {pathname === "/innkeeperTraining" ||
+      pathname === "/InnkeeperTraining" ||
+      pathname === "/" ? null : (
         <Footer />
+      )} */}
+
+      <footer>
+        <SalesPageFooter />
       </footer>
     </div>
   );

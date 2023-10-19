@@ -1,0 +1,36 @@
+// please dont be annoyed im doin it here 
+.scrolling--wrapper {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: scroll !important;
+    justify-content: unset !important;
+    scroll-behavior: smooth !important;
+    margin-inline: 1rem !important;
+
+    &::-webkit-scrollbar {
+        display: none !important;
+    }
+    .desktop--scroll {
+        // flex: 0 0 auto !important;
+        flex: unset !important;
+    }
+
+
+}
+
+.arrow-right{
+    position: absolute !important;
+    // top: 2rem;
+    left: 1rem;
+}
+.arrow-left{
+    position: absolute !important;
+    // top: 2rem;
+    right: 1rem;
+}
+
+.bullet::marker {
+    color: #F27216 !important;
+    // background-color: red !important;
+
+}

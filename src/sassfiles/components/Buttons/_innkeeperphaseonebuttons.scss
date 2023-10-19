@@ -23,8 +23,31 @@
   background: #e4fbff;
   border: 2px solid #00d8cf !important;
 }
+@mixin newBtnColor {
+  background-color: $newBtnBgColor;
+  color: $btnText;
+}
+@mixin newBtnBorderColor {
+  color: $newBtnBgColor;
+  background: $secSectionColor;
+  border: 2px solid $newBtnBgColor !important;
+}
 
 //include
+.activeBtnColor:active {
+  background: $newBtnBgColor;
+  color: #fff;
+}
+.focusBtnColor:focus {
+  background: $newBtnBgColor;
+  color: #fff;
+}
+.newBtnColor {
+  @include newBtnColor;
+}
+.newBtnBorderColor {
+  @include newBtnBorderColor;
+}
 .signinbtnapply {
   @include signin;
 }
@@ -49,4 +72,7 @@
 }
 .ctaColor {
   background-color: $callToActionBtn;
+}
+.textBold {
+  font-weight: 600;
 }
