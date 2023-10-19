@@ -61,6 +61,7 @@ function App() {
     <div className="App">
       <Routes>
         {/* pages */}
+        <Route path="/" element={<InnkeeperTraining />} />
         {/* <Route path="/" element={<Homepage />} />
         <Route path="contact" element={<Contact />} />
         <Route path="techacademy" element={<TechAcademy />} />
@@ -102,7 +103,6 @@ function App() {
         <Route path="stillandmotion" element={<Stillandmotion />} />
         <Route path="businessupport" element={<BusinessSupportAcademy />} />
         <Route path="digitaladmintools" element={<DigitalAdminTools />} /> */}
-        <Route path="/" element={<InnkeeperTraining />} />
         {/* <Route path="innkeeperTraining" element={<InnkeeperTraining />} /> */}
         {/* <Route path="business" element={<Business />} />
 				<Route path="contentmgt" element={<ContentMgt />} />
