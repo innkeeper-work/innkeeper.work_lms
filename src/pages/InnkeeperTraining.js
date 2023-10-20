@@ -180,7 +180,7 @@ const SalesCoursesSection = () => {
                   Payment Plan
                 </h4>
                 <ul class="bullet">
-                  <li class="bullet">Full payment: &#8358; 100,000</li>
+                  <li class="bullet">Full payment: &#8358; 150,000</li>
                   <li class="bullet text-wrap">
                     Spread Payment: 50% (First Instalment)
                   </li>
@@ -228,7 +228,7 @@ const SalesCoursesSection = () => {
                   Payment Plan
                 </h4>
                 <ul class="bullet">
-                  <li class="bullet">Full payment: &#8358; 200,000</li>
+                  <li class="bullet">Full payment: &#8358; 250,000</li>
                   <li class="bullet">Spread Payment: 50% (First Instalment)</li>
                 </ul>
                 <a
@@ -360,7 +360,7 @@ const SalesCoursesSection = () => {
             <img src={uiux} className="card-img-top p-3" alt="..." />
             <div className="card-body">
               <h5 className="card-title">
-                <b>UI/UX Design</b>
+                <b>Product Design (UI/UX) </b>
               </h5>
               <ul class="">
                 <li class="bullet">Design Research and Strategy</li>
@@ -376,7 +376,7 @@ const SalesCoursesSection = () => {
                   Payment Plan
                 </h4>
                 <ul class="bullet">
-                  <li class="bullet">Full payment: &#8358; 150,000</li>
+                  <li class="bullet">Full payment: &#8358; 200,000</li>
                   <li class="bullet">Spread Payment: 50% (First Instalment)</li>
                 </ul>
                 <a

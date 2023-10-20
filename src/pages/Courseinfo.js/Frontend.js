@@ -70,7 +70,7 @@ let AboutFrontend = () => {
                 </div>
                 <div>
                   <h3>FEE</h3>
-                  <p>&#8358;200,000.00</p>
+                  <p>&#8358;250,000.00</p>
                 </div>
               </div>
             </li>

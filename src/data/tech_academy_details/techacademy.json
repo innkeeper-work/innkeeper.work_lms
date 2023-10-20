@@ -24,7 +24,7 @@
     },
     {
       "id": 3,
-      "img": "../../images/fullstack/fulstack.png",
+      "img": "../../images/fullstack/fullstack.png",
       "title": "Fullstack Development",
       "description": "Full stack web developers can create full-fledged web applications and websites.",
       "Link": "/fullstack"
