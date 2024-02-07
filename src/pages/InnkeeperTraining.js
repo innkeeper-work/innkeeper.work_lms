@@ -316,6 +316,7 @@ const SalesCoursesSection = () => {
               {" "}
               <img
                 src={customerexperience}
+                style={{maxHeight:"220px", maxWidth:"400px"}}
                 className="card-img-top p-3"
                 alt="..."
               />
@@ -341,7 +342,7 @@ const SalesCoursesSection = () => {
                   Payment Plan
                 </h4>
                 <ul class="">
-                  <li class="bullet">Full payment: &#8358; 200,000</li>
+                  <li class="bullet">Full payment: &#8358; 100,000</li>
                   <li class="bullet">Spread Payment: Available but with extra charges </li>
                 </ul>
                 <a
@@ -374,23 +375,22 @@ const SalesCoursesSection = () => {
                 <b>Cyber Security</b>
               </h5>
               <ul class="">
-                <li class="bullet">Introduction to Cyber Security</li>
-                <li class="bullet">Setting up Hacking Lab</li>
-                <li class="bullet">Introduction to Ethical Hacking</li>
-                <li class="bullet">Information Gathering</li>
-                <li class="bullet">Scanning, Enummeration and Vulnerability Analysis</li>
+                <li class="bullet">Network security</li>
+                <li class="bullet">Operating system security</li>
+                <li class="bullet">Application security</li>
+                <li class="bullet">Cloud security</li>
+                <li class="bullet">Incident response</li>
                 <li class="bullet">System Hacking</li>
-                <li class="bullet">Social Engineering</li>
-                <li class="bullet">Denial-of-Service and Evading IDS, Firewalls, and Honeypots</li>
-                <li class="bullet">Introduction to Cloud Computing, IoT, and OT Hacking</li>
-                <li class="bullet">Cryptography & Hacking Wireless Networks</li>
+                <li class="bullet">Cryptography</li>
+                <li class="bullet">Security awareness and training</li>
+                <li class="bullet">Ethical hacking</li>
               </ul>
               <div className="mt-4">
                 <h4 className="text-center " style={{ color: "#00114C" }}>
                   Payment Plan
                 </h4>
                 <ul class="bullet">
-                  <li class="bullet">Full payment: &#8358; 400,000</li>
+                  <li class="bullet">Full payment: &#8358; 500,000</li>
                   <li class="bullet">Spread Payment: Available but with extra charges </li>
                 </ul>
                 <a
@@ -419,7 +419,7 @@ const SalesCoursesSection = () => {
           >
             <div>
               {" "}
-              <img src={dataanalysis} className="card-img-top p-3" alt="..." />
+              <img src={dataanalysis} className="card-img-top p-3" style={{maxHeight:"220px", maxWidth:"400px"}} alt="..." />
             </div>
 
             <div className="card-body">
@@ -535,7 +535,7 @@ const SalesCoursesSection = () => {
                   Payment Plan
                 </h4>
                 <ul class="bullet">
-                  <li class="bullet">Full payment: &#8358; 200,000</li>
+                  <li class="bullet">Full payment: &#8358; 150,000</li>
                   <li class="bullet">Spread Payment: Available but with extra charges </li>
                 </ul>
                 <a
@@ -584,7 +584,7 @@ const SalesCoursesSection = () => {
                   Payment Plan
                 </h4>
                 <ul class="bullet">
-                  <li class="bullet">Full payment: &#8358; 600,000</li>
+                  <li class="bullet">Full payment: &#8358; 200,000</li>
                   <li class="bullet">Spread Payment: Available but with extra charges </li>
                 </ul>
                 {/* <a
