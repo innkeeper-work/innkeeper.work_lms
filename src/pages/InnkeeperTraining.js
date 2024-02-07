@@ -10,6 +10,11 @@ import frontend from "../assets/images/innkeeperaugustcohort/frontend.png";
 import customerexperience from "../assets/images/innkeeperaugustcohort/customerexperience.png";
 import dataanalysis from "../assets/images/innkeeperaugustcohort/dataanalysis.png";
 import uiux from "../assets/images/innkeeperaugustcohort/uiux.png";
+import fullstack from "../assets/images/innkeeperaugustcohort/fullstack.jpeg";
+import cyberSecurity from "../assets/images/innkeeperaugustcohort/cybersecurity.jpeg";
+import creativeDesign from "../assets/images/innkeeperaugustcohort/creativedesign.jpeg"
+import productmgt from "../assets/images/innkeeperaugustcohort/productmgt.jpeg"
+
 import { CheckBox } from "../components/Icons";
 // import Footer from "../components/Footer";
 
@@ -144,6 +149,7 @@ const SalesCoursesSection = () => {
       <div className="row justify-content-center">
         <h3 className="text-center my-5">Our Available Courses</h3>
 
+        {/* DIGITAL MARKETING */}
         <div className="col-lg-4 col-md-6 col-sm-10 px-4 d-flex justify-content-center align-items-stretch">
           {" "}
           <div
@@ -180,9 +186,9 @@ const SalesCoursesSection = () => {
                   Payment Plan
                 </h4>
                 <ul class="bullet">
-                  <li class="bullet">Full payment: &#8358; 150,000</li>
+                  <li class="bullet">Full payment: &#8358; 200,000</li>
                   <li class="bullet text-wrap">
-                    Spread Payment: 50% (First Instalment)
+                    Spread Payment: Available but with extra charges 
                   </li>
                 </ul>
                 <a
@@ -197,6 +203,7 @@ const SalesCoursesSection = () => {
           </div>
         </div>
 
+        {/* FRONTEND DEVELOPMENT */}
         <div className="col-lg-4 col-md-6 col-sm-10 px-4 d-flex justify-content-center align-items-stretch">
           {" "}
           <div
@@ -228,8 +235,8 @@ const SalesCoursesSection = () => {
                   Payment Plan
                 </h4>
                 <ul class="bullet">
-                  <li class="bullet">Full payment: &#8358; 250,000</li>
-                  <li class="bullet">Spread Payment: 50% (First Instalment)</li>
+                  <li class="bullet">Full payment: &#8358; 300,000</li>
+                  <li class="bullet">Spread Payment: Available but with extra charges </li>
                 </ul>
                 <a
                   href="https://drive.google.com/file/d/10xKTPI2zcRIOkvOckxuYlrQfbEU3Z_la/view?usp=sharing"
@@ -242,6 +249,58 @@ const SalesCoursesSection = () => {
             </div>
           </div>
         </div>
+        
+        {/* FULL STACK DEVELOPMENT */}
+        <div className="col-lg-4 col-md-6 col-sm-10 px-4 d-flex justify-content-center align-items-stretch">
+          {" "}
+          <div
+            className="card mb-5"
+            style={{
+              borderStyle: "solid",
+              borderWidth: "3px",
+              borderColor: "#00114C",
+              borderRadius: "10px",
+            }}
+          >
+            <img src={fullstack} className="card-img-top p-3"style={{maxHeight:"220px", maxWidth:"400px"}} alt="..." />
+            <div className="card-body">
+              <h5 className="card-title" style={{ color: "#00114C" }}>
+                <b>Fullstack Development</b>
+              </h5>
+              <ul class="">
+                <li class="bullet">HTML and CSS</li>
+                <li class="bullet">Bootstrap </li>
+                <li class="bullet">Intro to UI/UX</li>
+                <li class="bullet">JavaScript</li>
+                <li class="bullet">Git/GitHub</li>
+                <li class="bullet">React</li>
+                <li class="bullet">TypeScript</li>
+                <li class="bullet">Nodejs</li>
+                <li class="bullet">Express</li>
+                <li class="bullet">Database(SQL/NoSQL)</li>
+              </ul>
+              <div className="mt-4">
+                <h4 className="text-center " style={{ color: "#00114C" }}>
+                  Payment Plan
+                </h4>
+                <ul class="bullet">
+                  <li class="bullet">Full payment: &#8358; 600,000</li>
+                  <li class="bullet">Spread Payment: Available but with extra charges </li>
+                </ul>
+                {/* <a
+                  href="https://drive.google.com/file/d/10xKTPI2zcRIOkvOckxuYlrQfbEU3Z_la/view?usp=sharing"
+                  className=""
+                  style={{ color: "#F27216" }}
+                >
+                  <p className="text-center textBold"> View Brochure</p>
+                </a> */}
+                <p className="text-center">Brochure would be made available soon</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* CUSTOMER EXPERIENCE */}
         <div className="col-lg-4 col-md-6 col-sm-10 px-4 d-flex justify-content-center align-items-stretch">
           {" "}
           <div
@@ -282,8 +341,8 @@ const SalesCoursesSection = () => {
                   Payment Plan
                 </h4>
                 <ul class="">
-                  <li class="bullet">Full payment: &#8358; 150,000</li>
-                  <li class="bullet">Spread Payment: 50% (First Instalment)</li>
+                  <li class="bullet">Full payment: &#8358; 200,000</li>
+                  <li class="bullet">Spread Payment: Available but with extra charges </li>
                 </ul>
                 <a
                   href="https://drive.google.com/file/d/1Esp9F04hXVyOV1M1pji1beFNNVAeXeZn/view?usp=drivesdk"
@@ -296,7 +355,57 @@ const SalesCoursesSection = () => {
             </div>
           </div>
         </div>
+                
+        {/* CYBERSECURITY */}
+        <div className="col-lg-4 col-md-6 col-sm-10 px-4 d-flex justify-content-center align-items-stretch">
+          {" "}
+          <div
+            className="card mb-5"
+            style={{
+              borderStyle: "solid",
+              borderWidth: "3px",
+              borderColor: "#00114C",
+              borderRadius: "10px",
+            }}
+          >
+            <img src={cyberSecurity} className="card-img-top p-3"style={{maxHeight:"220px", maxWidth:"400px"}} alt="..." />
+            <div className="card-body">
+              <h5 className="card-title" style={{ color: "#00114C" }}>
+                <b>Cyber Security</b>
+              </h5>
+              <ul class="">
+                <li class="bullet">Introduction to Cyber Security</li>
+                <li class="bullet">Setting up Hacking Lab</li>
+                <li class="bullet">Introduction to Ethical Hacking</li>
+                <li class="bullet">Information Gathering</li>
+                <li class="bullet">Scanning, Enummeration and Vulnerability Analysis</li>
+                <li class="bullet">System Hacking</li>
+                <li class="bullet">Social Engineering</li>
+                <li class="bullet">Denial-of-Service and Evading IDS, Firewalls, and Honeypots</li>
+                <li class="bullet">Introduction to Cloud Computing, IoT, and OT Hacking</li>
+                <li class="bullet">Cryptography & Hacking Wireless Networks</li>
+              </ul>
+              <div className="mt-4">
+                <h4 className="text-center " style={{ color: "#00114C" }}>
+                  Payment Plan
+                </h4>
+                <ul class="bullet">
+                  <li class="bullet">Full payment: &#8358; 400,000</li>
+                  <li class="bullet">Spread Payment: Available but with extra charges </li>
+                </ul>
+                <a
+                  href="https://drive.google.com/file/d/1GSPtgjczzEzC-BwxTeeddfT_gF3yZxiH/view?usp=sharing"
+                  className=""
+                  style={{ color: "#F27216" }}
+                >
+                  <p className="text-center textBold"> View Brochure</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
 
+            {/* DATA ANALYSIS */}
         <div className="col-lg-4 col-md-6 col-sm-10 px-4 d-flex justify-content-center align-items-stretch">
           {" "}
           <div
@@ -331,8 +440,8 @@ const SalesCoursesSection = () => {
                   Payment Plan
                 </h4>
                 <ul class="">
-                  <li class="bullet">Full payment: &#8358; 150,000</li>
-                  <li class="bullet">Spread Payment: 50% (First Instalment)</li>
+                  <li class="bullet">Full payment: &#8358; 300,000</li>
+                  <li class="bullet">Spread Payment: Available but with extra charges </li>
                 </ul>
                 <a
                   href="https://drive.google.com/file/d/1QPH7AbMn-FkXxDWE0UhpPiGMOD4yVq14/view?usp=sharing"
@@ -346,6 +455,8 @@ const SalesCoursesSection = () => {
           </div>
         </div>
 
+
+            {/* UI/UX */}
         <div className="col-lg-4 col-md-6 col-sm-10 px-4 d-flex justify-content-center align-items-stretch">
           {" "}
           <div
@@ -357,7 +468,7 @@ const SalesCoursesSection = () => {
               borderRadius: "10px",
             }}
           >
-            <img src={uiux} className="card-img-top p-3" alt="..." />
+            <img src={uiux} className="card-img-top p-3" style={{maxHeight:"220px", maxWidth:"400px"}}  alt="..." />
             <div className="card-body">
               <h5 className="card-title">
                 <b>Product Design (UI/UX) </b>
@@ -376,8 +487,8 @@ const SalesCoursesSection = () => {
                   Payment Plan
                 </h4>
                 <ul class="bullet">
-                  <li class="bullet">Full payment: &#8358; 200,000</li>
-                  <li class="bullet">Spread Payment: 50% (First Instalment)</li>
+                  <li class="bullet">Full payment: &#8358; 300,000</li>
+                  <li class="bullet">Spread Payment: Available but with extra charges </li>
                 </ul>
                 <a
                   href="https://drive.google.com/file/d/1tmgT5lnRHWm_AIs0Ph9x_eB2xUxORpn1/view?usp=drivesdk"
@@ -390,6 +501,108 @@ const SalesCoursesSection = () => {
             </div>
           </div>
         </div>
+                        
+        {/* CREATIVE DESIGN */}
+        <div className="col-lg-4 col-md-6 col-sm-10 px-4 d-flex justify-content-center align-items-stretch">
+          {" "}
+          <div
+            className="card mb-5"
+            style={{
+              borderStyle: "solid",
+              borderWidth: "3px",
+              borderColor: "#00114C",
+              borderRadius: "10px",
+            }}
+          >
+            <img src={creativeDesign} className="card-img-top p-3"style={{maxHeight:"220px", maxWidth:"400px"}} alt="..." />
+            <div className="card-body">
+              <h5 className="card-title" style={{ color: "#00114C" }}>
+                <b>Creative Design</b>
+              </h5>
+              <ul class="">
+                <li class="bullet">Fundamentals of Desigs</li>
+                <li class="bullet">Typography</li>
+                <li class="bullet">Color</li>
+                <li class="bullet">Layout and Composition</li>
+                <li class="bullet">Introduction to Adobe Illustration</li>
+                <li class="bullet">Introduction to Adobe Photoshop</li>
+                <li class="bullet">Create Design for Prints and Web</li>
+                <li class="bullet">Photo editing and Manipulation</li>
+                <li class="bullet">Logo Design</li>
+              </ul>
+              <div className="mt-4">
+                <h4 className="text-center " style={{ color: "#00114C" }}>
+                  Payment Plan
+                </h4>
+                <ul class="bullet">
+                  <li class="bullet">Full payment: &#8358; 200,000</li>
+                  <li class="bullet">Spread Payment: Available but with extra charges </li>
+                </ul>
+                <a
+                  href="https://drive.google.com/file/d/1eh_BClbGaWBULAQukDcKD8ZSPIZx9ReL/view?usp=sharing"
+                  className=""
+                  style={{ color: "#F27216" }}
+                >
+                  <p className="text-center textBold"> View Brochure</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* PRODUCT MANAGEMENT */}
+        <div className="col-lg-4 col-md-6 col-sm-10 px-4 d-flex justify-content-center align-items-stretch">
+          {" "}
+          <div
+            className="card mb-5"
+            style={{
+              borderStyle: "solid",
+              borderWidth: "3px",
+              borderColor: "#00114C",
+              borderRadius: "10px",
+            }}
+          >
+            <img src={productmgt} className="card-img-top p-3"style={{maxHeight:"220px", maxWidth:"400px"}} alt="..." />
+            <div className="card-body">
+              <h5 className="card-title" style={{ color: "#00114C" }}>
+                <b>Product Management</b>
+              </h5>
+              {/* <ul class="">
+                <li class="bullet">Fundamentals of Desigs</li>
+                <li class="bullet">Typography</li>
+                <li class="bullet">Color</li>
+                <li class="bullet">Layout and Composition</li>
+                <li class="bullet">Introduction to Adobe Illustration</li>
+                <li class="bullet">Introduction to Adobe Photoshop</li>
+                <li class="bullet">Create Design for Prints and Web</li>
+                <li class="bullet">Photo editing and Manipulation</li>
+                <li class="bullet">Logo Design</li>
+              </ul> */}
+              <p className="text-center p-5 mt-5 mb-2 fs-3">More Details coming soon...</p>
+              <div className="mt-4">
+                <h4 className="text-center " style={{ color: "#00114C" }}>
+                  Payment Plan
+                </h4>
+                <ul class="bullet">
+                  <li class="bullet">Full payment: &#8358; 600,000</li>
+                  <li class="bullet">Spread Payment: Available but with extra charges </li>
+                </ul>
+                {/* <a
+                  href="https://drive.google.com/file/d/10xKTPI2zcRIOkvOckxuYlrQfbEU3Z_la/view?usp=sharing"
+                  className=""
+                  style={{ color: "#F27216" }}
+                >
+                  <p className="text-center textBold"> View Brochure</p>
+                </a> */}
+                <p className="text-center">Brochure would be made available soon</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        {/* GET STARTED BUTTON */}
         <div className="text-center">
           <SalesPageSignInButton />
         </div>
