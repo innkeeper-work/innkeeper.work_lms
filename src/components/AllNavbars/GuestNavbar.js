@@ -172,7 +172,7 @@ const Navbar = () => {
 export const SalesPageNavbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
-      <div className="container-fluid px-2 py-2">
+      <div className="container px-2 py-2">
         <Link to="/" className="navbar-brand ms-1">
           {" "}
           <img src={newinnkeeperlogo} className="" alt="" />

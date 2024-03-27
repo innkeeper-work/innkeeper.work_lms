@@ -25,7 +25,7 @@ import careerheroimage from "../assets/images/hero/careerheroimage.png";
 
 export let HomepageHero = () => {
   return (
-    <div className="px-4 container-fluid homeheroBg pt-3 pb-4">
+    <div className="px-4 container-fluid homeheroBg pt-5 pb-4">
       <Navbar />
       <div className="row align-items-center justify-content-center mt-4">
         <div className="col-lg-6 col-md-7 col-sm-12">
@@ -256,41 +256,43 @@ export const PrivacyPolicyHero = (props) => {
 };
 export let InnkeeperAugustCohortHero = () => {
   return (
-    <div className="container-fluid newHeroBg">
-      <SalesPageNavbar />
-      <div
-        className="row align-items-center justify-content-center px-4 py-5"
-        // style={{ backgroundColor: "#00114C" }}
-      >
-        <div className="col-lg-6 col-md-7 col-sm-12 pt-3">
-          <h2 className=" d-none d-lg-block d-md-none d-sm-none d-xs-none">
-            Kickstart a career in Tech and become globally valuable
-            <br />
-          </h2>
-          <h3 className=" d-xs-block d-sm-block d-md-block d-lg-none">
-            Kickstart a career in Tech and become globally valuable
-            <br />
-          </h3>
-          <p className="mt-4">
-            We are a digital Inn that makes tech career transitioning easy
-            through mentored training and career portfolio building.{" "}
-          </p>
-          <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none mt-4">
-            <SalesPageSignInButton />
+    <>
+      <div className="container-fluid newHeroBg">
+        <SalesPageNavbar />
+        <div
+          className="row align-items-center justify-content-center px-4 py-5"
+          // style={{ backgroundColor: "#00114C" }}
+        >
+          <div className="col-lg-6 col-md-7 col-sm-12 pt-3">
+            <h2 className=" d-none d-lg-block d-md-none d-sm-none d-xs-none">
+              Kickstart a career in Tech and become globally valuable
+              <br />
+            </h2>
+            <h3 className=" d-xs-block d-sm-block d-md-block d-lg-none">
+              Kickstart a career in Tech and become globally valuable
+              <br />
+            </h3>
+            <p className="mt-4">
+              We are a digital Inn that makes tech career transitioning easy
+              through mentored training and career portfolio building.{" "}
+            </p>
+            <div className="d-none d-lg-block d-md-block d-sm-none d-xs-none mt-4">
+              <SalesPageSignInButton />
+            </div>
           </div>
-        </div>
-        <div className="col-lg-5 col-md-5 col-sm-12">
-          <img
-            src={salesheroimage}
-            className="d-block mx-lg-auto img-fluid"
-            alt=""
-            loading=""
-          />
-          <div className="d-xs-block d-sm-block d-md-none d-lg-none mt-4 text-center">
-            <SalesPageSignInButton />
+          <div className="col-lg-5 col-md-5 col-sm-12">
+            <img
+              src={salesheroimage}
+              className="d-block mx-lg-auto img-fluid"
+              alt=""
+              loading=""
+            />
+            <div className="d-xs-block d-sm-block d-md-none d-lg-none mt-4 text-center">
+              <SalesPageSignInButton />
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
