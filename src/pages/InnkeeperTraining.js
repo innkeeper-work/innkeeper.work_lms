@@ -180,7 +180,7 @@ const SalesCoursesSection = () => {
                   Payment Plan
                 </h4>
                 <ul class="bullet">
-                  <li class="bullet">Full payment: &#8358; 150,000</li>
+                  <li class="bullet">Full payment: &#8358; 200,000</li>
                   <li class="bullet text-wrap">
                     Spread Payment: 50% (First Instalment)
                   </li>
@@ -228,7 +228,7 @@ const SalesCoursesSection = () => {
                   Payment Plan
                 </h4>
                 <ul class="bullet">
-                  <li class="bullet">Full payment: &#8358; 250,000</li>
+                  <li class="bullet">Full payment: &#8358; 300,000</li>
                   <li class="bullet">Spread Payment: 50% (First Instalment)</li>
                 </ul>
                 <a
@@ -331,7 +331,7 @@ const SalesCoursesSection = () => {
                   Payment Plan
                 </h4>
                 <ul class="">
-                  <li class="bullet">Full payment: &#8358; 150,000</li>
+                  <li class="bullet">Full payment: &#8358; 250,000</li>
                   <li class="bullet">Spread Payment: 50% (First Instalment)</li>
                 </ul>
                 <a
@@ -376,7 +376,7 @@ const SalesCoursesSection = () => {
                   Payment Plan
                 </h4>
                 <ul class="bullet">
-                  <li class="bullet">Full payment: &#8358; 200,000</li>
+                  <li class="bullet">Full payment: &#8358; 250,000</li>
                   <li class="bullet">Spread Payment: 50% (First Instalment)</li>
                 </ul>
                 <a

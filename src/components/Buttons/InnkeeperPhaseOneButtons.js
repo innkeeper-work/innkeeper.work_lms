@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const SignInButton = () => {
   return (
     <a
-      href="https://app.innkeeper.work/student-registration/"
+      href="https://app.innkeeper.work/dashboard/?mode=register"
       rel="noreferrer"
       target="_blank"
     >
@@ -18,7 +18,11 @@ export const SignInButton = () => {
 };
 export const SalesPageSignInButton = () => {
   return (
-    <a href="https://app.innkeeper.work/" rel="noreferrer" target="_blank">
+    <a
+      href="https://app.innkeeper.work/dashboard/"
+      rel="noreferrer"
+      target="_blank"
+    >
       <button type="button" className="btn newBtnColor">
         Get Started
       </button>
@@ -27,7 +31,7 @@ export const SalesPageSignInButton = () => {
 };
 export const SignUpButton = () => {
   return (
-    <a href="https://soft.innkeeper.work/login/index.php" rel="noreferrer">
+    <a href="https://app.innkeeper.work/dashboard/" rel="noreferrer">
       <button type="button" className="btn signupbtnapply">
         Sign Up
       </button>
